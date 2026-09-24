@@ -29,13 +29,15 @@ These are enabled at **project scope** in [`.claude/settings.json`](../../.claud
 | **security-guidance** | knowledge-work-plugins | Security warnings on edits and review of diffs (injection, XSS, secrets…) |
 | **modern-web-guidance** | knowledge-work-plugins | Current web platform best practices |
 | **frontend-design** | claude-plugins-official | Distinctive, non-templated visual design. Its critique shaped Round 2 (rule D13). |
-| **playwright** | claude-plugins-official | Browser automation for visual checks and end-to-end tests |
+| ~~playwright~~ | claude-plugins-official | Disabled: it launches Google Chrome, which cloud sessions don't have. Replaced by the project server below. |
 | **context7** | claude-plugins-official | Up-to-date library documentation lookup while building |
 | **skill-creator** | claude-plugins-official | Write and test our own project skills |
 
 The design and engineering plugins also bundle optional connectors (Slack, Linear, Notion, Asana, Atlassian…). They stay idle unless you sign in.
 
 **Connect Figma:** add the Figma connector at [claude.ai/customize/connectors](https://claude.ai/customize/connectors), then start a new session. Connectors are read when a session starts.
+
+**Playwright (browser automation):** a project MCP server in [`.mcp.json`](../../.mcp.json), launched by [`scripts/playwright-mcp.sh`](../../scripts/playwright-mcp.sh). In cloud sessions it uses the pre-installed Chromium and pins the egress proxy's CA key, so TLS stays verified. On a laptop it uses Playwright's defaults. We use it for inspiration research (the sites block plain `curl`), visual checks and, later, end-to-end tests.
 
 **Later, when code exists:** `typescript-lsp` (code intelligence), `pr-review-toolkit` or `code-review` (PR review agents), and `data` (admin analytics).
 

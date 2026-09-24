@@ -20,8 +20,11 @@
     "security-guidance@knowledge-work-plugins": true,
     "modern-web-guidance@knowledge-work-plugins": true,
     "frontend-design@claude-plugins-official": true,
-    "playwright@claude-plugins-official": true,
+    "playwright@claude-plugins-official": false,
     "context7@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true
-  }
+  },
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
 }
