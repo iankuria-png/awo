@@ -18,6 +18,21 @@ Round 2 of the design exploration is on the canvas, and Ian's first answers are 
 - **Docs:** discovery 01–07, a decision log (D-001 to D-023), an open-questions register, a glossary and `CLAUDE.md`.
 - **Tooling:** 9 plugins enabled in `.claude/settings.json` (design, figma, engineering, security-guidance, modern-web-guidance, frontend-design, playwright, context7, skill-creator). Video frames were reviewed using a pip-installed ffmpeg.
 
+## Environment (blocking Round 3 inspiration)
+
+The cloud environment's network policy blocks design sites (Behance, Dribbble, Pinterest, Mobbin, Awwwards, Medium, Unsplash, Pexels, LottieFiles, Rive, Google Play and the App Store) and Figma's MCP server (`mcp.figma.com`). Ian is widening **Network access** in the environment settings. In the next session, first check access with `curl -s -o /dev/null -w '%{http_code}' https://dribbble.com`, then continue with Round 3.
+
+## Round 3 brief (from Ian, D-024): start here next session
+
+Ian will answer Q-02/04/05/25/26/27 later. Don't block on them.
+
+1. **Combine A + D** into one direction (new letter **E**), with many more screen variants and non-generic layouts: bento home, timeline home, story-led home, DIVA result reveal, progress over time with graphs, an interactive check-in, community, buddy, and settings with switches.
+2. **Fix the weakest parts:** Ola (redesign; Round 1 B's glowing orb look was better), colours (return to Round 1 Night Oasis for the dark AI and Learn surfaces), and **Learn interactivity** (a real tappable lesson flow: path → story cards → quiz → celebration; flip cards).
+3. **Design elements for everything:** widgets (including home-screen and lock-screen widgets), stats bars, micro-animations, switches, sliders, graphs, notifications, skeleton loaders, bento grids, layout variations.
+4. **Mock-ups and marketing:** device mock-up hero shots, campaign ads (square post and story), Play Store feature graphic (1024×500), store screenshots with captions, and a store listing preview (simplified, not Google's UI).
+5. **Inspiration first:** once the network is open, gather real references (Dribbble, Behance, Mobbin, Pinterest and similar) into a taste board with what to take from each, before designing.
+6. Charts: follow the `dataviz` skill (run its palette validator).
+
 ## Waiting on (Ian)
 
 - **Q-02:** Round 2 reactions (comment on the canvas or reply in chat)
