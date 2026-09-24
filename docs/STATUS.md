@@ -18,9 +18,19 @@ Round 2 of the design exploration is on the canvas, and Ian's first answers are 
 - **Docs:** discovery 01–07, a decision log (D-001 to D-023), an open-questions register, a glossary and `CLAUDE.md`.
 - **Tooling:** 9 plugins enabled in `.claude/settings.json` (design, figma, engineering, security-guidance, modern-web-guidance, frontend-design, playwright, context7, skill-creator). Video frames were reviewed using a pip-installed ffmpeg.
 
-## Environment (blocking Round 3 inspiration)
+## Environment (resolved 24 Sep)
 
-The cloud environment's network policy blocks design sites (Behance, Dribbble, Pinterest, Mobbin, Awwwards, Medium, Unsplash, Pexels, LottieFiles, Rive, Google Play and the App Store) and Figma's MCP server (`mcp.figma.com`). Ian is widening **Network access** in the environment settings. In the next session, first check access with `curl -s -o /dev/null -w '%{http_code}' https://dribbble.com`, then continue with Round 3.
+Network access was widened, and it took effect without a new session. For browsing, use headless Chromium: the project Playwright MCP server (`.mcp.json`), or `node` with the global `playwright` package and the proxy CA pin (see `scripts/playwright-mcp.sh`). Plain `curl` hits bot challenges.
+
+| Source | Status |
+|---|---|
+| Dribbble, Behance (incl. Pock), Mobbin (public explore), Google Play listings | Work in the headless browser |
+| Pinterest | Loads, but most content needs a login |
+| Unsplash, Pexels, Medium | Bot-walled even in a browser. Direct `images.unsplash.com` URLs work; an Unsplash API key (environment secret) would unlock search |
+| Awwwards | Flaky (502) |
+| Figma | Use the claude.ai Figma connector (not yet connected) |
+
+Note: the Pock reference is **deep green with acid lime** and a pixel wordmark, close to Direction A.
 
 ## Round 3 brief (from Ian, D-024): start here next session
 
