@@ -9,7 +9,10 @@ Each Claude session starts cold. It may run in a fresh cloud container, and conv
 | File | Role | Updated when |
 |---|---|---|
 | [`/CLAUDE.md`](../../CLAUDE.md) | Short standing orders: what AWO is, the non-negotiables, where things live, how we work. Loaded automatically every session. | Rarely. Keep it under ~120 lines. |
-| [`docs/STATUS.md`](../STATUS.md) | **Where we are right now:** phase, last session, next steps, what we're waiting on. | End of every working session. |
+| [`docs/STATUS.md`](../STATUS.md) | **Snapshot:** phase, focus, where to start. | When the focus changes. |
+| [`docs/TASKS.md`](../TASKS.md) | **The single task list.** | Every commit. |
+| [`docs/CHANGELOG.md`](../CHANGELOG.md) | **The diary**, one entry per commit. Enforced by a commit hook. | Every commit. |
+| [`docs/handover/`](../handover/) | Full context transfer when a session ends mid-stream. | Near the context limit. |
 | [`docs/decisions/log.md`](../decisions/log.md) | Every decision, with date and source. The "we already agreed this" record. | Whenever something is decided. |
 | [`docs/00-discovery/05-open-questions.md`](05-open-questions.md) | Everything we must *not* invent. | Whenever a question appears or is answered. |
 | [`docs/glossary.md`](../glossary.md) | AWO vocabulary, so words mean one thing. | When a term is introduced or changed. |

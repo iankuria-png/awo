@@ -4,10 +4,11 @@ AWO (African Wealth Oasis) is a financial **education, intelligence and communit
 
 ## Start every session here
 
-1. Read [`docs/STATUS.md`](docs/STATUS.md): the current phase, what's next, and what we're waiting on.
-2. Skim [`docs/decisions/log.md`](docs/decisions/log.md) before proposing anything that might already be decided.
-3. Check [`docs/00-discovery/05-open-questions.md`](docs/00-discovery/05-open-questions.md) before filling a gap yourself.
-4. Use [`docs/glossary.md`](docs/glossary.md) vocabulary exactly.
+1. Read [`docs/STATUS.md`](docs/STATUS.md) (the snapshot) and the latest file in [`docs/handover/`](docs/handover/) if STATUS points to one.
+2. Read [`docs/TASKS.md`](docs/TASKS.md) (what to do) and the top of [`docs/CHANGELOG.md`](docs/CHANGELOG.md) (what just happened).
+3. Skim [`docs/decisions/log.md`](docs/decisions/log.md) before proposing anything that might already be decided.
+4. Check [`docs/00-discovery/05-open-questions.md`](docs/00-discovery/05-open-questions.md) before filling a gap yourself.
+5. Use [`docs/glossary.md`](docs/glossary.md) vocabulary exactly.
 
 **Owner and builder:** Ian Kuria, product developer and software engineer (D-015). Designs in Figma.
 
@@ -34,9 +35,22 @@ AWO (African Wealth Oasis) is a financial **education, intelligence and communit
 
 ## How we work
 
-- **Docs are the memory.** If something is explained twice, it goes in a doc. If it's a choice, it goes in the decision log.
+- **Docs are the memory.** Each has one job, so nothing gets scattered:
+
+  | Doc | Job |
+  |---|---|
+  | `docs/STATUS.md` | Snapshot: phase, current focus, pointers (short) |
+  | `docs/TASKS.md` | The single task list (Now / Waiting on Ian / Next / Later / Done) |
+  | `docs/CHANGELOG.md` | The diary: one entry per commit, newest first |
+  | `docs/decisions/log.md` | Every decision, with source |
+  | `docs/00-discovery/05-open-questions.md` | Everything we must not invent |
+  | `docs/handover/` | Only when a session ends mid-stream: a full context transfer |
+  | Topic docs (`docs/00-discovery/`, later `product/`, `design/`, `engineering/`…) | Durable knowledge, one topic per file |
+
+  Don't create ad-hoc files. New material extends one of these, or goes in a folder listed in `docs/README.md`.
+- **Every commit ritual:** add a CHANGELOG entry and update TASKS. Update STATUS if the focus changed, and the decision log or open questions if they changed. A hook (`scripts/hooks/require-changelog.sh`) **blocks `git commit` without a CHANGELOG change**; prefix with `SKIP_CHANGELOG=1` only for trivial commits.
 - **Ask when it's the owner's call** (product rules, brand, compliance, priorities). Decide implementation details yourself, explain them, and record the important ones.
-- **End of session:** update `docs/STATUS.md` (done, next, waiting on).
+- **End of session (or near the context limit):** update STATUS, and if work is mid-stream write a handover in `docs/handover/` (taste, mistakes, next steps, gotchas, kickoff prompt).
 - **Spelling:** UK/South African English ("colour", "behaviour", "personalised", "organisation").
 - **Git:** small, focused commits with clear messages. Never commit secrets or real member data.
 
@@ -46,8 +60,10 @@ AWO (African Wealth Oasis) is a financial **education, intelligence and communit
 docs/00-discovery/   understanding, product shape, design direction, tech leanings, open questions, tooling, brand and motion
 docs/decisions/      log.md (+ ADRs for big technical choices)
 docs/glossary.md     AWO vocabulary
-docs/STATUS.md       current state
-.claude/settings.json  project plugins (design, figma, engineering, security-guidance, frontend-design, …)
+docs/STATUS.md       snapshot         docs/TASKS.md      task list       docs/CHANGELOG.md  diary
+docs/handover/       session handovers
+scripts/             screenshot.mjs, playwright-mcp.sh, hooks/require-changelog.sh
+.claude/settings.json  plugins, MCP approval, the changelog hook      .mcp.json  Playwright server
 ```
 
 Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 and Round 2).
