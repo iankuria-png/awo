@@ -9,6 +9,8 @@ AWO (African Wealth Oasis) is a financial **education, intelligence and communit
 3. Check [`docs/00-discovery/05-open-questions.md`](docs/00-discovery/05-open-questions.md) before filling a gap yourself.
 4. Use [`docs/glossary.md`](docs/glossary.md) vocabulary exactly.
 
+**Owner and builder:** Ian Kuria, product developer and software engineer (D-015). Designs in Figma.
+
 **Current phase: 0 · Discovery.** Documentation, design direction and harness only. **No product code** until the owner says so.
 
 ## Non-negotiables: product
@@ -19,12 +21,14 @@ AWO (African Wealth Oasis) is a financial **education, intelligence and communit
 - **Categories describe educational readiness.** Never imply creditworthiness, suitability, eligibility or guaranteed outcomes.
 - **AI never** computes or adjusts scores, picks categories, writes interpretations outside the governed library, or recommends financial products or providers. AI output is always labelled and logged.
 - **Never invent business rules.** Use visibly labelled *sample* content and log the gap as an open question.
-- **Data location matters** (POPIA). Production and backups live in South Africa; every external service needs a data-location note.
+- **Data location matters** (POPIA). Production and backups live in South Africa; every external service needs a data-location note. Compliance analysis itself is AWO's (D-016): don't spend time on it.
 
 ## Non-negotiables: design
 
 - **Global craft, local truth.** Benchmark against the best global products. Africa appears in *substance* (names, currencies, stokvels/chamas, real money lives), never as *decoration* (ethnic patterns, continent maps, safari/sunset palettes, "tribal" fonts, flag colours).
-- Rules D1–D12 in [`docs/00-discovery/03-design-direction.md`](docs/00-discovery/03-design-direction.md) apply to every screen.
+- Rules D1–D14 in [`docs/00-discovery/03-design-direction.md`](docs/00-discovery/03-design-direction.md) apply to every screen. D13: no AI-made tells (cream grounds, all-caps eyebrows, "A · B · C" meta strings, fake numbering).
+- **Motion-first** (D-020): motion answers a touch, shows progress or marks a win (M1–M6 in [`07-brand-and-motion.md`](docs/00-discovery/07-brand-and-motion.md)). Always respect reduce-motion.
+- The mascot (Ola, working name) lives **only** in Learn and Ask, never on DIVA results.
 - Mobile-first for mid-range Android on patchy data. WCAG 2.2 AA. Touch targets of 44px or more.
 - Provenance is visible: *Reviewed by AWO* · *AI-assisted* · *Sample*.
 
@@ -39,10 +43,13 @@ AWO (African Wealth Oasis) is a financial **education, intelligence and communit
 ## Where things live
 
 ```
-docs/00-discovery/   understanding, product shape, design direction, tech leanings, open questions, tooling
+docs/00-discovery/   understanding, product shape, design direction, tech leanings, open questions, tooling, brand and motion
 docs/decisions/      log.md (+ ADRs for big technical choices)
 docs/glossary.md     AWO vocabulary
 docs/STATUS.md       current state
+.claude/settings.json  project plugins (design, figma, engineering, security-guidance, frontend-design, …)
 ```
+
+Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 and Round 2).
 
 Planned (not yet created): `docs/product/`, `docs/design/`, `docs/engineering/`, `docs/governance/`, `docs/operations/`, `design/`, `apps/`, `packages/`, `infra/`. See [`docs/00-discovery/06-tooling-and-harness.md`](docs/00-discovery/06-tooling-and-harness.md).

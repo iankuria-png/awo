@@ -1,6 +1,7 @@
 # 03 · Design direction: global craft, local truth
 
 > **Status:** Draft v0. The rules below become the core of the Design Standard once we agree on them.
+> **Round 2 update:** C is retired and replaced by D · Human. Brand, icon and motion work, plus rule D13 (avoid AI-made tells), are in [07-brand-and-motion](07-brand-and-motion.md).
 > **Explorations canvas:** [AWO Direction Explorations](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (private to the owner until shared).
 
 ## The problem we're solving
@@ -33,6 +34,8 @@ This is wrong for AWO for three reasons:
 | D10 | **Accessible by default.** WCAG 2.2 AA, body text 16px or larger, touch targets 44px or larger, never colour alone, readable with the system font size increased. | Automated plus manual audit. |
 | D11 | **Performance is design.** Budget for mid-range Android on expensive, patchy data. Subset fonts, compress images, design offline states. | Test on a throttled mid-range phone. |
 | D12 | **Warm, never patronising.** Plain language without dumbing down. Celebrate progress without infantilising. | Read it aloud to a smart friend who isn't in finance. |
+| D13 | **No AI-made tells.** No default cream grounds, all-caps eyebrows, "A · B · C" meta strings or fake 01/02/03 numbering. Spend boldness in one place per screen. | Would a design lead mistake this for a template? |
+| D14 | **Motion with meaning.** Motion answers a touch, shows progress or marks a win (M1–M6). Nothing important depends on it. | Turn on reduce motion. Does the screen still work? |
 
 ## What we take from your references
 
@@ -45,7 +48,7 @@ This is wrong for AWO for three reasons:
 
 > **The Behance link is blocked from my environment.** If Pock matters beyond the violet wallet screens you attached, please drop a few screenshots and tell me what specifically you like about it.
 
-## Three directions on the canvas
+## Three directions on the canvas (Round 1)
 
 The same member (Naledi), the same sample numbers and the same two screens (**Home** and **DIVA profile**), so you compare the feel, not the content.
 
@@ -59,7 +62,7 @@ The same member (Naledi), the same sample numbers and the same two screens (**Ho
 | **Strength** | Most credible and trustworthy. Closest to a premium financial product. | Most distinctive. AI is the hero. Great for low-literacy users via voice. | Warmest and most human. Education feels inviting. Strong for content and SEO. |
 | **Risk** | Could feel like "yet another green fintech". | Dark-first is harder on cheap screens in sunlight. AI-first raises governance stakes and cost. | Serif display needs care at small sizes. Violet is common in fintech (Kuda, Nubank). |
 
-**My current lean:** A's palette and calm as the foundation, C's editorial voice for learning surfaces (lessons, Vault, reports), and B's "Ask AWO" as an entry point rather than the whole home. I'd rather hear your reactions before defending that.
+**Round 1 outcome (D-019):** A was liked, B's Ask was strong but needs micro-interactions (now the Learn and Ask area), and C was rejected as text-heavy. See [07-brand-and-motion](07-brand-and-motion.md) for Round 2.
 
 ## Brand motif idea: ripples
 

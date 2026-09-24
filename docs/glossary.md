@@ -23,4 +23,6 @@
 | **Accountability buddy** | An optional monthly pairing between members for shared goals and weekly check-ins. |
 | **Opportunity Discovery** | An informational area to explore relevant opportunities (rules TBD, Q-20). |
 | **Sample content** | Placeholder content used during development, always visibly labelled and never presented as AWO methodology. |
-| **Ask AWO** | Working name for AI-assisted surfaces. **(proposed)** |
+| **Ask AWO / Ask Ola** | Working names for the AI-assisted surface. **(proposed)** |
+| **Ola** | Working name for the water-drop mascot and learning companion. Appears only in Learn and Ask (Q-26). **(proposed)** |
+| **Round 1 / Round 2** | Design exploration rounds on the canvas. Direction letters are stable: A · Oasis, B · Night Oasis, C · Editorial Violet (retired), D · Human. |

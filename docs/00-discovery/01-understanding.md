@@ -47,7 +47,7 @@ AWO lives on the *education and factual information* side of that line. This sha
 - **AI:** it may explain and reword approved content. It may not recommend products, invent scores or improvise interpretations.
 - **Community:** members will naturally give each other "advice" and share schemes. Moderation and design must handle that from day one.
 
-> **Needs your compliance adviser's review.** This is a design reading of the boundary, not legal advice. See Q-08.
+> **Compliance is handled by AWO (D-016).** This is a design reading of the boundary, used to shape copy and features.
 
 ## Where I think the real value is
 

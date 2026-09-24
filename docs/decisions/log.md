@@ -18,3 +18,13 @@
 | D-011 | 2026-09-24 | Design is **global-first**: no stereotyped "African" visual tropes. Africa shows up in substance, not decoration. | Owner | Rules D1–D12 in 03-design-direction, to be ratified. |
 | D-012 | 2026-09-24 | This pass is **discovery only**: documentation, design direction and harness, with no product code. | Owner | |
 | D-013 | 2026-09-24 | Starter questions may be **reinvented**; a questionnaire is acceptable but shouldn't feel like one. | Owner | See Q-12. |
+| D-014 | 2026-09-24 | **No existing brand to keep.** The old purple AI logo and colours are dropped. Brand identity (wordmark, colour, iconography, illustration) is designed from scratch. | Owner | Answers Q-01. |
+| D-015 | 2026-09-24 | **Ian Kuria** (product developer and software engineer) builds and operates AWO with Claude. | Owner | Answers Q-06. Informs the stack choice. |
+| D-016 | 2026-09-24 | **Compliance (FAIS, POPIA) is covered by AWO.** Claude doesn't spend time on compliance analysis, but still applies the product rules in CLAUDE.md. | Owner | Answers Q-08. |
+| D-017 | 2026-09-24 | **Design tool: Figma.** | Owner | Answers Q-11. Figma connector to be connected. |
+| D-018 | 2026-09-24 | **First members:** women and business people who want to understand their finances. The individual and entrepreneur contexts both matter from day one. | Owner | Answers Q-03. |
+| D-019 | 2026-09-24 | Round 1 feedback: **A** liked (Home to improve); **B**'s Ask is strong but needs micro-interactions (candidate for Learn); **C** rejected, replaced by a human-centred direction (D). | Owner | See 07-brand-and-motion. |
+| D-020 | 2026-09-24 | **Motion-first.** Motion and illustration are part of the brand and the UX, not decoration. | Owner | Principles M1–M6 in 07. |
+| D-021 | 2026-09-24 | A **mascot** is allowed in **one area only**, not everywhere. Proposal: Ola, in Learn and Ask only, never on results. | Owner + Joint | Name and scope: Q-26. |
+| D-022 | 2026-09-24 | Tier names (Bronze/Silver/Gold/Platinum) are **open to exploration**. | Owner | Q-04 stays open for names. |
+| D-023 | 2026-09-24 | Plugins enabled at project scope in `.claude/settings.json`: design, figma, engineering, security-guidance, modern-web-guidance, frontend-design, playwright, context7, skill-creator. | Owner | Every session in this repo gets them. |

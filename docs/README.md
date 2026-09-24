@@ -11,6 +11,7 @@
 | ↳ [03-design-direction.md](00-discovery/03-design-direction.md) | Global craft, local truth: design rules and the three directions |
 | ↳ [04-technical-leanings.md](00-discovery/04-technical-leanings.md) | Leaning stack, domain map, phased delivery |
 | ↳ [05-open-questions.md](00-discovery/05-open-questions.md) | Everything we must not invent |
-| ↳ [06-tooling-and-harness.md](00-discovery/06-tooling-and-harness.md) | Plugins, skills, context management, repo structure |
+| ↳ [06-tooling-and-harness.md](00-discovery/06-tooling-and-harness.md) | Plugins (installed), skills, context management, repo structure |
+| ↳ [07-brand-and-motion.md](00-discovery/07-brand-and-motion.md) | Round 2: wordmarks, icons, illustration, Ola, motion principles and tooling |
 
 Coming next: `product/` (PRD, feature map, IA, journeys) · `design/` (design standard) · `engineering/` (tech stack, architecture, domain, API) · `governance/` (educational language, POPIA, AI policy) · `operations/`.

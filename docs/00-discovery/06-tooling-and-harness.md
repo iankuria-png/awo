@@ -17,16 +17,31 @@ Each Claude session starts cold. It may run in a fresh cloud container, and conv
 
 **Rule of thumb:** if we had to explain it twice, it belongs in a doc; if it's a choice, it belongs in the decision log.
 
-## Claude plugins worth enabling (from your org's catalog)
+## Claude plugins: installed (D-023)
 
-| Plugin | What it gives us | When |
+These are enabled at **project scope** in [`.claude/settings.json`](../../.claude/settings.json), with their marketplaces declared there, so every new session of this repo (local or cloud) loads them automatically.
+
+| Plugin | Marketplace | What it gives us |
 |---|---|---|
-| **Design** (Anthropic) | Design critique, design-system management, **accessibility review**, **UX copy**, user-research planning and research synthesis, dev handoff | **Now:** design standard, copy tone, research with real members |
-| **Figma** | Build and read Figma files directly: design-system libraries, screens, code connect | **Now, if you use Figma** (Q-11) |
-| **Engineering** (Anthropic) | Architecture reviews, testing strategy, documentation, deploy checklists, incident response | Phase 1–2, before and during build |
-| **Security Guidance** | Security warnings on edits and diff review on commits (injection, XSS, secrets…) | **When coding starts.** Essential for a finance and personal-data product. |
-| Data | Analytics queries and dashboards | Phase 7 (admin analytics) |
-| SigNoz | Observability setup, dashboards and alerts | If we choose SigNoz for monitoring |
+| **design** | knowledge-work-plugins | Design critique, design-system management, accessibility review, UX copy, user research, research synthesis, handoff |
+| **figma** | knowledge-work-plugins | Build and read Figma files: libraries, screens, design-to-code, code connect. **Needs the Figma connector** (below). |
+| **engineering** | knowledge-work-plugins | Architecture, system design, testing strategy, documentation, deploy checklists |
+| **security-guidance** | knowledge-work-plugins | Security warnings on edits and review of diffs (injection, XSS, secrets…) |
+| **modern-web-guidance** | knowledge-work-plugins | Current web platform best practices |
+| **frontend-design** | claude-plugins-official | Distinctive, non-templated visual design. Its critique shaped Round 2 (rule D13). |
+| **playwright** | claude-plugins-official | Browser automation for visual checks and end-to-end tests |
+| **context7** | claude-plugins-official | Up-to-date library documentation lookup while building |
+| **skill-creator** | claude-plugins-official | Write and test our own project skills |
+
+The design and engineering plugins also bundle optional connectors (Slack, Linear, Notion, Asana, Atlassian…). They stay idle unless you sign in.
+
+**Connect Figma:** add the Figma connector at [claude.ai/customize/connectors](https://claude.ai/customize/connectors), then start a new session. Connectors are read when a session starts.
+
+**Later, when code exists:** `typescript-lsp` (code intelligence), `pr-review-toolkit` or `code-review` (PR review agents), and `data` (admin analytics).
+
+## Motion and illustration tooling
+
+See [07-brand-and-motion § Tooling](07-brand-and-motion.md#tooling-for-motion-and-illustration): Rive (Ola and other interactive characters), Lottie/dotLottie (illustrative loops), Motion (web transitions), React Native Reanimated and Skia (native), and Figma for design and prototyping.
 
 ## Built-in capabilities I'll use
 
@@ -41,7 +56,7 @@ Each Claude session starts cold. It may run in a fresh cloud container, and conv
 | Skill | What it does |
 |---|---|
 | `awo-copy-check` | Scans UI copy, reports and notifications for **advice, credit, guarantee or eligibility language**, plus tone rules (plain, warm, not patronising). |
-| `awo-design-review` | Reviews a screen or component against the **design standard and the anti-stereotype rules D1–D12**. |
+| `awo-design-review` | Reviews a screen or component against the **design standard and rules D1–D14** (anti-stereotype, anti-template, motion). |
 | `awo-decision` | Records a decision in the log, closes the matching open question and updates STATUS. |
 | `awo-handoff` | End-of-session routine: update STATUS, list what changed, list what's next. |
 
