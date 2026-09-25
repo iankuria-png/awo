@@ -1,8 +1,8 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** Round 7 is on the canvas: the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes. Waiting for Ian's reaction (T-075)
-**Last updated:** 2026-09-25, session 3 (Round 6)
+**Current focus:** Round 7 is on the canvas: the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes. Vault, Me and Community were redesigned after Ian's first reaction. Waiting for Ian to react and to confirm D-033 (keep Geist and Kalam, move marketing to Geist), then T-076
+**Last updated:** 2026-09-25, session 3 (Round 7)
 
 ## Start here
 
@@ -17,4 +17,4 @@
 - **Design canvas:** [AWO Direction Explorations](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9), pages Round 1 to Round 7 (opens on Round 7).
 - **Direction:** **E** (A + D: evergreen, lime, blush, mist, pool; Bricolage Grotesque + Geist; Night Oasis for Learn and Ask; Ola v2 orb). Round 4 made the flows deeper but flattened the look; Ian wants Round 3's bold condensed type, colour blocks, signature shapes and visual-first layouts back, as a **meaningful design language: fun, modern, clean** (D-028). The app has five areas: **Home, Learn, Vault, Community, Me** (D-029).
 - **Environment:** the network is open for design research; browse with headless Chromium (`scripts/screenshot.mjs` or the Playwright MCP). Connectors: Figma (View seat), Unsplash (needs its account email confirmed), Fonts, tldraw, Trello, HyperFrames; Mobbin needs a paid plan. Claude self-checks boards with `scripts/canvas-preview.mjs` (D-026; recipe in [06](00-discovery/06-tooling-and-harness.md#reviewing-canvas-boards-locally-render-recipe)).
-- **Decisions:** D-001 to D-032 in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking; newest are Q-29 to Q-33).
+- **Decisions:** D-001 to D-033 (D-033 is a draft to confirm) in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking; newest are Q-29 to Q-33).

@@ -6,6 +6,13 @@
 
 ## 2026-09-25
 
+### Round 7: Vault, Me and Community redesigned
+- Ian's reaction: these three were the weakest (hierarchy, generic, text-heavy; Community less so). They are now written natively in Round 7 style in **`design/round-7/areas7.py`**, not transformed from Round 6. Each screen leads with its area's shape and has one clear job.
+- **Vault:** the lime arch is the hero (the word of the week flips to an example). "3 words to practise" opens a short practice deck. Kept words sit in four collections instead of a long list.
+- **Me** (1720px down to 1330): a pool hero with "Stage 2 of 4 stages", a small readiness ring and the stepping stones with her face on her stone. Tap a bar in "Your shape" to read about that dimension. Evidence has its own meter, versions are a sparkline, and the full interpretation is collapsed. Results stay typeset.
+- **Community:** the question card shows one answer and then hers. Circles are cards with faces and ripples, the post is photo-first, and the event card is dark.
+- Recorded as a section in `13-round-7.md`. Ian's unsent draft "Keep Geist, Kalam, move marketing over too" is logged as a **draft** decision (D-033) until he confirms it.
+
 ### Round 7: Geist, a hand for special moments, tighter corners
 - Ian's brief (D-032): Round 1 Oasis's typeface (Geist), a handwritten face only for special moments, and a more restricted radius. His Round 6 answers, typed in the same screenshot: icon A, keep Home as it is (D-031).
 - Canvas page **`r7`**: a **Type and corners** board (Geist's scale, three handwriting candidates with a live switcher, corners 6, 10, 14 and a circle, each beside Round 6), plus the Round 6 screens and components rebuilt by a transform in **`design/round-7/round7.py`**. Content and flows are unchanged, so the pages compare fairly.

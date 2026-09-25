@@ -17,6 +17,7 @@ import areas  # noqa: E402
 import home  # noqa: E402
 import kit  # noqa: E402
 import onboarding  # noqa: E402
+import areas7  # noqa: E402  (Vault, Me, Community redesigned natively in Round 7 style)
 from lib6 import EVG, LIME, MOON, BLUSH_INK, write  # noqa: E402
 
 HANDS = ['Kalam', 'Nanum Pen Script', 'Delicious Handrawn']
@@ -70,12 +71,10 @@ def moments(name, html):
     elif name == 'R7-Learn':
         sub('<p style="font-size: 14px; color: #9AA39F; padding: 0 4px">You showed up three evenings this week.</p>',
             f'<p class="hand" style="font-size: 24px; color: {MOON}; padding: 0 4px; {HF}">You showed up three evenings this week.</p>')
-    elif name == 'R7-Community':
-        sub('<span class="rp" style="inset: 0; color: #2A0F18"></span>{{ answer }}</div>',
-            f'<span class="rp" style="inset: 0; color: {BLUSH_INK}"></span><span class="hand" style="font-size: 22px; {HF}">{{{{ answer }}}}</span></div>')
     elif name == 'R7-Components':
         sub('Everything the Round 6 screens are built from, at Volume 1.', 'Everything the Round 7 screens are built from: Geist, three corner sizes and a circle.')
-    # Me, Ask and Vault stay typeset: results, AI answers and definitions are never handwritten.
+    # Vault, Me and Community are written natively (areas7.py) and carry their own moments.
+    # Me and Ask stay typeset: results and AI answers are never handwritten.
     return html
 
 
@@ -127,14 +126,16 @@ def restyle_display(tag):
     return tag[:fs.start(1)] + str(n) + tag[fs.end(1):]
 
 
-def transform(name, html):
-    html = moments(name, html)
+def transform(name, html, native=False):
+    if not native:
+        html = moments(name, html)
     html = re.sub(r'href="R6-', 'href="R7-', html)
     head, rest = html.split('</helmet>', 1)
     head = head.replace('</style>', R7_CSS + '</style>\n' + HAND_LINK, 1)
     body, tail = rest.split('</x-dc>', 1)
-    body = re.sub(r'style="([^"]*)"', lambda m: 'style="' + restyle_radius(m.group(1)) + '"', body)
-    body = re.sub(r'<[a-z0-9]+ [^>]*class="d"[^>]*>', lambda m: restyle_display(m.group(0)), body)
+    if not native:
+        body = re.sub(r'style="([^"]*)"', lambda m: 'style="' + restyle_radius(m.group(1)) + '"', body)
+        body = re.sub(r'<[a-z0-9]+ [^>]*class="d"[^>]*>', lambda m: restyle_display(m.group(0)), body)
     # The handwriting tweak: every board gets the same lever.
     tail = tail.replace('class Component extends DCLogic {\n  renderVals()',
                         "class Component extends DCLogic {\n  renderVals() {\n    const v = this.baseVals();\n    v.handFont = this.props.hand ?? 'Kalam';\n    return v;\n  }\n  baseVals()", 1)
@@ -146,11 +147,11 @@ def transform(name, html):
 
 BOARDS = [
     ('R7-Welcome', onboarding.welcome), ('R7-Starter', onboarding.starter), ('R7-Home', home.build),
-    ('R7-Learn', areas.learn), ('R7-Ask', areas.ask), ('R7-Vault', areas.vault), ('R7-Community', areas.community),
-    ('R7-Me', areas.me), ('R7-Components', kit.components),
+    ('R7-Learn', areas.learn), ('R7-Ask', areas.ask), ('R7-Vault', areas7.vault), ('R7-Community', areas7.community),
+    ('R7-Me', areas7.me), ('R7-Components', kit.components),
 ]
 
 if __name__ == '__main__':
     out = sys.argv[1]
     for name, fn in BOARDS:
-        write(os.path.join(out, name + '.dc.html'), transform(name, fn()))
+        write(os.path.join(out, name + '.dc.html'), transform(name, fn(), native=fn.__module__ == 'areas7'))
