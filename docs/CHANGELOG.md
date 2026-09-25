@@ -4,6 +4,18 @@
 >
 > Format: `### <short title>` under a date heading, with the commit hash once known, then 1–5 bullets.
 
+## 2026-09-25
+
+### Round 3 review: fewer screens, deeper moments
+- Rendered all 35 Round 3 boards locally with the canvas runtime and reviewed them as screenshots. Wrote **`00-discovery/08-round-3-review.md`**: keep, cut, improve, three human directions and a Round 4 plan.
+- Verdict: E is a coherent brand and Ola works, but the round is broad, not deep. Cut two Homes, the ripple-ring DIVA chart (it reads as "close your rings"), metaphor overload, everyday iris, vanity stats, chips over photos, arches everywhere and more marketing for now.
+- Round 4 (T-040 to T-046): five moments with their hard states, three sample members, and Moment 1 in three directions (Mentor, Journal, Circle).
+- New open questions **Q-29** (who is AWO to her?) and **Q-30** (is Learn always dark?). Added the local render recipe to doc 06.
+- Connectors now live: Figma, Unsplash, Mobbin (needs a paid plan), Fonts, tldraw, Trello, HyperFrames.
+
+### Round 3 published to the canvas (session 2, logged retroactively)
+- Session 2 published Round 3 on canvas page `r3` but didn't commit, so it is recorded here. 35 boards: taste board, E foundations, Ola v2, Learn flow, Vault flip cards, Ask, three Homes, DIVA, progress, check-in, community, buddy, settings, three welcomes, components, widgets, six store screenshots, listing, feature graphic, app icon, hero device and four ads. People photos from nappy.co.
+
 ## 2026-09-24
 
 ### Harness: changelog, task list, commit hook, Round 3 handover
