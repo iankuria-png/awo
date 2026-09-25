@@ -16,9 +16,11 @@
 | Q-10 | **Platform priority:** web/PWA first and native later, or native first? | Build order and app-store timelines. | PWA first, native in phase 8. Revisit given motion-first ambitions: native runs Rive and Reanimated best. | Open |
 | Q-25 | **Wordmark:** Ripple, Wave or Stepping stones (or a mix)? Uppercase **AWO** or lowercase **awo**? | Everything downstream uses it. | Wave wordmark with the Stones or Ripple app icon. | Open |
 | Q-26 | **Mascot:** keep Ola? Name? Only in Learn and Ask? | Character work takes time to commission and animate. | Yes, Learn and Ask only. "Ola" is a working name to test with members. | Open |
-| Q-27 | **People imagery:** commission an illustrator, run a photo shoot with real members, or both? | D depends on it, and it matters for dignity (D4). | Photography for product and marketing (Round 3 uses nappy.co CC0 photos as stand-ins); commission a member shoot. | Open |
-| Q-29 | **Store name and copy:** is "AWO: money in plain words" right, and who approves store copy? | Needed before any store listing or ad goes out. | Keep AWO as the lead; test two short descriptions with first members. | Open |
-| Q-30 | **Ola beyond Learn and Ask:** may Ola appear in the Learn widget, store screenshots and ads? | D-021 limits the mascot to one area; marketing and widgets are edge cases. | Yes when the surface is about Learning; never next to results or money amounts. | Open |
+| Q-27 | **People imagery:** commission an illustrator, run a photo shoot with real members, or both? | D depends on it, and it matters for dignity (D4). | Photography for product and marketing (Rounds 3 to 5 use nappy.co CC0 photos as stand-ins); commission a member shoot. | Open |
+| Q-29 | **Who is AWO to her?** Mentor (quiet companion), Journal (her story) or Circle (women who get it)? See [09 § Directions](09-round-3-review.md#directions-to-explore-three-human-axes). | Sets Home, tone and what the product celebrates. | Mentor as the spine, Circle as the heart, her own words from Journal. Test all three on the first result reveal before converging. | Open. Ian leans Mentor + Circle (D-027). Round 5 settles the design language first (D-028). |
+| Q-30 | **Theme logic:** is Learn (and Ask) *always* dark, or does the app follow the phone's dark mode? | Supporting both doubles design and QA work. | Learn and Ask always dark ("night for learning"); the rest follows the system later, if at all. | Open |
+| Q-31 | **Store name and copy:** is "AWO: money in plain words" right, and who approves store copy? | Needed before any store listing or ad goes out. | Keep AWO as the lead; test two short descriptions with first members. | Open |
+| Q-32 | **Ola beyond Learn and Ask:** may Ola appear in the Learn widget, store screenshots and ads? | D-021 limits the mascot to one area; marketing and widgets are edge cases. | Yes when the surface is about Learning; never next to results or money amounts. | Open |
 
 ## Answered
 

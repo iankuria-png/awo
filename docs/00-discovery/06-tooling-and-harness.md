@@ -38,11 +38,30 @@ These are enabled at **project scope** in [`.claude/settings.json`](../../.claud
 
 The design and engineering plugins also bundle optional connectors (Slack, Linear, Notion, Asana, Atlassian…). They stay idle unless you sign in.
 
-**Connect Figma:** add the Figma connector at [claude.ai/customize/connectors](https://claude.ai/customize/connectors), then start a new session. Connectors are read when a session starts.
+**Connectors (connected 2026-09-25):** Figma, Unsplash (photo search), Fonts, tldraw, Trello and HyperFrames. Mobbin is connected but needs a paid plan to return results. Connectors are read when a session starts.
 
 **Playwright (browser automation):** a project MCP server in [`.mcp.json`](../../.mcp.json), launched by [`scripts/playwright-mcp.sh`](../../scripts/playwright-mcp.sh). In cloud sessions it uses the pre-installed Chromium and pins the egress proxy's CA key, so TLS stays verified. On a laptop it uses Playwright's defaults. We use it for inspiration research (the sites block plain `curl`), visual checks and, later, end-to-end tests.
 
 **Later, when code exists:** `typescript-lsp` (code intelligence), `pr-review-toolkit` or `code-review` (PR review agents), and `data` (admin analytics).
+
+## Reviewing canvas boards locally (render recipe)
+
+Review boards as rendered screenshots, never from source. This is how the [Round 3 review](09-round-3-review.md) was done.
+
+1. **Fetch** the canvas with the Artifact tool (`read`, then `path` for each `project/*.dc.html`, `project/canvas.json` and `artifact-type/dc-runtime.js`). Fetch image assets by their `/_blob/<id>` asset ids.
+2. **Serve** the folder locally with `dc-runtime.js` exposed as `project/support.js` and each asset at `/_blob/<id>` (a few lines of Node or Python).
+3. **Screenshot** each board at its exact root size with the pre-installed Chromium and the proxy SPKI pin (as in `scripts/screenshot.mjs`). Wait about 1.5 s for fonts and first motion.
+4. **Contact sheets** (Pillow) make it quick to compare many boards at once.
+5. **Delegate** the fetching and rendering to a subagent; it saves context.
+
+6. **Click through states** with Playwright (`getByRole('button', { name })`), screenshotting each step, and flag text under 12px, targets under 44px, unresolved `{{holes}}` and overflow.
+
+Canvas runtime gotchas found this way (Round 4):
+- Data-bound text inside SVG `<text>` does not render. Put labels in HTML laid over the SVG.
+- `src="{{x}}"` or SVG `width="{{x}}"` inside `<sc-for>` errors on first parse. Write repeated images literally, and size SVGs with a style binding.
+- Flex children shrink by default. Give cards in a fixed-height column `flex-shrink: 0`.
+
+Keep everything in the scratchpad. Don't commit `dc-runtime.js` or the renders.
 
 ## Motion and illustration tooling
 

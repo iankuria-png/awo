@@ -6,6 +6,24 @@
 
 ## 2026-09-25
 
+### Merge: Round 3 and Round 4 histories joined, IDs reconciled; Ian's Round 4 reaction
+- Session 3 (Round 3 review, Round 4) branched off before session 2's Round 3 commits, so both sessions reused IDs. Merged `claude/nifty-gauss-7odogg` into this branch and renumbered: the review is now doc **09**, Round 4 doc **10**; session 2's store-copy and Ola-outside-Learn questions are now **Q-31** and **Q-32**; the Mobbin task is **T-028**; the two D-026 entries (same decision) are one. Older diary entries keep their original numbers.
+- Dropped session 3's retroactive "Round 3 published" entry: the real Round 3 commits are now in this history.
+- **Ian's reaction to Round 4 (T-021):** it lost character. Bring back Round 3's bold condensed type, colour as big blocks, signature shapes and visual-first layouts, as a **meaningful design language: fun, modern, clean** (D-028). Build around five areas: **Home, Learn, Vault, Community, Me** (D-029). Next is a **volume test**: the five areas at three volumes (T-060 to T-062).
+
+### Round 4 published: Moment 1 three ways, the Mentor + Circle loop
+- Canvas page **`r4`**, 11 boards (9 interactive), recorded in **`00-discovery/10-round-4.md`**. Ian leans towards Mentor + Circle but wants to see all three (D-027), so the first result reveal is built as **Mentor**, **Journal** and **Circle**, each with a "lower than I hoped" branch.
+- The rest of the loop is in Mentor + Circle with three sample members: Today (Naledi), a week's step (Wanjiru, KSh), a check-in where the safety net went down (Amara, £), a dark stokvel lesson with Ola, and being seen by the circle. There is also a hard-moments board (day one, missed week, coming back, offline) and an **"E, tightened"** board (one job per colour, calmer type, one main button, retired patterns).
+- **D-026:** Claude now renders and clicks through its own boards before publishing. It caught SVG text that doesn't render, a squashed card and overflow under the tab bar. The gotchas are now in doc 06.
+- New photos from nappy.co for emotional range (focused, tired, determined, sixty), plus face crops. The Unsplash connector needs its account email confirmed (T-025).
+
+### Round 3 review: fewer screens, deeper moments
+- Rendered all 35 Round 3 boards locally with the canvas runtime and reviewed them as screenshots. Wrote **`00-discovery/09-round-3-review.md`**: keep, cut, improve, three human directions and a Round 4 plan.
+- Verdict: E is a coherent brand and Ola works, but the round is broad, not deep. Cut two Homes, the ripple-ring DIVA chart (it reads as "close your rings"), metaphor overload, everyday iris, vanity stats, chips over photos, arches everywhere and more marketing for now.
+- Round 4 (T-040 to T-046): five moments with their hard states, three sample members, and Moment 1 in three directions (Mentor, Journal, Circle).
+- New open questions **Q-29** (who is AWO to her?) and **Q-30** (is Learn always dark?). Added the local render recipe to doc 06.
+- Connectors now live: Figma, Unsplash, Mobbin (needs a paid plan), Fonts, tldraw, Trello, HyperFrames.
+
 ### Round 3, batches 5 to 7: remaining E screens, components, widgets, marketing
 - **E screens:** interactive 30-day check-in (a slider fills the safety-net pool), community (likes, event reminder), buddy (send a cheer; lessons shared, never amounts), settings with working switches (reduce-motion demo, data stored in South Africa), and three onboarding variants (photo-led, ripple, goal picker).
 - **Components:** controls, data and feedback (stat tiles, a what-if calculator, progress forms, notifications, skeletons), and home-screen and lock-screen widgets.

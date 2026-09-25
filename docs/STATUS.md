@@ -1,20 +1,19 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** Round 3 done; waiting for Ian's reactions
-**Last updated:** 2026-09-25, end of session 2 (Round 3 complete)
+**Current focus:** Round 5, a volume test: Home, Learn, Vault, Community and Me at three volumes, to bring back the character Round 4 lost (D-028, D-029)
+**Last updated:** 2026-09-25, session 4
 
 ## Start here
 
-1. **[08-round-3-direction-e.md](00-discovery/08-round-3-direction-e.md):** what Round 3 made and learned: Direction E tokens, Ola v2, the Learn flow, charts, marketing, sources and tools.
-2. **[TASKS.md](TASKS.md):** what's next (Ian's reactions, T-021) and what's waiting on Ian.
-3. **[CHANGELOG.md](CHANGELOG.md):** what happened, commit by commit.
+1. **[TASKS.md](TASKS.md):** Round 5 is T-060 to T-062; then Ian picks a volume (T-063).
+2. **[CHANGELOG.md](CHANGELOG.md):** what happened, commit by commit. The latest entries explain the branch merge and the renumbering.
+3. **Round history:** [08](00-discovery/08-round-3-direction-e.md) Round 3 (Direction E tokens, Ola v2, sources and tools), [09](00-discovery/09-round-3-review.md) the review of Round 3, [10](00-discovery/10-round-4.md) Round 4 as built.
 4. Background: the [Round 3 handover](handover/2026-09-24-round-3.md) (taste, mistakes to avoid, canvas gotchas).
 
 ## Snapshot
 
-- **Design canvas:** [AWO Direction Explorations](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9), pages Round 1, Round 2 and Round 3 (opens on Round 3).
-- **Direction:** combine **A (Oasis) + D (Human)** into **E**. Use **Round 1 Night Oasis** colours for the dark AI and Learn surfaces, redesign **Ola** as a glowing orb, and make **Learn truly interactive** (D-024).
-- **Round 3 is complete** on the canvas (36 boards on page Round 3): taste board, Direction E foundations, Ola v2, interactive Learn and Ask, E screens, components, widgets and marketing. PNG exports are in `design/marketing/`. Next: Ian's reactions (T-021), then the Design Standard v1 (T-030). Everything learned is in [08-round-3-direction-e.md](00-discovery/08-round-3-direction-e.md).
-- **Environment:** the network is open for design research. Dribbble, Google Play and nappy.co work in headless Chromium. Figma is connected (View seat). The Unsplash connector needs Ian's email confirmed; Mobbin needs a paid plan. Claude self-checks boards with `scripts/canvas-preview.mjs` (D-026).
-- **Decisions:** D-001 to D-026 in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking).
+- **Design canvas:** [AWO Direction Explorations](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9), pages Round 1 to Round 4; Round 5 goes on page `r5`.
+- **Direction:** **E** (A + D: evergreen, lime, blush, mist, pool; Bricolage Grotesque + Geist; Night Oasis for Learn and Ask; Ola v2 orb). Round 4 made the flows deeper but flattened the look; Ian wants Round 3's bold condensed type, colour blocks, signature shapes and visual-first layouts back, as a **meaningful design language: fun, modern, clean** (D-028). The app has five areas: **Home, Learn, Vault, Community, Me** (D-029).
+- **Environment:** the network is open for design research; browse with headless Chromium (`scripts/screenshot.mjs` or the Playwright MCP). Connectors: Figma (View seat), Unsplash (needs its account email confirmed), Fonts, tldraw, Trello, HyperFrames; Mobbin needs a paid plan. Claude self-checks boards with `scripts/canvas-preview.mjs` (D-026; recipe in [06](00-discovery/06-tooling-and-harness.md#reviewing-canvas-boards-locally-render-recipe)).
+- **Decisions:** D-001 to D-029 in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking; newest are Q-29 to Q-32).

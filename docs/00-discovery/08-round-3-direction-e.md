@@ -68,7 +68,7 @@ Twelve real references, picked before designing. The board credits and links eac
 - **Data and feedback board:** stat tiles (value, delta, sparkline), a **what-if calculator** (monthly amount → 12 months, plain arithmetic with no interest, labelled "not a forecast"), five progress forms (bar, ring, pool, stones, story bars), notifications (toast, banner, scam warning with icon and label, push), skeletons (day and night).
 - **Widgets:** a home screen (safety-net pool, 30-day ring, this week's step, a Learn widget with Ola) and a lock screen (inline, circular and rectangular widgets over a real photo). Amounts appear only on widgets the member adds, never on the lock screen by default.
 - **Marketing:** six Play Store screenshots, a feature graphic, an app icon candidate, a device hero (a real phone photo with a real AWO screen composited in), three square ads, a story ad and a simplified listing preview with character counts. PNG exports and sources are in [`design/marketing/`](../../design/marketing/README.md). Play specs were checked on 25 Sep 2026.
-- **Watch-outs for Ian:** Ola appears outside the app in the Learn widget, store screenshot 2 and the story ad (Q-30). Store name and copy are drafts (Q-29).
+- **Watch-outs for Ian:** Ola appears outside the app in the Learn widget, store screenshot 2 and the story ad (Q-32). Store name and copy are drafts (Q-31).
 
 ## Canvas map (page Round 3)
 

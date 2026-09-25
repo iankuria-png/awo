@@ -67,6 +67,6 @@ design/marketing/    Round 3 marketing PNGs (store, ads, icon, hero) and their c
 .claude/settings.json  plugins, MCP approval, the changelog hook      .mcp.json  Playwright server
 ```
 
-Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1, Round 2 and Round 3).
+Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 to Round 4).
 
 Planned (not yet created): `docs/product/`, `docs/design/`, `docs/engineering/`, `docs/governance/`, `docs/operations/`, `apps/`, `packages/`, `infra/`. See [`docs/00-discovery/06-tooling-and-harness.md`](docs/00-discovery/06-tooling-and-harness.md).

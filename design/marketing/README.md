@@ -1,6 +1,6 @@
 # Marketing assets (Round 3 drafts)
 
-Exploration drafts for Direction E. They are not final brand assets: the wordmark (Q-25), app name and store copy (Q-29) are still open. Every number on a screen is a sample.
+Exploration drafts for Direction E. They are not final brand assets: the wordmark (Q-25), app name and store copy (Q-31) are still open. Every number on a screen is a sample.
 
 | File | Size | Use |
 |---|---|---|
