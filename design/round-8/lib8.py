@@ -115,6 +115,7 @@ EXTRA8 = {
     'car': '<path d="M4 16.5V12l2-5h12l2 5v4.5"></path><path d="M3 16.5h18v2.5H3z"></path><circle cx="7.5" cy="14" r=".6"></circle><circle cx="16.5" cy="14" r=".6"></circle><path d="M6 12h12"></path>',
     'key': '<circle cx="8" cy="15" r="4"></circle><path d="M11 12l8-8M16 7l2.5 2.5M14 9l2 2"></path>',
     'plane': '<path d="M3 13.5l7-2.5 3.5-7 2 .5-1.5 6 5.5-2 1.5 1.5-17 8z"></path><path d="M4 20.5h16"></path>',
+    'eye': '<path d="M2.5 12c1-2.5 4.5-7 9.5-7s8.5 4.5 9.5 7c-1 2.5-4.5 7-9.5 7s-8.5-4.5-9.5-7z"></path><circle cx="12" cy="12" r="3"></circle>',
     'school': '<path d="M2.5 9 12 4.5 21.5 9 12 13.5z"></path><path d="M6.5 11v5c1.5 1.5 3.5 2.2 5.5 2.2s4-.7 5.5-2.2v-5"></path><path d="M21.5 9v5"></path>',
 }
 
@@ -143,7 +144,7 @@ ACTIVE8 = {
     'Community': (BLUSH, BLUSH_INK, BLUSH_INK),
     'Me': (POOL, EVG, EVG),
 }
-PAGES8 = {'Home': 'R8-Home.dc.html', 'Learn': 'R8-Learn-Paths.dc.html', 'Hub': 'R8-Hub-Job.dc.html',
+PAGES8 = {'Home': 'R8-Home.dc.html', 'Learn': 'R8-Learn.dc.html', 'Hub': 'R8-Hub.dc.html',
           'Community': 'R8-Feed.dc.html', 'Me': 'R7-Me.dc.html'}
 
 

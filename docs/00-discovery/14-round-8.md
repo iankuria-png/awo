@@ -1,6 +1,6 @@
 # 14 · Round 8: Learn with Words, the Hub, goals of every kind, real stories, a feed
 
-> **Status:** On canvas page `r8` (Round 8), 25 Sep 2026. Batch 1 (the brief, the research and the Hub's icon) and batch 2 (the IA and Learn) are published. Ian picked the keystone, in lime, and nine tools for batch 3 (D-039).
+> **Status:** On canvas page `r8` (Round 8), 25 Sep 2026. Batches 1 to 3 are published: the brief, the research and the Hub's icon; the IA and Learn; the Hub with nine tools, goals and Home. Ian picked the keystone, in lime, and nine tools (D-039).
 > **Ian's brief (D-037, D-038):** Learn absorbs the Vault as a tab. A new centre tab, the Hub, holds tools with real value for employed women and entrepreneurs. Goals of every kind. Learning beyond savings groups. Real human stories and an AWO podcast. Community as a feed.
 > **Reference board:** Round 7 (page `r7`, [doc 13](13-round-7.md)). Round 8 speaks the same language: Geist for all type, Kalam for rare handwritten moments, corners 6, 10 and 14 and a circle, one shape per area, and motion that means something.
 > **Generator:** [`design/round-8/`](../../design/round-8/README.md).
@@ -176,6 +176,40 @@ Calculations are deterministic and versioned, and every tool shows its version a
 
 **Community, deeper:** Notes (short, an optional photo), Letters (long form with a title), Milestones (a structured post where a stone lands; amounts hidden by default), Questions (to a circle), Shop cards (from the Shop tool). Reactions: **Cheer**, **Same here** and **Taught me**. No follower counts and no public like totals. Rules as in Round 7: no advice to buy or switch, no recruiting, first names; AI flags and people decide.
 
+## Batch 3: the Hub, nine tools, goals and Home
+
+Eighteen boards on rows 3 to 5 of page `r8`. Each tool follows the six beats of `R8-Tool-Skeleton`, and each links back into Learn, Words, goals and Community.
+
+**Two sample members, so each Hub is true to one person:**
+- **Naledi** is employed in Johannesburg (rand). Her Hub opens on **Me**. Her "My business" tab shows the empty state: what the tools would do, and "Add my business, two minutes" (Round 7's business profile).
+- **Wanjiru** runs a market stall in Nairobi (shillings). Her Hub opens on **My business**; her Me tab has no payslip decoder, because she has no payslip.
+
+**The modes are "Me" and "My business"**, not "My job" and "My business". It matches Round 7's business Home switch, and it includes members without a payslip (informal work, students, between jobs). A choice worth checking.
+
+| Board | What it shows | Choices worth checking |
+|---|---|---|
+| **One skeleton for every tool** | The six beats, three tools shown beat by beat, what happens when a tool reads a document, and four rules | The document path: she adds it with consent; AI reads it (labelled); she checks each line; the sum runs; the original is deleted |
+| **Hub** (Naledi, Wanjiru) | Search, the mode switch, the next useful thing (lime, the one bold block), pick up where you left off, goals as small pools, tools by job to be done, Stay safe last, and a doorway to Me | The mode reorders the Hub; it never hides a tool. The DIVA check-in stays in Me (Q-38) |
+| **Home** | Round 7's Home, kept (D-031), with several goals as pools, a "From the Hub" card and the Round 8 tab bar | Goals sit where the safety net pool was; the word of the week is now Dividend, and opens Words |
+| **Goals studio** | Her goals as pools; eight templates; the cost reality for each; a monthly amount with a "by when" stepper; make it a goal | A car shows a balloon payment warning; moving out adds up the first month; starting to invest shows three checks from her own numbers, as learning, not advice. AWO holds no money: she moves it and taps to top up |
+| **Payslip decoder** | A photo read by AI; she ticks six lines; take-home R 14 090 of R 18 500; where R 4 410 went; a raise in real terms; what the payslip doesn't show | Nothing counts until every line is ticked. Tax figures are 2026/27 samples, dated (Q-41) |
+| **Pay-day plan** | R 14 090 split into needs, family, goals and money to spend freely; steppers for family and goals | Family support is a planned line, with a lesson and a story. Going over shows a wine note, never red |
+| **Debt payoff** | Three debts, an extra amount, snowball or avalanche; a debt-free month and the interest saved | Worked out monthly in the tool; both strategies are presented as valid |
+| **Fee eater** | Monthly amount, years and a yearly fee; what the fee takes, rounded ("about R 66 000") | Labelled an illustration that assumes 9% growth before fees; never names a fund or platform |
+| **Statement insights** | Consent, reading, then results: seven debit orders (one twice), where the month went, bank fees | The statement is deleted and says when; categories are AI-assisted and she can change them; no milestone, because it's private (Q-37) |
+| **Price it right** | Wanjiru's basket costs, a margin slider, the price, markup against margin, and baskets to cover the stall | A 20% markup keeps only 17%. The tool never compares her with other sellers |
+| **Quotes and invoices** | A quote that flips into an invoice; send by WhatsApp or email; who owes me, with a polite reminder written for her | A VAT line appears only if she's registered; AWO never handles the payment |
+| **Shop** (editor and public page) | Her products (photos cut from her stall), stock switches, orders to WhatsApp, "Show it in Community", seller rules to agree to before publishing; the buyer's page and a pre-written WhatsApp order | The safe version of Q-35: no payments through AWO, rules shown, shops can be reported. The link (awo.africa/s/wanjiru) is a sample |
+
+**Fixed during the self-check (D-026):**
+- The UIF slice of the payslip bar was too narrow to tap; the legend is now the control.
+- "Plan it" and "Make it" wrapped inside their buttons.
+- The fee eater showed R 65 658; it now says about R 66 000.
+- "From 3 customers" became "on 3 invoices" (Achieng has two).
+- A space vanished in "Yours KSh 330" (flex containers drop trailing spaces); the label moved.
+- The stall crops were dim; they're brightened.
+- Naledi's goals disagreed between Home, the Hub and the studio. They are now a safety net, moving out and a trip home everywhere, and the car is the new-goal example.
+
 ## Where the ideas meet the rules
 
 Each idea gets a safe version in Round 8, visibly labelled. None of these is decided; each has an open question.
@@ -249,8 +283,8 @@ Four boards on the second row of page `r8`.
 |---|---|---|
 | 1. Brief and research | This doc; `R8-Hub-Icons` | Published 25 Sep 2026; keystone picked (D-039) |
 | 2. IA, tab bar and Learn | `R8-IA`, `R8-Learn`, `R8-Topic-Shares`, `R8-Words-Decoder` | Published 25 Sep 2026 |
-| 3. The Hub | The landing in both modes; the tool skeleton; nine tools (the eight plus the pay-day plan); Home with several goals | Next |
-| 4. Stories and the feed | Story reader; the podcast player; "My worst money mistake"; the feed, composer, a post with replies, a shop card, reporting | |
+| 3. The Hub | `R8-Tool-Skeleton`, `R8-Hub`, `R8-Hub-Biz`, `R8-Home`, `R8-Goals`, nine tools and the Shop's two pages | Published 25 Sep 2026 |
+| 4. Stories and the feed | Story reader; the podcast player; "My worst money mistake"; the feed, composer, a post with replies, a shop card, reporting | Next |
 
 ## Sources
 

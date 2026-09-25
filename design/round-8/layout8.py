@@ -22,17 +22,28 @@ TITLES = {  # board file: title shown on canvas
     'R8-Learn': 'Learn: Paths, Words and Stories (switch tabs)',
     'R8-Topic-Shares': 'A topic: shares and dividends (step through the bakery)',
     'R8-Words-Decoder': 'Words: the buzzword decoder (type, or try Rug pull and Staking)',
+    'R8-Hub': 'Hub: Naledi, employed (Me; her business tab is empty)', 'R8-Hub-Biz': 'Hub: Wanjiru, a market stall (My business)',
+    'R8-Tool-Skeleton': 'One skeleton for every tool', 'R8-Home': 'Home, with several goals and the Hub', 'R8-Goals': 'Goals studio (pick a template, make it a goal)',
+    'R8-Tool-Payslip': 'Payslip decoder (tick the lines, tap a part)', 'R8-Tool-Payday': 'Pay-day plan, family included (use + and -)',
+    'R8-Tool-Debt': 'Debt payoff (drag, switch strategy)', 'R8-Tool-Fees': 'Fee eater (drag the fee)', 'R8-Tool-Statement': 'Statement insights (consent, reading, results)',
+    'R8-Tool-Price': 'Price it right (drag the margin)', 'R8-Tool-Invoice': 'Quotes and invoices (turn the quote into an invoice)',
+    'R8-Shop-Edit': 'Shop: the editor (publish it)', 'R8-Shop-Public': 'Shop: what a buyer sees (order a vase)',
 }
 
 ROWS = [
     ('r8title1', "The Hub's icon: three directions, and the pick", ['R8-Hub-Icons']),
     ('r8title2', 'The new IA, and Learn with three tabs', ['R8-IA', 'R8-Learn', 'R8-Topic-Shares', 'R8-Words-Decoder']),
+    ('r8title3', 'The Hub in two modes, Home and goals', ['R8-Tool-Skeleton', 'R8-Hub', 'R8-Hub-Biz', 'R8-Home', 'R8-Goals']),
+    ('r8title4', 'Hub tools for Me', ['R8-Tool-Payslip', 'R8-Tool-Payday', 'R8-Tool-Debt', 'R8-Tool-Fees', 'R8-Tool-Statement']),
+    ('r8title5', 'Hub tools for My business, and Shop', ['R8-Tool-Price', 'R8-Tool-Invoice', 'R8-Shop-Edit', 'R8-Shop-Public']),
 ]
 
 HOWTO = ("Round 8: Learn with Words and Stories, the Hub at the centre, goals of every kind, real stories and a feed (D-037, D-038).\n\n"
          "Same language as Round 7: Geist, Kalam for rare moments, corners 6, 10 and 14 and a circle.\n\n"
          "Top row: the Hub's icon in three directions. Ian picked the keystone, in lime (D-039). Choosing the Hub plays its move once.\n\n"
          "Next row: the new IA and tab bar, then Learn with three tabs (Paths, Words, Stories) and its animated switch, a topic page and the buzzword decoder.\n\n"
+         "Then the Hub: the tool skeleton, the Hub for Naledi (employed) and Wanjiru (a market stall), Home with several goals, and the goals studio. "
+         "Below it, nine tools on the same six beats, each linked from the Hub.\n\n"
          "The brief, the research and the ranked Hub tools are in docs/00-discovery/14-round-8.md.\n\n"
          "All content is sample content.")
 

@@ -6,6 +6,13 @@
 
 ## 2026-09-25
 
+### Round 8 batch 3: the Hub, nine tools, goals and Home
+- **The Hub** in two modes, **Me** and **My business** (renamed from "My job" to match Round 7's business Home and to include members without a payslip). Naledi (employed, Johannesburg) opens on Me, and her business tab shows the empty state; Wanjiru (a market stall, Nairobi) opens on My business. One lime "next useful thing", goals as pools, tools grouped by the job they do, Stay safe last.
+- **`R8-Tool-Skeleton`:** the six beats, three tools shown beat by beat, the document path (consent, AI reads, she checks, the sum runs, the original is deleted) and four rules.
+- **Nine tools** (`design/round-8/tools8.py`, `biz8.py`): payslip decoder, pay-day plan with family support, debt payoff, fee eater, statement insights, price it right, quotes and invoices, and Shop (editor and buyer's page, with products cut from Wanjiru's stall photo). Each is live and ends in a lesson, Words, a goal and, where it fits, a milestone without amounts.
+- **Goals studio and Home** (`goals8.py`): eight goal templates with their cost reality (a car's balloon payment, moving out's first month, three checks before investing). Home is Round 7's Home, kept, with several goal pools and a "From the Hub" card.
+- Q-35, Q-37 and Q-38 now point to their safe versions. The self-check fixed a too-small tap target, wrapped buttons, false precision, a miscount, a vanished space, dim photos and goals that disagreed between screens (doc 14).
+
 ### Round 8 batch 2: the new IA, and Learn with three tabs
 - Ian picked the **keystone** for the Hub, in **lime**, and nine tools for batch 3: the kickoff's eight plus the pay-day plan (D-039). The icon board now marks the pick.
 - Four new boards on page `r8` (`design/round-8/ia8.py`, `learn8.py`):

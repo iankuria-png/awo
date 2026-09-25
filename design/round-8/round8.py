@@ -16,8 +16,12 @@ from lib8 import write, nb_text  # noqa: E402
 import icons8  # noqa: E402  (batch 1: the Hub's icon, three directions)
 import ia8  # noqa: E402  (batch 2: the IA and the tab bar)
 import learn8  # noqa: E402  (batch 2: Learn with Paths, Words and Stories; a topic; the decoder)
+import hub8  # noqa: E402  (batch 3: the Hub landing in both modes; the tool skeleton)
+import tools8  # noqa: E402  (batch 3: the Me tools)
+import biz8  # noqa: E402  (batch 3: the business tools and Shop)
+import goals8  # noqa: E402  (batch 3: the goals studio and Home)
 
-BOARDS = icons8.BOARDS + ia8.BOARDS + learn8.BOARDS
+BOARDS = icons8.BOARDS + ia8.BOARDS + learn8.BOARDS + hub8.BOARDS + tools8.BOARDS + biz8.BOARDS + goals8.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]
@@ -25,4 +29,7 @@ if __name__ == '__main__':
     for name, fn in BOARDS:
         if only and name not in only:
             continue
-        write(os.path.join(out, name + '.dc.html'), nb_text(round7.transform(name, fn(), native=True)))
+        html = fn()
+        if 'baseVals()' not in html:  # Home is built from Round 7's, which already carries the transform
+            html = round7.transform(name, html, native=True)
+        write(os.path.join(out, name + '.dc.html'), nb_text(html))
