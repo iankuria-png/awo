@@ -19,5 +19,6 @@
 | ↳ [08-round-3-direction-e.md](00-discovery/08-round-3-direction-e.md) | Round 3: taste board, Direction E tokens, Ola v2, people imagery, sources |
 | ↳ [09-round-3-review.md](00-discovery/09-round-3-review.md) | Round 3 critique: keep, cut, improve, three human directions, Round 4 plan |
 | ↳ [10-round-4.md](00-discovery/10-round-4.md) | Round 4 as built: Moment 1 three ways, the Mentor + Circle loop, hard moments, E tightened |
+| ↳ [11-round-5-volume-test.md](00-discovery/11-round-5-volume-test.md) | Round 5: one design language for Home, Learn, Vault, Community and Me, at three volumes |
 
 Coming next: `product/` (PRD, feature map, IA, journeys) · `design/` (design standard) · `engineering/` (tech stack, architecture, domain, API) · `governance/` (educational language, POPIA, AI policy) · `operations/`.

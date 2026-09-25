@@ -6,6 +6,12 @@
 
 ## 2026-09-25
 
+### Round 5 published: one language, five areas, three volumes
+- Canvas page **`r5`** (opens by default), 4 boards, recorded in **`00-discovery/11-round-5-volume-test.md`**. It answers Ian's Round 4 reaction (D-028, D-029).
+- **The language:** each area has a colour and a shape that means one thing and moves one way. Home is evergreen with a pool (money building), Learn is night with a moon (learning, Ola), Vault is lime with an arch (kept words), Community is blush with ripples (people), Me is pool with stepping stones (her stage). The tab icons are the shapes; a tile wears the colour of the area it opens.
+- **The volume test:** the same five screens and sample content at Clean, Bold and Playful. Four taps work everywhere: the pool fills, Ola reacts, the Stokvel card flips, Cheer ripples.
+- Self-checked every board and state (D-026), including reduce motion; fixes are listed in doc 11. The boards come from a small generator committed in `design/round-5/`, so the shared shapes survive the session.
+
 ### Merge: Round 3 and Round 4 histories joined, IDs reconciled; Ian's Round 4 reaction
 - Session 3 (Round 3 review, Round 4) branched off before session 2's Round 3 commits, so both sessions reused IDs. Merged `claude/nifty-gauss-7odogg` into this branch and renumbered: the review is now doc **09**, Round 4 doc **10**; session 2's store-copy and Ola-outside-Learn questions are now **Q-31** and **Q-32**; the Mobbin task is **T-028**; the two D-026 entries (same decision) are one. Older diary entries keep their original numbers.
 - Dropped session 3's retroactive "Round 3 published" entry: the real Round 3 commits are now in this history.

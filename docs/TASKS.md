@@ -2,15 +2,9 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 5, the volume test (D-028, D-029)
+## Now: waiting for Ian's pick on Round 5
 
-Round 4 lost character. Round 5 brings back Round 3's bold type, colour blocks, shapes and visual-first layouts as a meaningful design language, tested on Home, Learn, Vault, Community and Me at three volumes before any flow is redone.
-
-| ID | Task | Owner | Notes |
-|---|---|---|---|
-| T-060 | Design-language key: what each colour, shape, type role and motion means | Claude | Canvas page `r5` |
-| T-061 | Volume test: Home, Learn, Vault, Community and Me at three volumes (clean, bold, playful), same sample content | Claude | Canvas page `r5` |
-| T-062 | Self-check every Round 5 board (D-026) plus a cover-the-logo test, then publish | Claude | |
+Round 5 is on canvas page `r5` ([11](00-discovery/11-round-5-volume-test.md)): one design language for the five areas, at three volumes. Next steps depend on T-063.
 
 ## Waiting on Ian
 
@@ -72,3 +66,4 @@ Round 4 lost character. Round 5 brings back Round 3's bold type, colour blocks, 
 | T-021 | Ian reacted to Round 4: it lost character; bring back bold type, colour blocks, shapes and visual-first layouts; build around Home, Learn, Vault, Community, Me (D-028, D-029) | 2026-09-25 |
 | T-047 | Superseded by Round 5 (T-060 to T-064): the direction is set by the design language first | 2026-09-25 |
 | T-029 | Merged the Round 3 and Round 4 branches and reconciled IDs | 2026-09-25 |
+| T-060–T-062 | Round 5 on canvas page `r5`: the language key (colour, shape, meaning, motion per area) and the volume test (Home, Learn, Vault, Community, Me at three volumes), self-checked; generator in `design/round-5/` ([11](00-discovery/11-round-5-volume-test.md)) | 2026-09-25 |

@@ -64,9 +64,10 @@ docs/STATUS.md       snapshot         docs/TASKS.md      task list       docs/CH
 docs/handover/       session handovers
 scripts/             screenshot.mjs, canvas-preview.mjs (self-check boards), playwright-mcp.sh, hooks/require-changelog.sh
 design/marketing/    Round 3 marketing PNGs (store, ads, icon, hero) and their canvas sources
+design/round-5/      generator for the Round 5 canvas boards (shared shapes, icons, Ola, tab bars)
 .claude/settings.json  plugins, MCP approval, the changelog hook      .mcp.json  Playwright server
 ```
 
-Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 to Round 4).
+Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 to Round 5).
 
 Planned (not yet created): `docs/product/`, `docs/design/`, `docs/engineering/`, `docs/governance/`, `docs/operations/`, `apps/`, `packages/`, `infra/`. See [`docs/00-discovery/06-tooling-and-harness.md`](docs/00-discovery/06-tooling-and-harness.md).
