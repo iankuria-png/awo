@@ -138,3 +138,17 @@ Unchanged: the rules. Results, scores and AI text stay typeset; the hand appears
 - the photo ad's headline running under the photo;
 - 256-colour exports banding the photos.
 
+## Screens still to design (proposal, for Ian to prioritise)
+
+Ian asked which other screens matter, starting with sign-in and an admin dashboard. The list below comes from the core loop, the IA in [02](02-product-shape.md) and the open questions. It is ordered by what blocks a first release.
+
+| Batch | Screens | Why now | Open questions it touches |
+|---|---|---|---|
+| **Accounts and the first loop** | Sign up, verify (code or link), sign in, recover access, consent and privacy, country and currency, notification priming; then the first result reveal and "choose your first step" | Nobody gets into the app without these, and "What next? One step" is the loop's third beat | Q-18 (email or phone), Q-04, Q-05 |
+| **Learning and the loop, deeper** | Lesson player (story cards, quiz, finish), the DIVA report and comparing two versions, a what-if simulator, "Check an offer", the hard moments (missed check-in, coming back, a month that went down, offline, errors, day one) | Learn has a hub but no lesson; Me has versions but no report; the hard moments shape trust | Q-26 |
+| **Entrepreneurs** | Business profile, venture assessment, a business view of Home | D-018: individuals and entrepreneurs matter from day one, and nothing is designed for them yet | Assessment content is AWO's to supply |
+| **Community, deeper** | A question thread, the composer, a circle's page, reporting a post, events | Moderation starts here; members need a way to flag scams | Q-32 |
+| **AWO Admin (desktop)** | Overview, members and data requests, interpretation library (versions and approvals), scoring versions (read-only diff, publish), content review, moderation queue, AI log, audit log | Sequenced late (D-009), but designing it now shapes the data model and the "server-side, versioned, auditable" promise | Who approves what, and how many people sign off |
+| **Public website** | Home, how DIVA works, a public Vault term page, for entrepreneurs, diaspora, privacy | The public Vault is the search entry point | Q-31 |
+| **Later channels** | A WhatsApp check-in and a USSD menu drawn from the same question graph | Proves "one question graph, many renderers" | D-009 |
+

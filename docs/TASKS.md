@@ -10,6 +10,7 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Notes |
 |---|---|---|
+| T-080 | Pick which of the proposed screen batches go on Round 7 next (accounts and the first loop, deeper learning and loop, entrepreneurs, deeper community, AWO Admin, public website), and answer Q-18 (email or phone for accounts) | See [13 § Screens still to design](00-discovery/13-round-7.md#screens-still-to-design-proposal-for-ian-to-prioritise) |
 | T-075 | React to **Round 7** as the full board: the new screens (progress, check-in, buddy, settings, onboarding), components, brand and motion. Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
 | T-028 | Optional: a paid **Mobbin** plan | Dribbble and Play Store cover references for now |

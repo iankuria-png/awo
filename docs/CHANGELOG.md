@@ -6,6 +6,9 @@
 
 ## 2026-09-25
 
+### Proposal: the screens still to design
+- Ian asked which important screens are still missing, starting with sign-in and an AWO Admin dashboard. Doc 13 now lists seven batches in priority order: accounts and the first loop, deeper learning and loop, entrepreneurs, deeper community, AWO Admin, the public website, and later channels. Each notes the open questions it touches. Ian picks the order (T-080).
+
 ### Round 7 marketing: the Round 3 pieces Ian flagged
 - Ian's screenshots showed three sections: Play Store screenshots, the listing with feature graphic, icon and device hero, and campaign ads, from Rounds 3 and 6. All three now sit on page `r7`. Three Round 3 pieces were still missing, and are now added in Round 7 style: the photo-led Community screenshot (a real photo beside the phone, her answer in her hand), an eighth screenshot for the check-in ("Watch your safety net fill."), and the listing's short and full descriptions with character counts and the store rules they follow.
 - Fixed the screen captures: cutting a tall screen to 844px had squashed its sections, most visibly the Community circle cards. The captures now switch off flex shrinking first. Five captures were re-uploaded, and the superseded uploads were deleted.
