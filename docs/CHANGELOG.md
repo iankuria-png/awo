@@ -6,6 +6,16 @@
 
 ## 2026-09-25
 
+### Round 7 batch 1: accounts and the first loop
+- Ian picked batches 1, 2, 3 and 5, with phone and social sign-in (D-035, D-036). The admin approval rule is open (Q-34), with a two-person proposal.
+- New screens (`design/round-7/auth7.py`), all linked:
+  - **Sign-in:** phone number first (formats as she types, with a country sheet), or Google and Apple.
+  - **Account setup:** the code screen (six boxes, SMS autofill, a clear error), "about you" (first name, where she lives, currency), and consent in plain words (the optional AI and research switches start off).
+  - **The first loop:** the first result reveal (the stones build, and "Reviewed by AWO" sits on the meaning) and choosing a first step with the next 30 days. Reminders are asked for after that step, not before.
+  - **Privacy on shared phones:** a PIN lock (enter it twice, fingerprint optional) and a welcome-back unlock.
+- Existing screens now link into the flow: the photo welcome, Goals (now step 4 of 4) and the starter check, which ends on the reveal.
+- The page is laid out row by row from a small script, so each batch slots in without moving anything by hand.
+
 ### Proposal: the screens still to design
 - Ian asked which important screens are still missing, starting with sign-in and an AWO Admin dashboard. Doc 13 now lists seven batches in priority order: accounts and the first loop, deeper learning and loop, entrepreneurs, deeper community, AWO Admin, the public website, and later channels. Each notes the open questions it touches. Ian picks the order (T-080).
 

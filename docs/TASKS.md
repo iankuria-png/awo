@@ -10,7 +10,6 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Notes |
 |---|---|---|
-| T-080 | Pick which of the proposed screen batches go on Round 7 next (accounts and the first loop, deeper learning and loop, entrepreneurs, deeper community, AWO Admin, public website), and answer Q-18 (email or phone for accounts) | See [13 § Screens still to design](00-discovery/13-round-7.md#screens-still-to-design-proposal-for-ian-to-prioritise) |
 | T-075 | React to **Round 7** as the full board: the new screens (progress, check-in, buddy, settings, onboarding), components, brand and motion. Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
 | T-028 | Optional: a paid **Mobbin** plan | Dribbble and Play Store cover references for now |
@@ -20,6 +19,9 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Owner |
 |---|---|---|
+| T-082 | **In progress.** Round 7 batch 2, the deeper loop: lesson player, version compare, what-if simulator, check an offer, the DIVA report, hard moments | Claude |
+| T-083 | Round 7 batch 3, entrepreneurs: business profile, business check, business Home | Claude |
+| T-084 | Round 7 batch 5, AWO Admin (desktop): overview, approvals, scoring versions, members, moderation, content, audit and AI log; approvals shown as a proposal (Q-34) | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
@@ -77,3 +79,5 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 | T-078 | Round 7 Vault, Me and Community redesigned natively (`design/round-7/areas7.py`): shape-led heroes, one job each, detail one tap deeper | 2026-09-25 |
 | T-079 | Round 7 full board, batches A to C: brand, icons, motion, foundations; photo welcome, goals, progress, check-in, buddy, settings; components, data and feedback, widgets (D-034) | 2026-09-25 |
 | T-076 | Marketing in Round 7 type: eight store screenshots (a photo-led Community one and the check-in, as in Round 3), a listing with descriptions and store rules, feature graphic, 512 icon, device hero, four ads; PNGs in `design/marketing/round-7/` (D-033) | 2026-09-25 |
+| T-080 | Ian picked batches 1, 2, 3 and 5, with phone and social sign-in (D-035, D-036) | 2026-09-25 |
+| T-081 | Round 7 batch 1, accounts and the first loop: phone and social sign-in, the code, about you, consent, the result reveal, choosing a first step, reminders, PIN lock, welcome back; all linked | 2026-09-25 |

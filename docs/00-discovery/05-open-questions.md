@@ -20,6 +20,7 @@
 | Q-29 | **Who is AWO to her?** Mentor (quiet companion), Journal (her story) or Circle (women who get it)? See [09 § Directions](09-round-3-review.md#directions-to-explore-three-human-axes). | Sets Home, tone and what the product celebrates. | Mentor as the spine, Circle as the heart, her own words from Journal. Test all three on the first result reveal before converging. | Open. Ian leans Mentor + Circle (D-027). Round 5 settles the design language first (D-028). |
 | Q-30 | **Theme logic:** is Learn (and Ask) *always* dark, or does the app follow the phone's dark mode? | Supporting both doubles design and QA work. | Learn and Ask always dark ("night for learning"); the rest follows the system later, if at all. | Open |
 | Q-31 | **Store name and copy:** is "AWO: money in plain words" right, and who approves store copy? | Needed before any store listing or ad goes out. | Keep AWO as the lead; test two short descriptions with first members. | Open |
+| Q-34 | **Admin approvals:** who may approve a new interpretation, scoring version or lesson, and does it take one person or two? | Results must stay auditable; a small team can't block itself either. | Two people for scoring and interpretations (the author can't approve their own change); one reviewer for lessons and Vault words. Shown as a proposal on the Round 7 admin boards. | Open |
 | Q-32 | **Ola beyond Learn and Ask:** may Ola appear in the Learn widget, store screenshots and ads? | D-021 limits the mascot to one area; marketing and widgets are edge cases. | Yes when the surface is about Learning; never next to results or money amounts. | Open |
 
 ## Answered
@@ -30,6 +31,7 @@
 | Q-03 | First members? | Women and business people wanting to understand their finances. → D-018 |
 | Q-06 | Who builds and operates? | Ian Kuria, product developer and software engineer, with Claude. → D-015 |
 | Q-33 | Handwriting face, and marketing type? | Kalam in the app; marketing moves to Geist. → D-033 |
+| Q-18 | Account identity: email, or phone too? | Phone number first, plus Google and Apple. → D-035 |
 | Q-08 | Compliance adviser? | Covered by AWO; Claude doesn't spend time on it. → D-016 |
 | Q-11 | Figma? | Yes. → D-017 |
 
@@ -43,7 +45,6 @@
 | Q-15 | **Evidence-confidence rules.** What counts as behavioural or derived evidence, and how does confidence level up? | Open |
 | Q-16 | **Target dates:** beta cohort, launch event, partner milestones? | Open |
 | Q-17 | **Hosting provider** in South Africa, domain names, email-sending provider. | Open |
-| Q-18 | **Account identity:** email only, or phone number too (important later for WhatsApp and USSD)? | Open |
 | Q-19 | Community **naming and tone**. Open community or cohort-based at launch? | Open |
 | Q-28 | **Motion craft:** freelance motion designer and illustrator, or Claude-built Rive and Lottie assets reviewed by Ian? | Open |
 

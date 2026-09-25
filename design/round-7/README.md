@@ -10,6 +10,7 @@ Round 7 is Round 6 with three changes, applied as a transform so the two rounds 
 | `kit7.py` | `R7-Components` (controls) and `R7-Data` (data and feedback). `R7-Widgets` is Round 6's widgets board through the transform |
 | `brand7.py` | `R7-Brand` (app icon A, the wordmark in Geist), `R7-Icons`, `R7-Motion` (M1 to M6, live), `R7-Foundations` |
 | `marketing7.py` | `R7-Store-1…8`, `R7-Listing`, `R7-Feature-Graphic`, `R7-App-Icon`, `R7-Hero-Device`, `R7-Ad-Photo`, `R7-Ad-Pool`, `R7-Ad-Word`, `R7-Ad-Story`, from 2x captures of the Round 7 screens (`CAPS`). Exports live in `design/marketing/round-7/` |
+| `auth7.py` | Batch 1: `R7-Auth-Signin`, `R7-Auth-Code`, `R7-Auth-Profile`, `R7-Auth-Consent`, `R7-Reveal`, `R7-FirstStep`, `R7-Auth-Notify`, `R7-Auth-Lock`, `R7-Auth-Back` |
 | `typeboard.py` | `R7-Type`: Geist's scale, the handwriting candidates with a live switcher, and the corners, each with a Round 6 comparison |
 
 ```sh

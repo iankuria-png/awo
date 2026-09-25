@@ -428,9 +428,9 @@ def goals():
           <span style="font-size: 16px; font-weight: 600; line-height: 1.2">{t}</span>
           <sc-if value="[[ gOn{i} ]]" hint-placeholder-val="[[ {'true' if i < 2 else 'false'} ]]"><span aria-hidden="true" style="position: absolute; right: 12px; top: 12px; width: 26px; height: 26px; border-radius: {R_S}px; background: {LIME}; display: flex; align-items: center; justify-content: center; animation: pop .4s cubic-bezier(.34,1.56,.64,1) both">{icon('check', 16, EVG, 2.8)}</span></sc-if>
         </button>''' for i, (t, icn) in enumerate(GOALS))
-    segs = ''.join(f'<span style="flex: 1 1 0; height: 6px; border-radius: 2px; background: {EVG if i == 0 else "#DCE4DF"}"></span>' for i in range(4))
+    segs = ''.join(f'<span style="flex: 1 1 0; height: 6px; border-radius: 2px; background: {EVG}"></span>' for i in range(4))
     body = f'''  <div class="scr" style="bottom: 0; padding-bottom: 24px; gap: 16px">
-    <header style="display: flex; align-items: center; gap: 14px">{back('R7-Welcome.dc.html')}<div role="img" aria-label="Step 1 of 4" style="flex-grow: 1; display: flex; gap: 6px">{segs}</div><span style="font-size: 13px; color: {MUTED}">1 of 4</span></header>
+    <header style="display: flex; align-items: center; gap: 14px">{back('R7-Auth-Consent.dc.html')}<div role="img" aria-label="Step 4 of 4" style="flex-grow: 1; display: flex; gap: 6px">{segs}</div><span style="font-size: 13px; color: {MUTED}">4 of 4</span></header>
     <h1 class="d" style="font-size: 40px; margin-top: 4px">What brings you here?</h1>
     <p style="font-size: 16px; line-height: 1.4; color: {SEC}; margin-top: -4px">Pick as many as you like. You can change this later.</p>
     <div role="group" aria-label="Your reasons" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">{tiles}</div>
@@ -481,8 +481,8 @@ def welcome_photo():
     <h1 class="d" style="font-size: 42px">Money gets easier when we talk about it.</h1>
     <p style="font-size: 16px; line-height: 1.45; color: {SEC}">Learn with women who get it. See where you stand, then grow from there.</p>
     <div style="flex-grow: 1"></div>
-    <a href="R7-Goals.dc.html" style="height: 56px; flex-shrink: 0; border-radius: {R_M}px; background: {EVG}; color: #FFFFFF; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center">Join for free</a>
-    <a href="R7-Home.dc.html" style="height: 52px; flex-shrink: 0; border-radius: {R_M}px; box-shadow: inset 0 0 0 1px #C9D3CE; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center; margin-top: -6px">I have an account</a>
+    <a href="R7-Auth-Signin.dc.html" style="height: 56px; flex-shrink: 0; border-radius: {R_M}px; background: {EVG}; color: #FFFFFF; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center">Join for free</a>
+    <a href="R7-Auth-Back.dc.html" style="height: 52px; flex-shrink: 0; border-radius: {R_M}px; box-shadow: inset 0 0 0 1px #C9D3CE; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center; margin-top: -6px">I have an account</a>
   </div>'''
     logic = '''class Component extends DCLogic {
   renderVals() { return { wpY: 18, wpLabel: 'Safety net, R 3 100' }; }
