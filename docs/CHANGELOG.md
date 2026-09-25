@@ -4,6 +4,15 @@
 >
 > Format: `### <short title>` under a date heading, with the commit hash once known, then 1–5 bullets.
 
+## 2026-09-25
+
+### Round 3, batches 1 and 2: taste board, Direction E foundations, Ola v2
+- Ian answered T-010: **Claude self-checks every board** (D-026). Added `scripts/canvas-preview.mjs`, which renders boards locally with the canvas runtime and screenshots them, including clicked states. The first checks caught a clipped headline, an overlapping animation and a pink cast on Ola.
+- **Taste board** (canvas, Round 3 page): 12 references from Play Store listings (Wise, Kuda, Cash App, Monzo, Headspace, Duolingo) and Dribbble (mascots, AI orb, widgets, savings pools, bento), each with the one thing to take. Photography comes from nappy.co (CC0).
+- **Direction E foundations:** evergreen, lime, blush, mist, pool and ink for day; Round 1 Night Oasis for Learn and Ask; Bricolage Grotesque + Geist; radius by rank; ripple, pool and stepping-stone motifs; live motion tokens.
+- **Ola v2:** a mint-to-iris glass orb with capsule eyes only, squash and stretch, six states. The board is interactive: tap a state.
+- New tools this session: Mobbin needs a paid plan, the Unsplash connector needs Ian to confirm his email, and Figma is connected (View seat). Details and tokens in `docs/00-discovery/08-round-3-direction-e.md`.
+
 ## 2026-09-24
 
 ### Harness: changelog, task list, commit hook, Round 3 handover

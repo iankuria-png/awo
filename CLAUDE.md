@@ -62,7 +62,7 @@ docs/decisions/      log.md (+ ADRs for big technical choices)
 docs/glossary.md     AWO vocabulary
 docs/STATUS.md       snapshot         docs/TASKS.md      task list       docs/CHANGELOG.md  diary
 docs/handover/       session handovers
-scripts/             screenshot.mjs, playwright-mcp.sh, hooks/require-changelog.sh
+scripts/             screenshot.mjs, canvas-preview.mjs (self-check boards), playwright-mcp.sh, hooks/require-changelog.sh
 .claude/settings.json  plugins, MCP approval, the changelog hook      .mcp.json  Playwright server
 ```
 
