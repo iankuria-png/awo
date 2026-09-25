@@ -6,6 +6,12 @@
 
 ## 2026-09-25
 
+### Round 6, batches 2 and 3: components, widgets, marketing, foundations
+- **Components** (all live): buttons, the shape tab bar, provenance labels, inputs, switches, feedback states, the five shapes working, people, rows and steps. **Widgets**: a lock screen with no amounts, a home screen with small, medium and large widgets, and notifications written as a person first.
+- **Marketing from captures of the Round 6 screens**, so nothing starts stale: six store screenshots (one per area, in its colour), a store listing in our own layout, a feature graphic, two app icon candidates, a device hero, and word-of-the-week, pool and story ads. PNGs are exported to `design/marketing/round-6/`.
+- **E foundations at Volume 1**: area colours with their meaning and motion, type, animated shapes, people, motion speeds and radius by rank.
+- Recorded in **`00-discovery/12-round-6.md`**. Generator README in `design/round-6/`.
+
 ### Round 6, batch 1: the screens at Volume 1 (Clean)
 - Ian's Round 5 pick (D-030): Volume 1, with Round 3's Bento and Stories Home structure, Oasis v2 onboarding and Night Oasis's Ask and profile. Fast-forwarded this branch to `claude/exciting-cray-7z7fke`, which holds Round 5, so the docs are one history again.
 - Canvas page **`r6`**: Welcome (three slides, each in its area's colour), Starter check (through "working out your profile" to the stage), **Home** (in Ian's order, with stories, a carousel and an expanding step), Learn, Ask Ola, Vault, Community and **Me** (a single readiness arc, evidence kept separate, four tappable dimensions, "explain it more simply" marked AI-assisted, versions as stepping stones). The tab bars link the screens.

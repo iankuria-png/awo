@@ -1,4 +1,6 @@
-# Marketing assets (Round 3 drafts)
+# Marketing assets
+
+The latest drafts are in [`round-6/`](round-6/README.md): Volume 1 (Clean), built from captures of the Round 6 screens. The files below are Round 3 drafts, kept as a record.
 
 Exploration drafts for Direction E. They are not final brand assets: the wordmark (Q-25), app name and store copy (Q-31) are still open. Every number on a screen is a sample.
 

@@ -2,18 +2,15 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 6 (Volume 1, Clean; D-030)
+## Now: Ian reacts to Round 6
 
-| ID | Task | Owner | Notes |
-|---|---|---|---|
-| T-071 | Components and widgets boards, from the Round 6 pieces | Claude | Batch 2 |
-| T-072 | Marketing from the live screens: Play Store screenshots, listing, feature graphic, icon, device hero, campaign ads | Claude | Batch 3 |
-| T-073 | E foundations board, updated for Volume 1: colour, type, shapes, people, motion | Claude | Batch 3 |
+Round 6 is on canvas page `r6` ([12](00-discovery/12-round-6.md)): onboarding, the five areas and Ask, components, widgets, marketing and foundations, all at Volume 1 (Clean).
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
+| T-074 | React to **Round 6** on the canvas: Home's order, the Me arc, the icon candidates (A stones or B wordmark), anything to push further | Comments on boards are welcome |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
 | T-028 | Optional: a paid **Mobbin** plan | Dribbble and Play Store cover references for now |
 | T-022 | Answer the open questions when ready (non-blocking) | Q-04, Q-05, Q-07, Q-09, Q-10, Q-25, Q-26, Q-27, Q-29 to Q-32 |
@@ -22,7 +19,7 @@
 
 | ID | Task | Owner |
 |---|---|---|
-| T-048 | Design Standard v1 draft, starting from the Round 5 language key (was: the Round 4 "E, tightened" board) | Claude |
+| T-048 | Design Standard v1 draft, starting from the Round 6 foundations board and components | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
 | T-032 | PRD v1 + feature map + IA (member, public, admin), built on the five areas (D-029) | Claude |
@@ -71,3 +68,6 @@
 | T-060–T-062 | Round 5 on canvas page `r5`: the language key (colour, shape, meaning, motion per area) and the volume test (Home, Learn, Vault, Community, Me at three volumes), self-checked; generator in `design/round-5/` ([11](00-discovery/11-round-5-volume-test.md)) | 2026-09-25 |
 | T-063 | Ian picked Volume 1 (Clean), with Round 3's Home structure, Oasis v2 onboarding and Night Oasis's Ask and profile (D-030) | 2026-09-25 |
 | T-064, T-070 | Round 6 batch 1 on canvas page `r6`: Welcome, Starter check, Home, Learn, Ask, Vault, Community, Me, linked by their tab bars; generator in `design/round-6/` | 2026-09-25 |
+| T-071 | Round 6 components and widgets boards | 2026-09-25 |
+| T-072 | Round 6 marketing from captures of the live screens: six store screenshots, listing, feature graphic, icon candidates, device hero, three ads; PNGs in `design/marketing/round-6/` | 2026-09-25 |
+| T-073 | E foundations at Volume 1 | 2026-09-25 |

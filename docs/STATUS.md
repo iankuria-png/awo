@@ -1,15 +1,15 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** Round 6 at Volume 1 (Clean): the screens are on page `r6`. Components, widgets, marketing and foundations are next (T-071 to T-073)
-**Last updated:** 2026-09-25, session 4
+**Current focus:** Round 6 is on the canvas at Volume 1 (Clean): onboarding, the five areas and Ask, components, widgets, marketing and foundations. Waiting for Ian's reaction (T-074)
+**Last updated:** 2026-09-25, session 3 (Round 6)
 
 ## Start here
 
-1. **[11-round-5-volume-test.md](00-discovery/11-round-5-volume-test.md):** the Round 5 language (a colour and a shape per area), the three volumes and the watch-outs.
-2. **[TASKS.md](TASKS.md):** Ian picks a volume (T-063), then the five areas become full flows (T-064).
+1. **[12-round-6.md](00-discovery/12-round-6.md):** Round 6 as built, and the choices for Ian to check. The language itself (a colour and a shape per area) is in [11](00-discovery/11-round-5-volume-test.md).
+2. **[TASKS.md](TASKS.md):** Ian reacts to Round 6 (T-074); then the Design Standard v1 draft (T-048).
 3. **[CHANGELOG.md](CHANGELOG.md):** what happened, commit by commit. The latest entries explain the branch merge and the renumbering.
-4. **Round history:** [08](00-discovery/08-round-3-direction-e.md) Round 3 (Direction E tokens, Ola v2, sources and tools), [09](00-discovery/09-round-3-review.md) the review of Round 3, [10](00-discovery/10-round-4.md) Round 4 as built.
+4. **Round history:** [11](00-discovery/11-round-5-volume-test.md) Round 5, [08](00-discovery/08-round-3-direction-e.md) Round 3 (Direction E tokens, Ola v2, sources and tools), [09](00-discovery/09-round-3-review.md) the review of Round 3, [10](00-discovery/10-round-4.md) Round 4 as built.
 5. Background: the [Round 3 handover](handover/2026-09-24-round-3.md) (taste, mistakes to avoid, canvas gotchas).
 
 ## Snapshot
