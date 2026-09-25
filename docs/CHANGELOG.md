@@ -6,6 +6,13 @@
 
 ## 2026-09-25
 
+### Round 7 becomes the full board: brand, foundations, new screens, components
+- Ian: make Round 7 "a full board which we will use for UI/UX inspo and references", with Round 2's brand boards and Round 3's screens, components and marketing redone in the Round 7 language. He also confirmed the draft: keep Geist and Kalam, and move marketing over (D-033).
+- **New screens**, written natively (`design/round-7/screens7.py`): a photo-led welcome, "What brings you here", Your progress (tap a stone to see each version), the 30-day check-in (drag the amount, three questions, a new stone at the end), Your buddy and Settings (switches, with reduce motion and larger text working live). Me links to Progress and Settings; Community links to the buddy.
+- **Components** (`kit7.py`): controls and data-and-feedback boards, both live (tabs, choices, switches, the what-if calculator, notices, loading, empty, offline and failed states). Widgets are the Round 6 board in Round 7 type.
+- **Brand and foundations** (`brand7.py`): app icon A with the Geist wordmark lockup, the icon family, motion M1 to M6 as live cards, and foundations (colour, shapes, people, space).
+- Page `r7` is laid out as a reference: foundations and brand on top, then every screen, linked, then components and widgets. Marketing follows.
+
 ### Round 7: Vault, Me and Community redesigned
 - Ian's reaction: these three were the weakest (hierarchy, generic, text-heavy; Community less so). They are now written natively in Round 7 style in **`design/round-7/areas7.py`**, not transformed from Round 6. Each screen leads with its area's shape and has one clear job.
 - **Vault:** the lime arch is the hero (the word of the week flips to an example). "3 words to practise" opens a short practice deck. Kept words sit in four collections instead of a long list.

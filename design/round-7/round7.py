@@ -18,6 +18,10 @@ import home  # noqa: E402
 import kit  # noqa: E402
 import onboarding  # noqa: E402
 import areas7  # noqa: E402  (Vault, Me, Community redesigned natively in Round 7 style)
+import screens7  # noqa: E402  (screens Round 6 never had, from Round 3's E set)
+import kit7  # noqa: E402  (controls, data and feedback)
+import brand7  # noqa: E402  (brand, icons, motion, foundations)
+from screens7 import mark  # noqa: E402
 from lib6 import EVG, LIME, MOON, BLUSH_INK, write  # noqa: E402
 
 HANDS = ['Kalam', 'Nanum Pen Script', 'Delicious Handrawn']
@@ -32,6 +36,7 @@ R7_CSS = """
 .tp{border-radius:8px}
 .tile{border-radius:14px}
 .rp{border-radius:inherit}
+.card{border-radius:14px}
 .hand{font-weight:400;letter-spacing:0;line-height:1.15;font-size-adjust:.5}
 """
 
@@ -71,8 +76,8 @@ def moments(name, html):
     elif name == 'R7-Learn':
         sub('<p style="font-size: 14px; color: #9AA39F; padding: 0 4px">You showed up three evenings this week.</p>',
             f'<p class="hand" style="font-size: 24px; color: {MOON}; padding: 0 4px; {HF}">You showed up three evenings this week.</p>')
-    elif name == 'R7-Components':
-        sub('Everything the Round 6 screens are built from, at Volume 1.', 'Everything the Round 7 screens are built from: Geist, three corner sizes and a circle.')
+    elif name == 'R7-Widgets':
+        sub(f'<span class="d" style="font-size: 16px; color: {LIME}">awo</span>', mark(24, '#FFFFFF', LIME))
     # Vault, Me and Community are written natively (areas7.py) and carry their own moments.
     # Me and Ask stay typeset: results and AI answers are never handwritten.
     return html
@@ -148,10 +153,10 @@ def transform(name, html, native=False):
 BOARDS = [
     ('R7-Welcome', onboarding.welcome), ('R7-Starter', onboarding.starter), ('R7-Home', home.build),
     ('R7-Learn', areas.learn), ('R7-Ask', areas.ask), ('R7-Vault', areas7.vault), ('R7-Community', areas7.community),
-    ('R7-Me', areas7.me), ('R7-Components', kit.components),
-]
+    ('R7-Me', areas7.me), ('R7-Widgets', kit.widgets),
+] + screens7.BOARDS + kit7.BOARDS + brand7.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]
     for name, fn in BOARDS:
-        write(os.path.join(out, name + '.dc.html'), transform(name, fn(), native=fn.__module__ == 'areas7'))
+        write(os.path.join(out, name + '.dc.html'), transform(name, fn(), native=fn.__module__ in ('areas7', 'screens7', 'kit7', 'brand7')))

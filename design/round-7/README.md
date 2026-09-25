@@ -6,6 +6,9 @@ Round 7 is Round 6 with three changes, applied as a transform so the two rounds 
 |---|---|
 | `round7.py` | `R7-Welcome`, `R7-Starter`, `R7-Home`, `R7-Learn`, `R7-Ask`, `R7-Vault`, `R7-Community`, `R7-Me`, `R7-Components`. It builds each Round 6 board, then: adds the handwritten moments (`moments()`), swaps the display type to Geist, maps every corner to 6, 10, 14 or a circle, relinks tabs to Round 7, and adds a `hand` Tweak |
 | `areas7.py` | `vault()`, `me()` and `community()`: the three screens redesigned natively in Round 7 style (new layouts, not a transform). `round7.py` still adds the `hand` Tweak and Round 7 links, but skips the moments, corner and type steps for them |
+| `screens7.py` | Screens Round 6 never had, from Round 3's set: `R7-Entry` (photo-led welcome), `R7-Goals`, `R7-Progress`, `R7-Checkin`, `R7-Buddy`, `R7-Settings` |
+| `kit7.py` | `R7-Components` (controls) and `R7-Data` (data and feedback). `R7-Widgets` is Round 6's widgets board through the transform |
+| `brand7.py` | `R7-Brand` (app icon A, the wordmark in Geist), `R7-Icons`, `R7-Motion` (M1 to M6, live), `R7-Foundations` |
 | `typeboard.py` | `R7-Type`: Geist's scale, the handwriting candidates with a live switcher, and the corners, each with a Round 6 comparison |
 
 ```sh

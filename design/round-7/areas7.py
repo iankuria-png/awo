@@ -158,7 +158,7 @@ def me():
     <header style="display: flex; align-items: center; gap: 12px">
       <img class="face" src="{IMG['naledi']}" alt="" style="width: 44px; height: 44px">
       <span style="flex-grow: 1; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 20px; font-weight: 600; letter-spacing: -0.02em">Naledi</span><span style="font-size: 13px; color: {MUTED}">Johannesburg</span></span>
-      <button aria-label="Settings" style="width: 44px; height: 44px; border-radius: {R_M}px; background: #FFFFFF; display: flex; align-items: center; justify-content: center">{icon('gear', 20, INK)}</button>
+      <a href="R7-Settings.dc.html" aria-label="Settings" style="width: 44px; height: 44px; border-radius: {R_M}px; background: #FFFFFF; display: flex; align-items: center; justify-content: center">{icon('gear', 20, INK)}</a>
     </header>
     <section style="border-radius: {R_L}px; background: {POOL}; color: {EVG}; padding: 20px 16px 18px; display: flex; flex-direction: column; gap: 12px">
       <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
@@ -186,10 +186,10 @@ def me():
       <span style="flex-grow: 1; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Evidence: early</span><span style="font-size: 13px; color: {MUTED}">Check-ins add more. Kept apart from the score.</span></span>
       <span role="img" aria-label="1 of 3" style="display: flex; gap: 3px"><span style="width: 16px; height: 6px; border-radius: 2px; background: {EVG}"></span><span style="width: 16px; height: 6px; border-radius: 2px; background: #DCE4DF"></span><span style="width: 16px; height: 6px; border-radius: 2px; background: #DCE4DF"></span></span>
     </section>
-    <section style="border-radius: {R_L}px; background: #FFFFFF; padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 8px">
-      <span style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-size: 17px; font-weight: 600">Your versions</span><span style="font-size: 13px; color: {MUTED}">Old ones never change</span></span>
+    <a href="R7-Progress.dc.html" style="border-radius: {R_L}px; background: #FFFFFF; padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 8px">
+      <span style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-size: 17px; font-weight: 600">Your versions</span><span style="display: flex; align-items: center; gap: 2px; font-size: 13px; color: {MUTED}">See progress{icon('chev', 16, MUTED)}</span></span>
       <div role="img" aria-label="Readiness 55 in July, 59 in August, 63 in September; next check-in 13 October" style="position: relative; height: 92px; margin-top: 22px">{spark}{spark_lbl}</div>
-    </section>
+    </a>
     <button onClick="[[ toggleMean ]]" aria-expanded="[[ mean ]]" style="border-radius: {R_L}px; background: #FFFFFF; padding: 0 16px; min-height: 56px; display: flex; align-items: center; justify-content: space-between; font-size: 15px; font-weight: 600">What this means, in full<span style="display: flex; transform: rotate([[ meanRot ]]deg); transition: transform .28s">{icon('chev', 18, MUTED)}</span></button>
     <sc-if value="[[ mean ]]" hint-placeholder-val="[[ false ]]">
       <section style="border-radius: {R_L}px; background: #FFFFFF; padding: 16px; display: flex; flex-direction: column; gap: 12px; margin-top: -8px; animation: rise .28s cubic-bezier(.2,.8,.2,1) both">
@@ -247,7 +247,8 @@ def community():
         badge = f'<span class="chip" style="position: absolute; right: 10px; top: 10px; height: 24px; padding: 0 8px; background: {BLUSH}; color: {BLUSH_INK}">{new}</span>' if new else ''
         ccards += f'<{tag} style="position: relative; flex-shrink: 0; width: 152px; border-radius: {R_L}px; background: #FFFFFF; padding: 16px 14px 14px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px">{badge}{cluster(keys, 3)}<span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">{name}</span><span style="font-size: 13px; color: {MUTED}">{count}</span></span></{end}>'
     body = f'''  <div class="scr" style="gap: 16px">
-    <h1 class="d" style="font-size: 44px">Community</h1>
+    <header style="display: flex; align-items: center; justify-content: space-between"><h1 class="d" style="font-size: 44px">Community</h1>
+      <a href="R7-Buddy.dc.html" aria-label="Your buddy, Wanjiru" style="position: relative; width: 48px; height: 48px; flex-shrink: 0"><span style="position: absolute; inset: 0; border-radius: 999px; border: 2.5px solid #F29BB5"></span><img class="face" src="{IMG['wanjiru']}" alt="" style="position: absolute; left: 5px; top: 5px; width: 38px; height: 38px"></a></header>
     <section style="border-radius: {R_L}px; background: {BLUSH}; color: {BLUSH_INK}; padding: 18px; display: flex; flex-direction: column; gap: 14px">
       <div style="display: flex; justify-content: space-between; align-items: center"><span class="lbl" style="color: {BLUSH_2}">This week's question</span>{icon('ripple', 22, BLUSH_INK)}</div>
       <span class="d" style="font-size: 32px">What did you say no to this week?</span>

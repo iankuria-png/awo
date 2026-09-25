@@ -2,15 +2,15 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Ian reacts to Round 7
+## Now: Round 7 as the full board
 
-Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes. Vault, Me and Community have been redesigned after Ian's first reaction (T-078).
+Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes. Vault, Me and Community have been redesigned after Ian's first reaction (T-078). Round 7 is now the full reference board (D-034): brand, foundations, every screen, components and widgets are up; marketing is next (T-076).
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
-| T-075 | React to **Round 7**, especially the redesigned Vault, Me and Community. Confirm the draft D-033 (keep Geist and Kalam, move marketing to Geist). Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
+| T-075 | React to **Round 7** as the full board: the new screens (progress, check-in, buddy, settings, onboarding), components, brand and motion. Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
 | T-028 | Optional: a paid **Mobbin** plan | Dribbble and Play Store cover references for now |
 | T-022 | Answer the open questions when ready (non-blocking) | Q-04, Q-05, Q-07, Q-09, Q-10, Q-25, Q-26, Q-27, Q-29 to Q-32 |
@@ -20,7 +20,7 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 | ID | Task | Owner |
 |---|---|---|
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
-| T-076 | Move marketing to Round 7: recapture the screens (including the new Vault, Me and Community) and regenerate the boards and exports in Geist. Starts when Ian confirms D-033 | Claude |
+| T-076 | **In progress.** Move marketing to Round 7: recapture the screens and rebuild store screenshots, listing, feature graphic, icon, device hero and ads in Geist; export PNGs (D-033) | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
 | T-032 | PRD v1 + feature map + IA (member, public, admin), built on the five areas (D-029) | Claude |
@@ -75,3 +75,4 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 | T-074 | Ian reacted to Round 6: icon A, keep Home as it is (D-031) | 2026-09-25 |
 | T-077 | Round 7 on canvas page `r7`: type and corners board, nine screens transformed (Geist, handwritten moments, 6/10/14 corners), a `hand` Tweak on each; generator in `design/round-7/` | 2026-09-25 |
 | T-078 | Round 7 Vault, Me and Community redesigned natively (`design/round-7/areas7.py`): shape-led heroes, one job each, detail one tap deeper | 2026-09-25 |
+| T-079 | Round 7 full board, batches A to C: brand, icons, motion, foundations; photo welcome, goals, progress, check-in, buddy, settings; components, data and feedback, widgets (D-034) | 2026-09-25 |
