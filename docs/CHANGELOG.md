@@ -6,6 +6,21 @@
 
 ## 2026-09-25
 
+### Round 8 briefed: the kickoff prompt
+- Ian's next direction is recorded as D-037 and D-038:
+  - Learn absorbs the Vault as a tab, and a new centre tab, the Hub, holds tools for employed women and entrepreneurs (tabs: Home, Learn, Hub, Community, Me).
+  - Goals of every kind.
+  - Learning beyond savings groups (markets, crypto, forex, companies).
+  - Real human stories and an AWO podcast.
+  - Community as a feed.
+- **`docs/handover/2026-09-25-round-8-kickoff.md`** holds:
+  - the brief and the proposed IA, with three Hub icon directions;
+  - a Hub tool catalogue (12 for jobs, 11 for businesses, 8 for everyone), each with how it's woven in and its guard rail;
+  - where the ideas meet the rules;
+  - the deliverables, the gotchas, and a kickoff prompt to paste into a new session.
+- New open questions Q-35 to Q-40: shops, featured companies, reading members' documents, a DIVA calculator, the podcast, and crypto and forex.
+- The render and layout scripts moved out of the scratchpad and into the repo: `scripts/serve-boards.py`, `scripts/board-check.mjs` and `design/round-7/layout7.py`. Doc 06 explains them.
+
 ### Round 7 batch 5: AWO Admin (desktop)
 - Seven linked admin screens (`design/round-7/admin7.py`), with Cmd+K search and a sidebar showing counts:
   - **Overview:** "Needs you" first (filterable), then what's live, key figures and where members are.

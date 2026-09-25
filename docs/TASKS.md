@@ -2,7 +2,7 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Ian reacts to Round 7's new batches
+## Now: Round 8 is briefed
 
 Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes. Vault, Me and Community have been redesigned after Ian's first reaction (T-078). Round 7 is now the full reference board (D-034): brand, foundations, every screen, components, widgets and marketing are all on page `r7`.
 
@@ -20,6 +20,7 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Owner |
 |---|---|---|
+| T-086 | **Round 8** from the kickoff prompt: Learn with the Vault as a tab, the Hub at the centre, goals of every kind, stories and the podcast, the Community feed ([handover](handover/2026-09-25-round-8-kickoff.md)) | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |

@@ -61,6 +61,13 @@ Canvas runtime gotchas found this way (Round 4):
 - `src="{{x}}"` or SVG `width="{{x}}"` inside `<sc-for>` errors on first parse. Write repeated images literally, and size SVGs with a style binding.
 - Flex children shrink by default. Give cards in a fixed-height column `flex-shrink: 0`.
 
+**The scripts (Round 7 onwards):**
+- `scripts/serve-boards.py <root> <blob dir> [port]` serves the boards. Put the runtime at `<root>/project/support.js`, and images at `<blob dir>/<asset id>.<ext>`.
+- `scripts/board-check.mjs plan.json` renders each board, clicks through its states and flags problems (the plan format is in its header).
+- `design/round-7/layout7.py` lays out a canvas page row by row. It always starts from a fresh read of the live `canvas.json`.
+
+To get the images for a new session, list the canvas's assets (`scope: "assets"`) and read each one by its id.
+
 Keep everything in the scratchpad. Don't commit `dc-runtime.js` or the renders.
 
 ## Motion and illustration tooling
