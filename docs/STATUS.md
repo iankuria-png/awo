@@ -1,7 +1,7 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** Round 5 is on the canvas: one design language for Home, Learn, Vault, Community and Me, at three volumes. Waiting for Ian to pick a volume (T-063)
+**Current focus:** Round 6 at Volume 1 (Clean): the screens are on page `r6`. Components, widgets, marketing and foundations are next (T-071 to T-073)
 **Last updated:** 2026-09-25, session 4
 
 ## Start here
@@ -14,7 +14,7 @@
 
 ## Snapshot
 
-- **Design canvas:** [AWO Direction Explorations](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9), pages Round 1 to Round 5 (opens on Round 5).
+- **Design canvas:** [AWO Direction Explorations](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9), pages Round 1 to Round 6 (opens on Round 6).
 - **Direction:** **E** (A + D: evergreen, lime, blush, mist, pool; Bricolage Grotesque + Geist; Night Oasis for Learn and Ask; Ola v2 orb). Round 4 made the flows deeper but flattened the look; Ian wants Round 3's bold condensed type, colour blocks, signature shapes and visual-first layouts back, as a **meaningful design language: fun, modern, clean** (D-028). The app has five areas: **Home, Learn, Vault, Community, Me** (D-029).
 - **Environment:** the network is open for design research; browse with headless Chromium (`scripts/screenshot.mjs` or the Playwright MCP). Connectors: Figma (View seat), Unsplash (needs its account email confirmed), Fonts, tldraw, Trello, HyperFrames; Mobbin needs a paid plan. Claude self-checks boards with `scripts/canvas-preview.mjs` (D-026; recipe in [06](00-discovery/06-tooling-and-harness.md#reviewing-canvas-boards-locally-render-recipe)).
-- **Decisions:** D-001 to D-029 in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking; newest are Q-29 to Q-32).
+- **Decisions:** D-001 to D-030 in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking; newest are Q-29 to Q-32).

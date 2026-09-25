@@ -6,6 +6,11 @@
 
 ## 2026-09-25
 
+### Round 6, batch 1: the screens at Volume 1 (Clean)
+- Ian's Round 5 pick (D-030): Volume 1, with Round 3's Bento and Stories Home structure, Oasis v2 onboarding and Night Oasis's Ask and profile. Fast-forwarded this branch to `claude/exciting-cray-7z7fke`, which holds Round 5, so the docs are one history again.
+- Canvas page **`r6`**: Welcome (three slides, each in its area's colour), Starter check (through "working out your profile" to the stage), **Home** (in Ian's order, with stories, a carousel and an expanding step), Learn, Ask Ola, Vault, Community and **Me** (a single readiness arc, evidence kept separate, four tappable dimensions, "explain it more simply" marked AI-assisted, versions as stepping stones). The tab bars link the screens.
+- New generator in **`design/round-6/`**, built on Round 5's `lib.py`. Every board was rendered and clicked through before publishing. The checks caught overlapping welcome text, small pager targets, a wrapping button, a clipped version stone and Home content under the tab bar.
+
 ### Round 5 published: one language, five areas, three volumes
 - Canvas page **`r5`** (opens by default), 4 boards, recorded in **`00-discovery/11-round-5-volume-test.md`**. It answers Ian's Round 4 reaction (D-028, D-029).
 - **The language:** each area has a colour and a shape that means one thing and moves one way. Home is evergreen with a pool (money building), Learn is night with a moon (learning, Ola), Vault is lime with an arch (kept words), Community is blush with ripples (people), Me is pool with stepping stones (her stage). The tab icons are the shapes; a tile wears the colour of the area it opens.

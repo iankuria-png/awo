@@ -2,24 +2,26 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: waiting for Ian's pick on Round 5
+## Now: Round 6 (Volume 1, Clean; D-030)
 
-Round 5 is on canvas page `r5` ([11](00-discovery/11-round-5-volume-test.md)): one design language for the five areas, at three volumes. Next steps depend on T-063.
+| ID | Task | Owner | Notes |
+|---|---|---|---|
+| T-071 | Components and widgets boards, from the Round 6 pieces | Claude | Batch 2 |
+| T-072 | Marketing from the live screens: Play Store screenshots, listing, feature graphic, icon, device hero, campaign ads | Claude | Batch 3 |
+| T-073 | E foundations board, updated for Volume 1: colour, type, shapes, people, motion | Claude | Batch 3 |
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
-| T-063 | Pick a volume on the Round 5 page (or mix, e.g. "2, with Vault from 3") | Then Claude redoes the five areas' flows at that volume |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
 | T-028 | Optional: a paid **Mobbin** plan | Dribbble and Play Store cover references for now |
 | T-022 | Answer the open questions when ready (non-blocking) | Q-04, Q-05, Q-07, Q-09, Q-10, Q-25, Q-26, Q-27, Q-29 to Q-32 |
 
-## Next (after Ian picks a volume)
+## Next (after Round 6)
 
 | ID | Task | Owner |
 |---|---|---|
-| T-064 | Redo the five areas at the chosen volume as interactive flows, carrying over Round 4's states and hard moments where they fit | Claude |
 | T-048 | Design Standard v1 draft, starting from the Round 5 language key (was: the Round 4 "E, tightened" board) | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
@@ -67,3 +69,5 @@ Round 5 is on canvas page `r5` ([11](00-discovery/11-round-5-volume-test.md)): o
 | T-047 | Superseded by Round 5 (T-060 to T-064): the direction is set by the design language first | 2026-09-25 |
 | T-029 | Merged the Round 3 and Round 4 branches and reconciled IDs | 2026-09-25 |
 | T-060–T-062 | Round 5 on canvas page `r5`: the language key (colour, shape, meaning, motion per area) and the volume test (Home, Learn, Vault, Community, Me at three volumes), self-checked; generator in `design/round-5/` ([11](00-discovery/11-round-5-volume-test.md)) | 2026-09-25 |
+| T-063 | Ian picked Volume 1 (Clean), with Round 3's Home structure, Oasis v2 onboarding and Night Oasis's Ask and profile (D-030) | 2026-09-25 |
+| T-064, T-070 | Round 6 batch 1 on canvas page `r6`: Welcome, Starter check, Home, Learn, Ask, Vault, Community, Me, linked by their tab bars; generator in `design/round-6/` | 2026-09-25 |
