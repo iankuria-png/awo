@@ -19,9 +19,7 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Owner |
 |---|---|---|
-| T-082 | **In progress.** Round 7 batch 2, the deeper loop: lesson player, version compare, what-if simulator, check an offer, the DIVA report, hard moments | Claude |
-| T-083 | Round 7 batch 3, entrepreneurs: business profile, business check, business Home | Claude |
-| T-084 | Round 7 batch 5, AWO Admin (desktop): overview, approvals, scoring versions, members, moderation, content, audit and AI log; approvals shown as a proposal (Q-34) | Claude |
+| T-084 | **In progress.** Round 7 batch 5, AWO Admin (desktop): overview, approvals, scoring versions, members, moderation, content, audit and AI log; approvals shown as a proposal (Q-34) | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
@@ -81,3 +79,5 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 | T-076 | Marketing in Round 7 type: eight store screenshots (a photo-led Community one and the check-in, as in Round 3), a listing with descriptions and store rules, feature graphic, 512 icon, device hero, four ads; PNGs in `design/marketing/round-7/` (D-033) | 2026-09-25 |
 | T-080 | Ian picked batches 1, 2, 3 and 5, with phone and social sign-in (D-035, D-036) | 2026-09-25 |
 | T-081 | Round 7 batch 1, accounts and the first loop: phone and social sign-in, the code, about you, consent, the result reveal, choosing a first step, reminders, PIN lock, welcome back; all linked | 2026-09-25 |
+| T-082 | Round 7 batch 2, the deeper loop: lesson player, compare versions, what-if simulator, check an offer, the one-page report, hard moments | 2026-09-25 |
+| T-083 | Round 7 batch 3, entrepreneurs: business profile, business check (sample questions), business Home | 2026-09-25 |

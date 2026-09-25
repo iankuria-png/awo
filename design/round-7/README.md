@@ -11,6 +11,8 @@ Round 7 is Round 6 with three changes, applied as a transform so the two rounds 
 | `brand7.py` | `R7-Brand` (app icon A, the wordmark in Geist), `R7-Icons`, `R7-Motion` (M1 to M6, live), `R7-Foundations` |
 | `marketing7.py` | `R7-Store-1…8`, `R7-Listing`, `R7-Feature-Graphic`, `R7-App-Icon`, `R7-Hero-Device`, `R7-Ad-Photo`, `R7-Ad-Pool`, `R7-Ad-Word`, `R7-Ad-Story`, from 2x captures of the Round 7 screens (`CAPS`). Exports live in `design/marketing/round-7/` |
 | `auth7.py` | Batch 1: `R7-Auth-Signin`, `R7-Auth-Code`, `R7-Auth-Profile`, `R7-Auth-Consent`, `R7-Reveal`, `R7-FirstStep`, `R7-Auth-Notify`, `R7-Auth-Lock`, `R7-Auth-Back` |
+| `loop7.py` | Batch 2: `R7-Lesson`, `R7-Compare`, `R7-Simulator`, `R7-Offer`, `R7-Report` (A4), `R7-Hard` |
+| `biz7.py` | Batch 3: `R7-Biz-Profile`, `R7-Biz-Check`, `R7-Biz-Home` |
 | `typeboard.py` | `R7-Type`: Geist's scale, the handwriting candidates with a live switcher, and the corners, each with a Round 6 comparison |
 
 ```sh

@@ -6,6 +6,17 @@
 
 ## 2026-09-25
 
+### Round 7 batches 2 and 3: the deeper loop, and entrepreneurs
+- **The loop, deeper** (`design/round-7/loop7.py`):
+  - **Lesson player:** story cards, Thandi's stokvel as a turning circle, Ola explaining in reviewed words, a quick check with kind feedback, and a finish that waxes the moon.
+  - **Compare versions:** pick any two; decreases are grey, never red, and nothing is recalculated.
+  - **What if:** safety net runway, and a loan's real cost. Both are labelled as illustrations.
+  - **Check an offer:** AI against AWO's red-flag list. It highlights the phrases, never says an offer is safe, and points to the FSCA register.
+  - **Report:** a printable one-page DIVA report.
+  - **Hard moments:** day one, a late check-in, coming back after weeks, a month that went down, and offline.
+- **Entrepreneurs** (`biz7.py`, D-018): a two-minute business profile, a business check with sample questions (stated as learning readiness, not a loan decision), and a business view of Home: this week's business step, her own notebook of money in and out in KSh, a business word and a business lesson.
+- Me now links to the report and to "Your business".
+
 ### Round 7 batch 1: accounts and the first loop
 - Ian picked batches 1, 2, 3 and 5, with phone and social sign-in (D-035, D-036). The admin approval rule is open (Q-34), with a two-person proposal.
 - New screens (`design/round-7/auth7.py`), all linked:

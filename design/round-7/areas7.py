@@ -198,7 +198,8 @@ def me():
       </section>
     </sc-if>
     <section style="border-radius: {R_L}px; background: #FFFFFF; padding: 0 16px; display: flex; flex-direction: column">
-      <div style="min-height: 56px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #EEF2EF"><span style="flex-grow: 1; font-size: 15px; font-weight: 600">Download my report</span>{icon('chev', 18, MUTED)}</div>
+      <a href="R7-Report.dc.html" style="min-height: 56px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #EEF2EF"><span style="flex-grow: 1; font-size: 15px; font-weight: 600">Download my report</span>{icon('chev', 18, MUTED)}</a>
+      <a href="R7-Biz-Profile.dc.html" style="min-height: 56px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #EEF2EF"><span style="flex-grow: 1; font-size: 15px; font-weight: 600">Your business</span>{icon('chev', 18, MUTED)}</a>
       <div style="min-height: 56px; display: flex; align-items: center; gap: 12px">{icon('lock', 18, EVG)}<span style="flex-grow: 1; font-size: 15px; font-weight: 600">Your data stays in South Africa</span>{icon('chev', 18, MUTED)}</div>
     </section>
   </div>
@@ -226,7 +227,7 @@ def me():
     return v;
   }
 }''' % dict(dims=dims_js, evg=EVG, mut=MUTED)
-    return phone('Me, your DIVA profile', body, logic, h=1330)
+    return phone('Me, your DIVA profile', body, logic, h=1390)
 
 
 # ---------------------------------------------------------------- Community
