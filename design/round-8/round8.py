@@ -12,10 +12,12 @@ sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, '..', 'round-7'))
 
 import round7  # noqa: E402  (transform: Round 7 CSS, the hand link and Tweak)
-from lib8 import write  # noqa: E402
+from lib8 import write, nb_text  # noqa: E402
 import icons8  # noqa: E402  (batch 1: the Hub's icon, three directions)
+import ia8  # noqa: E402  (batch 2: the IA and the tab bar)
+import learn8  # noqa: E402  (batch 2: Learn with Paths, Words and Stories; a topic; the decoder)
 
-BOARDS = icons8.BOARDS
+BOARDS = icons8.BOARDS + ia8.BOARDS + learn8.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]
@@ -23,4 +25,4 @@ if __name__ == '__main__':
     for name, fn in BOARDS:
         if only and name not in only:
             continue
-        write(os.path.join(out, name + '.dc.html'), round7.transform(name, fn(), native=True))
+        write(os.path.join(out, name + '.dc.html'), nb_text(round7.transform(name, fn(), native=True)))

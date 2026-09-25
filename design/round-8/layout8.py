@@ -17,16 +17,22 @@ if not any(p['id'] == PAGE for p in c.get('pages', [])):
 c['launch'] = {'view': 'canvas', 'page': PAGE}
 
 TITLES = {  # board file: title shown on canvas
-    'R8-Hub-Icons': "The Hub's icon: keystone, dial or awning (tap the tab bars)",
+    'R8-Hub-Icons': "The Hub's icon: keystone (picked), dial or awning (tap the tab bars)",
+    'R8-IA': 'Five tabs, one new centre (tap the tab bar)',
+    'R8-Learn': 'Learn: Paths, Words and Stories (switch tabs)',
+    'R8-Topic-Shares': 'A topic: shares and dividends (step through the bakery)',
+    'R8-Words-Decoder': 'Words: the buzzword decoder (type, or try Rug pull and Staking)',
 }
 
 ROWS = [
-    ('r8title1', "Batch 1: the Hub's icon, three directions", ['R8-Hub-Icons']),
+    ('r8title1', "The Hub's icon: three directions, and the pick", ['R8-Hub-Icons']),
+    ('r8title2', 'The new IA, and Learn with three tabs', ['R8-IA', 'R8-Learn', 'R8-Topic-Shares', 'R8-Words-Decoder']),
 ]
 
 HOWTO = ("Round 8: Learn with Words and Stories, the Hub at the centre, goals of every kind, real stories and a feed (D-037, D-038).\n\n"
          "Same language as Round 7: Geist, Kalam for rare moments, corners 6, 10 and 14 and a circle.\n\n"
-         "Batch 1 is the Hub's icon in three directions. Tap the tab bars: choosing the Hub plays its move once. "
+         "Top row: the Hub's icon in three directions. Ian picked the keystone, in lime (D-039). Choosing the Hub plays its move once.\n\n"
+         "Next row: the new IA and tab bar, then Learn with three tabs (Paths, Words, Stories) and its animated switch, a topic page and the buzzword decoder.\n\n"
          "The brief, the research and the ranked Hub tools are in docs/00-discovery/14-round-8.md.\n\n"
          "All content is sample content.")
 

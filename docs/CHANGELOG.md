@@ -6,6 +6,15 @@
 
 ## 2026-09-25
 
+### Round 8 batch 2: the new IA, and Learn with three tabs
+- Ian picked the **keystone** for the Hub, in **lime**, and nine tools for batch 3: the kickoff's eight plus the pay-day plan (D-039). The icon board now marks the pick.
+- Four new boards on page `r8` (`design/round-8/ia8.py`, `learn8.py`):
+  - **`R8-IA`:** the five tabs, what moved where from Round 7, and a live tab bar that turns night on Learn.
+  - **`R8-Learn`:** Paths, Words and Stories. The mint pill stretches towards the chosen tab and the content slides in from that side; each tab's shape arrives with it.
+  - **`R8-Topic-Shares`:** a five-step explainer (a sample bakery cut into 100 shares), six lessons, words, a Hub tool and a goal, "Before you start", and the standing line that AWO never says what to buy.
+  - **`R8-Words-Decoder`:** eight sample words at three depths, by country, with red flags and links into Learn and the Hub. Alias matches are labelled AI-assisted; a missing word can be asked for.
+- The self-check found and fixed clipped panes, a squashed button, amounts breaking across lines (every Round 8 board now uses non-breaking spaces in amounts), wrapped lesson times and an unreachable "not in Words" state. Doc 14 has the details.
+
 ### Round 8 batch 1: the brief, the research and the Hub's icon
 - **Doc 14** (`docs/00-discovery/14-round-8.md`) holds the research and the plan:
   - the 24 benchmark products, each with what AWO takes and what it leaves;

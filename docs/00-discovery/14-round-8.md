@@ -1,6 +1,6 @@
 # 14 · Round 8: Learn with Words, the Hub, goals of every kind, real stories, a feed
 
-> **Status:** Batch 1 (the brief, the research and the Hub's icon) is on canvas page `r8` (Round 8), 25 Sep 2026. Batches 2 to 4 follow once Ian has picked the icon.
+> **Status:** On canvas page `r8` (Round 8), 25 Sep 2026. Batch 1 (the brief, the research and the Hub's icon) and batch 2 (the IA and Learn) are published. Ian picked the keystone, in lime, and nine tools for batch 3 (D-039).
 > **Ian's brief (D-037, D-038):** Learn absorbs the Vault as a tab. A new centre tab, the Hub, holds tools with real value for employed women and entrepreneurs. Goals of every kind. Learning beyond savings groups. Real human stories and an AWO podcast. Community as a feed.
 > **Reference board:** Round 7 (page `r7`, [doc 13](13-round-7.md)). Round 8 speaks the same language: Geist for all type, Kalam for rare handwritten moments, corners 6, 10 and 14 and a circle, one shape per area, and motion that means something.
 > **Generator:** [`design/round-8/`](../../design/round-8/README.md).
@@ -214,18 +214,42 @@ All three ease out; springs stay kept for wins (M4). With reduce motion on, the 
 
 ## Questions for Ian
 
-1. **The Hub's icon:** keystone (recommended), dial or market awning?
-2. **Lime for the Hub:** or should the Hub have a colour of its own?
-3. **The first eight tools:** keep the kickoff's eight, or swap one for the pay-day plan (rank 3)?
-4. **Facts owner (Q-41):** who keeps tax tables, levies and thresholds current, and how often are they checked?
+| Question | Answer |
+|---|---|
+| The Hub's icon: keystone, dial or market awning? | **Keystone** (D-039) |
+| Lime for the Hub, or a colour of its own? | **Lime** (D-039) |
+| The first eight tools, or swap one for the pay-day plan? | **The eight, plus the pay-day plan** (D-039) |
+| Facts owner (Q-41): who keeps tax tables, levies and thresholds current? | Open |
+
+## Batch 2: the IA and Learn
+
+Four boards on the second row of page `r8`.
+
+| Board | What it shows | Choices worth checking |
+|---|---|---|
+| **Five tabs, one new centre** (`R8-IA`) | Each tab's shape, purpose and contents; what moved where from Round 7; a live tab bar | Tap Learn and the bar turns night (Learn is always night, Q-30). The keystone plays once when the Hub is chosen, and again only if she taps it again. Seven things moved; the DIVA check-in stays in Me |
+| **Learn** (`R8-Learn`) | Three tabs, **Paths**, **Words** and **Stories**, with the animated switch | See "The switch" below. Paths leads with the next lesson (now in an Investing path) and a doorway to the decoder; eight paths to explore, and crypto and forex carry a "Scam checks" tag. Words keeps the lime arch (Dividend is the word of the week), practice and collections. Stories leads with the podcast (a **sample guest**, Q-39), then Rise stories and "My worst money mistake" |
+| **A topic: shares and dividends** (`R8-Topic-Shares`) | A five-step explainer, the six lessons, the words, the Hub tools and a goal it links to, "Before you start", a painful lesson and the standing line | The explainer is a **sample bakery** cut into 100 shares: she buys two, it makes a profit, pays half out (R 500 for her two), and then the price moves (back to R 91 before R 124). "Before you start" names three checks (a safety net, no expensive debt, money for five years or more) as a way to think, not advice. The page ends: "Education, not a recommendation. AWO never tells you what to buy, and no platform pays to appear here." |
+| **The buzzword decoder** (`R8-Words-Decoder`) | Search Words for what she heard: the word at three depths, where you live (South Africa, Kenya, UK), often confused with, a red flag, and where it leads in Learn and the Hub | Eight sample words. Typing "exchange traded" or "rug pull" finds a word through its aliases, labelled **AI-assisted match**; AI never writes a meaning. "Staking" isn't in Words yet: she can ask for it, and the closest word is offered. "Black tax" (family support) leads to the pay-day plan. "Pips" carries a red flag about signal sellers and points to the FSCA register |
+
+**The switch:** a mint pill slides under the tabs. Its leading edge moves first and the trailing edge catches up 80 ms later, so it stretches towards the tab she chose and settles (340 ms, ease out). The new tab's content slides in 28px from the side she moved towards, with a fade (320 ms). Each tab's shape arrives with it: the moons rise one by one, the arch grows up from its base, and the story ring spreads once around Wanjiru's face. With reduce motion on, the content simply changes.
+
+**The hand, once per tab:** "Three evenings this week." on Paths (AWO's note, shortened to fit one line), and Wanjiru's own "Then I started again." on Stories. Words stays typeset (definitions are never handwritten).
+
+**Fixed during the self-check (D-026):**
+- Paths and Stories ran under the tab bar; the board grew to 1330px.
+- The arch's "See an example" button was squashed; the arch grew to 340px.
+- Amounts broke across lines ("R" on one line, "40" on the next). Every Round 8 board now keeps a currency and its digits together with non-breaking spaces.
+- "4 min" wrapped under long lesson titles.
+- "Rug pull" matched Crypto scam through its alias, so the "not in Words yet" state never showed; "Staking" now demonstrates it, with a neutral Crypto word as the closest match.
 
 ## Batches
 
 | Batch | Boards | Status |
 |---|---|---|
-| 1. Brief and research | This doc; `R8-Hub-Icons` | Published 25 Sep 2026; waiting on Ian's pick |
-| 2. IA, tab bar and Learn | The IA and tab bar; Learn with Paths, Words and Stories and the switch; a topic page; the buzzword decoder | Next |
-| 3. The Hub | The landing in both modes; the tool skeleton; eight tools; Home with several goals | |
+| 1. Brief and research | This doc; `R8-Hub-Icons` | Published 25 Sep 2026; keystone picked (D-039) |
+| 2. IA, tab bar and Learn | `R8-IA`, `R8-Learn`, `R8-Topic-Shares`, `R8-Words-Decoder` | Published 25 Sep 2026 |
+| 3. The Hub | The landing in both modes; the tool skeleton; nine tools (the eight plus the pay-day plan); Home with several goals | Next |
 | 4. Stories and the feed | Story reader; the podcast player; "My worst money mistake"; the feed, composer, a post with replies, a shop card, reporting | |
 
 ## Sources

@@ -9,7 +9,7 @@ DIRECTIONS = [
      "The Vault's arch moves into Learn as Words. Its keystone lifts out and becomes the Hub: the centre stone, in the centre tab. It sits in the same stone and water family as the other four shapes.",
      'A rainbow or a crown, at a glance. The raised wedge at the top keeps it a keystone. It is not the Words arch: that one stands on legs and a base.',
      'Tells a story the member can see: the arch in Learn, its keystone at the centre. "The tools that hold your money together."',
-     'Recommended', LIME, EVG),
+     'Picked (D-039)', LIME, EVG),
     ('dial', 'A control you turn to fit your numbers.',
      "Every Hub tool takes her own numbers: pay, prices, debts. The needle turns to her setting when the tab opens.",
      'A speedometer, a timer, or a credit-score gauge. That last one breaks rule D8 ("never a credit-score aesthetic").',
@@ -112,7 +112,7 @@ def story():
         <span style="position: absolute; left: 34px; bottom: 12px; font-size: 13px; font-weight: 600; color: {EVG}">The arch stays: Words, in Learn</span>
         <span class="story-lbl" style="position: absolute; left: 236px; top: 140px; font-size: 13px; font-weight: 600; color: {EVG}; display: flex; align-items: center; gap: 6px">The keystone: the Hub</span>
       </div>
-      <span class="knote">If Ian picks it, the Hub's first-open moment can play this once: the keystone lifts out of Learn's arch and settles in the centre tab. After that, only the small drop.</span>
+      <span class="knote">The Hub's first opening can play this once: the keystone lifts out of Learn's arch and settles in the centre tab. After that, only the small drop.</span>
     </section>'''
 
 
@@ -176,8 +176,8 @@ def board():
   }
 }''' % dict(pal=json.dumps([list(ACTIVE8[n]) for n, _i in AREAS8]), muted=MUTED, sw=switch_js(1, [False]))
     desc = ('The Hub needs its own shape, drawn like the other four: a 2px line on a 24 grid, one meaningful move. Three directions, '
-            'each tried in the real tab bar (tap the tabs), on night, at five sizes and blurred. Ian picks one.')
-    return with_css(board7('The Hub\'s icon: three directions', desc, body, logic, 1600, 1790, chip='For Ian to choose. Try tapping.'), HUB_CSS + STORY_CSS)
+            'each tried in the real tab bar (tap the tabs), on night, at five sizes and blurred. Ian picked the keystone, in lime.')
+    return with_css(board7('The Hub\'s icon: three directions', desc, body, logic, 1600, 1790, chip='Keystone picked. Try tapping.'), HUB_CSS + STORY_CSS)
 
 
 BOARDS = [('R8-Hub-Icons', board)]

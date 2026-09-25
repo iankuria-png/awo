@@ -4,8 +4,10 @@ Round 8 is written natively in the Round 7 language (Geist, Kalam for rare momen
 
 | File | Writes |
 |---|---|
-| `lib8.py` | Shared pieces: imports from Rounds 6 and 7, the three Hub icon directions (`hub_icon()`, `HUB_KIND` is the one other boards use until Ian picks), their moves (`HUB_CSS`) and the Round 8 tab bar (`tabbar8()`: Home, Learn, Hub, Community, Me) |
-| `icons8.py` | Batch 1: `R8-Hub-Icons`, the Hub's icon three ways, each in a working tab bar, on night, at five sizes and blurred |
+| `lib8.py` | Shared pieces: imports from Rounds 6 and 7, the three Hub icon directions (`hub_icon()`; `HUB_KIND` is the keystone), their moves (`HUB_CSS`), extra line icons (`ic8()`), the Round 8 tab bar (`tabbar8()`: Home, Learn, Hub, Community, Me) and `nb_text()`, which keeps amounts on one line |
+| `icons8.py` | Batch 1: `R8-Hub-Icons`, the Hub's icon three ways, each in a working tab bar, on night, at five sizes and blurred. The keystone was picked (D-039) |
+| `ia8.py` | Batch 2: `R8-IA`, the five tabs, what moved where, and a live tab bar |
+| `learn8.py` | Batch 2: `R8-Learn` (Paths, Words, Stories and the switch), `R8-Topic-Shares` (the bakery explainer) and `R8-Words-Decoder` (the buzzword decoder; `WORDS` holds its sample entries) |
 | `round8.py` | Builds every board: `python3 round8.py <project dir> [Board ...]` |
 | `layout8.py` | Lays out canvas page `r8` row by row, from a fresh read of the live `canvas.json`: `python3 layout8.py <live canvas.json> <out canvas.json> <project dir>` |
 

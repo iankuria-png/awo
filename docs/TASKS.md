@@ -2,15 +2,15 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 8, batch 1 is up
+## Now: Round 8, batches 1 and 2 are up
 
-Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)): the brief, the research, a ranked Hub shortlist and the Hub's icon in three directions. Batches 2 to 4 follow Ian's pick. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board.
+Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)): the brief, the research, a ranked Hub shortlist, the Hub's icon (keystone, D-039), the new IA and Learn with three tabs. The Hub (batch 3) is next. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board.
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
-| T-088 | **Pick the Hub's icon** (keystone, dial or market awning), confirm lime for the Hub, keep or change the first eight tools, and name an owner for the facts behind Hub tools (Q-41) | Board `R8-Hub-Icons` on page `r8`; [14](00-discovery/14-round-8.md#questions-for-ian) |
+| T-092 | Name an owner for the facts behind Hub tools: tax tables, levies, thresholds (Q-41) | [14](00-discovery/14-round-8.md#questions-for-ian) |
 | T-085 | React to Round 7's new batches (accounts, the deeper loop, entrepreneurs, AWO Admin), and settle the admin approval rule (Q-34) | See [13](00-discovery/13-round-7.md#awo-admin-the-patterns-and-why) |
 | T-075 | React to **Round 7** as the full board: the new screens (progress, check-in, buddy, settings, onboarding), components, brand and motion. Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
@@ -21,8 +21,7 @@ Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)): the brief, th
 
 | ID | Task | Owner |
 |---|---|---|
-| T-089 | Round 8 batch 2: the IA and tab bar; Learn with Paths, Words and Stories and the animated switch; a topic page (shares and dividends); the buzzword decoder | Claude |
-| T-090 | Round 8 batch 3: the Hub landing in both modes, the tool skeleton, eight priority tools, Home with several goals | Claude |
+| T-090 | Round 8 batch 3: the Hub landing in both modes, the tool skeleton, nine tools (the eight plus the pay-day plan, D-039), Home with several goals | Claude |
 | T-091 | Round 8 batch 4: story reader, podcast player, "My worst money mistake"; the Community feed, composer, a post with replies, a shop card, reporting | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
@@ -87,3 +86,5 @@ Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)): the brief, th
 | T-083 | Round 7 batch 3, entrepreneurs: business profile, business check (sample questions), business Home | 2026-09-25 |
 | T-084 | Round 7 batch 5, AWO Admin (desktop): overview, approvals, scoring, members, moderation, lessons and Vault, audit and AI log; guidance in doc 13 | 2026-09-25 |
 | T-086, T-087 | Round 8 batch 1 on canvas page `r8`: doc 14 (research on 24 products, local facts, a ranked Hub shortlist of 18 tools, how each is woven in, the Hub page, the new IA, safe versions), and `R8-Hub-Icons` (three animated directions in the real tab bar); generator in `design/round-8/` | 2026-09-25 |
+| T-088 | Ian picked the keystone for the Hub, in lime, and nine tools for batch 3 (D-039) | 2026-09-25 |
+| T-089 | Round 8 batch 2: `R8-IA` (five tabs, what moved where, a live tab bar), `R8-Learn` (Paths, Words, Stories and the animated switch), `R8-Topic-Shares` (the sample bakery explainer) and `R8-Words-Decoder` (eight sample words, alias matching, ask for a word) | 2026-09-25 |
