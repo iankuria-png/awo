@@ -19,7 +19,13 @@
 | **Check-in** | The 30-day return visit that adds evidence and creates a new result version. |
 | **Venture assessment** | The separate business-readiness assessment for entrepreneurs (six dimensions). |
 | **Academy** | Structured learning: paths, modules, lessons, quizzes, weekly actions. |
-| **Vault** | The educational knowledge library of financial terms. |
+| **Vault** | The educational knowledge library of financial terms. In the app it becomes **Words**, a tab inside Learn (D-037). |
+| **Words** | The Vault as a tab inside Learn: the word of the week, practice, collections and the buzzword decoder. **(proposed name)** |
+| **Paths** and **Stories** | The other two tabs inside Learn: courses and topics; human stories and the AWO Podcast. **(proposed names)** |
+| **Hub** | The centre tab: tools that do things, in two modes (My job, My business). Working name (D-037). Every tool is deterministic and versioned; AI only reads documents or explains. |
+| **Tool** | One Hub feature that follows the tool skeleton: her numbers, one plain result, what it means, learn this, make it a goal, share a milestone. |
+| **Goal (pool)** | One saving goal of any kind (a car, moving out, starting to invest), shown as its own pool. AWO never picks a product for it. |
+| **Note, Letter, Milestone, Question, Shop card** | The five kinds of Community post: short; long with a title; a structured moment with amounts hidden; a question to a circle; a member's shop. **(proposed)** |
 | **Accountability buddy** | An optional monthly pairing between members for shared goals and weekly check-ins. |
 | **Opportunity Discovery** | An informational area to explore relevant opportunities (rules TBD, Q-20). |
 | **Sample content** | Placeholder content used during development, always visibly labelled and never presented as AWO methodology. |

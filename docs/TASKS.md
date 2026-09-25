@@ -2,14 +2,15 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 8 is briefed
+## Now: Round 8, batch 1 is up
 
-Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes. Vault, Me and Community have been redesigned after Ian's first reaction (T-078). Round 7 is now the full reference board (D-034): brand, foundations, every screen, components, widgets and marketing are all on page `r7`.
+Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)): the brief, the research, a ranked Hub shortlist and the Hub's icon in three directions. Batches 2 to 4 follow Ian's pick. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board.
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
+| T-088 | **Pick the Hub's icon** (keystone, dial or market awning), confirm lime for the Hub, keep or change the first eight tools, and name an owner for the facts behind Hub tools (Q-41) | Board `R8-Hub-Icons` on page `r8`; [14](00-discovery/14-round-8.md#questions-for-ian) |
 | T-085 | React to Round 7's new batches (accounts, the deeper loop, entrepreneurs, AWO Admin), and settle the admin approval rule (Q-34) | See [13](00-discovery/13-round-7.md#awo-admin-the-patterns-and-why) |
 | T-075 | React to **Round 7** as the full board: the new screens (progress, check-in, buddy, settings, onboarding), components, brand and motion. Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
@@ -20,7 +21,9 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Owner |
 |---|---|---|
-| T-086 | **Round 8** from the kickoff prompt: Learn with the Vault as a tab, the Hub at the centre, goals of every kind, stories and the podcast, the Community feed ([handover](handover/2026-09-25-round-8-kickoff.md)) | Claude |
+| T-089 | Round 8 batch 2: the IA and tab bar; Learn with Paths, Words and Stories and the animated switch; a topic page (shares and dividends); the buzzword decoder | Claude |
+| T-090 | Round 8 batch 3: the Hub landing in both modes, the tool skeleton, eight priority tools, Home with several goals | Claude |
+| T-091 | Round 8 batch 4: story reader, podcast player, "My worst money mistake"; the Community feed, composer, a post with replies, a shop card, reporting | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
@@ -83,3 +86,4 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 | T-082 | Round 7 batch 2, the deeper loop: lesson player, compare versions, what-if simulator, check an offer, the one-page report, hard moments | 2026-09-25 |
 | T-083 | Round 7 batch 3, entrepreneurs: business profile, business check (sample questions), business Home | 2026-09-25 |
 | T-084 | Round 7 batch 5, AWO Admin (desktop): overview, approvals, scoring, members, moderation, lessons and Vault, audit and AI log; guidance in doc 13 | 2026-09-25 |
+| T-086, T-087 | Round 8 batch 1 on canvas page `r8`: doc 14 (research on 24 products, local facts, a ranked Hub shortlist of 18 tools, how each is woven in, the Hub page, the new IA, safe versions), and `R8-Hub-Icons` (three animated directions in the real tab bar); generator in `design/round-8/` | 2026-09-25 |

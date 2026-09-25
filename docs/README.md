@@ -22,5 +22,6 @@
 | ↳ [11-round-5-volume-test.md](00-discovery/11-round-5-volume-test.md) | Round 5: one design language for Home, Learn, Vault, Community and Me, at three volumes |
 | ↳ [12-round-6.md](00-discovery/12-round-6.md) | Round 6: the app at Volume 1 (Clean): onboarding, five areas, Ask, components, widgets, marketing, foundations |
 | ↳ [13-round-7.md](00-discovery/13-round-7.md) | Round 7: Geist for all type, a handwritten face for special moments, three corner sizes |
+| ↳ [14-round-8.md](00-discovery/14-round-8.md) | Round 8: Learn with Words and Stories, the Hub (research, ranked tools, the icon), goals of every kind, the Community feed |
 
 Coming next: `product/` (PRD, feature map, IA, journeys) · `design/` (design standard) · `engineering/` (tech stack, architecture, domain, API) · `governance/` (educational language, POPIA, AI policy) · `operations/`.

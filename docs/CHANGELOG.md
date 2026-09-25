@@ -6,6 +6,17 @@
 
 ## 2026-09-25
 
+### Round 8 batch 1: the brief, the research and the Hub's icon
+- **Doc 14** (`docs/00-discovery/14-round-8.md`) holds the research and the plan:
+  - the 24 benchmark products, each with what AWO takes and what it leaves;
+  - local facts for true-to-life samples (2026/27 tax tables, Kenya's SHIF, NSSF and Housing Levy, the new R 2,3 million VAT threshold, remittance costs, family support, retail forex losses, crypto licensing), all to be verified and dated before use;
+  - the Hub shortlist, trimmed from 31 tools to 18 and ranked on value, weave, safety and effort; seven tools moved out of the Hub (goal templates, lessons, Words, Me);
+  - how each tool is woven into Learn, Words, goals, Community and Me; the Hub page and the six-beat tool skeleton; the new IA; a safe version for each idea that meets a rule.
+- **`R8-Hub-Icons`** on the new canvas page `r8` (the canvas now opens there): keystone, dial and market awning, each animated, in a working tab bar, on night, at five sizes and blurred. Claude recommends the keystone. The dial looks like a credit-score gauge (rule D8); the awning says "shop" only.
+- The first keystone (a wedge on two legs) read as a little figure at 20px. Five drawings were compared; the arch-crown version replaced it.
+- New open question **Q-41**: who keeps the facts behind Hub tools current. T-088 asks Ian to pick the icon and confirm the colour, the first eight tools and a facts owner.
+- Generator in `design/round-8/` (`lib8.py`, `icons8.py`, `round8.py`, `layout8.py`). The glossary gains Hub, Words, Paths, Stories, tool, goal and the five post kinds.
+
 ### Round 8 briefed: the kickoff prompt
 - Ian's next direction is recorded as D-037 and D-038:
   - Learn absorbs the Vault as a tab, and a new centre tab, the Hub, holds tools for employed women and entrepreneurs (tabs: Home, Learn, Hub, Community, Me).
