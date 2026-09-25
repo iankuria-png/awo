@@ -6,6 +6,12 @@
 
 ## 2026-09-25
 
+### Round 4 published: Moment 1 three ways, the Mentor + Circle loop
+- Canvas page **`r4`**, 11 boards (9 interactive), recorded in **`00-discovery/09-round-4.md`**. Ian leans towards Mentor + Circle but wants to see all three (D-027), so the first result reveal is built as **Mentor**, **Journal** and **Circle**, each with a "lower than I hoped" branch.
+- The rest of the loop is in Mentor + Circle with three sample members: Today (Naledi), a week's step (Wanjiru, KSh), a check-in where the safety net went down (Amara, £), a dark stokvel lesson with Ola, and being seen by the circle. There is also a hard-moments board (day one, missed week, coming back, offline) and an **"E, tightened"** board (one job per colour, calmer type, one main button, retired patterns).
+- **D-026:** Claude now renders and clicks through its own boards before publishing. It caught SVG text that doesn't render, a squashed card and overflow under the tab bar. The gotchas are now in doc 06.
+- New photos from nappy.co for emotional range (focused, tired, determined, sixty), plus face crops. The Unsplash connector needs its account email confirmed (T-025).
+
 ### Round 3 review: fewer screens, deeper moments
 - Rendered all 35 Round 3 boards locally with the canvas runtime and reviewed them as screenshots. Wrote **`00-discovery/08-round-3-review.md`**: keep, cut, improve, three human directions and a Round 4 plan.
 - Verdict: E is a coherent brand and Ola works, but the round is broad, not deep. Cut two Homes, the ripple-ring DIVA chart (it reads as "close your rings"), metaphor overload, everyday iris, vanity stats, chips over photos, arches everywhere and more marketing for now.

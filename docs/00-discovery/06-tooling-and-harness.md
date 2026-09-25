@@ -54,6 +54,13 @@ Review boards as rendered screenshots, never from source. This is how the [Round
 4. **Contact sheets** (Pillow) make it quick to compare many boards at once.
 5. **Delegate** the fetching and rendering to a subagent; it saves context.
 
+6. **Click through states** with Playwright (`getByRole('button', { name })`), screenshotting each step, and flag text under 12px, targets under 44px, unresolved `{{holes}}` and overflow.
+
+Canvas runtime gotchas found this way (Round 4):
+- Data-bound text inside SVG `<text>` does not render. Put labels in HTML laid over the SVG.
+- `src="{{x}}"` or SVG `width="{{x}}"` inside `<sc-for>` errors on first parse. Write repeated images literally, and size SVGs with a style binding.
+- Flex children shrink by default. Give cards in a fixed-height column `flex-shrink: 0`.
+
 Keep everything in the scratchpad. Don't commit `dc-runtime.js` or the renders.
 
 ## Motion and illustration tooling

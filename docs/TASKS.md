@@ -2,27 +2,22 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 4 plan (from the [Round 3 review](00-discovery/08-round-3-review.md))
+## Now: Round 4 reaction
 
-Fewer screens, deeper moments: about 10 interactive boards on canvas page `r4`, each with its states. Starts once Ian has reacted to the review (T-021).
+Round 4 is on canvas page `r4` ([09](00-discovery/09-round-4.md)). Next steps depend on Ian's pick for Q-29.
 
 | ID | Task | Owner | Notes |
 |---|---|---|---|
-| T-040 | Three sample members with real range: **Naledi** (salaried, Johannesburg), **Wanjiru** (salon owner, Nairobi), **Amara** (nurse, London, sends money home). Labelled *Sample*. | Claude | Replaces the one repeated story |
-| T-041 | **Moment 1, the first result reveal**, in all three directions (Mentor, Journal, Circle), with a "lower than she hoped" variant | Claude | The comparison for Q-29 |
-| T-042 | Moments 2–5 in the chosen direction: doing this week's step; the 30-day check-in and "what changed" (including a backwards month); a three-minute lesson; being seen (buddy cheer, voice note, circle) | Claude | After Ian picks a direction |
-| T-043 | Hard-moment states: score went down, missed week, tough month, day one, returning after a month, offline | Claude | Folded into the moments above |
-| T-044 | Tighten E: one meaning per colour, calmer in-app type, iris only for Ola, 12px floor, cut rings, arches and floating chips | Claude | Review § Cut and § Improve |
-| T-045 | Photography brief: ages 50+, working contexts, a range of moods (not only laughing) | Claude | Feeds Q-27 |
-| T-046 | Fix Round 3 defects if those boards are reused (Hero-Device cream ground and crop, Learn "Done" overlap, empty lower halves) | Claude | Review § Improve 9 |
+| T-047 | Converge on one direction: rework Moment 1 and Today in it, and fold in Ian's comments | Claude | After T-021 |
+| T-048 | Design Standard v1 draft, starting from the "E, tightened" board | Claude | Feeds T-030 |
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
-| T-021 | React to **Round 3 and its review** ([08](00-discovery/08-round-3-review.md)): keep, cut, improve, and which human direction | Q-29 |
+| T-021 | React to **Round 4** on the canvas: which telling of Moment 1 felt like AWO (Mentor, Journal, Circle or a mix)? Comments on boards are welcome | Q-29 |
 | T-022 | Answer the open questions when ready (non-blocking) | Q-04, Q-05, Q-07, Q-09, Q-10, Q-25, Q-26, Q-27, Q-29, Q-30 |
-| T-024 | May Claude render and self-review its own canvas boards before publishing? (Round 3's review used this; it caught real defects.) | Was T-010 |
+| T-025 | Confirm the email on the Unsplash account; its connector refuses searches until then | Round 4 used nappy.co instead |
 
 ## Next (after Round 4 converges)
 
@@ -59,3 +54,6 @@ Fewer screens, deeper moments: about 10 interactive boards on canvas page `r4`, 
 | T-023 | Superseded: the Unsplash connector replaces the API key | 2026-09-25 |
 | T-010 | Asked about self-checking renders (now T-024) | 2026-09-25 |
 | T-008 | Round 3 review: every board rendered and critiqued ([08](00-discovery/08-round-3-review.md)) | 2026-09-25 |
+| T-024 | Self-review allowed: Claude renders and checks its own boards before publishing (D-026) | 2026-09-25 |
+| T-040–T-045 | Round 4 on canvas page `r4`: three sample members, Moment 1 in Mentor, Journal and Circle, the Mentor + Circle loop (Today, Moments 2–5), hard moments, E tightened, photo brief ([09](00-discovery/09-round-4.md)) | 2026-09-25 |
+| T-046 | Dropped: Round 3 boards aren't being reused, so their defects stay as a record | 2026-09-25 |

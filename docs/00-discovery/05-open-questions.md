@@ -17,7 +17,7 @@
 | Q-25 | **Wordmark:** Ripple, Wave or Stepping stones (or a mix)? Uppercase **AWO** or lowercase **awo**? | Everything downstream uses it. | Wave wordmark with the Stones or Ripple app icon. | Open |
 | Q-26 | **Mascot:** keep Ola? Name? Only in Learn and Ask? | Character work takes time to commission and animate. | Yes, Learn and Ask only. "Ola" is a working name to test with members. | Open |
 | Q-27 | **People imagery:** commission an illustrator, run a photo shoot with real members, or both? | D depends on it, and it matters for dignity (D4). | Illustrated people system for the product; photography for marketing. | Open |
-| Q-29 | **Who is AWO to her?** Mentor (quiet companion), Journal (her story) or Circle (women who get it)? See [08 § Directions](08-round-3-review.md#directions-to-explore-three-human-axes). | Sets Home, tone and what the product celebrates. | Mentor as the spine, Circle as the heart, her own words from Journal. Test all three on the first result reveal before converging. | Open |
+| Q-29 | **Who is AWO to her?** Mentor (quiet companion), Journal (her story) or Circle (women who get it)? See [08 § Directions](08-round-3-review.md#directions-to-explore-three-human-axes). | Sets Home, tone and what the product celebrates. | Mentor as the spine, Circle as the heart, her own words from Journal. Test all three on the first result reveal before converging. | Open. Ian leans Mentor + Circle (D-027); Round 4 shows all three on Moment 1. |
 | Q-30 | **Theme logic:** is Learn (and Ask) *always* dark, or does the app follow the phone's dark mode? | Supporting both doubles design and QA work. | Learn and Ask always dark ("night for learning"); the rest follows the system later, if at all. | Open |
 
 ## Answered
