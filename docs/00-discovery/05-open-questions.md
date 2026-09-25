@@ -16,7 +16,9 @@
 | Q-10 | **Platform priority:** web/PWA first and native later, or native first? | Build order and app-store timelines. | PWA first, native in phase 8. Revisit given motion-first ambitions: native runs Rive and Reanimated best. | Open |
 | Q-25 | **Wordmark:** Ripple, Wave or Stepping stones (or a mix)? Uppercase **AWO** or lowercase **awo**? | Everything downstream uses it. | Wave wordmark with the Stones or Ripple app icon. | Open |
 | Q-26 | **Mascot:** keep Ola? Name? Only in Learn and Ask? | Character work takes time to commission and animate. | Yes, Learn and Ask only. "Ola" is a working name to test with members. | Open |
-| Q-27 | **People imagery:** commission an illustrator, run a photo shoot with real members, or both? | D depends on it, and it matters for dignity (D4). | Illustrated people system for the product; photography for marketing. | Open |
+| Q-27 | **People imagery:** commission an illustrator, run a photo shoot with real members, or both? | D depends on it, and it matters for dignity (D4). | Photography for product and marketing (Round 3 uses nappy.co CC0 photos as stand-ins); commission a member shoot. | Open |
+| Q-29 | **Store name and copy:** is "AWO: money in plain words" right, and who approves store copy? | Needed before any store listing or ad goes out. | Keep AWO as the lead; test two short descriptions with first members. | Open |
+| Q-30 | **Ola beyond Learn and Ask:** may Ola appear in the Learn widget, store screenshots and ads? | D-021 limits the mascot to one area; marketing and widgets are edge cases. | Yes when the surface is about Learning; never next to results or money amounts. | Open |
 
 ## Answered
 

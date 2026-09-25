@@ -6,6 +6,12 @@
 
 ## 2026-09-25
 
+### Round 3, batches 5 to 7: remaining E screens, components, widgets, marketing
+- **E screens:** interactive 30-day check-in (a slider fills the safety-net pool), community (likes, event reminder), buddy (send a cheer; lessons shared, never amounts), settings with working switches (reduce-motion demo, data stored in South Africa), and three onboarding variants (photo-led, ripple, goal picker).
+- **Components:** controls, data and feedback (stat tiles, a what-if calculator, progress forms, notifications, skeletons), and home-screen and lock-screen widgets.
+- **Marketing:** six Play Store screenshots, feature graphic, app icon candidate, a device hero (real photo with a real screen composited in), three square ads, a story ad and a simplified listing preview. PNG exports at exact sizes and their sources are in `design/marketing/`; Play specs were checked on 25 Sep 2026.
+- New open questions: store name and copy (Q-29), Ola outside Learn and Ask (Q-30). Round 3 is complete on the canvas and waits for Ian's reactions (T-021).
+
 ### Round 3, batches 3 and 4: Learn and Ask, E Homes, DIVA, progress
 - **Learn flow** (one interactive board): stepping-stone path, story cards with progress bars, quiz with feedback, Ola's celebration, back to an updated path. **Vault flip cards** (flip, filter, save) and **Ask Ola** (suggestion, thinking, sourced answer). All self-checked by clicking through every state.
 - **E screens:** bento, timeline and stories Homes; the **DIVA ripple rings** (tap a dimension, evidence shown apart, version label, no gamification); **progress over time** (tooltip, small multiples, effort stats).

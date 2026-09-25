@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Square ad, word of the week</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&amp;family=Geist:wght@300..700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0;font-family:'Geist',ui-sans-serif,system-ui,sans-serif;background:#D8F36A}</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1080px; overflow: hidden; background: #D8F36A; color: #0F4A36; font-family: 'Geist', ui-sans-serif, system-ui, sans-serif">
+  <span style="position: absolute; left: 80px; top: 90px; height: 56px; padding: 0 24px; border-radius: 999px; background: #0F4A36; color: #D8F36A; font-size: 26px; font-weight: 700; display: flex; align-items: center">Word of the week</span>
+  <h1 style="position: absolute; left: 66px; top: 200px; margin: 0; font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-size: 250px; line-height: 0.85; font-weight: 800; letter-spacing: -0.04em; font-stretch: 84%">Stokvel</h1>
+  <p style="position: absolute; left: 80px; top: 470px; width: 860px; margin: 0; font-size: 50px; line-height: 1.25; color: #1E2A0B">A savings group where members pay in every month and take turns to receive the pot.</p>
+  <div aria-hidden="true" style="position: absolute; left: 80px; top: 740px; display: flex; gap: 18px; align-items: center">
+    <span style="width: 64px; height: 64px; border-radius: 999px; background: #0F4A36"></span>
+    <span style="width: 64px; height: 64px; border-radius: 999px; background: #0F4A36"></span>
+    <span style="width: 64px; height: 64px; border-radius: 999px; background: #0F4A36"></span>
+    <span style="width: 64px; height: 64px; border-radius: 999px; background: #0F4A36"></span>
+    <span style="width: 96px; height: 96px; border-radius: 999px; background: #FFFFFF; border: 6px solid #0F4A36; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-size: 40px; font-weight: 800">R</span>
+  </div>
+  <div style="position: absolute; left: 80px; right: 80px; bottom: 80px; display: flex; align-items: center; justify-content: space-between">
+    <span style="font-size: 32px; font-weight: 600">Learn the words behind your money.</span>
+    <span style="display: flex; align-items: center; gap: 10px"><svg width="48" height="40" viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="24" cy="84" rx="16" ry="9" fill="#0F4A36"></ellipse><ellipse cx="56" cy="62" rx="20" ry="11" fill="#0F4A36"></ellipse><ellipse cx="94" cy="36" rx="24" ry="13" fill="#0F4A36"></ellipse></svg><span style="font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-size: 46px; line-height: 1; font-weight: 800; letter-spacing: -0.05em">awo</span></span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1080}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -2,14 +2,12 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 3 (brief in [handover](handover/2026-09-24-round-3.md) §5; progress in [08](00-discovery/08-round-3-direction-e.md))
+## Now: Round 3 is on the canvas; waiting for Ian's reactions
 
 | ID | Task | Owner | Notes |
 |---|---|---|---|
-| T-013 | E screens. **Done:** bento, timeline and story Homes, DIVA ripple rings, progress. **Left:** interactive check-in, community, buddy, settings with switches, onboarding variants | Claude | Non-generic layouts; minimal copy |
-| T-016 | **Components and widgets** boards: stats bar, switches, sliders, segmented controls, charts, notifications, skeletons, home and lock-screen widgets | Claude | Charts per the `dataviz` skill |
-| T-017 | **Marketing**: device hero shot, square and story ads, Play Store feature graphic (1024×500), store screenshots, simplified listing preview | Claude | Also export real PNGs to `design/marketing/` |
-| T-018 | Publish Round 3 on a new canvas page `r3`, in batches | Claude | Handover §7 canvas rules |
+| T-021 | React to Round 3 (and Round 2): what to keep, cut or push | Ian | Canvas page Round 3; Q-02 |
+| T-027 | Optional: an animated story ad (motion version of the story board) | Claude | After Ian picks the ad direction |
 
 ## Waiting on Ian
 
@@ -17,14 +15,13 @@
 |---|---|---|
 | T-024 | Confirm the email on your **Unsplash** account | The Unsplash connector refuses searches until then; nappy.co photos stand in |
 | T-025 | Optional: a paid **Mobbin** plan | The Mobbin connector needs one; Dribbble and Play Store cover references for now |
-| T-021 | React to Round 2 / Round 3 | Q-02 |
-| T-022 | Answer the open questions when ready (non-blocking) | Q-04, Q-05, Q-07, Q-09, Q-10, Q-25, Q-26, Q-27 |
+| T-022 | Answer the open questions when ready (non-blocking) | Q-04, Q-05, Q-07, Q-09, Q-10, Q-25, Q-26, Q-27, Q-29, Q-30 |
 
 ## Next (after Round 3 converges)
 
 | ID | Task | Owner |
 |---|---|---|
-| T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
+| T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style), starting from the Round 3 E tokens in doc 08 | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
 | T-032 | PRD v1 + feature map + IA (member, public, admin) | Claude |
 | T-033 | Wireframes, then a clickable prototype of the priority journey; plan 5–8 member tests | Claude + Ian |
@@ -58,3 +55,7 @@
 | T-023 | Unsplash connected as a connector instead of an API key (see T-024) | 2026-09-25 |
 | T-026 | `scripts/canvas-preview.mjs`: render and screenshot boards locally | 2026-09-25 |
 | T-015 | Interactive Learn flow, Vault flip cards, Ask Ola with Ola v2 | 2026-09-25 |
+| T-013 | E screens: three Homes, DIVA rings, progress, check-in, community, buddy, settings, onboarding | 2026-09-25 |
+| T-016 | Components (controls; data and feedback) and widgets boards | 2026-09-25 |
+| T-017 | Marketing: store screenshots, feature graphic, icon, device hero, ads, listing; PNGs in `design/marketing/` | 2026-09-25 |
+| T-018 | Round 3 published on canvas page `r3` in seven batches | 2026-09-25 |

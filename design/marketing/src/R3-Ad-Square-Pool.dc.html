@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Square ad, safety net pool</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&amp;family=Geist:wght@300..700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Geist',ui-sans-serif,system-ui,sans-serif;background:#0F4A36}
+@keyframes waveX{from{transform:translateX(0)}to{transform:translateX(-180px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1080px; overflow: hidden; background: #0F4A36; color: #F4F8F5; font-family: 'Geist', ui-sans-serif, system-ui, sans-serif">
+  <svg width="0" height="0" style="position: absolute" aria-hidden="true"><defs><clipPath id="adPool"><rect x="0" y="0" width="330" height="620" rx="165"></rect></clipPath></defs></svg>
+  <h1 style="position: absolute; left: 80px; top: 90px; width: 560px; margin: 0; font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-size: 96px; line-height: 0.92; font-weight: 800; letter-spacing: -0.03em; font-stretch: 86%; color: #D8F36A">Build a safety net, one small step at a time.</h1>
+  <svg width="330" height="620" viewBox="0 0 330 620" role="img" aria-label="A pool filled to 62 percent" style="position: absolute; left: 680px; top: 300px">
+    <rect x="0" y="0" width="330" height="620" rx="165" fill="#0A3326"></rect>
+    <g clip-path="url(#adPool)"><g style="transform: translateY(236px)"><g style="animation: waveX 4s linear infinite"><path d="M0 0q45-24 90 0t90 0 90 0 90 0 90 0 90 0 90 0V420H0z" fill="#D8F36A"></path></g></g></g>
+    <rect x="3" y="3" width="324" height="614" rx="162" fill="none" stroke="#D8F36A" stroke-width="6"></rect>
+  </svg>
+  <div style="position: absolute; left: 80px; top: 620px; display: flex; flex-direction: column; gap: 8px">
+    <span style="font-size: 30px; color: #C9D8D0">Safety net goal</span>
+    <span style="font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-size: 108px; line-height: 0.9; font-weight: 800; letter-spacing: -0.04em">R 3 100</span>
+    <span style="font-size: 30px; color: #C9D8D0">of R 5 000, sample</span>
+  </div>
+  <div style="position: absolute; left: 80px; bottom: 80px; display: flex; align-items: center; gap: 28px">
+    <span style="display: flex; align-items: center; gap: 12px"><svg width="54" height="44" viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="24" cy="84" rx="16" ry="9" fill="#D8F36A"></ellipse><ellipse cx="56" cy="62" rx="20" ry="11" fill="#D8F36A"></ellipse><ellipse cx="94" cy="36" rx="24" ry="13" fill="#D8F36A"></ellipse></svg><span style="font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-size: 52px; line-height: 1; font-weight: 800; letter-spacing: -0.05em; color: #D8F36A">awo</span></span>
+    <span style="height: 72px; padding: 0 34px; border-radius: 999px; background: #D8F36A; color: #0F3A2B; font-size: 28px; font-weight: 700; display: flex; align-items: center">Join free</span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1080}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
