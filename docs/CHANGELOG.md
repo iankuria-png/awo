@@ -6,6 +6,10 @@
 
 ## 2026-09-25
 
+### Round 7 marketing: the Round 3 pieces Ian flagged
+- Ian's screenshots showed three sections: Play Store screenshots, the listing with feature graphic, icon and device hero, and campaign ads, from Rounds 3 and 6. All three now sit on page `r7`. Three Round 3 pieces were still missing, and are now added in Round 7 style: the photo-led Community screenshot (a real photo beside the phone, her answer in her hand), an eighth screenshot for the check-in ("Watch your safety net fill."), and the listing's short and full descriptions with character counts and the store rules they follow.
+- Fixed the screen captures: cutting a tall screen to 844px had squashed its sections, most visibly the Community circle cards. The captures now switch off flex shrinking first. Five captures were re-uploaded, and the superseded uploads were deleted.
+
 ### Round 7 marketing in Geist, and the full board complete
 - Marketing moved to Round 7 (T-076, D-033), built from 2x captures of the Round 7 screens: seven store screenshots (Progress is new), the listing, the feature graphic, a 512 app icon, the device hero, and photo, pool, word and story ads. Exports are in `design/marketing/round-7/`.
 - The stepping-stones lockup replaces the Bricolage wordmark everywhere. Corners scale with the canvas (14 becomes 40 at 1080). The hand appears only in members' own words: her answer on the Community screenshot and Amara's line on the story ad.

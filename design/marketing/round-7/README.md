@@ -4,7 +4,7 @@ These are exported from the Round 7 boards on the canvas (page Round 7), built f
 
 | File | Size | Use |
 |---|---|---|
-| `store-1-me.png` … `store-7-progress.png` | 1080 × 1920 | Google Play phone screenshots, one per area (plus progress), each in its area's colour |
+| `store-1-me.png` … `store-8-checkin.png` | 1080 × 1920 | Google Play phone screenshots (the store allows eight): one per area, plus progress and the check-in. Community is photo-led |
 | `feature-graphic-1024x500.png` | 1024 × 500 | Google Play feature graphic |
 | `app-icon-512.png` | 512 × 512 | Store icon (icon A, full bleed; the store applies its own mask) |
 | `device-hero.png` | 1600 × 900 | Website or press hero |

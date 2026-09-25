@@ -14,10 +14,10 @@ from brand7 import app_icon, lockup  # noqa: E402
 from screens7 import mark, IMG as IMG7  # noqa: E402,F401
 
 CAPS = {
-    'home': '/_blob/dea500386add2ea29edf312af1e533bd', 'me': '/_blob/98d12ef16b46f90e2fc1a134473e53bc',
-    'learn': '/_blob/8bd5266de4987a831537092e31a8d092', 'vault': '/_blob/69e8bf7aa50a34e03d095eec025e1a74',
-    'community': '/_blob/f45732525d9585201e36b728432660d6', 'ask': '/_blob/ce70f314055c11df2410b014a7b8bc49',
-    'entry': '/_blob/1c34be39cae7eae7ebaa0e16cd349250', 'progress': '/_blob/cc1d7acdf4f9659cf52d325ec96d2659',
+    'home': '/_blob/1fa941cd9884f3e7fea1cd149714b9b1', 'me': '/_blob/e021f8cc79fcae47f5aa3a96e35d3fc9',
+    'learn': '/_blob/8bd5266de4987a831537092e31a8d092', 'vault': '/_blob/881e12c7cdfaa26b1436a7214d97fcd1',
+    'community': '/_blob/aeb8d7a97b251926e044f716c8b216b2', 'ask': '/_blob/ce70f314055c11df2410b014a7b8bc49',
+    'entry': '/_blob/1c34be39cae7eae7ebaa0e16cd349250', 'progress': '/_blob/3150e9b5c622bfec4e0aa9f553c057ff',
     'checkin': '/_blob/455aefd5bdabfa8a10b11eeff60b7eba',
 }
 HF = "font-family: '[[ handFont ]]', cursive"
@@ -31,13 +31,15 @@ def H(size, col, extra=''):
 
 STORE = [
     ('me', POOL, EVG, SEC, LIME, 'Know where you stand.', 'A clear picture of your money life, in plain words. Not a credit score.', 'Your DIVA profile'),
-    ('home', EVG, LIME, ON_EVG, LIME, 'One small step a week.', 'Watch your safety net fill as you go.', 'Home'),
+    ('home', EVG, LIME, ON_EVG, LIME, 'One small step a week.', 'One clear thing to do each week, sized to your life.', 'Home'),
     ('learn', NIGHT, MOON, NMUTED, LIME, 'Learn money in three minutes.', "Short lessons told through real women's stories.", 'Learn'),
     ('vault', LIME, EVG, INK, '#FFFFFF', 'Money words, made clear.', 'Keep the words you learn, and practise them in two minutes.', 'The Vault'),
     ('community', BLUSH, BLUSH_INK, BLUSH_2, LIME, 'Grow with women who get it.', 'Circles, cheers and honest questions. First names only.', 'Community'),
     ('ask', DEEP, MOON, NMUTED, LIME, 'Ask anything. Get plain answers.', 'Ola explains and teaches. It never tells you what to buy.', 'Ask Ola'),
     ('progress', MIST, EVG, SEC, LIME, 'See how far you have come.', 'Check in every 30 days. Each check-in adds a version; old ones never change.', 'Your progress'),
+    ('checkin', POOL, EVG, SEC, LIME, 'Watch your safety net fill.', 'Three quick questions every 30 days. Honest answers, never shared.', 'The 30-day check-in'),
 ]
+PHOTO_TOGETHER = '/_blob/de99957f2ba63a4f30e2cf6bda586b39'  # two women laughing (nappy.co), used on Round 3's store screenshot
 
 
 def hand_hole(html):
@@ -48,9 +50,12 @@ def store(i):
     key, bg, head, sub, accent, title, text, alt = STORE[i]
     dark = bg in (NIGHT, DEEP)
     mark_col = {EVG: '#FFFFFF', NIGHT: MOON, DEEP: MOON}.get(bg, head)
-    extra = ''
+    extra = pre = ''
+    dev_left, dev_w = 198, 660
     if key == 'community':
-        extra = (f'<div style="position: absolute; right: 70px; top: 1180px; z-index: 2; max-width: 360px; padding: 26px 32px; border-radius: {K}px {K // 3}px {K}px {K}px; '
+        dev_left, dev_w = 470, 560
+        pre = f'<img src="{PHOTO_TOGETHER}" alt="Two women laughing together" style="position: absolute; left: 60px; top: 820px; width: 450px; height: 720px; object-fit: cover; object-position: 30% 40%; border-radius: {K}px">'
+        extra = (f'<div style="position: absolute; left: 50px; top: 1440px; z-index: 2; max-width: 360px; padding: 26px 32px; border-radius: {K}px {K // 3}px {K}px {K}px; '
                  f'background: {BLUSH_INK}; color: {BLUSH}; box-shadow: 0 24px 60px rgba(42,15,24,.3); transform: rotate(-3deg)">'
                  f'<span class="hand" style="font-size: 50px; {HF}">Takeaway on Friday. Cooked instead, and it was nicer.</span></div>')
     inner = f'''<div style="position: absolute; left: 90px; right: 90px; top: 96px; display: flex; flex-direction: column; gap: 30px">
@@ -58,7 +63,8 @@ def store(i):
   <h1 style="{H(124, head)}">{title}</h1>
   <p style="font-size: 40px; line-height: 1.3; color: {sub}; max-width: 860px">{text}</p>
 </div>
-<div style="position: absolute; left: 198px; top: 740px">{device(CAPS[key], 660, 'The ' + alt + ' screen', dark=dark)}</div>
+{pre}
+<div style="position: absolute; left: {dev_left}px; top: 740px">{device(CAPS[key], dev_w, 'The ' + alt + ' screen', dark=dark)}</div>
 {extra}'''
     return hand_hole(canvas_board(f'Store screenshot {i + 1}', 1080, 1920, bg, inner))
 
@@ -103,34 +109,52 @@ def hero():
     return canvas_board('Device hero', 1600, 900, MIST, inner)
 
 
+SHORT = 'Learn money in plain words, see where you stand and grow with women who get it.'
+FULL = [('', 'AWO is a free money-learning app for women in Southern Africa and the diaspora.'),
+        ('Know where you stand.', 'A short starter check builds your DIVA profile, explained in plain words. Each check-in makes a new version.'),
+        ('Learn a little every day.', 'Three-minute lessons, a Vault of money words, and Ola, a guide who explains without judging.'),
+        ('Take one step at a time.', 'One clear step each week, and a safety net that fills as you go.'),
+        ('Grow together.', 'Share wins, ask questions and find your circle, from stokvels to side hustles.'),
+        ('', 'AWO is for education. It does not give personal financial advice.')]
+RULES = ['Icon 512 by 512, 32-bit PNG. Feature graphic 1024 by 500, with no transparency.',
+         'Two to eight phone screenshots at 1080 by 1920 (9:16), 24-bit PNG.',
+         'No ranking or promo words (best, top, new) and no install prompts on store graphics.',
+         'Educational wording only. Numbers on screens are samples.']
+
+
 def listing():
+    full_text = '\n\n'.join((h + ' ' + t).strip() for h, t in FULL)
     thumbs = ''.join(
-        f'<div style="width: 150px; height: 272px; border-radius: 12px; background: {bg}; overflow: hidden; position: relative; flex-shrink: 0"><span style="position: absolute; left: 12px; top: 12px; right: 12px; {H(19, head)}">{title}</span>'
-        f'<img src="{CAPS[key]}" alt="" style="position: absolute; left: 20px; top: 82px; width: 110px; border-radius: 12px; box-shadow: 0 0 0 4px #0B0F0E, 0 0 0 5px #2E3A36"></div>'
+        f'<div style="width: 118px; height: 212px; border-radius: 10px; background: {bg}; overflow: hidden; position: relative; flex-shrink: 0"><span style="position: absolute; left: 9px; top: 9px; right: 9px; {H(14, head)}">{title}</span>'
+        f'<img src="{CAPS[key]}" alt="" style="position: absolute; left: 16px; top: 64px; width: 86px; border-radius: 10px; box-shadow: 0 0 0 3px #0B0F0E, 0 0 0 4px #2E3A36"></div>'
         for key, bg, head, _s, _a, title, _t, _al in STORE)
     feat_mini = f'''<div style="width: 512px; height: 250px; border-radius: 14px; background: {EVG}; position: relative; overflow: hidden; flex-shrink: 0"><div style="position: absolute; left: 28px; top: 28px; width: 260px; display: flex; flex-direction: column; gap: 12px">{lockup(22, '#FFFFFF', LIME)}<span style="{H(34, '#FFFFFF')}">Know where you stand. Grow from there.</span>{shapes_row(24, 6)}</div><div style="position: absolute; left: 318px; top: 24px; transform: rotate(-4deg)">{device(CAPS['home'], 130, '')}</div></div>'''
-    chips = ''.join(f'<span class="chip" style="height: 32px; font-size: 14px; background: {bg}; color: {fg}">{t}</span>' for t, bg, fg in [('Free', EVG, '#FFFFFF'), ('Education', '#FFFFFF', EVG), ('English at launch', '#FFFFFF', EVG)])
-    inner = f'''<div style="position: absolute; inset: 64px; display: flex; gap: 64px">
-  <div style="width: 480px; flex-shrink: 0; display: flex; flex-direction: column; gap: 22px">
-    <div style="display: flex; align-items: center; gap: 22px">{app_icon(128)}<div style="display: flex; flex-direction: column; gap: 6px"><span style="{H(64, INK)}">AWO</span><span style="font-size: 20px; color: {SEC}">Money, understood.</span></div></div>
+    chips = ''.join(f'<span class="chip" style="height: 32px; font-size: 14px; background: {bg}; color: {fg}">{t}</span>' for t, bg, fg in [('Education', EVG, '#FFFFFF'), ('Free', '#FFFFFF', EVG), ('English at launch', '#FFFFFF', EVG)])
+    strong = lambda h: f'<strong style="color: {INK}">{h}</strong> ' if h else ''
+    full = ''.join(f'<p style="margin: 0">{strong(h)}{t}</p>' for h, t in FULL)
+    rules = ''.join(f'<span style="display: flex; gap: 10px"><span style="color: {EVG}; display: flex; padding-top: 2px">{icon("check", 16, EVG, 2.6)}</span>{r}</span>' for r in RULES)
+    counter = lambda n, cap: f'<span style="font-size: 13px; color: {MUTED}; font-variant-numeric: tabular-nums">{n} of {cap}</span>'
+    inner = f'''<div style="position: absolute; inset: 64px; display: flex; gap: 56px">
+  <div style="width: 520px; flex-shrink: 0; display: flex; flex-direction: column; gap: 20px">
+    <div style="display: flex; align-items: center; gap: 22px">{app_icon(112)}<div style="display: flex; flex-direction: column; gap: 6px"><span style="{H(56, INK)}">AWO</span><span style="font-size: 19px; color: {SEC}">Money, understood.</span></div></div>
     <div style="display: flex; gap: 8px; flex-wrap: wrap">{chips}</div>
-    <p style="font-size: 22px; line-height: 1.4; font-weight: 600">Money learning and insight for African women, at home and abroad.</p>
-    <div style="display: flex; flex-direction: column; gap: 14px; font-size: 17px; line-height: 1.5; color: {SEC}">
-      <span><strong style="color: {INK}">Know where you stand.</strong> A DIVA profile in plain words, with a new version after every check-in.</span>
-      <span><strong style="color: {INK}">One small step a week,</strong> and a safety net that fills as you go.</span>
-      <span><strong style="color: {INK}">Three-minute lessons,</strong> a vault of money words and circles of women who get it.</span>
-      <span><strong style="color: {INK}">Ask Ola</strong> to explain a result, a word or an offer. It teaches; it never tells you what to buy.</span>
-    </div>
-    <span style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: {SEC}">{icon('lock', 18, EVG)}Your data is stored in South Africa.</span>
+    <div style="border-radius: 14px; background: #FFFFFF; padding: 18px 20px; display: flex; flex-direction: column; gap: 8px">
+      <span style="display: flex; justify-content: space-between"><span style="font-size: 14px; font-weight: 600">Short description</span>{counter(len(SHORT), 80)}</span>
+      <span style="font-size: 18px; line-height: 1.4; font-weight: 500">{SHORT}</span></div>
+    <div style="border-radius: 14px; background: #FFFFFF; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px">
+      <span style="display: flex; justify-content: space-between"><span style="font-size: 14px; font-weight: 600">Full description</span>{counter(len(full_text), '4 000')}</span>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.5; color: {SEC}">{full}</div></div>
   </div>
-  <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 24px; min-width: 0">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 18px; min-width: 0">
     <span style="font-size: 15px; font-weight: 600; color: {MUTED}">Feature graphic</span>
     {feat_mini}
     <span style="font-size: 15px; font-weight: 600; color: {MUTED}">Screenshots</span>
-    <div style="display: flex; gap: 12px">{thumbs}</div>
+    <div style="display: flex; gap: 10px">{thumbs}</div>
+    <div style="border-radius: 14px; background: #FFFFFF; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.45; color: {SEC}">
+      <span style="font-size: 14px; font-weight: 600; color: {INK}">Store rules these drafts follow</span>{rules}</div>
   </div>
 </div>'''
-    return canvas_board('Store listing (our own layout)', 1720, 820, MIST, inner)
+    return canvas_board('Store listing (our own layout)', 1720, 1000, MIST, inner)
 
 
 def ad_photo():

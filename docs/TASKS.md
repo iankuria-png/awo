@@ -75,4 +75,4 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 | T-077 | Round 7 on canvas page `r7`: type and corners board, nine screens transformed (Geist, handwritten moments, 6/10/14 corners), a `hand` Tweak on each; generator in `design/round-7/` | 2026-09-25 |
 | T-078 | Round 7 Vault, Me and Community redesigned natively (`design/round-7/areas7.py`): shape-led heroes, one job each, detail one tap deeper | 2026-09-25 |
 | T-079 | Round 7 full board, batches A to C: brand, icons, motion, foundations; photo welcome, goals, progress, check-in, buddy, settings; components, data and feedback, widgets (D-034) | 2026-09-25 |
-| T-076 | Marketing in Round 7 type: seven store screenshots, listing, feature graphic, 512 icon, device hero, four ads; PNGs in `design/marketing/round-7/` (D-033) | 2026-09-25 |
+| T-076 | Marketing in Round 7 type: eight store screenshots (a photo-led Community one and the check-in, as in Round 3), a listing with descriptions and store rules, feature graphic, 512 icon, device hero, four ads; PNGs in `design/marketing/round-7/` (D-033) | 2026-09-25 |

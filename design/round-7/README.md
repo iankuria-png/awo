@@ -9,7 +9,7 @@ Round 7 is Round 6 with three changes, applied as a transform so the two rounds 
 | `screens7.py` | Screens Round 6 never had, from Round 3's set: `R7-Entry` (photo-led welcome), `R7-Goals`, `R7-Progress`, `R7-Checkin`, `R7-Buddy`, `R7-Settings` |
 | `kit7.py` | `R7-Components` (controls) and `R7-Data` (data and feedback). `R7-Widgets` is Round 6's widgets board through the transform |
 | `brand7.py` | `R7-Brand` (app icon A, the wordmark in Geist), `R7-Icons`, `R7-Motion` (M1 to M6, live), `R7-Foundations` |
-| `marketing7.py` | `R7-Store-1…7`, `R7-Listing`, `R7-Feature-Graphic`, `R7-App-Icon`, `R7-Hero-Device`, `R7-Ad-Photo`, `R7-Ad-Pool`, `R7-Ad-Word`, `R7-Ad-Story`, from 2x captures of the Round 7 screens (`CAPS`). Exports live in `design/marketing/round-7/` |
+| `marketing7.py` | `R7-Store-1…8`, `R7-Listing`, `R7-Feature-Graphic`, `R7-App-Icon`, `R7-Hero-Device`, `R7-Ad-Photo`, `R7-Ad-Pool`, `R7-Ad-Word`, `R7-Ad-Story`, from 2x captures of the Round 7 screens (`CAPS`). Exports live in `design/marketing/round-7/` |
 | `typeboard.py` | `R7-Type`: Geist's scale, the handwriting candidates with a live switcher, and the corners, each with a Round 6 comparison |
 
 ```sh
@@ -19,3 +19,5 @@ python3 typeboard.py /path/to/project
 ```
 
 Change a Round 6 screen, rerun both rounds, and the comparison stays fair. `moments()` asserts each anchor exists, so a Round 6 wording change fails loudly instead of silently losing a moment.
+
+**Capturing screens for marketing:** render each screen at 390 by 844 with a device scale of 2. For a taller screen, first set `flex-shrink: 0` on every child of `.scr`, then set the board to 844px tall. Without the first step its sections squash to fit. Save the captures as JPEG, upload them to the canvas's image store, and update `CAPS`.

@@ -96,7 +96,7 @@ Unchanged: the rules. Results, scores and AI text stay typeset; the hand appears
 | The app | Welcome (photo-led), Welcome (three slides), What brings you here, Starter check, Home, Learn, Ask, Vault, Community, Me |
 | Inside the areas | Your progress, the 30-day check-in, Your buddy, Settings |
 | Components and widgets | Components (controls), Data and feedback, Widgets |
-| Marketing | Seven store screenshots, the listing, the feature graphic, the 512 icon, the device hero and four ads |
+| Marketing | Eight store screenshots (Community is photo-led; the check-in is new), the listing with descriptions and store rules, the feature graphic, the 512 icon, the device hero and four ads |
 
 **The screens link up:**
 - The photo-led welcome leads to "What brings you here", then the starter check.
