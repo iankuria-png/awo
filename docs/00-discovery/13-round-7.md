@@ -152,3 +152,31 @@ Ian asked which other screens matter, starting with sign-in and an admin dashboa
 | **Public website** | Home, how DIVA works, a public Vault term page, for entrepreneurs, diaspora, privacy | The public Vault is the search entry point | Q-31 |
 | **Later channels** | A WhatsApp check-in and a USSD menu drawn from the same question graph | Proves "one question graph, many renderers" | D-009 |
 
+## Batches 1, 2, 3 and 5 (D-036)
+
+Ian picked accounts and the first loop, the deeper loop, entrepreneurs and AWO Admin, "so that you can focus completely on great world-class UI/UX". Sign-in is phone first, with Google and Apple (D-035).
+
+| Batch | Screens | Choices worth checking |
+|---|---|---|
+| **Accounts and the first loop** | Sign in, the code, about you, consent, the result reveal, choosing a first step, reminders, a PIN lock, welcome back | Phone first: there's no password. Consent keeps its optional switches off. Reminders are asked for after the first step, when she knows what they're for. A PIN because phones get shared. The reveal carries no burst: results are not prizes. |
+| **The loop, deeper** | Lesson player, compare versions, what-if, check an offer, the one-page report, hard moments | Ola speaks reviewed lesson text, so it is labelled "Reviewed by AWO", not AI. "Check an offer" never says an offer is safe and points to the FSCA register. Decreases are grey. The what-if tools are labelled as illustrations. |
+| **Entrepreneurs** | Business profile, business check, business Home | The check's questions are samples, and it says it is not a loan or credit decision. The notebook holds her own notes, not bank data. |
+| **AWO Admin** | Overview, approvals, scoring, members, moderation, lessons and Vault, audit and AI log | See the guidance below. |
+
+## AWO Admin: the patterns, and why
+
+Ian asked for guidance on approvals and for a world-class dashboard. These patterns come from tools that small teams trust with serious data.
+
+| Pattern | Borrowed from | On AWO Admin |
+|---|---|---|
+| **Inbox first** | Linear, GitHub notifications | The overview opens on "Needs you", with one clear action per row. The charts come after. |
+| **Two people for results (maker-checker)** | Banking's four-eyes rule, GitHub pull-request reviews | Interpretation text and scoring need two approvals, and the author can't approve their own change. The reviewer sees a line-by-line diff, automatic checks (plain words, no advice words, complete), where it shows, and a preview. "Request changes" needs a note. |
+| **One reviewer for teaching content** | Content platforms (draft, review, publish) | Lessons and Vault words need one reviewer. AI drafts stay labelled until a person rewrites and approves them. Only published content says "Reviewed by AWO". |
+| **Preview before publish** | Vercel preview deployments | A scoring draft runs against 200 fixed, made-up test profiles and shows who would move stage. Real members are never used, and past results never change. |
+| **Private by default** | Stripe, Okta | Lists show first names and member IDs. Amounts never appear. Revealing a phone number needs a reason, is logged, and shows in her own history. |
+| **Keyboard first** | Linear, Superhuman | Cmd+K jumps anywhere. The moderation queue has single keys: K keep, H hide, R remove, J and K to move. |
+| **AI flags, people decide** | Trust and safety teams | Every AI flag says why. The weekly "flags a person agreed with" figure tunes the flags, not the speed. |
+| **Everything leaves a trail** | Audit logs in regulated software | The audit log can't be edited or deleted. The AI log keeps every output with the source it was allowed to use. |
+
+**The approval rule is still a proposal (Q-34):** two people for results text and scoring, and one for lessons and words. The team roles (owner, content lead, community, support) are samples too.
+

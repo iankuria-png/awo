@@ -25,6 +25,7 @@ import marketing7  # noqa: E402  (store, listing, feature graphic, icon, hero, a
 import auth7  # noqa: E402  (accounts and the first loop)
 import loop7  # noqa: E402  (the loop, deeper)
 import biz7  # noqa: E402  (entrepreneurs)
+import admin7  # noqa: E402  (AWO Admin, desktop)
 from screens7 import mark  # noqa: E402
 from lib6 import EVG, LIME, MOON, BLUSH_INK, write  # noqa: E402
 
@@ -159,9 +160,9 @@ BOARDS = [
     ('R7-Welcome', onboarding.welcome), ('R7-Starter', onboarding.starter), ('R7-Home', home.build),
     ('R7-Learn', areas.learn), ('R7-Ask', areas.ask), ('R7-Vault', areas7.vault), ('R7-Community', areas7.community),
     ('R7-Me', areas7.me), ('R7-Widgets', kit.widgets),
-] + screens7.BOARDS + kit7.BOARDS + brand7.BOARDS + marketing7.BOARDS + auth7.BOARDS + loop7.BOARDS + biz7.BOARDS
+] + screens7.BOARDS + kit7.BOARDS + brand7.BOARDS + marketing7.BOARDS + auth7.BOARDS + loop7.BOARDS + biz7.BOARDS + admin7.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]
     for name, fn in BOARDS:
-        write(os.path.join(out, name + '.dc.html'), transform(name, fn(), native=fn.__module__ in ('areas7', 'screens7', 'kit7', 'brand7', 'marketing7', 'auth7', 'loop7', 'biz7')))
+        write(os.path.join(out, name + '.dc.html'), transform(name, fn(), native=fn.__module__ in ('areas7', 'screens7', 'kit7', 'brand7', 'marketing7', 'auth7', 'loop7', 'biz7', 'admin7')))

@@ -6,6 +6,17 @@
 
 ## 2026-09-25
 
+### Round 7 batch 5: AWO Admin (desktop)
+- Seven linked admin screens (`design/round-7/admin7.py`), with Cmd+K search and a sidebar showing counts:
+  - **Overview:** "Needs you" first (filterable), then what's live, key figures and where members are.
+  - **Approvals:** two people with the author excluded, a line-by-line diff, automatic checks, a member preview, and approve or request changes (a note is required).
+  - **Scoring:** a draft against the live version, with a preview on 200 test profiles.
+  - **Members:** private by default; revealing a number needs a reason and is logged; a data request can be exported.
+  - **Moderation:** AI flags and people decide, with keyboard shortcuts and undo.
+  - **Lessons and Vault:** a Kanban from draft to published.
+  - **Audit log and AI log.**
+- Doc 13 now carries the admin guidance Ian asked for: each pattern, which product it's borrowed from, and how AWO uses it. The approval rule stays a proposal (Q-34).
+
 ### Round 7 batches 2 and 3: the deeper loop, and entrepreneurs
 - **The loop, deeper** (`design/round-7/loop7.py`):
   - **Lesson player:** story cards, Thandi's stokvel as a turning circle, Ola explaining in reviewed words, a quick check with kind feedback, and a finish that waxes the moon.

@@ -2,7 +2,7 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Ian reacts to the full Round 7 board
+## Now: Ian reacts to Round 7's new batches
 
 Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes. Vault, Me and Community have been redesigned after Ian's first reaction (T-078). Round 7 is now the full reference board (D-034): brand, foundations, every screen, components, widgets and marketing are all on page `r7`.
 
@@ -10,6 +10,7 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Notes |
 |---|---|---|
+| T-085 | React to Round 7's new batches (accounts, the deeper loop, entrepreneurs, AWO Admin), and settle the admin approval rule (Q-34) | See [13](00-discovery/13-round-7.md#awo-admin-the-patterns-and-why) |
 | T-075 | React to **Round 7** as the full board: the new screens (progress, check-in, buddy, settings, onboarding), components, brand and motion. Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
 | T-028 | Optional: a paid **Mobbin** plan | Dribbble and Play Store cover references for now |
@@ -19,7 +20,6 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 
 | ID | Task | Owner |
 |---|---|---|
-| T-084 | **In progress.** Round 7 batch 5, AWO Admin (desktop): overview, approvals, scoring versions, members, moderation, content, audit and AI log; approvals shown as a proposal (Q-34) | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
@@ -81,3 +81,4 @@ Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 s
 | T-081 | Round 7 batch 1, accounts and the first loop: phone and social sign-in, the code, about you, consent, the result reveal, choosing a first step, reminders, PIN lock, welcome back; all linked | 2026-09-25 |
 | T-082 | Round 7 batch 2, the deeper loop: lesson player, compare versions, what-if simulator, check an offer, the one-page report, hard moments | 2026-09-25 |
 | T-083 | Round 7 batch 3, entrepreneurs: business profile, business check (sample questions), business Home | 2026-09-25 |
+| T-084 | Round 7 batch 5, AWO Admin (desktop): overview, approvals, scoring, members, moderation, lessons and Vault, audit and AI log; guidance in doc 13 | 2026-09-25 |

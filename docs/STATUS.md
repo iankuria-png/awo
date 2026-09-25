@@ -1,7 +1,7 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** Round 7 grows by Ian's picks (D-036): accounts, the deeper loop and entrepreneurs are on the canvas; AWO Admin is next (T-084)
+**Current focus:** Round 7 now holds Ian's four picked batches (D-036): accounts and the first loop, the deeper loop, entrepreneurs and AWO Admin. Waiting for Ian's reaction and the approval rule (T-085, Q-34)
 **Last updated:** 2026-09-25, session 3 (Round 7)
 
 ## Start here
