@@ -21,6 +21,7 @@
 | Q-30 | **Theme logic:** is Learn (and Ask) *always* dark, or does the app follow the phone's dark mode? | Supporting both doubles design and QA work. | Learn and Ask always dark ("night for learning"); the rest follows the system later, if at all. | Open |
 | Q-31 | **Store name and copy:** is "AWO: money in plain words" right, and who approves store copy? | Needed before any store listing or ad goes out. | Keep AWO as the lead; test two short descriptions with first members. | Open |
 | Q-32 | **Ola beyond Learn and Ask:** may Ola appear in the Learn widget, store screenshots and ads? | D-021 limits the mascot to one area; marketing and widgets are edge cases. | Yes when the surface is about Learning; never next to results or money amounts. | Open |
+| Q-33 | **Handwriting face:** Kalam, Nanum Pen Script or Delicious Handrawn for the special moments (Round 7)? And should the store screenshots and ads also move from Bricolage to Geist? | Sets the brand's voice at its warmest moments; marketing needs one type system. | Kalam in the app, where it is most legible; decide marketing type with the wordmark (Q-25). | Open |
 
 ## Answered
 

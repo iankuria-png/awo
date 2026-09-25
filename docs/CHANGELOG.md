@@ -6,6 +6,12 @@
 
 ## 2026-09-25
 
+### Round 7: Geist, a hand for special moments, tighter corners
+- Ian's brief (D-032): Round 1 Oasis's typeface (Geist), a handwritten face only for special moments, and a more restricted radius. His Round 6 answers, typed in the same screenshot: icon A, keep Home as it is (D-031).
+- Canvas page **`r7`**: a **Type and corners** board (Geist's scale, three handwriting candidates with a live switcher, corners 6, 10, 14 and a circle, each beside Round 6), plus the Round 6 screens and components rebuilt by a transform in **`design/round-7/round7.py`**. Content and flows are unchanged, so the pages compare fairly.
+- Handwriting appears in six moments: welcome "start here", "Here's where you start.", wins in members' own words, "Done for this week", "You showed up three evenings this week", and her shared answer. Results, AI answers and definitions stay typeset. Kalam is the default; every board has a `hand` Tweak (Q-33).
+- Recorded in **`00-discovery/13-round-7.md`**.
+
 ### Round 6, batches 2 and 3: components, widgets, marketing, foundations
 - **Components** (all live): buttons, the shape tab bar, provenance labels, inputs, switches, feedback states, the five shapes working, people, rows and steps. **Widgets**: a lock screen with no amounts, a home screen with small, medium and large widgets, and notifications written as a person first.
 - **Marketing from captures of the Round 6 screens**, so nothing starts stale: six store screenshots (one per area, in its colour), a store listing in our own layout, a feature graphic, two app icon candidates, a device hero, and word-of-the-week, pool and story ads. PNGs are exported to `design/marketing/round-6/`.

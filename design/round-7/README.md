@@ -1,0 +1,16 @@
+# Round 7 generator
+
+Round 7 is Round 6 with three changes, applied as a transform so the two rounds stay comparable. The design is explained in [doc 13](../../docs/00-discovery/13-round-7.md).
+
+| File | Writes |
+|---|---|
+| `round7.py` | `R7-Welcome`, `R7-Starter`, `R7-Home`, `R7-Learn`, `R7-Ask`, `R7-Vault`, `R7-Community`, `R7-Me`, `R7-Components`. It builds each Round 6 board, then: adds the handwritten moments (`moments()`), swaps the display type to Geist, maps every corner to 6, 10, 14 or a circle, relinks tabs to Round 7, and adds a `hand` Tweak |
+| `typeboard.py` | `R7-Type`: Geist's scale, the handwriting candidates with a live switcher, and the corners, each with a Round 6 comparison |
+
+```sh
+cd design/round-7
+python3 round7.py /path/to/project
+python3 typeboard.py /path/to/project
+```
+
+Change a Round 6 screen, rerun both rounds, and the comparison stays fair. `moments()` asserts each anchor exists, so a Round 6 wording change fails loudly instead of silently losing a moment.

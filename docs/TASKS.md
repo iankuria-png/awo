@@ -2,15 +2,15 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Ian reacts to Round 6
+## Now: Ian reacts to Round 7
 
-Round 6 is on canvas page `r6` ([12](00-discovery/12-round-6.md)): onboarding, the five areas and Ask, components, widgets, marketing and foundations, all at Volume 1 (Clean).
+Round 7 is on canvas page `r7` ([13](00-discovery/13-round-7.md)): the Round 6 screens in Geist, with a handwritten face for special moments and three corner sizes.
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
-| T-074 | React to **Round 6** on the canvas: Home's order, the Me arc, the icon candidates (A stones or B wordmark), anything to push further | Comments on boards are welcome |
+| T-075 | React to **Round 7**: keep Geist? Which hand (Q-33)? Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
 | T-025 | Confirm the email on the **Unsplash** account; its connector refuses searches until then | nappy.co photos stand in |
 | T-028 | Optional: a paid **Mobbin** plan | Dribbble and Play Store cover references for now |
 | T-022 | Answer the open questions when ready (non-blocking) | Q-04, Q-05, Q-07, Q-09, Q-10, Q-25, Q-26, Q-27, Q-29 to Q-32 |
@@ -19,7 +19,8 @@ Round 6 is on canvas page `r6` ([12](00-discovery/12-round-6.md)): onboarding, t
 
 | ID | Task | Owner |
 |---|---|---|
-| T-048 | Design Standard v1 draft, starting from the Round 6 foundations board and components | Claude |
+| T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
+| T-076 | If Geist stays: regenerate the marketing boards and exports in Round 7 type | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
 | T-032 | PRD v1 + feature map + IA (member, public, admin), built on the five areas (D-029) | Claude |
@@ -71,3 +72,5 @@ Round 6 is on canvas page `r6` ([12](00-discovery/12-round-6.md)): onboarding, t
 | T-071 | Round 6 components and widgets boards | 2026-09-25 |
 | T-072 | Round 6 marketing from captures of the live screens: six store screenshots, listing, feature graphic, icon candidates, device hero, three ads; PNGs in `design/marketing/round-6/` | 2026-09-25 |
 | T-073 | E foundations at Volume 1 | 2026-09-25 |
+| T-074 | Ian reacted to Round 6: icon A, keep Home as it is (D-031) | 2026-09-25 |
+| T-077 | Round 7 on canvas page `r7`: type and corners board, nine screens transformed (Geist, handwritten moments, 6/10/14 corners), a `hand` Tweak on each; generator in `design/round-7/` | 2026-09-25 |
