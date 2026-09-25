@@ -6,6 +6,11 @@
 
 ## 2026-09-25
 
+### Round 3, batches 3 and 4: Learn and Ask, E Homes, DIVA, progress
+- **Learn flow** (one interactive board): stepping-stone path, story cards with progress bars, quiz with feedback, Ola's celebration, back to an updated path. **Vault flip cards** (flip, filter, save) and **Ask Ola** (suggestion, thinking, sourced answer). All self-checked by clicking through every state.
+- **E screens:** bento, timeline and stories Homes; the **DIVA ripple rings** (tap a dimension, evidence shown apart, version label, no gamification); **progress over time** (tooltip, small multiples, effort stats).
+- Charts follow the `dataviz` skill; the validator showed the brand colours fail as a categorical palette, so charts use one hue with direct labels.
+
 ### Round 3, batches 1 and 2: taste board, Direction E foundations, Ola v2
 - Ian answered T-010: **Claude self-checks every board** (D-026). Added `scripts/canvas-preview.mjs`, which renders boards locally with the canvas runtime and screenshots them, including clicked states. The first checks caught a clipped headline, an overlapping animation and a pink cast on Ola.
 - **Taste board** (canvas, Round 3 page): 12 references from Play Store listings (Wise, Kuda, Cash App, Monzo, Headspace, Duolingo) and Dribbble (mascots, AI orb, widgets, savings pools, bento), each with the one thing to take. Photography comes from nappy.co (CC0).

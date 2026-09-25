@@ -6,8 +6,7 @@
 
 | ID | Task | Owner | Notes |
 |---|---|---|---|
-| T-013 | E screens: bento Home, timeline Home, story Home, DIVA result reveal (ripple rings), progress graphs, interactive check-in, community, buddy, settings with switches, onboarding variants | Claude | Non-generic layouts; minimal copy |
-| T-015 | **Interactive Lesson Player** (path → story cards → quiz → celebration) + flip cards; Learn home redesign | Claude | Real state machine, `is_interactive` |
+| T-013 | E screens. **Done:** bento, timeline and story Homes, DIVA ripple rings, progress. **Left:** interactive check-in, community, buddy, settings with switches, onboarding variants | Claude | Non-generic layouts; minimal copy |
 | T-016 | **Components and widgets** boards: stats bar, switches, sliders, segmented controls, charts, notifications, skeletons, home and lock-screen widgets | Claude | Charts per the `dataviz` skill |
 | T-017 | **Marketing**: device hero shot, square and story ads, Play Store feature graphic (1024×500), store screenshots, simplified listing preview | Claude | Also export real PNGs to `design/marketing/` |
 | T-018 | Publish Round 3 on a new canvas page `r3`, in batches | Claude | Handover §7 canvas rules |
@@ -58,3 +57,4 @@
 | T-020 | Figma connector connected (View seat, Starter plan) | 2026-09-25 |
 | T-023 | Unsplash connected as a connector instead of an API key (see T-024) | 2026-09-25 |
 | T-026 | `scripts/canvas-preview.mjs`: render and screenshot boards locally | 2026-09-25 |
+| T-015 | Interactive Learn flow, Vault flip cards, Ask Ola with Ola v2 | 2026-09-25 |

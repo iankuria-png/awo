@@ -48,6 +48,20 @@ Twelve real references, picked before designing. The board credits and links eac
 - **Six states:** idle (breathes, blinks), looking (glances and leans), listening (wide eyes, rings pulse), thinking (looks up, a dot orbits; never a spinner), celebrating (^ ^, jump, sparkles in lime, blush and iris), resting (closed eyes, dimmed, z).
 - **Rules:** Learn and Ask only; never on a DIVA result; celebrates effort, never scores. Built as one Rive file with one state machine. At 24px the highlight drops and the eyes thicken.
 
+## Learn and Ask (Night Oasis, interactive)
+
+- **Learn flow (one board, real state):** the path is **stepping stones across water** (done = mint with a check, current = iris with ripples and a Start callout, locked = raised with a lock). Tapping Start opens **story cards** with progress bars (four cards, each one visual and one idea), then a **quiz** (pick, check, feedback banner; a wrong answer shakes and explains), then a **celebration** (Ola jumps, confetti, effort stats in a bento), then **back to the path**, which updates (lesson done, today's learning dot filled, Ola proud).
+- **Vault flip cards:** 3D flip to a plain definition on the term's accent colour, filter chips, save toggle with a count. Sample definitions include stokvel, chama, debit order and an advance-fee scam.
+- **Ask Ola:** keeps Round 1 B's liked layout (presence, question, 2×2 suggestions, composer). A suggestion opens a chat: Ola thinks (eyes up, dots), then answers with a Vault source chip, *Reviewed by AWO* and "Reworded by AI from AWO-reviewed text". Ask no longer offers "Explain my DIVA result", to keep Ola away from results.
+
+## Direction E screens (day)
+
+- **Three Home variants:** *bento* (hero step tile, safety-net pool, 30-day ring, word of the week, community tile with a photo arch, a night "keep learning" tile, profile rings), *timeline* (the 30-day loop as a rail with stones: done, now, today, buddy, check-in), *stories* (wins rail with real photos, a full-bleed member story, step and buddy rows).
+- **DIVA profile:** four concentric **ripple rings**, one per dimension in weight order, drawn in one hue and labelled directly; tapping a dimension dims the other rings and swaps in its sample interpretation. The overall number counts up once. **Evidence confidence** sits in its own box, outside the score. There is no mascot and no confetti, and the result shows its version ("Version 3, 13 Sep").
+- **Progress:** hero number with a plain-words delta, a single-line chart with time-true spacing and a tap tooltip, and small multiples by area (each with its own range, said in words). Effort stats (lessons, actions, check-ins) and a separate evidence track.
+- **Charts follow the dataviz skill:** single hue, 2px lines, 1px solid gridlines, one axis, direct labels, emphasis by dimming. The brand colours fail as a categorical palette (validator), so no chart relies on two brand hues for identity.
+- **Short dimension labels used (proposed, Q-05):** Health, Resilience, Capital, Goals.
+
 ## People imagery (working assumption for Q-27)
 
 Real photography from **[nappy.co](https://nappy.co/license)** (CC0: free for commercial use, credit optional) stands in until AWO photographs real members. Photos show contemporary women (founders, friends, mothers) in real settings, cropped into arches and circles.
