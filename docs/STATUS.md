@@ -1,7 +1,7 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** Round 7 is the full reference board (D-034): foundations and brand, every screen linked, components and widgets are on the canvas. Marketing in Geist is next (T-076); then Ian reacts (T-075)
+**Current focus:** Round 7 is the full reference board (D-034): foundations and brand, every screen linked, components, widgets and marketing in Geist. Waiting for Ian to react (T-075); then the Design Standard v1 draft (T-048)
 **Last updated:** 2026-09-25, session 3 (Round 7)
 
 ## Start here

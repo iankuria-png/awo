@@ -21,6 +21,7 @@ import areas7  # noqa: E402  (Vault, Me, Community redesigned natively in Round 
 import screens7  # noqa: E402  (screens Round 6 never had, from Round 3's E set)
 import kit7  # noqa: E402  (controls, data and feedback)
 import brand7  # noqa: E402  (brand, icons, motion, foundations)
+import marketing7  # noqa: E402  (store, listing, feature graphic, icon, hero, ads)
 from screens7 import mark  # noqa: E402
 from lib6 import EVG, LIME, MOON, BLUSH_INK, write  # noqa: E402
 
@@ -154,9 +155,9 @@ BOARDS = [
     ('R7-Welcome', onboarding.welcome), ('R7-Starter', onboarding.starter), ('R7-Home', home.build),
     ('R7-Learn', areas.learn), ('R7-Ask', areas.ask), ('R7-Vault', areas7.vault), ('R7-Community', areas7.community),
     ('R7-Me', areas7.me), ('R7-Widgets', kit.widgets),
-] + screens7.BOARDS + kit7.BOARDS + brand7.BOARDS
+] + screens7.BOARDS + kit7.BOARDS + brand7.BOARDS + marketing7.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]
     for name, fn in BOARDS:
-        write(os.path.join(out, name + '.dc.html'), transform(name, fn(), native=fn.__module__ in ('areas7', 'screens7', 'kit7', 'brand7')))
+        write(os.path.join(out, name + '.dc.html'), transform(name, fn(), native=fn.__module__ in ('areas7', 'screens7', 'kit7', 'brand7', 'marketing7')))

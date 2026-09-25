@@ -4,6 +4,7 @@
 > **Ian's brief (D-032):** "Experiment with this typeface (Round 1's Oasis board, Geist), only a few handwritten fonts for those special moments, and a more restricted border radius."
 > **Carried in from Round 6 (D-031):** app icon A (stepping stones); Home stays as it is.
 > **Update, same day:** Ian found Vault, Me and Community the weakest. They were redesigned natively; see [Vault, Me and Community, redesigned](#vault-me-and-community-redesigned).
+> **Then:** Round 7 became the full reference board (D-034), with Geist and Kalam confirmed and marketing moved over (D-033); see [Round 7 as the full board](#round-7-as-the-full-board).
 
 ## How it was built
 
@@ -26,6 +27,8 @@ Round 7 is the Round 6 screens with three changes applied as a transform. The co
 | Learn | "You showed up three evenings this week." | AWO |
 | Community | Her answer to the week's question, once shared | Her own words |
 | Vault | "See you tomorrow." at the end of a practice round | AWO, at a milestone |
+| Check-in | "One month, kept." when the 30-day check-in is done | AWO, at a milestone |
+| Marketing | Her answer on the Community store screenshot; Amara's line on the story ad | Members' own words |
 
 **These stay typeset on purpose:**
 - **Me:** results, scores and stages.
@@ -80,3 +83,58 @@ All ten boards rendered without broken bindings, text under 12px or touch target
 Unchanged: the rules. Results, scores and AI text stay typeset; the hand appears once per screen at most; evidence stays separate from the score.
 
 **Self-check:** all three boards rendered with no broken bindings, no text under 12px and no touch targets under 44px. The Me heading was reworked after the first render: "Stage 2 of 4" in one line was too wide, so it became "Stage 2" with "of 4 stages" beside it.
+
+## Round 7 as the full board
+
+**Ian's brief (D-034):** "Let's add these pages and components to the Round 7 artifact, now made to fit our Round 7 design language. I want Round 7 to be a full board, which we will use for UI/UX inspiration and references." His screenshots showed Round 2's brand boards (wordmark, icons, motion) and Round 3's screens, components and marketing. In the same message he confirmed: keep Geist and Kalam, and move marketing over (D-033).
+
+**The page, top to bottom:**
+
+| Row | Boards |
+|---|---|
+| Foundations and brand | Type and corners, Foundations (colour, shapes, people, space), Brand (app icon A, the wordmark in Geist), Icons, Motion (M1 to M6, live) |
+| The app | Welcome (photo-led), Welcome (three slides), What brings you here, Starter check, Home, Learn, Ask, Vault, Community, Me |
+| Inside the areas | Your progress, the 30-day check-in, Your buddy, Settings |
+| Components and widgets | Components (controls), Data and feedback, Widgets |
+| Marketing | Seven store screenshots, the listing, the feature graphic, the 512 icon, the device hero and four ads |
+
+**The screens link up:**
+- The photo-led welcome leads to "What brings you here", then the starter check.
+- Me opens Progress (from "Your versions") and Settings.
+- Progress opens the check-in, which ends back on Me.
+- Community opens the buddy (her face, top right).
+
+**Choices worth checking:**
+- **Progress:** each version is a stone, rising with readiness. Tap one to see its date and value. "What moved" shows the old value pale and the gain dark. Evidence keeps its own meter.
+- **The check-in:**
+  - The pool fills as she drags the amount.
+  - Answering "Not this time" gets "Thanks for saying so. It still counts as a check-in."
+  - At the end a new lime stone appears with her face on it, and the hand says "One month, kept."
+  - It shows no new score. Scoring happens on the server, so the new version appears on Me.
+- **The buddy:** the shared goal shows lessons only, never amounts.
+- **Settings:** reduce motion and larger text work live, in the rows themselves.
+- **Controls:**
+  - Switches have a 10px track and a 6px thumb.
+  - Radios stay circles; checkboxes are squares with 6px corners.
+  - Warnings and deleting use wine, never red.
+- **Brand:**
+  - App icon A stays as chosen.
+  - The lockup is the stones mark beside "awo" in Geist 600. It is a working lockup while the wordmark stays open (Q-25).
+  - The mark stops at 20px, where the stones merge.
+- **Icons:** they stay geometric. Round 2 drew them by hand, but in Round 7 the hand belongs to people's words.
+- **Motion:** M1 to M6 are live cards. Turning reduce motion on pauses every loop on the board.
+- **Marketing:**
+  - Everything is built from 2x captures of the Round 7 screens.
+  - Corners scale with the canvas: 14 at phone width becomes 40 at 1080.
+  - The hand appears only in members' own words.
+  - Exports are in `design/marketing/round-7/`.
+
+**Self-check:** every new board was rendered and clicked through, with no broken bindings, no text under 12px and no touch targets under 44px. The renders caught and fixed these problems:
+- a tooltip covering a stone;
+- a cramped amount chip;
+- a flat check-in ending (it now adds a new stone);
+- the Learn tab label vanishing on a light bar;
+- the buddy link crowding the Community title;
+- the photo ad's headline running under the photo;
+- 256-colour exports banding the photos.
+

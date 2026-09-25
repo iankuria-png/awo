@@ -9,6 +9,7 @@ Round 7 is Round 6 with three changes, applied as a transform so the two rounds 
 | `screens7.py` | Screens Round 6 never had, from Round 3's set: `R7-Entry` (photo-led welcome), `R7-Goals`, `R7-Progress`, `R7-Checkin`, `R7-Buddy`, `R7-Settings` |
 | `kit7.py` | `R7-Components` (controls) and `R7-Data` (data and feedback). `R7-Widgets` is Round 6's widgets board through the transform |
 | `brand7.py` | `R7-Brand` (app icon A, the wordmark in Geist), `R7-Icons`, `R7-Motion` (M1 to M6, live), `R7-Foundations` |
+| `marketing7.py` | `R7-Store-1…7`, `R7-Listing`, `R7-Feature-Graphic`, `R7-App-Icon`, `R7-Hero-Device`, `R7-Ad-Photo`, `R7-Ad-Pool`, `R7-Ad-Word`, `R7-Ad-Story`, from 2x captures of the Round 7 screens (`CAPS`). Exports live in `design/marketing/round-7/` |
 | `typeboard.py` | `R7-Type`: Geist's scale, the handwriting candidates with a live switcher, and the corners, each with a Round 6 comparison |
 
 ```sh

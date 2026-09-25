@@ -6,6 +6,11 @@
 
 ## 2026-09-25
 
+### Round 7 marketing in Geist, and the full board complete
+- Marketing moved to Round 7 (T-076, D-033), built from 2x captures of the Round 7 screens: seven store screenshots (Progress is new), the listing, the feature graphic, a 512 app icon, the device hero, and photo, pool, word and story ads. Exports are in `design/marketing/round-7/`.
+- The stepping-stones lockup replaces the Bricolage wordmark everywhere. Corners scale with the canvas (14 becomes 40 at 1080). The hand appears only in members' own words: her answer on the Community screenshot and Amara's line on the story ad.
+- Doc 13 now describes the full board: the page's rows, how the screens link, and the choices to check. Generator: `design/round-7/marketing7.py`.
+
 ### Round 7 becomes the full board: brand, foundations, new screens, components
 - Ian: make Round 7 "a full board which we will use for UI/UX inspo and references", with Round 2's brand boards and Round 3's screens, components and marketing redone in the Round 7 language. He also confirmed the draft: keep Geist and Kalam, and move marketing over (D-033).
 - **New screens**, written natively (`design/round-7/screens7.py`): a photo-led welcome, "What brings you here", Your progress (tap a stone to see each version), the 30-day check-in (drag the amount, three questions, a new stone at the end), Your buddy and Settings (switches, with reduce motion and larger text working live). Me links to Progress and Settings; Community links to the buddy.

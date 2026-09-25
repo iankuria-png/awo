@@ -63,7 +63,7 @@ docs/glossary.md     AWO vocabulary
 docs/STATUS.md       snapshot         docs/TASKS.md      task list       docs/CHANGELOG.md  diary
 docs/handover/       session handovers
 scripts/             screenshot.mjs, canvas-preview.mjs (self-check boards), playwright-mcp.sh, hooks/require-changelog.sh
-design/marketing/    marketing PNGs: Round 3 drafts, and round-6/ built from the live screens
+design/marketing/    marketing PNGs: Round 3 drafts, round-6/ built from the live screens, round-7/ in Geist
 design/round-5/      generator for the Round 5 canvas boards (shared shapes, icons, Ola, tab bars)
 design/round-6/      generator for Round 6 (the app at Volume 1); design/round-7/ transforms it (Geist, handwriting, corners) and redesigns Vault, Me and Community
 .claude/settings.json  plugins, MCP approval, the changelog hook      .mcp.json  Playwright server
