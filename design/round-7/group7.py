@@ -46,6 +46,9 @@ GROUPS = [
         ['R7-Me', 'R7-Progress', 'R7-Compare', 'R7-Report', 'R7-Settings']]),
     ('One search, help, and reporting a problem', [
         ['R7-R9-Search', 'R7-R9-Help', 'R7-R9-Help-Report']]),
+    ('Other sizes and channels: a computer, a tablet, WhatsApp and USSD', [
+        ['R7-R9-Desktop-Home', 'R7-R9-Desktop-Me', 'R7-R9-Tablet-Learn'],
+        ['R7-R9-WhatsApp-Checkin', 'R7-R9-USSD', 'R7-R9-One-Question']]),
     ('Components and widgets', [
         ['R7-Components', 'R7-Data', 'R7-Widgets']]),
     ('AWO Admin (desktop)', [

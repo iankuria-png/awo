@@ -6,6 +6,12 @@
 
 ## 2026-09-26
 
+### Round 9 batch 3: other sizes and channels
+- Home and the DIVA profile on a computer (1440 wide): the five areas down the side, each in its colour when chosen; the phone's cards placed side by side; the next 30 days and where she left off along the bottom. Learn on a tablet: the path and the lesson side by side, in Learn's night colours, with Ola.
+- The check-in on WhatsApp (reply buttons, a list of five amounts, then a link to what changed) and on USSD (a feature phone you can dial through, 160 characters a screen, numbers only, and an SMS with no amounts). Both are samples; the journeys and providers stay open (Q-21).
+- One question, every channel: the question written once, with its short label and five answers, drawn in the app, on the web, on WhatsApp and on USSD.
+- On the Round 7 board, a new section: other sizes and channels. The self-check fixed stepping stones spilling out of their card, "Stage 2" wrapping, a clipped spec card and a WhatsApp line that promised too much.
+
 ### Round 9 batch 2: the rest of the Hub
 - The Hub's "All 18 tools" button now opens All tools (`R9-Hub-All`): every tool by the job it does, filtered by Me or My business, with the new ones marked. The Hub's rows now link to each new tool.
 - Seven tools on the six-beat skeleton: sending money home (the fee plus what hides in the rate; she types the quotes, AWO names no provider), a loan's real cost with "explain my agreement" (lines worth asking about, never whether to sign), two job offers (what reaches her, and what goes into her pension, kept apart), the retirement pulse (an illustration at three growth rates), what I own and owe (private), is it worth it (payback in weeks, with the slow weeks), and a business setup checklist for Kenya or South Africa with dated facts.

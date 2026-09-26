@@ -31,6 +31,12 @@ TITLES = {  # board: title shown on the canvas (with what to try)
     'R9-Tool-Worth': 'Is it worth it? A sewing machine (try the slow weeks)',
     'R9-Tool-Setup': 'Business setup checklist (Kenya or South Africa; tick steps)',
     'R9-Group-Book': 'Savings group book: a stokvel record (mark paid, remind, payout order)',
+    'R9-Desktop-Home': 'Home, on a computer (1440 wide)',
+    'R9-Desktop-Me': 'Your DIVA profile, on a computer',
+    'R9-Tablet-Learn': 'Learn on a tablet: the path and the lesson side by side',
+    'R9-WhatsApp-Checkin': 'The check-in on WhatsApp (Start, choose an amount, answer)',
+    'R9-USSD': 'The check-in on USSD (press 1, answer with numbers, Send)',
+    'R9-One-Question': 'One question, every channel',
 }
 STATIC = ('R9-Status-',)  # images, not interactive screens
 
@@ -41,6 +47,8 @@ ROWS = [
     ('r9t4', 'One search, help, and reporting a problem', ['R9-Search', 'R9-Help', 'R9-Help-Report']),
     ('r9t5', 'Batch 2, the rest of the Hub: all tools, and new tools for your own money', ['R9-Hub-All', 'R9-Tool-Remit', 'R9-Tool-Loan', 'R9-Tool-Offers', 'R9-Tool-Pension', 'R9-Tool-Owe']),
     ('r9t6', 'For a business, and a savings-group record book (Q-45)', ['R9-Tool-Worth', 'R9-Tool-Setup', 'R9-Group-Book']),
+    ('r9t7', 'Batch 3, other sizes: a computer and a tablet', ['R9-Desktop-Home', 'R9-Desktop-Me', 'R9-Tablet-Learn']),
+    ('r9t8', 'Other channels: the check-in on WhatsApp and USSD, and one question everywhere (Q-21)', ['R9-WhatsApp-Checkin', 'R9-USSD', 'R9-One-Question']),
 ]
 
 HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
@@ -49,6 +57,8 @@ HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
          "Batch 2 is the rest of the Hub: All tools (the Hub's button now opens it), sending money home, a loan's real cost with "
          "explain my agreement, two job offers, the retirement pulse, what I own and owe, is it worth it, business setup, and "
          "a savings-group record book where AWO never holds the money.\n\n"
+         "Batch 3 is other sizes and channels: Home and the DIVA profile on a computer, Learn on a tablet, and the check-in on "
+         "WhatsApp and USSD, with one board showing the same question drawn in every channel.\n\n"
          "The flow board at the top shows the whole loop with the gaps it found. Home now has a bell, and the check-in ends on "
          "What changed.\n\n"
          "Every Round 9 board is also on the Round 7 board, in its topic section, marked (Round 9).\n\n"

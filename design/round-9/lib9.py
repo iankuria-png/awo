@@ -116,3 +116,35 @@ def stones_svg(n_done, w=320, h=120, new_last=False, dark=False):
         out += (f'<ellipse cx="{x}" cy="{y + dy:.1f}" rx="{rx:.1f}" ry="{ry:.1f}" fill="{shadow}"></ellipse>'
                 f'<ellipse cx="{x}" cy="{y}" rx="{rx:.1f}" ry="{ry:.1f}" fill="{fill}" stroke="{EVG if not dark else MOON}" stroke-width="{sw:.1f}"{anim}></ellipse>')
     return f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" aria-hidden="true" style="display: block; overflow: visible">{out}</svg>'
+
+
+def screen_board(title_text, w, h, bg, inner, logic, css='', dark=False, defs=''):
+    """A board at any size (desktop, tablet, a device on a desk) with its own logic, in the Round 7 language."""
+    fg = MOON if dark else INK
+    cls = ' class="dk"' if dark else ''
+    return f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{title_text}</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+{FONTS}
+<style>{BASE_CSS}{EXTRA_CSS}{PHONE_CSS}{HUB_CSS}{TOOL_CSS}{CSS9}{css}
+body{{background:{bg}}}
+</style>
+</helmet>
+<div{cls} style="position: relative; width: {w}px; height: {h}px; overflow: hidden; background: {bg}; color: {fg}; font-family: 'Geist', ui-sans-serif, system-ui, sans-serif">
+  <svg width="0" height="0" style="position: absolute" aria-hidden="true"><defs>{defs}</defs></svg>
+{holes(inner)}
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":{w},"height":{h}}}}}'>
+{logic}
+</script>
+</body>
+</html>
+'''

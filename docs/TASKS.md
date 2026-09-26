@@ -4,12 +4,13 @@
 
 ## Now: Round 9, in six batches
 
-Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), batch by batch, and each board is also on the Round 7 board in its topic section (D-041). Batches 1 and 2 are published: the 30-day loop as one flow with sharing, help and search; and the rest of the Hub with All tools and a savings-group book. Next: other channels and sizes (T-104), components (T-105), the material around the app (T-106) and merchandise (T-107).
+Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), batch by batch, and each board is also on the Round 7 board in its topic section (D-041). Batches 1 to 3 are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; and other sizes and channels. Next: components (T-105), the material around the app (T-106) and merchandise (T-107).
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
+| T-109 | **React to Round 9, batch 3** (page `r9`): Home and the DIVA profile on a computer, Learn on a tablet, the WhatsApp and USSD check-ins, and one question in every channel. WhatsApp and USSD journeys stay open (Q-21) | [15](00-discovery/15-round-9.md#batch-3-other-sizes-and-channels) |
 | T-108 | **React to Round 9, batch 2** (page `r9`): All tools and the seven new tools; and settle Q-45, what a savings-group book may keep (the design shows records only, AWO never holding money) | [15](00-discovery/15-round-9.md#batch-2-the-rest-of-the-hub) |
 | T-102 | **React to Round 9, batch 1** (page `r9`): the loop flow, what changed (and a month that went down), this month's step, the milestone and WhatsApp sharing, notifications, search and help. Answer Q-46: what may a member share outside AWO? | [15](00-discovery/15-round-9.md#batch-1-the-30-day-loop-end-to-end) |
 | T-093 | **React to Round 8** (page `r8`): the Hub modes "Me" and "My business", the nine tools, goals and Home, the stories and the podcast, the feed; and answer the new questions on members' stories (Q-42) and reaction counts (Q-43) | [14](00-discovery/14-round-8.md#questions-for-ian) |
@@ -25,7 +26,6 @@ Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), b
 
 | ID | Task | Owner |
 |---|---|---|
-| T-104 | Round 9 batch 3: desktop and tablet layouts, a WhatsApp check-in, a USSD menu | Claude |
 | T-105 | Round 9 batch 4: sheets and dialogs, toasts, date picker, file upload, loading placeholders, a two-currency input; empty states from the five shapes | Claude |
 | T-106 | Round 9 batch 5: emails, an A5 flyer and workshop slides, mockups in real places, carousels, status cards, podcast art | Claude |
 | T-107 | Round 9 batch 6: merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag, ambassador T-shirts) | Claude |
@@ -104,3 +104,4 @@ Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), b
 | T-100 | The DIVA score in the app (D-040, Ian: "yes, DIVA score even in the app too"): Me, the reveal, Progress, Compare, the report, Home (Rounds 7 and 8), components and admin scoring say "DIVA score"; the Me and Progress captures redone, so the store screenshots and the DIVA ad match | 2026-09-26 |
 | T-101 | Round 9 batch 1: the 30-day loop as one flow (flow board, lock-screen reminder, notifications, what changed, this month's step, a milestone and sharing, three WhatsApp status cards), one search, help and reporting a problem; Home gets a bell and the check-in ends on What changed; all on page `r9` and in two new Round 7 sections | 2026-09-26 |
 | T-103 | Round 9 batch 2: All tools (the Hub's button now opens it), sending money home, a loan's real cost and explain my agreement, two job offers, the retirement pulse, what I own and owe, is it worth it, business setup, and a savings-group record book | 2026-09-26 |
+| T-104 | Round 9 batch 3: Home and the DIVA profile on a computer, Learn on a tablet, the check-in on WhatsApp and on USSD (a phone to dial through), and one question drawn in every channel | 2026-09-26 |

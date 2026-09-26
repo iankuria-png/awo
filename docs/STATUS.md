@@ -1,8 +1,8 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** Round 9 on page `r9` ([15](00-discovery/15-round-9.md)), in six batches (D-041). Batches 1 (the 30-day loop as one flow, sharing, help and search) and 2 (the rest of the Hub, All tools and a savings-group book) are published; batch 3 (other channels and sizes) is next. Every Round 9 board is also on the Round 7 board, in its topic section
-**Last updated:** 2026-09-26, session 4 (Round 9, batch 2)
+**Current focus:** Round 9 on page `r9` ([15](00-discovery/15-round-9.md)), in six batches (D-041). Batches 1 to 3 are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub; other sizes and channels. Batch 4 (components and empty states) is next. Every Round 9 board is also on the Round 7 board, in its topic section
+**Last updated:** 2026-09-26, session 4 (Round 9, batch 3)
 
 ## Start here
 

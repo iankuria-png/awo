@@ -1,6 +1,6 @@
 # 15 · Round 9: connecting the pieces, and everything around the app
 
-> **Status:** In progress on canvas page `r9` (Round 9), 26 Sep 2026. Batches 1 and 2 are published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
+> **Status:** In progress on canvas page `r9` (Round 9), 26 Sep 2026. Batches 1 to 3 are published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
 > **Ian's brief (D-041):** Build these, in batches, end to end with world-class UI and UX: the 30-day loop as one flow; sharing to WhatsApp; help and support, plus one search; Hub tools 10 to 18; a stokvel or chama record book; desktop and tablet layouts, a WhatsApp check-in and a USSD menu; components (sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input) and an empty-state set; emails; print (an A5 flyer and a workshop slide template); mockups in real places; social (carousels, WhatsApp status cards, podcast art); and merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag and ambassador T-shirts).
 > **Language:** Round 7's, as Round 8 used it: Geist for all type, Kalam only in someone's own words or AWO's short note at a real milestone, corners 6, 10 and 14 and a circle, one colour and shape per area, and the Round 8 tab bar (Home, Learn, Hub, Community, Me).
 > **Generator:** [`design/round-9/`](../../design/round-9/README.md).
@@ -11,7 +11,7 @@
 |---|---|---|
 | 1. The loop as one flow | The flow board; the reminder on the lock screen; notifications; what changed; this month's step; a milestone and sharing it; three WhatsApp status cards; one search; help; reporting a problem | Published |
 | 2. The rest of the Hub | All tools; sending money home; a loan's real cost and "explain my agreement"; is it worth it; two job offers; business setup; what I own and owe; the retirement pulse; a savings-group record book | Published |
-| 3. Other channels and sizes | Desktop and tablet layouts; a WhatsApp check-in; a USSD menu; one question in every channel | |
+| 3. Other channels and sizes | Home and the DIVA profile on a computer; Learn on a tablet; the check-in on WhatsApp and USSD; one question in every channel | Published |
 | 4. Components | Sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input; empty states made from the five shapes | |
 | 5. Around the app | Emails; an A5 flyer and workshop slides; mockups in real places; carousels, status cards, podcast art | |
 | 6. Merchandise | A money-in-and-out notebook; a check-in calendar or magnet; stickers and pins; a tote bag; ambassador T-shirts | |
@@ -55,4 +55,15 @@ The Hub's "All 18 tools" button went nowhere; it now opens **All tools** (`R9-Hu
 | **Is it worth it?** (`R9-Tool-Worth`) | Wanjiru and a second-hand sewing machine | Weeks until it pays for itself, with the slow weeks as a switch | Bars stay grey until the machine has paid for itself |
 | **Business setup checklist** (`R9-Tool-Setup`) | Kenya or South Africa | Steps done, and the next one | Every fact is dated (Q-41); "general guidance, not tax advice" |
 | **Savings group book** (`R9-Group-Book`) | Kopano stokvel: 10 members, R 500 each, the pot on the 5th | Who has paid, whose turn it is, and the payout order | AWO never holds, moves or promises the money, and says so on the screen. The group's rules are in its own words. A gentle WhatsApp reminder, and the month's record to share. Waits on Q-45 |
+
+## Batch 3: other sizes and channels
+
+| Board | What it shows | Choices worth checking |
+|---|---|---|
+| **Home, on a computer** (`R9-Desktop-Home`) | The five areas down the side (each in its own colour when chosen), then search, notifications and help. Three columns: this month's step and goals; the DIVA profile and the Hub's next useful thing; wins, the circle's question and the next lesson. Below: the next 30 days, and where she left off | A wide screen shows more at once, never more per card: every card is the phone's, placed side by side |
+| **Your DIVA profile, on a computer** (`R9-Desktop-Me`) | Stage, score and what it means beside the four areas and the versions line; compare and the PDF report one click away | The September marker stays on each bar |
+| **Learn, on a tablet** (`R9-Tablet-Learn`) | A rail, the path's lessons, and the lesson itself side by side, in Learn's night colours, with Ola | Arrow keys move between cards |
+| **The check-in on WhatsApp** (`R9-WhatsApp-Checkin`) | Three questions as reply buttons and a list of five amounts, then a link to what changed | "Only you and AWO see your answers"; HELP and STOP; she can delete the chat. A sample of the channel (Q-21) |
+| **The check-in on USSD** (`R9-USSD`) | A feature phone to dial through, every screen with its character count, and the SMS that follows | 160 characters a screen, numbers only, three questions because sessions are short. No amounts or score by SMS |
+| **One question, every channel** (`R9-One-Question`) | The question written once (its label, five answers, what it feeds, its rules) and drawn four ways: app, web, WhatsApp and USSD | Doc 02's "one question graph, many renderers", made visible |
 
