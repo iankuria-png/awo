@@ -32,12 +32,14 @@ GROUPS = [
         ['R7-Learn', 'R7-R8-Learn', 'R7-Lesson', 'R7-R8-Topic-Shares', 'R7-Vault', 'R7-R8-Words-Decoder', 'R7-Ask']]),
     ('Learn: real stories, the AWO Podcast and companies explained', [
         ['R7-R8-Story', 'R7-R8-Podcast', 'R7-R8-Mistake', 'R7-R8-Companies', 'R7-R8-Company-Brief', 'R7-R8-Startup']]),
-    ('The Hub and its tools, for a job', [
+    ('The Hub and its tools, for your own money', [
         ['R7-R8-Tool-Skeleton', 'R7-R8-Hub', 'R7-R8-Tool-Payslip', 'R7-R8-Tool-Payday', 'R7-R8-Tool-Debt',
-         'R7-R8-Tool-Fees', 'R7-R8-Tool-Statement', 'R7-Simulator', 'R7-Offer']]),
+         'R7-R8-Tool-Fees', 'R7-R8-Tool-Statement', 'R7-Simulator', 'R7-Offer'],
+        ['R7-R9-Hub-All', 'R7-R9-Tool-Remit', 'R7-R9-Tool-Loan', 'R7-R9-Tool-Offers', 'R7-R9-Tool-Pension',
+         'R7-R9-Tool-Owe', 'R7-R9-Group-Book']]),
     ('Business: the profile, the check, the Hub, the tools and Shop', [
         ['R7-Biz-Profile', 'R7-Biz-Check', 'R7-R8-Hub-Biz', 'R7-R8-Tool-Price', 'R7-R8-Tool-Invoice',
-         'R7-R8-Shop-Edit', 'R7-R8-Shop-Public']]),
+         'R7-R8-Shop-Edit', 'R7-R8-Shop-Public', 'R7-R9-Tool-Worth', 'R7-R9-Tool-Setup']]),
     ('Community: the tab, the buddy, the feed and posting', [
         ['R7-Community', 'R7-Buddy', 'R7-R8-Feed-Parts', 'R7-R8-Feed', 'R7-R8-Compose', 'R7-R8-Post']]),
     ('Me: the profile, progress, the report and settings', [

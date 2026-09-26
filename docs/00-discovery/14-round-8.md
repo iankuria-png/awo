@@ -343,6 +343,8 @@ Four boards on the second row of page `r8`.
 
 ## Not in Round 8 yet
 
+Round 9 (batch 2, [15](15-round-9.md#batch-2-the-rest-of-the-hub)) designs the ranked tools after the nine, and All tools.
+
 - **The ranked tools after the nine:** sending money home, a loan's real cost and explain my agreement (the Round 7 simulator and offer check stand in), is it worth it, two job offers, the business setup checklist, what I own and owe, and the retirement pulse.
 - **AWO Admin** for stories, podcasts, companies and shops.
 - **Companies explained, further:** the "Start here" lessons as their own pages, and a second brief (the path already announces Shoprite, on thin margins) once Q-36 is settled.

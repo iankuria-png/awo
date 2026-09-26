@@ -15,8 +15,9 @@ sys.path.insert(0, os.path.join(HERE, '..', 'round-7'))
 import round7  # noqa: E402  (transform: Round 7 CSS, the hand link and Tweak)
 from lib8 import write, nb_text  # noqa: E402
 import loop9  # noqa: E402  (batch 1: the loop, sharing, help, search)
+import tools9  # noqa: E402  (batch 2: Hub tools 10 to 18, the savings-group book, all tools)
 
-BOARDS = loop9.BOARDS
+BOARDS = loop9.BOARDS + tools9.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]

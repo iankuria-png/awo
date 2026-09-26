@@ -6,6 +6,12 @@
 
 ## 2026-09-26
 
+### Round 9 batch 2: the rest of the Hub
+- The Hub's "All 18 tools" button now opens All tools (`R9-Hub-All`): every tool by the job it does, filtered by Me or My business, with the new ones marked. The Hub's rows now link to each new tool.
+- Seven tools on the six-beat skeleton: sending money home (the fee plus what hides in the rate; she types the quotes, AWO names no provider), a loan's real cost with "explain my agreement" (lines worth asking about, never whether to sign), two job offers (what reaches her, and what goes into her pension, kept apart), the retirement pulse (an illustration at three growth rates), what I own and owe (private), is it worth it (payback in weeks, with the slow weeks), and a business setup checklist for Kenya or South Africa with dated facts.
+- A savings-group record book for a stokvel: who has paid, whose turn, the payout order and the group's own rules. AWO never holds, moves or promises the money, and says so on the screen (Q-45).
+- The self-check fixed segmented controls without their styles, tabs whose panes all showed at once (a name clash), a bottom sheet under the tab bar, and a chart that logged errors before its values arrived (now bars).
+
 ### Round 9 batch 1: the 30-day loop, end to end
 - Ian picked a long list to design next, in batches, end to end (D-041); doc 15 holds the brief. Batch 1 is on a new page, `r9`: the flow board (`R9-Loop-Flow`) lays the loop out screen by screen with the six gaps it found, and the new screens close them: the reminder on the lock screen (Start, Tonight, Skip a month), notifications, what changed (with a month that went down), this month's step, and a milestone with sharing to her circle or WhatsApp.
 - Three WhatsApp status cards (a milestone, the word of the week, a Rise story) carry no amounts, score or stage. New Q-46 asks what members may share outside AWO.

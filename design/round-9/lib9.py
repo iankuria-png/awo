@@ -20,6 +20,10 @@ from brand7 import app_icon, lockup  # noqa: E402,F401
 
 HF = "font-family: '[[ handFont ]]', cursive"
 
+EXTRA8.update({
+    'scale': '<path d="M12 4v16M7 20h10"></path><path d="M4.5 7.5h15"></path><path d="M4.5 7.5 2 13a2.6 2.6 0 0 0 5 0zM19.5 7.5 17 13a2.6 2.6 0 0 0 5 0z"></path>',
+})
+
 # Version 3 (13 Sep) and version 4 (13 Oct) of Naledi's DIVA profile. The score is the weighted sum of the four
 # areas with the sample weights (40, 25, 20, 15): 63 then 64. The month that went down is version 4 after a car repair.
 AREAS9 = [('Everyday money', 'Financial Health, 40%', 71, 71, 70),
@@ -34,9 +38,9 @@ CSS9 = """
 @keyframes dimIn{from{opacity:0}to{opacity:1}}
 @keyframes countUp{from{opacity:.2;transform:translateY(8px)}to{opacity:1;transform:none}}
 @keyframes grow9{from{transform:scaleX(var(--from,0))}to{transform:scaleX(1)}}
-.sheet{position:absolute;left:0;right:0;bottom:0;border-radius:14px 14px 0 0;background:#FFFFFF;box-shadow:0 -12px 40px rgba(16,24,20,.18);animation:sheetIn .32s cubic-bezier(.2,.8,.2,1) both}
-.dim{position:absolute;inset:0;background:rgba(11,15,14,.45);animation:dimIn .2s ease-out both}
-.toast{position:absolute;left:16px;right:16px;bottom:100px;border-radius:10px;background:#101814;color:#FFFFFF;padding:12px 14px;display:flex;align-items:center;gap:10px;font-size:15px;box-shadow:0 12px 32px rgba(16,24,20,.28);animation:toastIn .3s cubic-bezier(.2,.8,.2,1) both}
+.sheet{position:absolute;z-index:41;left:0;right:0;bottom:0;border-radius:14px 14px 0 0;background:#FFFFFF;box-shadow:0 -12px 40px rgba(16,24,20,.18);animation:sheetIn .32s cubic-bezier(.2,.8,.2,1) both}
+.dim{position:absolute;z-index:40;inset:0;background:rgba(11,15,14,.45);animation:dimIn .2s ease-out both}
+.toast{position:absolute;z-index:42;left:16px;right:16px;bottom:100px;border-radius:10px;background:#101814;color:#FFFFFF;padding:12px 14px;display:flex;align-items:center;gap:10px;font-size:15px;box-shadow:0 12px 32px rgba(16,24,20,.28);animation:toastIn .3s cubic-bezier(.2,.8,.2,1) both}
 .row9{min-height:56px;display:flex;align-items:center;gap:12px}
 .seg9{display:flex;gap:4px;padding:4px;border-radius:10px;background:#EEF3F0}
 .hscroll::-webkit-scrollbar{display:none}

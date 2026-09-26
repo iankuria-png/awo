@@ -15,23 +15,23 @@ GROUP_NOTE = {'Understand': 'Read what you were given', 'Plan': 'Decide where mo
 T = {
     'payslip': ('Payslip decoder', 'doc', 'Every line, in plain words', 'R8-Tool-Payslip.dc.html', True),
     'statement': ('Statement insights', 'list', 'Debit orders and fees, from one statement', 'R8-Tool-Statement.dc.html', True),
-    'explain': ('Explain a document', 'letter', 'A contract or policy, in plain words', None, True),
+    'explain': ('Explain my agreement', 'letter', 'A loan or contract, line by line', 'R9-Tool-Loan.dc.html', True),
     'payday': ('Pay-day plan', 'calc', 'Every rand a job, family included', 'R8-Tool-Payday.dc.html', False),
     'payyou': ('Pay yourself', 'calc', 'Business money and home money, apart', 'R8-Tool-Payday.dc.html', False),
     'debt': ('Debt payoff', 'down', 'Your debt-free date', 'R8-Tool-Debt.dc.html', False),
     'goals': ('Goals studio', 'pool', 'A car, moving out, investing', 'R8-Goals.dc.html', False),
     'fees': ('Fee eater', 'grow', 'What fees cost over 20 years', 'R8-Tool-Fees.dc.html', False),
-    'offers': ('Two job offers', 'swap', 'The whole package, side by side', None, False),
-    'pension': ('Retirement pulse', 'clock', 'What your pension might pay', None, False),
+    'offers': ('Two job offers', 'swap', 'The whole package, side by side', 'R9-Tool-Offers.dc.html', False),
+    'pension': ('Retirement pulse', 'clock', 'What your pension might pay', 'R9-Tool-Pension.dc.html', False),
     'offer': ('Check an offer', 'shield', "AWO's red-flag list, with the offer in hand", 'R7-Offer.dc.html', True),
-    'loan': ("A loan's real cost", 'calc', 'The total you would repay', 'R7-Simulator.dc.html', False),
-    'home': ('Sending money home', 'home', 'The fee and the rate: the real cost', None, False),
+    'loan': ("A loan's real cost", 'calc', 'The total you would repay', 'R9-Tool-Loan.dc.html', False),
+    'home': ('Sending money home', 'home', 'The fee and the rate: the real cost', 'R9-Tool-Remit.dc.html', False),
     'invoice': ('Quotes and invoices', 'letter', 'A quote becomes an invoice in one tap', 'R8-Tool-Invoice.dc.html', False),
     'notebook': ('Money in and out', 'list', 'Your notebook, and a profit page each month', 'R7-Biz-Home.dc.html', False),
     'shop': ('Shop', 'shop', 'A catalogue and a link; orders by WhatsApp', 'R8-Shop-Edit.dc.html', False),
     'price': ('Price it right', 'tag', 'Cost, margin, and how many to break even', 'R8-Tool-Price.dc.html', False),
-    'worth': ('Is it worth it?', 'grow', 'When a new machine pays for itself', None, False),
-    'setup': ('Business setup checklist', 'list', 'Registration, tax, a business account', None, False),
+    'worth': ('Is it worth it?', 'grow', 'When a new machine pays for itself', 'R9-Tool-Worth.dc.html', False),
+    'setup': ('Business setup checklist', 'list', 'Registration, tax, a business account', 'R9-Tool-Setup.dc.html', False),
 }
 
 MEMBERS = {
@@ -106,7 +106,7 @@ def pane(m, mode, key):
       <div style="display: flex; gap: 10px; margin-top: -8px">{goals}</div>
       {groups}
       <a href="R7-Me.dc.html" style="min-height: 60px; border-radius: {R_L}px; background: {POOL}; padding: 0 16px; display: flex; align-items: center; gap: 12px; color: {EVG}">{icon('stones', 22, EVG)}<span style="flex-grow: 1; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Where you stand lives in Me</span><span style="font-size: 13px; color: {SEC}">Next check-in: 13 October</span></span>{icon('chev', 18, EVG)}</a>
-      <button style="height: 52px; border-radius: {R_M}px; box-shadow: inset 0 0 0 1px #C9D3CE; font-size: 15px; font-weight: 600">All 18 tools</button>
+      <a href="R9-Hub-All.dc.html" style="height: 52px; border-radius: {R_M}px; box-shadow: inset 0 0 0 1px #C9D3CE; font-size: 15px; font-weight: 600; display: flex; align-items: center; justify-content: center">All tools</a>
     </div>'''
 
 
@@ -122,7 +122,7 @@ def empty_biz():
         <div style="display: flex; flex-direction: column">{prev}</div>
         <a href="R7-Biz-Profile.dc.html" style="height: 52px; border-radius: {R_M}px; background: {EVG}; color: #FFFFFF; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center">Add my business, two minutes</a>
       </section>
-      <span style="font-size: 14px; line-height: 1.45; color: {MUTED}; padding: 0 4px">Nothing is hidden meanwhile: every tool is still in "All 18 tools".</span>
+      <span style="font-size: 14px; line-height: 1.45; color: {MUTED}; padding: 0 4px">Nothing is hidden meanwhile: every tool is still in All tools.</span>
     </div>'''
 
 
