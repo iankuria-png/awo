@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.join(HERE, '..', 'round-7'))
 from lib8 import *  # noqa: F401,F403
 from marketing import canvas_board, device  # noqa: E402
 from brand7 import app_icon, lockup  # noqa: E402,F401
-from marketing7 import H, K, hand_hole  # noqa: E402
+from marketing7 import H, K, hand_hole, DIVA_FULL  # noqa: E402
 
 CAPS8 = {
     'me': '/_blob/d51d3a8058fa852b31242735ec0f598e', 'home': '/_blob/15e1b287ae69912d749ec1ac1a4fa54b',
@@ -57,7 +57,7 @@ HF = "font-family: '[[ handFont ]]', cursive"
 BAL = 'text-wrap: balance'  # no one-word last lines in headlines
 
 STORE8 = [
-    ('me', POOL, EVG, SEC, LIME, 'Know where you stand.', 'A clear picture of your money life, in plain words. Not a credit score.', 'Me: your DIVA profile'),
+    ('me', POOL, EVG, SEC, LIME, 'Know your DIVA score.', 'Where your money life stands, in plain words. For learning, never a credit score.', 'Me: your DIVA profile'),
     ('home', EVG, LIME, ON_EVG, LIME, 'Goals of every kind.', 'A car, moving out, a trip home. Each one gets its own pool.', 'Home'),
     ('hub', LIME, EVG, INK, '#FFFFFF', 'Tools that do the sums with you.', 'Payslips, pay-day, debts and prices, worked out with your own numbers.', 'Hub'),
     ('payslip', MIST, EVG, SEC, LIME, 'Every line of your payslip, explained.', "See what came off, and why. Nothing counts until you've checked it.", 'Payslip decoder'),
@@ -69,7 +69,7 @@ STORE8 = [
 FILES = {  # board: export file name
     **{f'R8-Store-{i + 1}': f'store-{i + 1}-{s[0]}.png' for i, s in enumerate(STORE8)},
     'R8-Feature-Graphic': 'feature-graphic-1024x500.png', 'R8-Hero-Device': 'device-hero.png',
-    'R8-Ad-Payslip': 'ad-square-payslip.png', 'R8-Ad-Goals': 'ad-square-goals.png', 'R8-Ad-Words': 'ad-square-words.png',
+    'R8-Ad-Diva': 'ad-square-diva.png', 'R8-Ad-Payslip': 'ad-square-payslip.png', 'R8-Ad-Goals': 'ad-square-goals.png', 'R8-Ad-Words': 'ad-square-words.png',
     'R8-Ad-Shop': 'ad-square-shop.png', 'R8-Ad-Explained': 'ad-square-explained.png', 'R8-Ad-Podcast': 'ad-story-podcast-1080x1920.png',
 }
 
@@ -104,9 +104,9 @@ def store(i):
 
 # ---------------------------------------------------------------- listing
 
-SHORT = 'Learn money in plain words, do the sums with free tools, and grow with women.'
+SHORT = 'Get your DIVA score, learn money in plain words and do the sums with free tools.'
 FULL = [('', 'AWO is a free money-learning app for women in Southern Africa and the diaspora.'),
-        ('Know where you stand.', 'A short starter check builds your DIVA profile, explained in plain words. Each check-in makes a new version.'),
+        DIVA_FULL,
         ('Learn what matters.', 'Short paths on pay, debt, saving together, investing, crypto and forex, with scam checks built in. Decode any money word you hear. Real stories from women who fell and rose, and the AWO Podcast.'),
         ('Tools that do the sums with you.', 'Decode your payslip, plan pay-day with family support included, see your debt-free date, price your work and send invoices. Goals of every kind, each with its own pool.'),
         ('Grow together.', 'A feed of notes, letters and milestones, circles for your goals, and shops run by members. No likes to chase.'),
@@ -114,7 +114,8 @@ FULL = [('', 'AWO is a free money-learning app for women in Southern Africa and 
 RULES8 = ['Icon 512 by 512, 32-bit PNG. Feature graphic 1024 by 500, with no transparency.',
           'Two to eight phone screenshots at 1080 by 1920 (9:16), 24-bit PNG.',
           'No ranking or promo words (best, top, new) and no install prompts on store graphics.',
-          'Educational wording only. No company is named in ads. Numbers on screens are samples.']
+          'Educational wording only. No company is named in ads. Numbers on screens are samples.',
+          'The DIVA score always says what it is: readiness to learn, never a credit score.']
 assert len(SHORT) <= 80, len(SHORT)
 
 
@@ -164,7 +165,7 @@ def feature():
     inner = f'''<div style="position: absolute; left: 60px; top: 56px; width: 470px; display: flex; flex-direction: column; gap: 20px">
   {lockup(40, '#FFFFFF', LIME)}
   <h1 style="{H(64, '#FFFFFF', BAL)}">Learn it. Plan it. Grow together.</h1>
-  <p style="font-size: 20px; line-height: 1.4; color: {ON_EVG}">Free money learning and tools for women, at home and abroad.</p>
+  <p style="font-size: 20px; line-height: 1.4; color: {ON_EVG}">Your DIVA score, money learning and tools for women, at home and abroad.</p>
   {shapes_row8(44, 10)}
 </div>
 <div style="position: absolute; left: 610px; top: 40px; transform: rotate(-4deg)">{device(CAPS8['hub'], 240, 'The Hub screen')}</div>
@@ -178,7 +179,7 @@ def hero():
     inner = f'''<div style="position: absolute; left: 80px; top: 110px; width: 560px; display: flex; flex-direction: column; gap: 28px">
   {lockup(44, EVG, LIME)}
   <h1 style="{H(112, INK, BAL)}">Money, understood.</h1>
-  <p style="font-size: 24px; line-height: 1.45; color: {SEC}">Free money learning, tools that do the sums with you, and women who get it. At home and abroad.</p>
+  <p style="font-size: 24px; line-height: 1.45; color: {SEC}">Your DIVA score, money learning, tools that do the sums with you, and women who get it. At home and abroad.</p>
   <div style="display: flex; gap: 10px; flex-wrap: wrap">{chips}</div>
   {shapes_row8(48, 12)}
 </div>
@@ -191,6 +192,18 @@ def hero():
 
 
 # ---------------------------------------------------------------- ads
+
+def ad_diva():
+    chips = ''.join(f'<span style="height: 64px; padding: 0 24px; border-radius: 16px; background: #FFFFFF; color: {EVG}; display: inline-flex; align-items: center; font-size: 30px; font-weight: 600">{t}</span>' for t in ('Not a credit score', 'Updates every 30 days'))
+    inner = f'''<div style="position: absolute; left: 80px; top: 90px; width: 470px; display: flex; flex-direction: column; gap: 30px">
+  <h1 style="{H(104, EVG, BAL)}">What's your DIVA score?</h1>
+  <p style="font-size: 34px; line-height: 1.3; color: {SEC}">A short check shows where your money life stands, in plain words.</p>
+  <div style="display: flex; gap: 12px; flex-wrap: wrap">{chips}</div>
+</div>
+<div style="position: absolute; left: 600px; top: 60px">{device(CAPS8['me'], 400, 'The Me screen, with a sample DIVA profile')}</div>
+<div style="position: absolute; left: 80px; bottom: 80px">{lockup(64, EVG, LIME)}</div>'''
+    return canvas_board('Square ad, the DIVA score', 1080, 1080, POOL, inner)
+
 
 def ad_payslip():
     chips = ''.join(f'<span style="height: 64px; padding: 0 24px; border-radius: 16px; background: #FFFFFF; color: {EVG}; display: inline-flex; align-items: center; font-size: 30px; font-weight: 600">{t}</span>' for t in ('PAYE', 'UIF', 'Pension'))
@@ -215,7 +228,7 @@ def ad_goals():
   <p style="font-size: 36px; line-height: 1.3; color: #FFFFFF">One pool each, filled at your pace.</p>
 </div>
 <div style="position: absolute; left: 80px; right: 80px; top: 424px; display: flex; justify-content: space-between">{pools}</div>
-{foot('#FFFFFF', LIME, 'Free money learning<br>and tools for women.', ON_EVG)}'''
+{foot('#FFFFFF', LIME, 'A free DIVA score, lessons<br>and tools for women.', ON_EVG)}'''
     return canvas_board('Square ad, goals', 1080, 1080, EVG, inner)
 
 
@@ -277,7 +290,7 @@ def ad_podcast():
 
 BOARDS = ([(f'R8-Store-{i + 1}', (lambda i=i: store(i))) for i in range(len(STORE8))]
           + [('R8-Listing', listing), ('R8-Feature-Graphic', feature), ('R8-Hero-Device', hero),
-             ('R8-Ad-Payslip', ad_payslip), ('R8-Ad-Goals', ad_goals), ('R8-Ad-Words', ad_words),
+             ('R8-Ad-Diva', ad_diva), ('R8-Ad-Payslip', ad_payslip), ('R8-Ad-Goals', ad_goals), ('R8-Ad-Words', ad_words),
              ('R8-Ad-Shop', ad_shop), ('R8-Ad-Explained', ad_explained), ('R8-Ad-Podcast', ad_podcast)])
 
 

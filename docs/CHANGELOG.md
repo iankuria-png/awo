@@ -6,6 +6,13 @@
 
 ## 2026-09-26
 
+### The DIVA score in the marketing
+- Ian: "There is no mention of the DIVA score in the marketing copy or the Play Store ads. Could we add it?" Both marketing sets (Round 7 and Round 8, and Round 8's copies on the Round 7 board) now name it.
+- **Store:** screenshot 1 now reads "Know your DIVA score." and "Where your money life stands, in plain words. For learning, never a credit score." In Round 7, progress and the check-in say the score updates every 30 days. The short descriptions lead with "Get your DIVA score" (79 and 80 of 80 characters), the full descriptions open with a DIVA paragraph (four areas, one step, not a credit score, new versions every 30 days), and each listing gains the rule "The DIVA score always says what it is". Round 7's feature graphic reads "Know your DIVA score. Grow from there."; Round 8's, and both heroes, name it in the subline.
+- **Ads:** a new square DIVA ad in each set, "What's your DIVA score?": Round 7's shows a sample result (63, stage 2 of 4 on the stones, a strength and a focus); Round 8's shows the Me screen. The photo, pool and goals ads now close on "Your free DIVA score". "Free" stays out of store graphics, per Google Play's rule on promotional text.
+- New Q-44: the marketing says "DIVA score", the app says "Readiness 63" under "Your DIVA profile". Proposed: "DIVA score" for the number everywhere, "DIVA profile" for the whole picture. The glossary lists "DIVA score" as proposed.
+- Round 7's store headlines and sublines are now balanced, so no line ends on one word. PNGs re-exported: 13 in `design/marketing/round-7/` and 5 in `round-8/`, including `ad-square-diva.png` in both. `group7.py` and `layout8.py` place the new ads first in their rows.
+
 ### Round 7 board grouped by topic
 - Ian: "Group screens and sections that make sense together: onboarding with onboarding, all the Home iterations together, marketing together." Page `r7` now reads top to bottom in 14 sections: foundations, brand and structure; onboarding; Home in every version, goals and the hard moments; Learn (the tab, lessons, topics, words, Ask); Learn's stories, podcast and companies explained; the Hub and its tools for a job; business; Community; Me; components and widgets; AWO Admin; then marketing (store screenshots, the listing set, ads).
 - Round 7's screens and the Round 8 copies now sit side by side in each section, and every copy's title ends in "(Round 8)". In marketing, Round 7's row sits above Round 8's.

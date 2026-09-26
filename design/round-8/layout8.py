@@ -36,7 +36,7 @@ TITLES = {  # board file: title shown on canvas
     'R8-Startup': 'How a startup raises money (step through the rounds)',
     **{f'R8-Store-{i}': f'Store screenshot {i}' for i in range(1, 9)},
     'R8-Listing': 'Store listing, Round 8', 'R8-Feature-Graphic': 'Feature graphic, 1024 by 500', 'R8-Hero-Device': 'Device hero',
-    'R8-Ad-Payslip': 'Square ad: the payslip', 'R8-Ad-Goals': 'Square ad: goals', 'R8-Ad-Words': 'Square ad: words',
+    'R8-Ad-Diva': 'Square ad: the DIVA score', 'R8-Ad-Payslip': 'Square ad: the payslip', 'R8-Ad-Goals': 'Square ad: goals', 'R8-Ad-Words': 'Square ad: words',
     'R8-Ad-Shop': 'Square ad: shop local', 'R8-Ad-Explained': 'Square ad: explained, never sold', 'R8-Ad-Podcast': 'Story ad: the podcast',
 }
 
@@ -51,7 +51,7 @@ ROWS = [
     ('r8title8', 'Companies explained, in Learn', ['R8-Companies', 'R8-Company-Brief', 'R8-Startup']),
     ('r8title9', 'Marketing in the Round 8 IA: store screenshots', [f'R8-Store-{i}' for i in range(1, 9)]),
     ('r8title10', 'Marketing: listing, feature graphic, device hero', ['R8-Listing', 'R8-Feature-Graphic', 'R8-Hero-Device']),
-    ('r8title11', 'Marketing: ads', ['R8-Ad-Payslip', 'R8-Ad-Goals', 'R8-Ad-Words', 'R8-Ad-Shop', 'R8-Ad-Explained', 'R8-Ad-Podcast']),
+    ('r8title11', 'Marketing: ads', ['R8-Ad-Diva', 'R8-Ad-Payslip', 'R8-Ad-Goals', 'R8-Ad-Words', 'R8-Ad-Shop', 'R8-Ad-Explained', 'R8-Ad-Podcast']),
 ]
 
 HOWTO = ("Round 8: Learn with Words and Stories, the Hub at the centre, goals of every kind, real stories and a feed (D-037, D-038).\n\n"

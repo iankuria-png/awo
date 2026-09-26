@@ -7,7 +7,7 @@ These are exported from the Round 8 marketing boards on the canvas (page Round 8
 | `store-1-me.png` … `store-8-shop.png` | 1080 × 1920 | Google Play phone screenshots (the store allows eight): Me, Home with goals, the Hub, the payslip decoder, Words, Community, Stories and a member's shop |
 | `feature-graphic-1024x500.png` | 1024 × 500 | Google Play feature graphic |
 | `device-hero.png` | 1600 × 900 | Website or press hero |
-| `ad-square-payslip.png`, `ad-square-goals.png`, `ad-square-words.png`, `ad-square-shop.png`, `ad-square-explained.png` | 1080 × 1080 | Social posts |
+| `ad-square-diva.png`, `ad-square-payslip.png`, `ad-square-goals.png`, `ad-square-words.png`, `ad-square-shop.png`, `ad-square-explained.png` | 1080 × 1080 | Social posts |
 | `ad-story-podcast-1080x1920.png` | 1080 × 1920 | Story ad for the podcast. The quote is in the hand because it's the guest's own words |
 
 The store icon hasn't changed, so use `../round-7/app-icon-512.png`.
@@ -15,6 +15,7 @@ The store icon hasn't changed, so use `../round-7/app-icon-512.png`.
 What the set holds to:
 
 - **Education only.** No ad names a company. The investing ad says what AWO won't do: "Shares, explained. Never sold."
+- **The DIVA score says what it is:** readiness to learn, never a credit score (Q-44 asks whether the app should call it "DIVA score" too).
 - **Samples are labelled.** Wanjiru's shop carries a Sample chip, the podcast guest is called a sample guest, and the amounts on screens are samples.
 - **No ranking or promo words** (best, top, new) and no install prompts on store graphics.
 

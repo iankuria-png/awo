@@ -8,7 +8,7 @@ These are exported from the Round 7 boards on the canvas (page Round 7), built f
 | `feature-graphic-1024x500.png` | 1024 × 500 | Google Play feature graphic |
 | `app-icon-512.png` | 512 × 512 | Store icon (icon A, full bleed; the store applies its own mask) |
 | `device-hero.png` | 1600 × 900 | Website or press hero |
-| `ad-square-photo.png`, `ad-square-pool.png`, `ad-square-word.png` | 1080 × 1080 | Social posts |
+| `ad-square-diva.png`, `ad-square-photo.png`, `ad-square-pool.png`, `ad-square-word.png` | 1080 × 1080 | Social posts. The DIVA ad shows a sample result and says it is never a credit score |
 | `ad-story-1080x1920.png` | 1080 × 1920 | Story ad; the quote is in the hand because it is a member's own words |
 
 Regenerate with `design/round-7/marketing7.py` (through `round7.py`), then export at exact pixel size. When a screen changes, recapture it, upload it and update `CAPS` in `marketing7.py`.

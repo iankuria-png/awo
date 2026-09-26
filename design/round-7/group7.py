@@ -50,8 +50,8 @@ GROUPS = [
         ['R7-Listing', 'R7-Feature-Graphic', 'R7-App-Icon', 'R7-Hero-Device'],
         ['R7-R8-Listing', 'R7-R8-Feature-Graphic', 'R7-R8-Hero-Device']]),
     ('Marketing: ads', [
-        ['R7-Ad-Photo', 'R7-Ad-Pool', 'R7-Ad-Word', 'R7-Ad-Story'],
-        ['R7-R8-Ad-Payslip', 'R7-R8-Ad-Goals', 'R7-R8-Ad-Words', 'R7-R8-Ad-Shop', 'R7-R8-Ad-Explained', 'R7-R8-Ad-Podcast']]),
+        ['R7-Ad-Diva', 'R7-Ad-Photo', 'R7-Ad-Pool', 'R7-Ad-Word', 'R7-Ad-Story'],
+        ['R7-R8-Ad-Diva', 'R7-R8-Ad-Payslip', 'R7-R8-Ad-Goals', 'R7-R8-Ad-Words', 'R7-R8-Ad-Shop', 'R7-R8-Ad-Explained', 'R7-R8-Ad-Podcast']]),
 ]
 GAP, ROW_GAP, GROUP_GAP, TITLE = 80, 200, 400, 300
 

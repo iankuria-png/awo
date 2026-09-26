@@ -184,6 +184,10 @@ Ian asked for guidance on approvals and for a world-class dashboard. These patte
 
 Ian asked for one full board with all his ideas, without replacing anything on Round 7. Every Round 8 board ([14](14-round-8.md)) is now also on page `r7`, as copies named `R7-R8-*`, below Round 7's last row, in Round 8's own rows. The copies link to each other. Page `r8` is unchanged. `design/round-7/pull8.py` refreshes the copies.
 
+## The DIVA score in the marketing
+
+Ian noticed the marketing never named the DIVA score. It does now, in both sets (Round 7's and Round 8's), on the first store screenshot, the listings, the feature graphics, the heroes and a new square ad each ("What's your DIVA score?"). The rule the copy follows: the score always says what it is, readiness to learn and never a credit score, and it is never put next to loans, credit or eligibility. The app still labels the number "Readiness" under "Your DIVA profile"; Q-44 asks whether both should say "DIVA score".
+
 ## The board, grouped by topic
 
 Ian then asked for the board to be grouped by what the screens are, not by when they were made. Page `r7` now has 14 sections, top to bottom:
