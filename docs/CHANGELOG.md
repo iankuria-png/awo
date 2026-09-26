@@ -6,6 +6,12 @@
 
 ## 2026-09-26
 
+### Round 7 board grouped by topic
+- Ian: "Group screens and sections that make sense together: onboarding with onboarding, all the Home iterations together, marketing together." Page `r7` now reads top to bottom in 14 sections: foundations, brand and structure; onboarding; Home in every version, goals and the hard moments; Learn (the tab, lessons, topics, words, Ask); Learn's stories, podcast and companies explained; the Hub and its tools for a job; business; Community; Me; components and widgets; AWO Admin; then marketing (store screenshots, the listing set, ads).
+- Round 7's screens and the Round 8 copies now sit side by side in each section, and every copy's title ends in "(Round 8)". In marketing, Round 7's row sits above Round 8's.
+- Only positions, titles, the section titles and the two notes changed. No board was removed or edited, and every other page is untouched. The how-to note lists the sections. The board list follows the same order.
+- New `design/round-7/group7.py` reapplies the grouping. It refuses to run if a board on `r7` isn't placed exactly once, so a new board has to be given a section.
+
 ### Round 8 pulled into the Round 7 board
 - Ian: "Pull in Round 8 into the Round 7 board. Do not replace items in the Round 7 board; we just want a full board with all my ideas." All 46 Round 8 boards are now on page `r7` too, as copies named `R7-R8-*`, linked to each other, in Round 8's own rows and section titles. They sit under a heading below Round 7's last row, with a note saying what they are.
 - Nothing on Round 7 moved or changed, and page `r8` is unchanged. Checks run: every copy matched the live Round 8 file byte for byte before copying; no copy links back to `R8-`; four copies were rendered.

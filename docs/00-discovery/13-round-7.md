@@ -184,3 +184,24 @@ Ian asked for guidance on approvals and for a world-class dashboard. These patte
 
 Ian asked for one full board with all his ideas, without replacing anything on Round 7. Every Round 8 board ([14](14-round-8.md)) is now also on page `r7`, as copies named `R7-R8-*`, below Round 7's last row, in Round 8's own rows. The copies link to each other. Page `r8` is unchanged. `design/round-7/pull8.py` refreshes the copies.
 
+## The board, grouped by topic
+
+Ian then asked for the board to be grouped by what the screens are, not by when they were made. Page `r7` now has 14 sections, top to bottom:
+
+| Section | What's in it |
+|---|---|
+| Foundations, brand and the app's structure | Type and corners, foundations, brand, icons, motion; the Hub's icon and the five tabs (Round 8) |
+| Onboarding | The photo-led welcome, the three slides, sign in, the code, about you, consent, goals, the starter check, the reveal, the first step, reminders, the PIN and welcome back |
+| Home | Round 7's Home, Round 8's Home with several goals, the business Home, the goals studio and the hard moments |
+| Learn | Both Learn tabs, the lesson player, the shares topic, the Vault, the word decoder and Ask |
+| Learn: stories and companies | A Rise story, the AWO Podcast, "My worst money mistake", Companies explained, a company brief and a startup's rounds |
+| The Hub, for a job | The tool skeleton, the Hub, the five Me tools, the what-if simulator and "Check an offer" |
+| Business | The business profile and check, the Hub in business mode, pricing, invoices and Shop |
+| Community | Round 7's Community, the buddy, the feed in parts, the feed, the composer and a thread |
+| Me | Me, progress, the check-in, comparing versions, the report and settings |
+| Components and widgets | Controls, data and feedback, widgets |
+| AWO Admin | The seven desktop screens |
+| Marketing (three sections) | Store screenshots, the listing set and ads, each with Round 7's row above Round 8's |
+
+Round 8's copies keep their files and links; their titles end in "(Round 8)". `design/round-7/group7.py` reapplies the grouping and stops if any board on the page isn't in a section.
+

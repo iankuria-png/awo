@@ -7,7 +7,9 @@ own arrangement and section titles, under one heading and a note.
 Usage:
   python3 design/round-8/round8.py <gen dir>        # build Round 8 as published
   python3 design/round-7/pull8.py <live canvas.json> <gen dir> <out dir>
-Then publish <out dir>/project/canvas.json with the R7-R8-*.dc.html files. Read the live canvas.json first."""
+  python3 design/round-7/group7.py <out dir>/project/canvas.json <out dir>/project/canvas.json
+Then publish <out dir>/project/canvas.json with the R7-R8-*.dc.html files. Read the live canvas.json first.
+group7.py puts the copies back into the board's topic sections and drops the heading and note added here."""
 import json
 import os
 import sys
