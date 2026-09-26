@@ -6,6 +6,12 @@
 
 ## 2026-09-26
 
+### Round 8 batch 5: Companies explained and the marketing refresh
+- **Companies explained, in Learn** (`design/round-8/companies8.py`), the safe version of Q-36: the path, with a standing line that AWO isn't paid to feature any company and six proposed editorial rules; a Safaricom brief (how M-Pesa came to earn about twice what calls do, what could go wrong, why AWO chose it), using figures from its results for the year to 31 March 2025 and labelled "Sample editorial, Q-36"; and a sample Lagos startup's funding rounds, where the founders own less of something bigger and a valuation isn't money in the bank. No share prices, no buy buttons.
+- **Marketing in the Round 8 tabs** (`marketing8.py`): eight store screenshots, the listing (a 77-character short description), a feature graphic, a device hero and six ads, exported at exact size to `design/marketing/round-8/`. No ad names a company. `capture8.mjs` recaptures the screens they're built from, and `python3 marketing8.py specs` lists what to capture.
+- New: T-095 (Ian: real companies or made-up ones, and the editorial rules; the store copy, Q-31). Q-31 and Q-36 point to the new boards; doc 14 has the batch and the Safaricom sources. `R8-Learn`'s Companies explained path now opens the new pages.
+- The self-check fixed headlines with one word on the last line, a goals ad whose subtitle ran into the pools, and a shop ad whose headline broke into five lines.
+
 ### Round 8 batch 4: real stories, the podcast and the feed
 - **Stories, in Learn** (`design/round-8/stories8.py`): a Rise story from Wanjiru (read or listen, save for offline, three lessons to keep, the Hub tools she used); the AWO Podcast player (chapters on the scrubber, a synced AI-assisted transcript checked by a person, key lessons, low-data audio on by default, offline); and "My worst money mistake" in three steps, where she chooses how her name shows and approves the edit before anything is published.
 - **Community as a feed** (`feed8.py`): "For you" and "Circles"; notes, letters that open in place, milestones where a stone lands and the amount stays hidden, questions to one circle, and member shop cards; three reactions (Cheer, Same here, Taught me) with no public totals; a composer whose milestones come only from real tool actions, with an AI-assisted rule check that sends risky posts to a person; a question thread with a hidden reply; and reporting with a reason. `R8-Feed-Parts` shows all of it side by side.

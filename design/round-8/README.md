@@ -14,6 +14,9 @@ Round 8 is written natively in the Round 7 language (Geist, Kalam for rare momen
 | `goals8.py` | Batch 3: `R8-Goals` and `R8-Home` (Round 7's Home, patched: several goals, a Hub card, the Round 8 tab bar) |
 | `stories8.py` | Batch 4, in Learn: `R8-Story`, `R8-Podcast`, `R8-Mistake`, and the shared reactions (`reactions()`, `reactions_js()`) |
 | `feed8.py` | Batch 4, Community: `R8-Feed`, `R8-Compose`, `R8-Post`, `R8-Feed-Parts`, and the shared report sheet (`report_sheet()`, `report_js()`) |
+| `companies8.py` | Batch 5, in Learn: `R8-Companies` (the path, with the proposed editorial rules in `rules_card()`), `R8-Company-Brief` (Safaricom; `SPLIT`, `NUMBERS` and `RISKS` hold its figures, with their source) and `R8-Startup` (a sample startup's rounds; `STAKES` holds who owns what) |
+| `marketing8.py` | Batch 5, marketing in the Round 8 tabs: `R8-Store-1` to `-8`, `R8-Listing`, `R8-Feature-Graphic`, `R8-Hero-Device` and six `R8-Ad-` boards. `CAPS8` holds the uploaded screen captures; `FILES` names each export |
+| `capture8.mjs` | Recaptures the screens the marketing boards use (390 by 844 at 2x, reduce motion on, JPEG): `python3 marketing8.py specs > caps.json`, then `node capture8.mjs caps.json <out dir>` with the boards served locally. Upload the JPEGs and update `CAPS8` |
 | `round8.py` | Builds every board: `python3 round8.py <project dir> [Board ...]`. Boards that already carry Round 7's transform (Home) aren't transformed twice |
 | `layout8.py` | Lays out canvas page `r8` row by row, from a fresh read of the live `canvas.json`: `python3 layout8.py <live canvas.json> <out canvas.json> <project dir>` |
 

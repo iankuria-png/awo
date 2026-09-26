@@ -60,7 +60,7 @@ REVIEWED_D = f'<span class="chip" style="background: {MINT}; color: {NIGHT}">{ic
 TOPICS = [('Investing', 'grow', LIME, EVG, 'Shares, ETFs, fees', 'R8-Topic-Shares.dc.html', None),
           ('Crypto', 'hexa', IRIS, NIGHT, 'What it is, and the scams', None, 'Scam checks'),
           ('Forex', 'swap', IRIS, NIGHT, 'Why most traders lose', None, 'Scam checks'),
-          ('Companies explained', 'building', MINT, NIGHT, 'How they make money', None, None),
+          ('Companies explained', 'building', MINT, NIGHT, 'How they make money', 'R8-Companies.dc.html', None),
           ('Pay and tax', 'doc', MINT, NIGHT, 'Your payslip, line by line', None, None),
           ('Debt and credit', 'down', BLUSH, BLUSH_INK, 'Getting out, staying out', None, None),
           ('Saving together', 'people', LIME, EVG, 'Stokvels and chamas', None, None),

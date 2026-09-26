@@ -231,6 +231,32 @@ Seven boards on the last two rows of page `r8`. Stories live in Learn, so they a
 - The reply box kept the text after sending.
 - The parts board overflowed sideways, and its columns squeezed phone-width cards; it is now 2000px wide.
 
+## Batch 5: Companies explained, and the marketing refresh
+
+Twenty boards on the last four rows of page `r8`: three for Companies explained, then seventeen for marketing. The "Companies explained" path in `R8-Learn` now opens them.
+
+**Companies explained is the safe version of Q-36, not a decision.** It's editorial, in Learn (so it's night), and never an invitation to invest. The brief tries the format on a real listed company, using figures from the company's own results. Whether AWO names real companies at all is still Ian's call.
+
+| Board | What it shows | Choices worth checking |
+|---|---|---|
+| **Companies explained** (`R8-Companies`) | The path: a standing line ("AWO isn't paid to feature any company, and never tells you to buy a share"), four "Start here" lessons, a company brief, a startup explainer, next Thursday's brief with "Remind me", the words she'll meet, and how AWO chooses and writes these | The six editorial rules are a **proposal** (the chip says "Proposal, Q-36"): a company is chosen because it teaches something; every brief says what could go wrong; no share prices, charts of returns, buttons to buy or links to trading platforms; facts come from the company's own reports, dated, and a second editor checks them; nobody pays to appear; companies don't see a brief before it's published |
+| **A company brief** (`R8-Company-Brief`) | Safaricom, "how a phone company became a money company": the story in one minute; how it makes money (of every KSh 100 from services, M-Pesa brings in 43, calls 22, mobile data 21, home and business internet 5, everything else 9: tap a part to see what it is); the numbers in plain words; what could go wrong; why AWO chose it; where to learn more | Real, dated figures (the year to 31 March 2025), with the source named at the top and the foot, labelled **Sample editorial, Q-36**. "What could go wrong" is a wine card, not red, and comes before "Why AWO chose it". There's no share price and no chart of returns. Its foot says: "There's no button to buy its shares, on purpose." |
+| **How a startup raises money** (`R8-Startup`) | A **sample** delivery startup in Lagos, in five steps: two founders, friends and family, a seed round, a Series A, and "most never get here". A ring shows who owns what at each step; three words (valuation, dilution, a round) | The founders end up owning less of something bigger (100% down to 54%). Every valuation is "on paper", and the last step says a valuation isn't money in the bank. A wine note explains why AWO never connects her with a startup (D-003) |
+
+The two other "Start here" lessons (revenue, profit and cash; what an IPO is) open Round 7's lesson player as a stand-in.
+
+**The marketing refresh** (`design/round-8/marketing8.py`) rebuilds Round 7's set for the Round 8 tabs, from 2x captures of the Round 8 screens (`capture8.mjs`). The exports are in `design/marketing/round-8/`.
+- **Eight store screenshots,** one idea each: "Know where you stand." (Me), "Goals of every kind." (Home), "Tools that do the sums with you." (the Hub), "Every line of your payslip, explained.", "Heard a word? Decode it." (Words), "Grow with women who get it." (Community), "Real stories. Real lessons." (Stories), and "Your shop, in one link."
+- **The listing,** laid out our own way: a short description of 77 characters ("Learn money in plain words, do the sums with free tools, and grow with women."), the full description, the feature graphic and the store rules the set follows.
+- **A feature graphic** ("Learn it. Plan it. Grow together.") and **a device hero** ("Money, understood.", with a "Payslip decoded" card).
+- **Six ads:** the payslip, goals, a word (ETF), a member's shop, "Shares, explained. Never sold." and a story ad for the podcast, with the guest's own words in the hand.
+- No ad names a company or says what to buy. The copy stays a sample until the name and store copy are settled (Q-31).
+
+**Fixed during the self-check (D-026):**
+- Headlines left one word on their last line ("Goals of every / kind."); every marketing headline now balances its lines.
+- The goals ad's subtitle ran into the tops of the pools; the pools are shorter and sit lower.
+- The shop ad's headline broke into five short lines; it now runs across the top, with a product card beside the photo.
+
 ## Where the ideas meet the rules
 
 Each idea gets a safe version in Round 8, visibly labelled. None of these is decided; each has an open question.
@@ -238,7 +264,7 @@ Each idea gets a safe version in Round 8, visibly labelled. None of these is dec
 | Idea | The tension | The safe version in Round 8 | Question |
 |---|---|---|---|
 | Shops inside AWO | Payments, seller liability, moderation, scope | A catalogue and a link; orders go to her WhatsApp; no payments through AWO; seller rules shown when she publishes; shop cards can be reported | Q-35 |
-| Featured startups and companies | Reads as promotion; investor matching is out of scope (D-003) | Editorial "Companies explained" in Learn: how it makes money and what could go wrong, with a standing line: "Education, not a recommendation. AWO is not paid to feature this company." No buttons to invest | Q-36 |
+| Featured startups and companies | Reads as promotion; investor matching is out of scope (D-003) | Editorial "Companies explained" in Learn (batch 5): how it makes money and what could go wrong, with a standing line: "Education, not a recommendation." No buttons to invest, no share prices, and six proposed editorial rules | Q-36 |
 | Reading payslips, statements, contracts | Very personal data (POPIA); data in South Africa | Consent for each upload; processed in South Africa; the original deleted once read, by default; she confirms every line AI read; Me lists her documents | Q-37 |
 | A DIVA score calculator | Scoring is server-side and versioned (D-004) | The Hub's doorway opens the governed check-in; no free calculator | Q-38 |
 | AWO Podcast with business leaders | Real people's names, consent and rights | Sample guests, visibly labelled | Q-39 |
@@ -280,6 +306,8 @@ All three ease out; springs stay kept for wins (M4). With reduce motion on, the 
 | Hub modes: "Me" and "My business", instead of "My job"? | Open (a choice worth checking) |
 | Members' stories: who edits, how they're credited, whether contributors are paid (Q-42)? | Open |
 | Reaction counts: hide public totals, so only the author sees hers (Q-43)? | Open |
+| Companies explained (Q-36): may briefs name real listed companies, as the Safaricom sample does, or should they use made-up ones? Do the six proposed editorial rules stand? | Open |
+| Store copy (Q-31): the refreshed short description and the eight screenshot headlines | Open |
 
 ## Batch 2: the IA and Learn
 
@@ -311,12 +339,13 @@ Four boards on the second row of page `r8`.
 | 2. IA, tab bar and Learn | `R8-IA`, `R8-Learn`, `R8-Topic-Shares`, `R8-Words-Decoder` | Published 25 Sep 2026 |
 | 3. The Hub | `R8-Tool-Skeleton`, `R8-Hub`, `R8-Hub-Biz`, `R8-Home`, `R8-Goals`, nine tools and the Shop's two pages | Published 25 Sep 2026 |
 | 4. Stories and the feed | `R8-Story`, `R8-Podcast`, `R8-Mistake`, `R8-Feed-Parts`, `R8-Feed`, `R8-Compose`, `R8-Post` | Published 26 Sep 2026 |
+| 5. Companies explained and marketing | `R8-Companies`, `R8-Company-Brief`, `R8-Startup`; eight store screenshots, the listing, a feature graphic, a device hero and six ads | Published 26 Sep 2026 |
 
 ## Not in Round 8 yet
 
-- **Companies explained:** the topic page, with its disclosures (Q-36). Learn shows the path; its pages wait on the editorial rules.
 - **The ranked tools after the nine:** sending money home, a loan's real cost and explain my agreement (the Round 7 simulator and offer check stand in), is it worth it, two job offers, the business setup checklist, what I own and owe, and the retirement pulse.
-- **AWO Admin** for stories, podcasts, companies and shops, and a marketing refresh in the Round 8 IA.
+- **AWO Admin** for stories, podcasts, companies and shops.
+- **Companies explained, further:** the "Start here" lessons as their own pages, and a second brief (the path already announces Shoprite, on thin margins) once Q-36 is settled.
 
 ## Sources
 
@@ -332,4 +361,5 @@ Four boards on the second row of page `r8`.
 - Spotify chapters and transcripts: [Spotify for Creators](https://creators.spotify.com/resources/grow/automated-transcripts-chapters)
 - Substack Notes and posts: [Substack support](https://support.substack.com/hc/en-us/articles/14564821756308-Getting-started-on-Substack-Notes)
 - Monzo Pot goals: [Monzo](https://monzo.com/blog/2018/08/02/pots-goals); Copilot Money: [Apple Developer](https://developer.apple.com/articles/copilot-money/); Finimize: [Google Play](https://play.google.com/store/apps/details?id=com.finimize.oban&hl=en_US)
+- Safaricom, year to 31 March 2025: [FY25 results press release](https://www.safaricom.co.ke/images/Downloads/FY25-Press-Release_May-9-2025.pdf), [annual report 2025, Safaricom Kenya performance review](https://www.safaricom.co.ke/annualreport_2025/the-commercial-value-we-deliver/safaricom-kenya-performance-review/), [PIB Africa's summary of the results](https://pib.africa/resource/safaricom-plc-fy2025-earnings-update/)
 - Kenya business registration: [TechInKenya](https://www.techinkenya.com/articles/how-to-register-a-sole-proprietorship-in-kenya-in-2026-step-by-step-ecitize)

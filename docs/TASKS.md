@@ -4,13 +4,14 @@
 
 ## Now: Round 8 is on the canvas, for Ian to react to
 
-Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all four batches: the brief and research, the Hub's icon (keystone, D-039), the IA, Learn with three tabs, the Hub with nine tools, goals and Home, real stories, the podcast and the Community feed. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board.
+Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all five batches: the brief and research, the Hub's icon (keystone, D-039), the IA, Learn with three tabs, the Hub with nine tools, goals and Home, real stories, the podcast, the Community feed, Companies explained, and the marketing refreshed for the new tabs. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board.
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
 | T-093 | **React to Round 8** (page `r8`): the Hub modes "Me" and "My business", the nine tools, goals and Home, the stories and the podcast, the feed; and answer the new questions on members' stories (Q-42) and reaction counts (Q-43) | [14](00-discovery/14-round-8.md#questions-for-ian) |
+| T-095 | **Companies explained** (Q-36): may briefs name real listed companies (the Safaricom brief is a sample), and do the six proposed editorial rules stand? Also the refreshed store copy (Q-31) | [14](00-discovery/14-round-8.md#questions-for-ian) |
 | T-092 | Name an owner for the facts behind Hub tools: tax tables, levies, thresholds (Q-41) | [14](00-discovery/14-round-8.md#questions-for-ian) |
 | T-085 | React to Round 7's new batches (accounts, the deeper loop, entrepreneurs, AWO Admin), and settle the admin approval rule (Q-34) | See [13](00-discovery/13-round-7.md#awo-admin-the-patterns-and-why) |
 | T-075 | React to **Round 7** as the full board: the new screens (progress, check-in, buddy, settings, onboarding), components, brand and motion. Are the tighter corners and square-cornered buttons right? | Switch the hand in any Round 7 board's Tweaks |
@@ -22,7 +23,7 @@ Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all four batc
 
 | ID | Task | Owner |
 |---|---|---|
-| T-094 | Round 8, what's left: Companies explained (after Q-36), the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and a marketing refresh in the new IA | Claude |
+| T-094 | Round 8, what's left: the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and more of Companies explained once Q-36 is settled | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
 | T-031 | Brand identity v1: wordmark, app icon, icon set, Ola; Figma library | Claude + Ian |
@@ -90,3 +91,4 @@ Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all four batc
 | T-089 | Round 8 batch 2: `R8-IA` (five tabs, what moved where, a live tab bar), `R8-Learn` (Paths, Words, Stories and the animated switch), `R8-Topic-Shares` (the sample bakery explainer) and `R8-Words-Decoder` (eight sample words, alias matching, ask for a word) | 2026-09-25 |
 | T-090 | Round 8 batch 3: the tool skeleton, the Hub for Naledi (Me) and Wanjiru (My business), Home with several goals, the goals studio, and nine tools (payslip, pay-day plan, debt, fee eater, statement, price, quotes and invoices, Shop editor and public page) | 2026-09-25 |
 | T-091 | Round 8 batch 4: a Rise story, the AWO Podcast player, "My worst money mistake", the feed in parts, the Community feed, the composer with the AI rule check, and a question with replies and reporting | 2026-09-26 |
+| T-096 | Round 8 batch 5: Companies explained (the path with six proposed editorial rules, a Safaricom brief labelled "Sample editorial", a sample startup's funding rounds) and the marketing refresh in the new tabs (eight store screenshots, the listing, a feature graphic, a device hero and six ads, exported to `design/marketing/round-8/`) | 2026-09-26 |

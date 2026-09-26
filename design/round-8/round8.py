@@ -22,8 +22,10 @@ import biz8  # noqa: E402  (batch 3: the business tools and Shop)
 import goals8  # noqa: E402  (batch 3: the goals studio and Home)
 import stories8  # noqa: E402  (batch 4: the story reader, the podcast, my worst money mistake)
 import feed8  # noqa: E402  (batch 4: the Community feed, composer, a thread, the parts)
+import companies8  # noqa: E402  (batch 5: Companies explained)
+import marketing8  # noqa: E402  (batch 5: the marketing refresh)
 
-BOARDS = icons8.BOARDS + ia8.BOARDS + learn8.BOARDS + hub8.BOARDS + tools8.BOARDS + biz8.BOARDS + goals8.BOARDS + stories8.BOARDS + feed8.BOARDS
+BOARDS = icons8.BOARDS + ia8.BOARDS + learn8.BOARDS + hub8.BOARDS + tools8.BOARDS + biz8.BOARDS + goals8.BOARDS + stories8.BOARDS + feed8.BOARDS + companies8.BOARDS + marketing8.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]

@@ -32,6 +32,12 @@ TITLES = {  # board file: title shown on canvas
     'R8-Mistake': 'My worst money mistake (tell it, choose how it shows)', 'R8-Feed-Parts': 'The feed, in parts',
     'R8-Feed': 'Community: the feed (react, read a letter, report, Circles)', 'R8-Compose': 'New post (try the AI check, then a milestone)',
     'R8-Post': 'A question with replies (reply, report a reply)',
+    'R8-Companies': 'Companies explained: the path (and AWO\'s editorial rules)', 'R8-Company-Brief': 'A company brief (tap the revenue split)',
+    'R8-Startup': 'How a startup raises money (step through the rounds)',
+    **{f'R8-Store-{i}': f'Store screenshot {i}' for i in range(1, 9)},
+    'R8-Listing': 'Store listing, Round 8', 'R8-Feature-Graphic': 'Feature graphic, 1024 by 500', 'R8-Hero-Device': 'Device hero',
+    'R8-Ad-Payslip': 'Square ad: the payslip', 'R8-Ad-Goals': 'Square ad: goals', 'R8-Ad-Words': 'Square ad: words',
+    'R8-Ad-Shop': 'Square ad: shop local', 'R8-Ad-Explained': 'Square ad: explained, never sold', 'R8-Ad-Podcast': 'Story ad: the podcast',
 }
 
 ROWS = [
@@ -42,6 +48,10 @@ ROWS = [
     ('r8title5', 'Hub tools for My business, and Shop', ['R8-Tool-Price', 'R8-Tool-Invoice', 'R8-Shop-Edit', 'R8-Shop-Public']),
     ('r8title6', 'Real stories and the AWO Podcast, in Learn', ['R8-Story', 'R8-Podcast', 'R8-Mistake']),
     ('r8title7', 'Community as a feed to read and post in', ['R8-Feed-Parts', 'R8-Feed', 'R8-Compose', 'R8-Post']),
+    ('r8title8', 'Companies explained, in Learn', ['R8-Companies', 'R8-Company-Brief', 'R8-Startup']),
+    ('r8title9', 'Marketing in the Round 8 IA: store screenshots', [f'R8-Store-{i}' for i in range(1, 9)]),
+    ('r8title10', 'Marketing: listing, feature graphic, device hero', ['R8-Listing', 'R8-Feature-Graphic', 'R8-Hero-Device']),
+    ('r8title11', 'Marketing: ads', ['R8-Ad-Payslip', 'R8-Ad-Goals', 'R8-Ad-Words', 'R8-Ad-Shop', 'R8-Ad-Explained', 'R8-Ad-Podcast']),
 ]
 
 HOWTO = ("Round 8: Learn with Words and Stories, the Hub at the centre, goals of every kind, real stories and a feed (D-037, D-038).\n\n"
@@ -50,7 +60,8 @@ HOWTO = ("Round 8: Learn with Words and Stories, the Hub at the centre, goals of
          "Next row: the new IA and tab bar, then Learn with three tabs (Paths, Words, Stories) and its animated switch, a topic page and the buzzword decoder.\n\n"
          "Then the Hub: the tool skeleton, the Hub for Naledi (employed) and Wanjiru (a market stall), Home with several goals, and the goals studio. "
          "Below it, nine tools on the same six beats, each linked from the Hub.\n\n"
-         "Last: real stories (a Rise story, the AWO Podcast, My worst money mistake) and Community as a feed: its parts, the feed, the composer and a thread.\n\n"
+         "Then real stories (a Rise story, the AWO Podcast, My worst money mistake) and Community as a feed: its parts, the feed, the composer and a thread.\n\n"
+         "Last: Companies explained (the path, a company brief and a startup explainer), and the marketing refreshed for the Round 8 IA.\n\n"
          "The brief, the research and the ranked Hub tools are in docs/00-discovery/14-round-8.md.\n\n"
          "All content is sample content.")
 
@@ -77,7 +88,9 @@ for key, text, boards in ROWS:
         w, h = size(b)
         f = b + '.dc.html'
         old = B.get(f, {})
-        entry = {'x': x, 'y': by, 'w': w, 'h': h, 'page': PAGE, 'title': TITLES.get(b) or old.get('title') or b[3:], 'is_interactive': True}
+        entry = {'x': x, 'y': by, 'w': w, 'h': h, 'page': PAGE, 'title': TITLES.get(b) or old.get('title') or b[3:]}
+        if not b.startswith(('R8-Store', 'R8-Listing', 'R8-Feature', 'R8-Hero', 'R8-Ad-')):
+            entry['is_interactive'] = True
         B[f] = entry
         if f not in c['order']:
             c['order'].append(f)
