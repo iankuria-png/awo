@@ -12,6 +12,8 @@ Round 8 is written natively in the Round 7 language (Geist, Kalam for rare momen
 | `tools8.py` | Batch 3, the Me tools, with the shared tool frame (`tool_page()`, `beat()`, `means()`, `learn_this()`, `make_goal()`, `milestone()`): `R8-Tool-Payslip`, `-Payday`, `-Debt`, `-Fees`, `-Statement` |
 | `biz8.py` | Batch 3, the business tools for Wanjiru: `R8-Tool-Price`, `R8-Tool-Invoice`, `R8-Shop-Edit`, `R8-Shop-Public`. `crop()` cuts products out of her stall photo |
 | `goals8.py` | Batch 3: `R8-Goals` and `R8-Home` (Round 7's Home, patched: several goals, a Hub card, the Round 8 tab bar) |
+| `stories8.py` | Batch 4, in Learn: `R8-Story`, `R8-Podcast`, `R8-Mistake`, and the shared reactions (`reactions()`, `reactions_js()`) |
+| `feed8.py` | Batch 4, Community: `R8-Feed`, `R8-Compose`, `R8-Post`, `R8-Feed-Parts`, and the shared report sheet (`report_sheet()`, `report_js()`) |
 | `round8.py` | Builds every board: `python3 round8.py <project dir> [Board ...]`. Boards that already carry Round 7's transform (Home) aren't transformed twice |
 | `layout8.py` | Lays out canvas page `r8` row by row, from a fresh read of the live `canvas.json`: `python3 layout8.py <live canvas.json> <out canvas.json> <project dir>` |
 

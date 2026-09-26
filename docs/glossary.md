@@ -25,6 +25,8 @@
 | **Hub** | The centre tab: tools that do things, in two modes (My job, My business). Working name (D-037). Every tool is deterministic and versioned; AI only reads documents or explains. |
 | **Tool** | One Hub feature that follows the tool skeleton: her numbers, one plain result, what it means, learn this, make it a goal, share a milestone. |
 | **Goal (pool)** | One saving goal of any kind (a car, moving out, starting to invest), shown as its own pool. AWO never picks a product for it. |
+| **Rise story** | A member's story of failure, then rising, told to AWO and edited with her consent. Lives in Learn, under Stories. **(proposed)** |
+| **Cheer, Same here, Taught me** | The three reactions in Community. Only the author sees how many (Q-43). **(proposed)** |
 | **Note, Letter, Milestone, Question, Shop card** | The five kinds of Community post: short; long with a title; a structured moment with amounts hidden; a question to a circle; a member's shop. **(proposed)** |
 | **Accountability buddy** | An optional monthly pairing between members for shared goals and weekly check-ins. |
 | **Opportunity Discovery** | An informational area to explore relevant opportunities (rules TBD, Q-20). |

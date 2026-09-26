@@ -4,6 +4,14 @@
 >
 > Format: `### <short title>` under a date heading, with the commit hash once known, then 1–5 bullets.
 
+## 2026-09-26
+
+### Round 8 batch 4: real stories, the podcast and the feed
+- **Stories, in Learn** (`design/round-8/stories8.py`): a Rise story from Wanjiru (read or listen, save for offline, three lessons to keep, the Hub tools she used); the AWO Podcast player (chapters on the scrubber, a synced AI-assisted transcript checked by a person, key lessons, low-data audio on by default, offline); and "My worst money mistake" in three steps, where she chooses how her name shows and approves the edit before anything is published.
+- **Community as a feed** (`feed8.py`): "For you" and "Circles"; notes, letters that open in place, milestones where a stone lands and the amount stays hidden, questions to one circle, and member shop cards; three reactions (Cheer, Same here, Taught me) with no public totals; a composer whose milestones come only from real tool actions, with an AI-assisted rule check that sends risky posts to a person; a question thread with a hidden reply; and reporting with a reason. `R8-Feed-Parts` shows all of it side by side.
+- New open questions: Q-42 (members' stories: editing, credit, payment) and Q-43 (reaction counts). Q-39 and Q-40 now point to their safe versions. Doc 14 lists what Round 8 hasn't covered yet (T-094).
+- The self-check fixed textareas bound the wrong way, a story board 400px too tall, reactions wrapping, a reply box that kept its text, and a parts board that overflowed.
+
 ## 2026-09-25
 
 ### Round 8 batch 3: the Hub, nine tools, goals and Home

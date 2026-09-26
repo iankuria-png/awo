@@ -1,6 +1,6 @@
 # 14 · Round 8: Learn with Words, the Hub, goals of every kind, real stories, a feed
 
-> **Status:** On canvas page `r8` (Round 8), 25 Sep 2026. Batches 1 to 3 are published: the brief, the research and the Hub's icon; the IA and Learn; the Hub with nine tools, goals and Home. Ian picked the keystone, in lime, and nine tools (D-039).
+> **Status:** On canvas page `r8` (Round 8), 26 Sep 2026. All four batches are published: the brief, the research and the Hub's icon; the IA and Learn; the Hub with nine tools, goals and Home; real stories, the podcast and the Community feed. Ian picked the keystone, in lime, and nine tools (D-039).
 > **Ian's brief (D-037, D-038):** Learn absorbs the Vault as a tab. A new centre tab, the Hub, holds tools with real value for employed women and entrepreneurs. Goals of every kind. Learning beyond savings groups. Real human stories and an AWO podcast. Community as a feed.
 > **Reference board:** Round 7 (page `r7`, [doc 13](13-round-7.md)). Round 8 speaks the same language: Geist for all type, Kalam for rare handwritten moments, corners 6, 10 and 14 and a circle, one shape per area, and motion that means something.
 > **Generator:** [`design/round-8/`](../../design/round-8/README.md).
@@ -210,6 +210,27 @@ Eighteen boards on rows 3 to 5 of page `r8`. Each tool follows the six beats of 
 - The stall crops were dim; they're brightened.
 - Naledi's goals disagreed between Home, the Hub and the studio. They are now a safety net, moving out and a trip home everywhere, and the car is the new-goal example.
 
+## Batch 4: real stories, the podcast and the feed
+
+Seven boards on the last two rows of page `r8`. Stories live in Learn, so they are night; the feed lives in Community, so it is light with blush.
+
+| Board | What it shows | Choices worth checking |
+|---|---|---|
+| **A Rise story** (`R8-Story`) | Wanjiru's story, photo first: what went wrong, the month she closed, what she changed, where she is now; three lessons to keep; the Hub tools she used | Listen (read aloud) and save for offline (no data). Her own words in the hand, once: "Then I started again." It ends with who consented and approved every edit |
+| **The AWO Podcast** (`R8-Podcast`) | Play, 15 seconds back and forward, speed, chapters marked on the scrubber; tabs for Chapters, Transcript and Key lessons | Low-data audio is on by default (about 8 MB an episode, against about 30); save for offline. The transcript is AI-assisted and checked by a person; the current line is highlighted. Amara is a **sample guest** (Q-39). "Ask Ola about this episode" is allowed: this is Learn |
+| **My worst money mistake** (`R8-Mistake`) | Three steps: what happened (with prompts), what she'd tell someone, how to show it (first name and city, first name, or anonymous; leave out amounts); then "Sent to an editor" | Nothing is published until she approves the edit, and she can take it down. AI never rewrites her words. AWO's note in the hand at the end: "Thank you for telling it." Editing, credit and payment are open (Q-42) |
+| **The feed, in parts** (`R8-Feed-Parts`) | The five kinds of post side by side at phone width; three reactions; what the feed never shows; how moderation works | Reactions are **Cheer**, **Same here** and **Taught me**. No follower counts, no public reaction totals, no trending (Q-43) |
+| **Community** (`R8-Feed`) | "For you": the week's question, pinned; a milestone; a note with a photo; a member shop; a letter that opens in place; a question; the podcast. "Circles": her circles and their latest posts | The stone lands once on a milestone, and the amount is hidden. Every post has a report menu. The rules sit at the foot of the feed |
+| **New post** (`R8-Compose`) | Note, Letter, Milestone or Question; where it goes; the AI rule check | Milestones come only from what she did in AWO (a paid-off debt, a planned pay-day, a decoded payslip), so they are real, and the amount stays hidden unless she shows it. Questions go to one circle and can be asked without her name. If the text promises returns or recruits, an **AI-assisted check** says so and the post goes to a person first |
+| **A question with replies** (`R8-Post`) | Zodwa asks her circle what the bank wanted for a stokvel account; four replies, one hidden while a person checks it; reply; report a reply | Replies share experience, never which bank to choose. The thread links to Words and Learn. A report takes a reason and promises: a person looks within a day, and nobody is told who reported |
+
+**Fixed during the self-check (D-026):**
+- The story textareas showed "[object Object]": the runtime binds `value`, not a textarea's contents.
+- The story board ran 400px past its content; the photo grew and the board shrank.
+- The three reactions wrapped onto two rows; they are tighter now.
+- The reply box kept the text after sending.
+- The parts board overflowed sideways, and its columns squeezed phone-width cards; it is now 2000px wide.
+
 ## Where the ideas meet the rules
 
 Each idea gets a safe version in Round 8, visibly labelled. None of these is decided; each has an open question.
@@ -221,8 +242,10 @@ Each idea gets a safe version in Round 8, visibly labelled. None of these is dec
 | Reading payslips, statements, contracts | Very personal data (POPIA); data in South Africa | Consent for each upload; processed in South Africa; the original deleted once read, by default; she confirms every line AI read; Me lists her documents | Q-37 |
 | A DIVA score calculator | Scoring is server-side and versioned (D-004) | The Hub's doorway opens the governed check-in; no free calculator | Q-38 |
 | AWO Podcast with business leaders | Real people's names, consent and rights | Sample guests, visibly labelled | Q-39 |
-| Crypto and forex | Scams; regulation (FSCA, CMA, FCA) | Education and scam awareness only; a regulator line per country; never signals, platforms or trades | Q-40 |
+| Crypto and forex | Scams; regulation (FSCA, CMA, FCA) | Education and scam awareness only; a regulator line per country; never signals, platforms or trades. Built as Words entries (Pips, Crypto, Crypto scam) and "Scam checks" on the paths | Q-40 |
 | Hub tools that use dated facts | Tax tables, levies and thresholds change every year | Every tool shows its figures' year and the date they were checked | Q-41 (new) |
+| Members' stories of mistakes | Real lives, real embarrassment; editing can change meaning | She approves the edit, chooses how her name shows, can leave out amounts and take it down | Q-42 (new) |
+| A feed with reactions | Counts invite comparison and chasing | Three reactions; only the author sees how many | Q-43 (new) |
 | AI in Hub tools | Ola lives in Learn and Ask only (D-021) | Hub AI is labelled "AI-assisted", without Ola | Q-32 |
 
 ## The Hub's icon (batch 1)
@@ -254,6 +277,9 @@ All three ease out; springs stay kept for wins (M4). With reduce motion on, the 
 | Lime for the Hub, or a colour of its own? | **Lime** (D-039) |
 | The first eight tools, or swap one for the pay-day plan? | **The eight, plus the pay-day plan** (D-039) |
 | Facts owner (Q-41): who keeps tax tables, levies and thresholds current? | Open |
+| Hub modes: "Me" and "My business", instead of "My job"? | Open (a choice worth checking) |
+| Members' stories: who edits, how they're credited, whether contributors are paid (Q-42)? | Open |
+| Reaction counts: hide public totals, so only the author sees hers (Q-43)? | Open |
 
 ## Batch 2: the IA and Learn
 
@@ -284,7 +310,13 @@ Four boards on the second row of page `r8`.
 | 1. Brief and research | This doc; `R8-Hub-Icons` | Published 25 Sep 2026; keystone picked (D-039) |
 | 2. IA, tab bar and Learn | `R8-IA`, `R8-Learn`, `R8-Topic-Shares`, `R8-Words-Decoder` | Published 25 Sep 2026 |
 | 3. The Hub | `R8-Tool-Skeleton`, `R8-Hub`, `R8-Hub-Biz`, `R8-Home`, `R8-Goals`, nine tools and the Shop's two pages | Published 25 Sep 2026 |
-| 4. Stories and the feed | Story reader; the podcast player; "My worst money mistake"; the feed, composer, a post with replies, a shop card, reporting | Next |
+| 4. Stories and the feed | `R8-Story`, `R8-Podcast`, `R8-Mistake`, `R8-Feed-Parts`, `R8-Feed`, `R8-Compose`, `R8-Post` | Published 26 Sep 2026 |
+
+## Not in Round 8 yet
+
+- **Companies explained:** the topic page, with its disclosures (Q-36). Learn shows the path; its pages wait on the editorial rules.
+- **The ranked tools after the nine:** sending money home, a loan's real cost and explain my agreement (the Round 7 simulator and offer check stand in), is it worth it, two job offers, the business setup checklist, what I own and owe, and the retirement pulse.
+- **AWO Admin** for stories, podcasts, companies and shops, and a marketing refresh in the Round 8 IA.
 
 ## Sources
 

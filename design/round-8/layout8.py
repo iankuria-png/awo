@@ -28,6 +28,10 @@ TITLES = {  # board file: title shown on canvas
     'R8-Tool-Debt': 'Debt payoff (drag, switch strategy)', 'R8-Tool-Fees': 'Fee eater (drag the fee)', 'R8-Tool-Statement': 'Statement insights (consent, reading, results)',
     'R8-Tool-Price': 'Price it right (drag the margin)', 'R8-Tool-Invoice': 'Quotes and invoices (turn the quote into an invoice)',
     'R8-Shop-Edit': 'Shop: the editor (publish it)', 'R8-Shop-Public': 'Shop: what a buyer sees (order a vase)',
+    'R8-Story': 'A Rise story (listen, save, react)', 'R8-Podcast': 'The AWO Podcast (play, chapters, transcript, key lessons)',
+    'R8-Mistake': 'My worst money mistake (tell it, choose how it shows)', 'R8-Feed-Parts': 'The feed, in parts',
+    'R8-Feed': 'Community: the feed (react, read a letter, report, Circles)', 'R8-Compose': 'New post (try the AI check, then a milestone)',
+    'R8-Post': 'A question with replies (reply, report a reply)',
 }
 
 ROWS = [
@@ -36,6 +40,8 @@ ROWS = [
     ('r8title3', 'The Hub in two modes, Home and goals', ['R8-Tool-Skeleton', 'R8-Hub', 'R8-Hub-Biz', 'R8-Home', 'R8-Goals']),
     ('r8title4', 'Hub tools for Me', ['R8-Tool-Payslip', 'R8-Tool-Payday', 'R8-Tool-Debt', 'R8-Tool-Fees', 'R8-Tool-Statement']),
     ('r8title5', 'Hub tools for My business, and Shop', ['R8-Tool-Price', 'R8-Tool-Invoice', 'R8-Shop-Edit', 'R8-Shop-Public']),
+    ('r8title6', 'Real stories and the AWO Podcast, in Learn', ['R8-Story', 'R8-Podcast', 'R8-Mistake']),
+    ('r8title7', 'Community as a feed to read and post in', ['R8-Feed-Parts', 'R8-Feed', 'R8-Compose', 'R8-Post']),
 ]
 
 HOWTO = ("Round 8: Learn with Words and Stories, the Hub at the centre, goals of every kind, real stories and a feed (D-037, D-038).\n\n"
@@ -44,6 +50,7 @@ HOWTO = ("Round 8: Learn with Words and Stories, the Hub at the centre, goals of
          "Next row: the new IA and tab bar, then Learn with three tabs (Paths, Words, Stories) and its animated switch, a topic page and the buzzword decoder.\n\n"
          "Then the Hub: the tool skeleton, the Hub for Naledi (employed) and Wanjiru (a market stall), Home with several goals, and the goals studio. "
          "Below it, nine tools on the same six beats, each linked from the Hub.\n\n"
+         "Last: real stories (a Rise story, the AWO Podcast, My worst money mistake) and Community as a feed: its parts, the feed, the composer and a thread.\n\n"
          "The brief, the research and the ranked Hub tools are in docs/00-discovery/14-round-8.md.\n\n"
          "All content is sample content.")
 
