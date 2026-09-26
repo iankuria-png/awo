@@ -18,7 +18,7 @@ from brand7 import app_icon, lockup  # noqa: E402,F401
 from marketing7 import H, K, hand_hole, DIVA_FULL  # noqa: E402
 
 CAPS8 = {
-    'me': '/_blob/d51d3a8058fa852b31242735ec0f598e', 'home': '/_blob/15e1b287ae69912d749ec1ac1a4fa54b',
+    'me': '/_blob/d5c4a5e69456dcdc10e834e90f32445a', 'home': '/_blob/15e1b287ae69912d749ec1ac1a4fa54b',
     'hub': '/_blob/14deaff9ebe4844560d29ff6f9b9c11a', 'hubbiz': '/_blob/ab3ff800841d6554394cd40a7d70fdf2',
     'payslip': '/_blob/afd6970e81a744a4333f7678fb3550c3', 'words': '/_blob/d24306b25edd77ede9cf986edfb52966',
     'stories': '/_blob/07c7ba47d9a70195a0c56c8412fae4f3', 'feed': '/_blob/b8158f1c8fb98071263ff24a0126f700',

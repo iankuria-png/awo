@@ -14,10 +14,10 @@ from brand7 import app_icon, lockup  # noqa: E402
 from screens7 import mark, IMG as IMG7  # noqa: E402,F401
 
 CAPS = {
-    'home': '/_blob/1fa941cd9884f3e7fea1cd149714b9b1', 'me': '/_blob/e021f8cc79fcae47f5aa3a96e35d3fc9',
+    'home': '/_blob/1fa941cd9884f3e7fea1cd149714b9b1', 'me': '/_blob/a7f8f6fb1c6620cef498333d9227ca99',
     'learn': '/_blob/8bd5266de4987a831537092e31a8d092', 'vault': '/_blob/881e12c7cdfaa26b1436a7214d97fcd1',
     'community': '/_blob/aeb8d7a97b251926e044f716c8b216b2', 'ask': '/_blob/ce70f314055c11df2410b014a7b8bc49',
-    'entry': '/_blob/1c34be39cae7eae7ebaa0e16cd349250', 'progress': '/_blob/3150e9b5c622bfec4e0aa9f553c057ff',
+    'entry': '/_blob/1c34be39cae7eae7ebaa0e16cd349250', 'progress': '/_blob/72bf6db1e05d62b0926afc1377fbd8fa',
     'checkin': '/_blob/455aefd5bdabfa8a10b11eeff60b7eba',
 }
 HF = "font-family: '[[ handFont ]]', cursive"

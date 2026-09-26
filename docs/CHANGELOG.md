@@ -6,6 +6,12 @@
 
 ## 2026-09-26
 
+### The DIVA score in the app too (D-040)
+- Ian answered Q-44: "yes, DIVA score even in the app too". The number is now "DIVA score" on Me, the first-result reveal, Progress, Compare, the one-page report, Home (Rounds 7 and 8), the components board and the admin scoring preview, including the screen-reader labels. "DIVA profile" stays the name for the whole picture, and "Learning readiness, not a credit score" stays as the explanation.
+- On Me, the arc grew from 84 to 100 pixels so "DIVA score" fits inside it. Round 7's Home label changes in `round7.py`'s transform, so Round 6's generator is untouched and Round 8's Home follows.
+- The Me and Progress captures were redone and uploaded, so Round 7's store screenshots 1 and 7, Round 8's screenshot 1, both listings and Round 8's DIVA ad now show "DIVA score". Four PNGs re-exported.
+- Recorded as D-040. Q-44 is decided, T-100 is done, and the glossary entry is no longer marked proposed.
+
 ### The DIVA score in the marketing
 - Ian: "There is no mention of the DIVA score in the marketing copy or the Play Store ads. Could we add it?" Both marketing sets (Round 7 and Round 8, and Round 8's copies on the Round 7 board) now name it.
 - **Store:** screenshot 1 now reads "Know your DIVA score." and "Where your money life stands, in plain words. For learning, never a credit score." In Round 7, progress and the check-in say the score updates every 30 days. The short descriptions lead with "Get your DIVA score" (79 and 80 of 80 characters), the full descriptions open with a DIVA paragraph (four areas, one step, not a credit score, new versions every 30 days), and each listing gains the rule "The DIVA score always says what it is". Round 7's feature graphic reads "Know your DIVA score. Grow from there."; Round 8's, and both heroes, name it in the subline.

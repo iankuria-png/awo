@@ -89,7 +89,7 @@ def progress():
                  f'<ellipse cx="{nx}" cy="{ny}" rx="17" ry="7" fill="none" stroke="{EVG}" stroke-width="2" stroke-dasharray="4 4"></ellipse></svg>')
     stones_html = ''
     for i, ((n, d, val, _t), x, y) in enumerate(zip(VERSIONS, xs, ys)):
-        stones_html += (f'<button onClick="[[ pick{i} ]]" aria-pressed="[[ on{i} ]]" aria-label="Version {n}, {d}, readiness {val}" '
+        stones_html += (f'<button onClick="[[ pick{i} ]]" aria-pressed="[[ on{i} ]]" aria-label="Version {n}, {d}, DIVA score {val}" '
                         f'style="position: absolute; left: {x - 30}px; top: {y - 26}px; width: 60px; height: 52px; display: flex; align-items: center; justify-content: center">'
                         f'<span style="width: 40px; height: 16px; border-radius: 50%; background: [[ stFill{i} ]]; box-shadow: 0 0 0 2.5px {EVG}, 0 0 0 [[ stRing{i} ]]px {LIME}; '
                         f'transition: background-color .18s, box-shadow .18s; animation: stepIn .5s cubic-bezier(.2,.8,.2,1) {0.15 + i * 0.12:.2f}s both"></span></button>'
@@ -113,7 +113,7 @@ def progress():
     {sub_header('R7-Me.dc.html', 'Your progress')}
     <section style="border-radius: {R_L}px; background: {POOL}; color: {EVG}; padding: 20px 16px 18px; display: flex; flex-direction: column; gap: 14px">
       <div style="display: flex; flex-direction: column; gap: 6px">
-        <span class="lbl">Readiness</span>
+        <span class="lbl">DIVA score</span>
         <span style="display: flex; align-items: center; gap: 12px"><span class="d" style="font-size: 72px">63</span><span class="chip" style="background: {LIME}; color: {EVG}">+8 since July</span></span>
       </div>
       <div role="group" aria-label="Your versions. Tap one." style="position: relative; height: 172px">{chart_svg}{stones_html}{tip}</div>

@@ -186,7 +186,7 @@ Ian asked for one full board with all his ideas, without replacing anything on R
 
 ## The DIVA score in the marketing
 
-Ian noticed the marketing never named the DIVA score. It does now, in both sets (Round 7's and Round 8's), on the first store screenshot, the listings, the feature graphics, the heroes and a new square ad each ("What's your DIVA score?"). The rule the copy follows: the score always says what it is, readiness to learn and never a credit score, and it is never put next to loans, credit or eligibility. The app still labels the number "Readiness" under "Your DIVA profile"; Q-44 asks whether both should say "DIVA score".
+Ian noticed the marketing never named the DIVA score. It does now, in both sets (Round 7's and Round 8's), on the first store screenshot, the listings, the feature graphics, the heroes and a new square ad each ("What's your DIVA score?"). The rule the copy follows: the score always says what it is, readiness to learn and never a credit score, and it is never put next to loans, credit or eligibility. Ian then settled the name (D-040): the app says "DIVA score" too. Me, the reveal, Progress, Compare, the report, Home, the components board and admin scoring now use it, and "DIVA profile" names the whole picture. The explanations stay: "Learning readiness, not a credit score." On Me the arc grew from 84 to 100 pixels so the label fits inside it.
 
 ## The board, grouped by topic
 

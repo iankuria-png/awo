@@ -7,7 +7,7 @@
 | **AWO** | African Wealth Oasis: the platform and the organisation. |
 | **Member** | A registered user of AWO (individual or entrepreneur context). |
 | **DIVA** | AWO's proprietary financial-readiness and behavioural-insight index. What the letters stand for is TBC (Q-05). |
-| **DIVA score** | The 0 to 100 readiness number in a result, as the marketing names it. The app labels it "Readiness" for now. Always shown with "not a credit score". **(proposed)** (Q-44) |
+| **DIVA score** | The 0 to 100 number in a result, shown in the app and the marketing (D-040). It describes readiness to learn and act, and is always shown as never a credit score. The whole picture (score, stage, areas, evidence) is the **DIVA profile**. |
 | **Dimension** | One of the four areas DIVA measures for individuals: Financial Health (40%), Risk Intelligence & Behavioural Resilience (25%), Capital Positioning & Access Preferences (20%), Financial Intelligence & Goal Clarity (15%). Short labels are **(proposed)** (Q-05). |
 | **Category** | The educational-readiness band of a result: Bronze, Silver, Gold or Platinum. Naming under review (Q-04). Never implies creditworthiness or eligibility. |
 | **Starter check** | The short first assessment (currently "eight questions") that produces an early profile. **(proposed name)** |

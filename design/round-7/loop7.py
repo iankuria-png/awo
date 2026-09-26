@@ -124,7 +124,7 @@ def compare():
       <span style="font-size: 13px; font-weight: 600; color: {MUTED}">To</span><div role="group" aria-label="Compare to" style="display: flex; gap: 4px; padding: 4px; border-radius: {R_M}px; background: #DCE4DF">{pick('b', [1, 2])}</div>
     </div>
     <section style="border-radius: {R_L}px; background: {POOL}; color: {EVG}; padding: 18px 16px; display: flex; flex-direction: column; gap: 8px">
-      <span class="lbl">Readiness</span>
+      <span class="lbl">DIVA score</span>
       <span style="display: flex; align-items: baseline; gap: 12px"><span style="font-size: 28px; font-weight: 600; color: #6C8F84; font-variant-numeric: tabular-nums">[[ ra ]]</span>{icon('send', 22, EVG)}<span class="d" style="font-size: 64px; font-variant-numeric: tabular-nums">[[ rb ]]</span><span class="chip" style="background: {LIME}; color: {EVG}">[[ rdelta ]]</span></span>
       <span style="font-size: 14px; color: {SEC}">Stage 2 in both. Evidence: [[ ea ]] to [[ eb ]].</span>
     </section>
@@ -302,7 +302,7 @@ def report():
   <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px">
     <div style="border-radius: 14px; background: {POOL}; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px; color: {EVG}"><span style="font-size: 13px; font-weight: 600">Where you stand</span><span style="display: flex; align-items: baseline; gap: 8px"><span class="d" style="font-size: 56px">Stage 2</span><span style="font-size: 16px; font-weight: 600">of 4</span></span><svg width="250" height="84" viewBox="0 0 250 84" aria-hidden="true">{st_svg}</svg></div>
     <div style="display: flex; flex-direction: column; gap: 12px">
-      <div style="border-radius: 14px; box-shadow: inset 0 0 0 1px {LINE7}; padding: 16px 18px; display: flex; align-items: center; gap: 14px"><div style="position: relative; width: 64px; height: 64px">{arc(64, 63, '#DCE4DF', EVG, sw=6)}<span style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 600">63</span></div><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Readiness 63</span><span style="font-size: 12px; color: {SEC}">Learning readiness, not a credit score.</span></span></div>
+      <div style="border-radius: 14px; box-shadow: inset 0 0 0 1px {LINE7}; padding: 16px 18px; display: flex; align-items: center; gap: 14px"><div style="position: relative; width: 64px; height: 64px">{arc(64, 63, '#DCE4DF', EVG, sw=6)}<span style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 600">63</span></div><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">DIVA score 63</span><span style="font-size: 12px; color: {SEC}">Learning readiness, not a credit score.</span></span></div>
       <div style="border-radius: 14px; box-shadow: inset 0 0 0 1px {LINE7}; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; font-weight: 600">Evidence: building</span><span style="font-size: 12px; line-height: 1.4; color: {SEC}">Two check-ins included things you did, not only what you said. Kept apart from the score.</span></div>
     </div>
   </div>

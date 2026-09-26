@@ -402,8 +402,8 @@ def reveal():
         <img class="face" src="{IMG['naledi']}" alt="" style="position: absolute; left: 104px; top: 44px; width: 36px; height: 36px; box-shadow: 0 0 0 3px {LIME}; animation: stepIn .7s cubic-bezier(.2,.8,.2,1) 1s both">
       </div>
       <div style="display: flex; align-items: center; gap: 14px; border-top: 1px solid rgba(15,74,54,.14); padding-top: 12px">
-        <div role="img" aria-label="Readiness 63 of 100" style="position: relative; width: 64px; height: 64px; flex-shrink: 0">{arc(64, 63, '#B7D5CE', EVG, sw=6)}<span style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 600; letter-spacing: -0.03em; padding-top: 2px">63</span></div>
-        <span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Readiness 63</span><span style="font-size: 13px; color: {SEC}">Learning readiness, not a credit score.</span></span>
+        <div role="img" aria-label="DIVA score 63 of 100" style="position: relative; width: 64px; height: 64px; flex-shrink: 0">{arc(64, 63, '#B7D5CE', EVG, sw=6)}<span style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 600; letter-spacing: -0.03em; padding-top: 2px">63</span></div>
+        <span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">DIVA score 63</span><span style="font-size: 13px; color: {SEC}">Learning readiness, not a credit score.</span></span>
       </div>
     </section>
     <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">

@@ -69,6 +69,8 @@ def moments(name, html):
             f'<span class="hand" style="font-size: 30px; color: {EVG}; {HF}">Here\'s where you start.</span>')
         sub('<a href="R6-Me.dc.html" class="pill"', '<a href="R7-Reveal.dc.html" class="pill"')
     elif name == 'R7-Home':
+        # The number is the DIVA score (D-040).
+        sub('Readiness 63. Everyday money', 'DIVA score 63. Everyday money')
         # Her circle's wins are their own words.
         for s in home.STORIES:
             sub(f'<p class="d" style="font-size: 36px; line-height: .95">{s["text"]}</p>',

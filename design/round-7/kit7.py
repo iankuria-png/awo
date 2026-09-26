@@ -152,7 +152,7 @@ def controls():
         <div style="height: 1px; background: {LINE7}"></div>
         <div style="display: flex; align-items: center; gap: 16px"><div style="border-radius: {R_M}px; background: {NIGHT}; padding: 10px 12px; display: flex; gap: 8px" role="img" aria-label="Lesson 3 of 6">{moon(22, 'full')}{moon(22, 'full')}{moon(22, 'half', now=True)}{moon(22, 'new')}{moon(22, 'new')}{moon(22, 'new')}</div><span class="knote">Moons wax as lessons go on.</span></div>
         <div style="display: flex; align-items: center; gap: 16px"><span role="img" aria-label="Stage 2 of 4">{st4}</span><span class="knote">Stones: where she stands.</span></div>
-        <div style="display: flex; align-items: center; gap: 16px"><div role="img" aria-label="Readiness 63" style="position: relative; width: 90px; height: 90px">{arc(90, 63, '#DCE4DF', EVG, sw=8)}<span style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 600; letter-spacing: -0.03em; padding-top: 2px">63</span></div><span class="knote">One readiness arc, never rings. Not a credit score.</span></div>
+        <div style="display: flex; align-items: center; gap: 16px"><div role="img" aria-label="DIVA score 63" style="position: relative; width: 90px; height: 90px">{arc(90, 63, '#DCE4DF', EVG, sw=8)}<span style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 600; letter-spacing: -0.03em; padding-top: 2px">63</span></div><span class="knote">The DIVA score: one arc, never rings. Not a credit score.</span></div>
       </section>
       <section class="card">
         <span class="ktitle">Labels that say where things come from</span>

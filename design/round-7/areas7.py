@@ -163,7 +163,7 @@ def me():
     <section style="border-radius: {R_L}px; background: {POOL}; color: {EVG}; padding: 20px 16px 18px; display: flex; flex-direction: column; gap: 12px">
       <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
         <div style="display: flex; flex-direction: column; gap: 6px"><span class="lbl">Your DIVA profile</span><span class="d" style="font-size: 60px">Stage 2</span><span style="font-size: 17px; font-weight: 600">of 4 stages</span></div>
-        <div role="img" aria-label="Readiness 63 of 100" style="position: relative; width: 84px; height: 84px; flex-shrink: 0">{arc(84, 63, '#B7D5CE', EVG, sw=8)}<span style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 4px"><span style="font-size: 24px; font-weight: 600; letter-spacing: -0.03em">63</span><span style="font-size: 12px">readiness</span></span></div>
+        <div role="img" aria-label="DIVA score 63 of 100" style="position: relative; width: 100px; height: 100px; flex-shrink: 0">{arc(100, 63, '#B7D5CE', EVG, sw=8)}<span style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 4px"><span style="font-size: 28px; font-weight: 600; letter-spacing: -0.03em">63</span><span style="font-size: 12px; white-space: nowrap">DIVA score</span></span></div>
       </div>
       <div role="img" aria-label="Stepping stones: stage 1 behind you, you are on stage 2, stages 3 and 4 ahead" style="position: relative; height: 92px">
         <svg width="318" height="80" viewBox="0 0 318 80" aria-hidden="true" style="position: absolute; left: 0; top: 12px; overflow: visible">{stones_svg}</svg>
@@ -188,7 +188,7 @@ def me():
     </section>
     <a href="R7-Progress.dc.html" style="border-radius: {R_L}px; background: #FFFFFF; padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 8px">
       <span style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-size: 17px; font-weight: 600">Your versions</span><span style="display: flex; align-items: center; gap: 2px; font-size: 13px; color: {MUTED}">See progress{icon('chev', 16, MUTED)}</span></span>
-      <div role="img" aria-label="Readiness 55 in July, 59 in August, 63 in September; next check-in 13 October" style="position: relative; height: 92px; margin-top: 22px">{spark}{spark_lbl}</div>
+      <div role="img" aria-label="DIVA score 55 in July, 59 in August, 63 in September; next check-in 13 October" style="position: relative; height: 92px; margin-top: 22px">{spark}{spark_lbl}</div>
     </a>
     <button onClick="[[ toggleMean ]]" aria-expanded="[[ mean ]]" style="border-radius: {R_L}px; background: #FFFFFF; padding: 0 16px; min-height: 56px; display: flex; align-items: center; justify-content: space-between; font-size: 15px; font-weight: 600">What this means, in full<span style="display: flex; transform: rotate([[ meanRot ]]deg); transition: transform .28s">{icon('chev', 18, MUTED)}</span></button>
     <sc-if value="[[ mean ]]" hint-placeholder-val="[[ false ]]">

@@ -15,7 +15,7 @@ The store icon hasn't changed, so use `../round-7/app-icon-512.png`.
 What the set holds to:
 
 - **Education only.** No ad names a company. The investing ad says what AWO won't do: "Shares, explained. Never sold."
-- **The DIVA score says what it is:** readiness to learn, never a credit score (Q-44 asks whether the app should call it "DIVA score" too).
+- **The DIVA score says what it is:** readiness to learn, never a credit score. The app calls it the DIVA score too (D-040).
 - **Samples are labelled.** Wanjiru's shop carries a Sample chip, the podcast guest is called a sample guest, and the amounts on screens are samples.
 - **No ranking or promo words** (best, top, new) and no install prompts on store graphics.
 
