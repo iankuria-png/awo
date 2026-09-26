@@ -207,5 +207,5 @@ Ian then asked for the board to be grouped by what the screens are, not by when 
 | AWO Admin | The seven desktop screens |
 | Marketing (three sections) | Store screenshots, the listing set and ads, each with Round 7's row above Round 8's |
 
-Round 8's copies keep their files and links; their titles end in "(Round 8)". `design/round-7/group7.py` reapplies the grouping and stops if any board on the page isn't in a section.
+Round 8's copies keep their files and links; their titles end in "(Round 8)". Round 9 adds copies marked "(Round 9)" and two sections: the 30-day loop, end to end (the check-in moves there from Me), and one search, help, and reporting a problem. `design/round-7/group7.py` reapplies the grouping and stops if any board on the page isn't in a section.
 

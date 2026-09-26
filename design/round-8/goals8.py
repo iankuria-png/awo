@@ -158,6 +158,11 @@ def home():
     html = html[:start] + new + html[end:]
     ns, ne = html.index('<nav aria-label="Main" class="tab"'), html.index('</nav>', html.index('<nav aria-label="Main" class="tab"')) + len('</nav>')
     html = html[:ns] + tabbar8('Home') + html[ne:]
+    # Round 9: the notification centre, one tap from Home, with the count of new ones.
+    avatar = re.search(r'<a href="R7-Me\.dc\.html" aria-label="Your profile">.*?</a>', html).group(0)
+    bell = (f'<a href="R9-Notifications.dc.html" aria-label="Notifications, 3 new" style="position: relative; width: 44px; height: 44px; border-radius: 10px; background: #FFFFFF; display: flex; align-items: center; justify-content: center">{ic("bell", 22, INK)}'
+            f'<span aria-hidden="true" style="position: absolute; top: -4px; right: -4px; min-width: 20px; height: 20px; box-sizing: border-box; padding: 0 5px; border-radius: 999px; background: {LIME}; color: {EVG}; box-shadow: 0 0 0 2px {MIST}; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center">3</span></a>')
+    html = html.replace(avatar, f'<span style="display: flex; gap: 10px; align-items: center">{bell}{avatar}</span>', 1)
     extra = ', '.join(f"waterY{i}: {round(118 * (1 - have / want))}, poolLabel{i}: '{n}: {fmt_r(have, False)} of {fmt_r(want, False)}'" for i, (n, have, want, _g) in enumerate(MINE) if i)
     html = html.replace("waterY: Math.round(150 * (1 - 1800 / 5000))", "waterY: Math.round(118 * (1 - 1800 / 5000)), " + extra)
     html = re.sub(r'"height":1580\}', '"height":1740}', html)

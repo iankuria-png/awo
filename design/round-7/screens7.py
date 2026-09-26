@@ -220,7 +220,7 @@ def checkin():
         {st_new}
         <h1 class="d" style="font-size: 40px; margin-top: 20px; animation: rise .45s cubic-bezier(.2,.8,.2,1) .15s both">Check-in done.</h1>
         <span class="hand" style="font-size: 28px; color: {EVG}; {HF}; animation: rise .45s cubic-bezier(.2,.8,.2,1) .35s both">One month, kept.</span>
-        <p style="font-size: 16px; line-height: 1.45; color: {SEC}; max-width: 300px">Your answers make a new version of your profile. You'll find it on Me.</p>
+        <p style="font-size: 16px; line-height: 1.45; color: {SEC}; max-width: 300px">Your answers make a new version of your profile. See what changed, then pick this month's step.</p>
       </div>
     </sc-if>
     <div style="flex-grow: 1"></div>
@@ -230,7 +230,7 @@ def checkin():
         <button onClick="[[ next ]]" aria-disabled="[[ blocked ]]" style="height: 56px; width: 100%; border-radius: {R_M}px; background: [[ nextBg ]]; color: [[ nextFg ]]; font-size: 16px; font-weight: 600; transition: background-color .18s">[[ nextLabel ]]</button>
       </div>
     </sc-if>
-    <sc-if value="[[ isDone ]]" hint-placeholder-val="[[ false ]]"><a href="R7-Me.dc.html" style="height: 56px; width: 100%; border-radius: {R_M}px; background: {EVG}; color: #FFFFFF; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center">See your profile</a></sc-if>
+    <sc-if value="[[ isDone ]]" hint-placeholder-val="[[ false ]]"><a href="R7-R9-What-Changed.dc.html" style="height: 56px; width: 100%; border-radius: {R_M}px; background: {EVG}; color: #FFFFFF; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center">See what changed</a></sc-if>
   </div>'''
     css = f'''
 .rng{{-webkit-appearance:none;appearance:none;width:100%;height:44px;background:transparent;margin:0}}

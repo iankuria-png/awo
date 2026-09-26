@@ -67,9 +67,10 @@ design/marketing/    marketing PNGs: Round 3 drafts, round-6/ built from the liv
 design/round-5/      generator for the Round 5 canvas boards (shared shapes, icons, Ola, tab bars)
 design/round-6/      generator for Round 6 (the app at Volume 1); design/round-7/ transforms it (Geist, handwriting, corners) and redesigns Vault, Me and Community
 design/round-8/      generator for Round 8 (Learn with Words and Stories, the Hub, goals, stories, the feed, Companies explained, marketing), native in the Round 7 language
+design/round-9/      generator for Round 9 (the loop end to end, sharing, help and search, and more batches), copied onto the Round 7 board by pull9.py
 .claude/settings.json  plugins, MCP approval, the changelog hook      .mcp.json  Playwright server
 ```
 
-Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 to Round 8).
+Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 to Round 9).
 
 Planned (not yet created): `docs/product/`, `docs/design/`, `docs/engineering/`, `docs/governance/`, `docs/operations/`, `apps/`, `packages/`, `infra/`. See [`docs/00-discovery/06-tooling-and-harness.md`](docs/00-discovery/06-tooling-and-harness.md).

@@ -6,6 +6,13 @@
 
 ## 2026-09-26
 
+### Round 9 batch 1: the 30-day loop, end to end
+- Ian picked a long list to design next, in batches, end to end (D-041); doc 15 holds the brief. Batch 1 is on a new page, `r9`: the flow board (`R9-Loop-Flow`) lays the loop out screen by screen with the six gaps it found, and the new screens close them: the reminder on the lock screen (Start, Tonight, Skip a month), notifications, what changed (with a month that went down), this month's step, and a milestone with sharing to her circle or WhatsApp.
+- Three WhatsApp status cards (a milestone, the word of the week, a Rise story) carry no amounts, score or stage. New Q-46 asks what members may share outside AWO.
+- One search across Words, lessons, tools, circles and help; a help centre by topic that opens on "Is AWO giving me advice?"; and reporting a problem, with amounts hidden in the screenshot by default.
+- Connected: Home (Round 8) has a notification bell, and the check-in (Round 7) now ends on "See what changed". Every Round 9 board is copied onto the Round 7 board (`pull9.py`), in two new sections; the check-in moves into the loop's section. The canvas opens on Round 9.
+- The self-check fixed a help badge that disappeared on the page, a notifications list hidden behind the tab bar, stepping stones that didn't scale, "check-ins" breaking at its hyphen, a text box bound the wrong way, and a search field under 44px.
+
 ### The DIVA score in the app too (D-040)
 - Ian answered Q-44: "yes, DIVA score even in the app too". The number is now "DIVA score" on Me, the first-result reveal, Progress, Compare, the one-page report, Home (Rounds 7 and 8), the components board and the admin scoring preview, including the screen-reader labels. "DIVA profile" stays the name for the whole picture, and "Learning readiness, not a credit score" stays as the explanation.
 - On Me, the arc grew from 84 to 100 pixels so "DIVA score" fits inside it. Round 7's Home label changes in `round7.py`'s transform, so Round 6's generator is untouched and Round 8's Home follows.

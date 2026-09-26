@@ -22,6 +22,10 @@ GROUPS = [
     ('Onboarding: welcome, sign in, the first profile, the first step, coming back', [
         ['R7-Entry', 'R7-Welcome', 'R7-Auth-Signin', 'R7-Auth-Code', 'R7-Auth-Profile', 'R7-Auth-Consent', 'R7-Goals',
          'R7-Starter', 'R7-Reveal', 'R7-FirstStep', 'R7-Auth-Notify', 'R7-Auth-Lock', 'R7-Auth-Back']]),
+    ('The 30-day loop, end to end: the reminder, the check-in, what changed, one step, a milestone, sharing', [
+        ['R7-R9-Loop-Flow'],
+        ['R7-R9-Lock-Reminder', 'R7-R9-Notifications', 'R7-Checkin', 'R7-R9-What-Changed', 'R7-R9-Next-Step', 'R7-R9-Milestone'],
+        ['R7-R9-Status-Milestone', 'R7-R9-Status-Word', 'R7-R9-Status-Story']]),
     ('Home in every version, goals, and the hard moments', [
         ['R7-Home', 'R7-R8-Home', 'R7-Biz-Home', 'R7-R8-Goals', 'R7-Hard']]),
     ('Learn: the tab, lessons, topics, words and Ask', [
@@ -36,8 +40,10 @@ GROUPS = [
          'R7-R8-Shop-Edit', 'R7-R8-Shop-Public']]),
     ('Community: the tab, the buddy, the feed and posting', [
         ['R7-Community', 'R7-Buddy', 'R7-R8-Feed-Parts', 'R7-R8-Feed', 'R7-R8-Compose', 'R7-R8-Post']]),
-    ('Me: the profile, progress, the check-in, the report and settings', [
-        ['R7-Me', 'R7-Progress', 'R7-Checkin', 'R7-Compare', 'R7-Report', 'R7-Settings']]),
+    ('Me: the profile, progress, the report and settings', [
+        ['R7-Me', 'R7-Progress', 'R7-Compare', 'R7-Report', 'R7-Settings']]),
+    ('One search, help, and reporting a problem', [
+        ['R7-R9-Search', 'R7-R9-Help', 'R7-R9-Help-Report']]),
     ('Components and widgets', [
         ['R7-Components', 'R7-Data', 'R7-Widgets']]),
     ('AWO Admin (desktop)', [
@@ -74,8 +80,9 @@ for i, (text, rows) in enumerate(GROUPS, 1):
         for b in row:
             e = B[b + '.dc.html']
             e.update(x=x, y=by)
-            if b.startswith('R7-R8-') and not e.get('title', '').endswith('(Round 8)'):
-                e['title'] = (e.get('title') or b[6:]) + ' (Round 8)'
+            for pre, mark in (('R7-R8-', ' (Round 8)'), ('R7-R9-', ' (Round 9)')):
+                if b.startswith(pre) and not e.get('title', '').endswith(mark):
+                    e['title'] = (e.get('title') or b[len(pre):]) + mark
             x += e['w'] + GAP
             bottom = max(bottom, by + e['h'])
         widest = max(widest, x - GAP)
@@ -95,8 +102,8 @@ sections = '\n'.join(f'{i}. {t}' for i, (t, _) in enumerate(GROUPS, 1))
 N['r7howto'].update(x=-480, y=0, text=(
     "Round 7: the full board, for UI and UX reference, grouped by topic.\n\n"
     f"{sections}\n\n"
-    "Round 7's screens and Round 8's ideas sit side by side in each section. A title ending in (Round 8) marks a "
-    "Round 8 screen, copied from that page and linked to the other copies; the Round 8 page itself is unchanged.\n\n"
+    "Round 7's screens and the ideas of Rounds 8 and 9 sit side by side in each section. A title ending in (Round 8) "
+    "or (Round 9) marks a screen copied from that page and linked to the other copies; those pages are unchanged.\n\n"
     "Geist does all the type. A handwritten face (Kalam by default; switch it in any board's Tweaks) appears only at a "
     "few special moments: someone's own words, or AWO's short note at a real milestone. Never on numbers, buttons, "
     "results or anything AI writes. Corners come in three sizes (6, 10, 14) and a circle.\n\n"

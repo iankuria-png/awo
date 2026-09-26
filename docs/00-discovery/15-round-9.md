@@ -1,0 +1,42 @@
+# 15 · Round 9: connecting the pieces, and everything around the app
+
+> **Status:** In progress on canvas page `r9` (Round 9), 26 Sep 2026. Batch 1 is published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
+> **Ian's brief (D-041):** Build these, in batches, end to end with world-class UI and UX: the 30-day loop as one flow; sharing to WhatsApp; help and support, plus one search; Hub tools 10 to 18; a stokvel or chama record book; desktop and tablet layouts, a WhatsApp check-in and a USSD menu; components (sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input) and an empty-state set; emails; print (an A5 flyer and a workshop slide template); mockups in real places; social (carousels, WhatsApp status cards, podcast art); and merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag and ambassador T-shirts).
+> **Language:** Round 7's, as Round 8 used it: Geist for all type, Kalam only in someone's own words or AWO's short note at a real milestone, corners 6, 10 and 14 and a circle, one colour and shape per area, and the Round 8 tab bar (Home, Learn, Hub, Community, Me).
+> **Generator:** [`design/round-9/`](../../design/round-9/README.md).
+
+## The batches
+
+| Batch | What it holds | State |
+|---|---|---|
+| 1. The loop as one flow | The flow board; the reminder on the lock screen; notifications; what changed; this month's step; a milestone and sharing it; three WhatsApp status cards; one search; help; reporting a problem | Published |
+| 2. The rest of the Hub | Sending money home; a loan's real cost and "explain my agreement"; is it worth it; two job offers; business setup; what I own and owe; the retirement pulse; a savings-group record book | Next |
+| 3. Other channels and sizes | Desktop and tablet layouts; a WhatsApp check-in; a USSD menu; one question in every channel | |
+| 4. Components | Sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input; empty states made from the five shapes | |
+| 5. Around the app | Emails; an A5 flyer and workshop slides; mockups in real places; carousels, status cards, podcast art | |
+| 6. Merchandise | A money-in-and-out notebook; a check-in calendar or magnet; stickers and pins; a tote bag; ambassador T-shirts | |
+
+## Batch 1: the 30-day loop, end to end
+
+Each screen of the loop existed, but nobody had looked at them in order. Laid out as one flow (`R9-Loop-Flow`), six gaps showed, and batch 1 closes them.
+
+| Gap | What closes it | Board |
+|---|---|---|
+| The check-in ended on Me, where nothing said what had changed | **What changed:** version 4, the DIVA score and its change, what moved in each area against where September was, and the reason in reviewed words. A preview switch shows a month that went down: the decreases are grey, and the reason is kind ("Your safety net paid for the car repair. That's what it's for.") | `R9-What-Changed` |
+| There was a first step, but no step for each month after it | **This month's step:** last month's step recapped, four reviewed steps for her focus (one suggested), a payday reminder, and the next 30 days | `R9-Next-Step` |
+| A reminder disappeared once it was swiped away | **Notifications:** the check-in stays on top until she does it; replies, cheers, the word of the week and method changes in one list, filtered by her money or her circles. Home gets a bell with the count | `R9-Notifications`, `R8-Home` |
+| Milestones stayed inside the app | **A milestone, and sharing it:** four check-ins in a row, a live preview of the card, her first name on or off, and amounts, score and stage locked off. Share to her circle, WhatsApp status or chat, or save the image | `R9-Milestone` |
+| Missing a month had no kind way out | **The reminder** on the lock screen: Start, Tonight, or Skip a month ("Nothing is lost"). No amounts, ever, on the lock screen | `R9-Lock-Reminder` |
+| Help and search had no home | **One search** across Words, lessons, tools, circles and help, with filters and a kind "nothing found" that offers Ola. **Help** by topic, "Is AWO giving me advice?" first, a person to talk to, and a scam warning. **Report a problem** with a screenshot whose amounts are hidden by default | `R9-Search`, `R9-Help`, `R9-Help-Report` |
+
+The check-in (Round 7's) now ends on "See what changed", so the loop runs without a break.
+
+**Three WhatsApp status cards** (1080 by 1920): a milestone, the word of the week and a Rise story. They are how AWO travels in her world, and they test the privacy rules: no amounts, no score, no stage, and a member's words only in her own hand.
+
+**Choices worth checking:**
+- The milestone is about showing up (four check-ins in a row), never the score. Results still get no burst.
+- The score in the sample moves by one point while the area she worked on moves by five. What changed leads with that, so a small number doesn't read as failure.
+- "Stage 3 starts at 65" uses the sample stage boundaries from AWO Admin; the real ones are AWO's.
+- Sharing opens WhatsApp with the image; AWO never learns who views it.
+
+**Open:** Q-46 asks what a member may share outside AWO. The proposal is milestones about showing up and learning, never amounts, the DIVA score or the stage.

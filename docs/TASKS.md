@@ -2,14 +2,15 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 8 is on the canvas, for Ian to react to
+## Now: Round 9, in six batches
 
-Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all five batches: the brief and research, the Hub's icon (keystone, D-039), the IA, Learn with three tabs, the Hub with nine tools, goals and Home, real stories, the podcast, the Community feed, Companies explained, and the marketing refreshed for the new tabs. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board, and now holds every Round 8 board too, grouped with Round 7's by topic (T-097, T-098).
+Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), batch by batch, and each board is also on the Round 7 board in its topic section (D-041). Batch 1, the 30-day loop as one flow with sharing, help and search, is published. Next: the rest of the Hub and the record book (T-103), other channels and sizes (T-104), components (T-105), the material around the app (T-106) and merchandise (T-107).
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
+| T-102 | **React to Round 9, batch 1** (page `r9`): the loop flow, what changed (and a month that went down), this month's step, the milestone and WhatsApp sharing, notifications, search and help. Answer Q-46: what may a member share outside AWO? | [15](00-discovery/15-round-9.md#batch-1-the-30-day-loop-end-to-end) |
 | T-093 | **React to Round 8** (page `r8`): the Hub modes "Me" and "My business", the nine tools, goals and Home, the stories and the podcast, the feed; and answer the new questions on members' stories (Q-42) and reaction counts (Q-43) | [14](00-discovery/14-round-8.md#questions-for-ian) |
 | T-095 | **Companies explained** (Q-36): may briefs name real listed companies (the Safaricom brief is a sample), and do the six proposed editorial rules stand? Also the refreshed store copy (Q-31) | [14](00-discovery/14-round-8.md#questions-for-ian) |
 | T-092 | Name an owner for the facts behind Hub tools: tax tables, levies, thresholds (Q-41) | [14](00-discovery/14-round-8.md#questions-for-ian) |
@@ -23,6 +24,11 @@ Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all five batc
 
 | ID | Task | Owner |
 |---|---|---|
+| T-103 | Round 9 batch 2: Hub tools 10 to 18 and a savings-group record book (Q-45 first) | Claude |
+| T-104 | Round 9 batch 3: desktop and tablet layouts, a WhatsApp check-in, a USSD menu | Claude |
+| T-105 | Round 9 batch 4: sheets and dialogs, toasts, date picker, file upload, loading placeholders, a two-currency input; empty states from the five shapes | Claude |
+| T-106 | Round 9 batch 5: emails, an A5 flyer and workshop slides, mockups in real places, carousels, status cards, podcast art | Claude |
+| T-107 | Round 9 batch 6: merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag, ambassador T-shirts) | Claude |
 | T-094 | Round 8, what's left: the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and more of Companies explained once Q-36 is settled | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
@@ -96,3 +102,4 @@ Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all five batc
 | T-098 | Round 7 board grouped by topic: 14 sections (foundations, onboarding, Home, Learn, stories, the Hub, business, Community, Me, components, Admin, three for marketing), with Round 8's copies beside Round 7's and marked "(Round 8)" (`design/round-7/group7.py`) | 2026-09-26 |
 | T-099 | The DIVA score in the marketing: store screenshot 1, the listings (short and full), feature graphics, heroes, ad footers, and a new DIVA ad in both sets; PNGs re-exported (Q-44 for the name) | 2026-09-26 |
 | T-100 | The DIVA score in the app (D-040, Ian: "yes, DIVA score even in the app too"): Me, the reveal, Progress, Compare, the report, Home (Rounds 7 and 8), components and admin scoring say "DIVA score"; the Me and Progress captures redone, so the store screenshots and the DIVA ad match | 2026-09-26 |
+| T-101 | Round 9 batch 1: the 30-day loop as one flow (flow board, lock-screen reminder, notifications, what changed, this month's step, a milestone and sharing, three WhatsApp status cards), one search, help and reporting a problem; Home gets a bell and the check-in ends on What changed; all on page `r9` and in two new Round 7 sections | 2026-09-26 |
