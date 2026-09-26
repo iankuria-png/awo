@@ -4,7 +4,7 @@
 
 ## Now: Round 8 is on the canvas, for Ian to react to
 
-Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all five batches: the brief and research, the Hub's icon (keystone, D-039), the IA, Learn with three tabs, the Hub with nine tools, goals and Home, real stories, the podcast, the Community feed, Companies explained, and the marketing refreshed for the new tabs. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board.
+Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all five batches: the brief and research, the Hub's icon (keystone, D-039), the IA, Learn with three tabs, the Hub with nine tools, goals and Home, real stories, the podcast, the Community feed, Companies explained, and the marketing refreshed for the new tabs. Round 7 (page `r7`, [13](00-discovery/13-round-7.md)) stays the reference board, and now holds every Round 8 board too, below its own rows (T-097).
 
 ## Waiting on Ian
 
@@ -92,3 +92,4 @@ Round 8 is on canvas page `r8` ([14](00-discovery/14-round-8.md)), all five batc
 | T-090 | Round 8 batch 3: the tool skeleton, the Hub for Naledi (Me) and Wanjiru (My business), Home with several goals, the goals studio, and nine tools (payslip, pay-day plan, debt, fee eater, statement, price, quotes and invoices, Shop editor and public page) | 2026-09-25 |
 | T-091 | Round 8 batch 4: a Rise story, the AWO Podcast player, "My worst money mistake", the feed in parts, the Community feed, the composer with the AI rule check, and a question with replies and reporting | 2026-09-26 |
 | T-096 | Round 8 batch 5: Companies explained (the path with six proposed editorial rules, a Safaricom brief labelled "Sample editorial", a sample startup's funding rounds) and the marketing refresh in the new tabs (eight store screenshots, the listing, a feature graphic, a device hero and six ads, exported to `design/marketing/round-8/`) | 2026-09-26 |
+| T-097 | Round 8 pulled into the Round 7 board: 46 copies (`R7-R8-*`) below Round 7, linked to each other, with Round 7 and page `r8` unchanged (`design/round-7/pull8.py`) | 2026-09-26 |

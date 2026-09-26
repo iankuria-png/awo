@@ -180,3 +180,7 @@ Ian asked for guidance on approvals and for a world-class dashboard. These patte
 
 **The approval rule is still a proposal (Q-34):** two people for results text and scoring, and one for lessons and words. The team roles (owner, content lead, community, support) are samples too.
 
+## Round 8, on the Round 7 board
+
+Ian asked for one full board with all his ideas, without replacing anything on Round 7. Every Round 8 board ([14](14-round-8.md)) is now also on page `r7`, as copies named `R7-R8-*`, below Round 7's last row, in Round 8's own rows. The copies link to each other. Page `r8` is unchanged. `design/round-7/pull8.py` refreshes the copies.
+

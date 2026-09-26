@@ -14,6 +14,7 @@ Round 7 is Round 6 with three changes, applied as a transform so the two rounds 
 | `loop7.py` | Batch 2: `R7-Lesson`, `R7-Compare`, `R7-Simulator`, `R7-Offer`, `R7-Report` (A4), `R7-Hard` |
 | `biz7.py` | Batch 3: `R7-Biz-Profile`, `R7-Biz-Check`, `R7-Biz-Home` |
 | `admin7.py` | Batch 5, AWO Admin at 1440 wide: `R7-Admin-Overview`, `-Approvals`, `-Scoring`, `-Members`, `-Moderation`, `-Content`, `-Audit` |
+| `pull8.py` | Copies every Round 8 board onto page `r7` as `R7-R8-*` (linked to each other, below Round 7's rows), so Round 7 is one full board. Round 7 and page `r8` stay unchanged |
 | `typeboard.py` | `R7-Type`: Geist's scale, the handwriting candidates with a live switcher, and the corners, each with a Round 6 comparison |
 
 ```sh

@@ -6,6 +6,12 @@
 
 ## 2026-09-26
 
+### Round 8 pulled into the Round 7 board
+- Ian: "Pull in Round 8 into the Round 7 board. Do not replace items in the Round 7 board; we just want a full board with all my ideas." All 46 Round 8 boards are now on page `r7` too, as copies named `R7-R8-*`, linked to each other, in Round 8's own rows and section titles. They sit under a heading below Round 7's last row, with a note saying what they are.
+- Nothing on Round 7 moved or changed, and page `r8` is unchanged. Checks run: every copy matched the live Round 8 file byte for byte before copying; no copy links back to `R8-`; four copies were rendered.
+- This branch fast-forwarded to the Round 8 session's branch (`claude/intelligent-hypatia-ja9g5n`), so the docs remain one history.
+- New `design/round-7/pull8.py` refreshes the copies if Round 8 changes.
+
 ### Round 8 batch 5: Companies explained and the marketing refresh
 - **Companies explained, in Learn** (`design/round-8/companies8.py`), the safe version of Q-36: the path, with a standing line that AWO isn't paid to feature any company and six proposed editorial rules; a Safaricom brief (how M-Pesa came to earn about twice what calls do, what could go wrong, why AWO chose it), using figures from its results for the year to 31 March 2025 and labelled "Sample editorial, Q-36"; and a sample Lagos startup's funding rounds, where the founders own less of something bigger and a valuation isn't money in the bank. No share prices, no buy buttons.
 - **Marketing in the Round 8 tabs** (`marketing8.py`): eight store screenshots, the listing (a 77-character short description), a feature graphic, a device hero and six ads, exported at exact size to `design/marketing/round-8/`. No ad names a company. `capture8.mjs` recaptures the screens they're built from, and `python3 marketing8.py specs` lists what to capture.
