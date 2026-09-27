@@ -6,6 +6,12 @@
 
 ## 2026-09-27
 
+### Round 9 batch 6: merchandise (Round 9 complete)
+- Money in and out, the Hub's business notebook on paper (A6): a cover she labels, a week to a spread with the week's sums and what sold twice, a month page she colours in, and a back cover pointing to the app. Wanjiru's sample week matches the app; a switch shows the blank pages to print.
+- The check-in on the fridge: a magnet with twelve stones, January to December, ticked by hand, and a year she prints from the app with her check-in days and her stokvel date, never amounts.
+- Stickers and enamel pins of the five shapes, each in its area's colour; a tote bag in evergreen, night or mist with the stones or the five shapes; ambassador T-shirts that say "Ask me about AWO" and a badge that says an ambassador shows the app and never gives advice. New Q-48 on ambassadors and merchandise.
+- All six batches of Round 9 are published (canvas version 59); the Round 7 board now has 20 sections.
+
 ### Round 9 batch 5: around the app
 - Three emails, each on a computer, on a phone in a light or dark mail app, and in the inbox with its subject and preview counted: a welcome (or, if she stopped halfway, a nudge to finish the first check) with a scam warning; a check-in reminder with start, tonight or skip; a monthly summary that counts what she did and never her money. New Q-47: no amounts, DIVA score or stage in email or print, and the email service needs a data-location note.
 - Print: an A5 flyer with three fronts (church groups, campuses, stokvel meetings), a back with lines for the organiser's own handwriting, a photocopier switch and a real QR code that only says it is a sample; eight workshop slide layouts with speaker notes and rules for whoever presents.

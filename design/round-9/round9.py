@@ -20,8 +20,9 @@ import channels9  # noqa: E402  (batch 3: desktop, tablet, WhatsApp, USSD, one q
 import components9  # noqa: E402  (batch 4: components and empty states)
 import around9  # noqa: E402  (batch 5: emails, print, the app in real places)
 import social9  # noqa: E402  (batch 5: carousels, status cards, podcast art)
+import merch9  # noqa: E402  (batch 6: merchandise)
 
-BOARDS = loop9.BOARDS + tools9.BOARDS + channels9.BOARDS + components9.BOARDS + around9.BOARDS + social9.BOARDS
+BOARDS = loop9.BOARDS + tools9.BOARDS + channels9.BOARDS + components9.BOARDS + around9.BOARDS + social9.BOARDS + merch9.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]

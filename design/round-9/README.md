@@ -11,6 +11,7 @@ Round 9 connects what Rounds 7 and 8 built, and designs the material around the 
 | `components9.py` | Batch 4: sheets, dialogs and toasts; dates, files, loading and two currencies; ten empty states from the five shapes |
 | `around9.py` | Batch 5: three emails (desktop, phone, light and dark), the A5 flyer and its sample QR code, workshop slides, the app in four real places |
 | `social9.py` | Batch 5: two carousels, two status cards, the podcast's cover art and episode tiles |
+| `merch9.py` | Batch 6: the traders' notebook, the check-in magnet and printed year, stickers and pins, a tote bag, ambassador T-shirts and a badge |
 | `round9.py` | Builds the boards: `python3 round9.py <project dir> [Board ...]` |
 | `layout9.py` | Lays out page `r9` and opens the canvas on it |
 | `pull9.py` | Copies every Round 9 board onto page `r7` as `R7-R9-*`, with links rewritten; then run `../round-7/group7.py` |

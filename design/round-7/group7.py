@@ -72,6 +72,9 @@ GROUPS = [
     ('Marketing: social, carousels, status cards and the podcast', [
         ['R7-R9-Carousel-Diva', 'R7-R9-Carousel-Loan'],
         ['R7-R9-Status-Question', 'R7-R9-Status-Quiz', 'R7-R9-Podcast-Cover', 'R7-R9-Podcast-Tiles']]),
+    ('Merchandise: a notebook for traders, the check-in on the fridge, stickers, pins, a tote and T-shirts', [
+        ['R7-R9-Notebook', 'R7-R9-Checkin-Magnet'],
+        ['R7-R9-Stickers-Pins', 'R7-R9-Tote', 'R7-R9-Tshirts']]),
 ]
 GAP, ROW_GAP, GROUP_GAP, TITLE = 80, 200, 400, 300
 

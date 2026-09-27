@@ -1,6 +1,6 @@
 # 15 · Round 9: connecting the pieces, and everything around the app
 
-> **Status:** In progress on canvas page `r9` (Round 9), 27 Sep 2026. Batches 1 to 5 are published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
+> **Status:** All six batches published on canvas page `r9` (Round 9), 27 Sep 2026, and waiting on Ian's reactions. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
 > **Ian's brief (D-041):** Build these, in batches, end to end with world-class UI and UX: the 30-day loop as one flow; sharing to WhatsApp; help and support, plus one search; Hub tools 10 to 18; a stokvel or chama record book; desktop and tablet layouts, a WhatsApp check-in and a USSD menu; components (sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input) and an empty-state set; emails; print (an A5 flyer and a workshop slide template); mockups in real places; social (carousels, WhatsApp status cards, podcast art); and merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag and ambassador T-shirts).
 > **Language:** Round 7's, as Round 8 used it: Geist for all type, Kalam only in someone's own words or AWO's short note at a real milestone, corners 6, 10 and 14 and a circle, one colour and shape per area, and the Round 8 tab bar (Home, Learn, Hub, Community, Me).
 > **Generator:** [`design/round-9/`](../../design/round-9/README.md).
@@ -14,7 +14,7 @@
 | 3. Other channels and sizes | Home and the DIVA profile on a computer; Learn on a tablet; the check-in on WhatsApp and USSD; one question in every channel | Published |
 | 4. Components | Sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input; empty states made from the five shapes | Published |
 | 5. Around the app | Emails; an A5 flyer and workshop slides; mockups in real places; carousels, status cards, podcast art | Published |
-| 6. Merchandise | A money-in-and-out notebook; a check-in calendar or magnet; stickers and pins; a tote bag; ambassador T-shirts | |
+| 6. Merchandise | A money-in-and-out notebook; a check-in calendar or magnet; stickers and pins; a tote bag; ambassador T-shirts | Published |
 
 ## Batch 1: the 30-day loop, end to end
 
@@ -114,3 +114,17 @@ In a dark mail app the green band stays, the page goes night and the button turn
 - The quiz card and the loan carousel show sample loan amounts. They are general examples, never a member's own money, and match the Hub's loan tool.
 - The mockups are composites and say so on the board. Real photography of members, with their consent, is still to come (the Unsplash account is waiting on T-025).
 - Podcast guests are samples; real guests would sign a release that says where their story and photo appear.
+
+## Batch 6: merchandise
+
+Things members and ambassadors hold, wear and stick on the fridge. The five shapes do the branding; Africa is in who uses them and what they say, never in patterns, maps or flag colours.
+
+| Piece | What it is | Choices worth checking |
+|---|---|---|
+| **Money in and out** (`R9-Notebook`) | The Hub's business notebook on paper, A6: a cover with a label she fills in, a week to a spread (each day's in and out, the week's sums, what sold twice, what happened), a month page with bars she colours in by hand, and a back cover pointing to the app. Wanjiru's sample week matches her notebook in the app (KSh 25 700 in, KSh 10 000 out); a switch shows the blank pages | The currency is written once a week, so one book works in any country. Given or sold, and printed where (Q-48) |
+| **The check-in on the fridge** (`R9-Checkin-Magnet`) | A magnet with twelve stones, January to December, ticked by hand (tap them), and "My check-in day" written in marker. Beside it, a year she prints from the app: her next twelve check-ins and the dates she added (her stokvel), Monday-first | The magnet is the same for everyone. The printed year shows dates only, because it hangs where everyone can see it |
+| **Stickers and pins** (`R9-Stickers-Pins`) | The five shapes as die-cut stickers and 25 mm enamel pins, each in its area's colour, plus word stickers ("I checked in", "Ask me about AWO", the word of the week) | Silver or black nickel; gold reads as luxury. No sticker shows a number |
+| **A tote bag** (`R9-Tote`) | Heavy cotton in evergreen, night or mist, printed with the stones ("One step at a time") or the five shapes ("Money, understood."); an inside pocket for the notebook | No natural-canvas cream. One or two colours, for a local screen printer |
+| **Ambassador T-shirts** (`R9-Tshirts`) | Front: the mark, small. Back: "Ask me about AWO". A name badge says what an ambassador can do (show the app, run a workshop) and can't (give financial advice, ask for a PIN or money) | The shirt never says "Ask me about your money". There is no ambassador programme yet (Q-48) |
+
+**Open:** Q-48 asks whether AWO will have ambassadors, what they may say and hand out, and whether merchandise is given or sold, and made where.

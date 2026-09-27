@@ -55,6 +55,11 @@ TITLES = {  # board: title shown on the canvas (with what to try)
     'R9-Status-Quiz': 'WhatsApp status: a quick quiz',
     'R9-Podcast-Cover': 'The AWO Podcast: cover art, at every size',
     'R9-Podcast-Tiles': 'The AWO Podcast: episode tiles',
+    'R9-Notebook': 'Money in and out: a notebook for traders (flip the pages; try blank)',
+    'R9-Checkin-Magnet': 'The check-in on the fridge: a magnet and a printed year (tick a stone)',
+    'R9-Stickers-Pins': 'Stickers and pins of the five shapes (try black nickel)',
+    'R9-Tote': 'A tote bag (try the colours and the two prints)',
+    'R9-Tshirts': 'Ambassador T-shirts and a name badge (try the colours)',
 }
 STATIC = ('R9-Status-', 'R9-Carousel-', 'R9-Podcast-')  # images, not interactive screens
 
@@ -74,6 +79,8 @@ ROWS = [
     ('r9t13', 'The app in real places: a market stall, a commute, a kitchen table, a lock screen', ['R9-Place-Stall', 'R9-Place-Commute', 'R9-Place-Table', 'R9-Place-Lock']),
     ('r9t14', 'Social: two carousels', ['R9-Carousel-Diva', 'R9-Carousel-Loan']),
     ('r9t15', "Two more WhatsApp status cards, and the AWO Podcast's cover and episode tiles", ['R9-Status-Question', 'R9-Status-Quiz', 'R9-Podcast-Cover', 'R9-Podcast-Tiles']),
+    ('r9t16', 'Batch 6, merchandise: a money notebook for traders, and the check-in on the fridge', ['R9-Notebook', 'R9-Checkin-Magnet']),
+    ('r9t17', 'Stickers and pins of the five shapes, a tote bag, and ambassador T-shirts (Q-48)', ['R9-Stickers-Pins', 'R9-Tote', 'R9-Tshirts']),
 ]
 
 HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
@@ -89,6 +96,9 @@ HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
          "Batch 5 is around the app: a welcome, a check-in reminder and a monthly summary email (on a computer and a phone, "
          "light and dark); an A5 flyer with a QR code and workshop slides; the app in four real places; two carousels, two "
          "more status cards and the AWO Podcast's art. No email or print shows an amount, the DIVA score or the stage (Q-47).\n\n"
+         "Batch 6 is merchandise: a money-in-and-out notebook for traders (the Hub's notebook on paper), a check-in magnet "
+         "and a printed year, stickers and pins of the five shapes, a tote bag, and ambassador T-shirts with a badge that says "
+         "an ambassador shows the app and never gives advice (Q-48).\n\n"
          "The flow board at the top shows the whole loop with the gaps it found. Home now has a bell, and the check-in ends on "
          "What changed.\n\n"
          "Every Round 9 board is also on the Round 7 board, in its topic section, marked (Round 9).\n\n"

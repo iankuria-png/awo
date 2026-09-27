@@ -2,14 +2,15 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 9, in six batches
+## Now: Round 9 is published; Ian reacts
 
-Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), batch by batch, and each board is also on the Round 7 board in its topic section (D-041). Batches 1 to 5 are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; other sizes and channels; components with empty states; and the material around the app (emails, print, the app in real places, social). Next: merchandise (T-107).
+Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), batch by batch, and each board is also on the Round 7 board in its topic section (D-041). All six batches are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; other sizes and channels; components with empty states; the material around the app (emails, print, the app in real places, social); and merchandise. Next: Ian's reactions (T-102, T-108 to T-112) and the questions they raise (Q-45 to Q-48).
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
+| T-112 | **React to Round 9, batch 6** (page `r9`): the traders' notebook, the fridge magnet and printed year, stickers and pins, the tote and the ambassador T-shirts and badge; and answer Q-48 on ambassadors and merchandise | [15](00-discovery/15-round-9.md#batch-6-merchandise) |
 | T-111 | **React to Round 9, batch 5** (page `r9`): three emails, the A5 flyer and workshop slides, the app in four real places, two carousels, two status cards and the podcast's art; and answer Q-47, what emails and print may show | [15](00-discovery/15-round-9.md#batch-5-around-the-app) |
 | T-110 | **React to Round 9, batch 4** (page `r9`): the new components (sheets, dialogs, toasts, date picker, file upload, loading, two currencies) and the ten empty states | [15](00-discovery/15-round-9.md#batch-4-components-and-empty-states) |
 | T-109 | **React to Round 9, batch 3** (page `r9`): Home and the DIVA profile on a computer, Learn on a tablet, the WhatsApp and USSD check-ins, and one question in every channel. WhatsApp and USSD journeys stay open (Q-21) | [15](00-discovery/15-round-9.md#batch-3-other-sizes-and-channels) |
@@ -28,7 +29,6 @@ Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), b
 
 | ID | Task | Owner |
 |---|---|---|
-| T-107 | Round 9 batch 6: merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag, ambassador T-shirts) | Claude |
 | T-094 | Round 8, what's left: the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and more of Companies explained once Q-36 is settled | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
@@ -107,3 +107,4 @@ Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), b
 | T-104 | Round 9 batch 3: Home and the DIVA profile on a computer, Learn on a tablet, the check-in on WhatsApp and on USSD (a phone to dial through), and one question drawn in every channel | 2026-09-26 |
 | T-105 | Round 9 batch 4: sheets, dialogs and toasts; a date picker, file upload, loading placeholders and a two-currency input, all live; ten empty states drawn from the five shapes | 2026-09-27 |
 | T-106 | Round 9 batch 5: a welcome, a check-in reminder and a monthly summary email (computer and phone, light and dark); an A5 flyer with a real sample QR code for three audiences and workshop slides with speaker notes; the app at a market stall, on a commute, on a kitchen table and on a lock screen; two carousels, two status cards, the podcast's cover and episode tiles | 2026-09-27 |
+| T-107 | Round 9 batch 6: a money-in-and-out notebook for traders (cover, a week, the month, the back, filled in or blank), a check-in fridge magnet and a printed year, stickers and enamel pins of the five shapes, a tote bag in three colours and two prints, ambassador T-shirts and a name badge | 2026-09-27 |
