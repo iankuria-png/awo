@@ -18,8 +18,10 @@ import loop9  # noqa: E402  (batch 1: the loop, sharing, help, search)
 import tools9  # noqa: E402  (batch 2: Hub tools 10 to 18, the savings-group book, all tools)
 import channels9  # noqa: E402  (batch 3: desktop, tablet, WhatsApp, USSD, one question everywhere)
 import components9  # noqa: E402  (batch 4: components and empty states)
+import around9  # noqa: E402  (batch 5: emails, print, the app in real places)
+import social9  # noqa: E402  (batch 5: carousels, status cards, podcast art)
 
-BOARDS = loop9.BOARDS + tools9.BOARDS + channels9.BOARDS + components9.BOARDS
+BOARDS = loop9.BOARDS + tools9.BOARDS + channels9.BOARDS + components9.BOARDS + around9.BOARDS + social9.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]

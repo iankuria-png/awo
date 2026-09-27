@@ -4,6 +4,7 @@
 //   python3 design/round-8/marketing8.py specs > caps.json
 //   NODE_PATH=$(npm root -g) node design/round-8/capture8.mjs caps.json <out dir> [port=8792]
 // Then upload the JPEGs to the canvas and put their /_blob/ ids in CAPS8 (marketing8.py).
+// A spec may set `w` and `h` to capture a board that isn't a phone (an A4 report), whole, at its own size.
 import { createRequire } from 'module';
 import { existsSync, readdirSync, readFileSync } from 'fs';
 import { execSync } from 'child_process';
@@ -31,7 +32,8 @@ if (existsSync('/opt/pw-browsers')) {
 
 const browser = await chromium.launch({ headless: true, args, executablePath });
 for (const s of specs) {
-  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, reducedMotion: 'reduce' });
+  const w = s.w || 390, h = s.h || 844;
+  const ctx = await browser.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 2, reducedMotion: 'reduce' });
   const page = await ctx.newPage();
   await page.goto(`http://127.0.0.1:${port}/project/${s.board}.dc.html`, { waitUntil: 'networkidle', timeout: 60000 });
   await page.waitForTimeout(2200);
@@ -45,13 +47,13 @@ for (const s of specs) {
     await page.waitForTimeout(300);
   }
   // Keep the screen at phone height: nothing shrinks, and the frame is cut at 844.
-  await page.evaluate(() => {
+  if (!s.w) await page.evaluate(() => {
     document.querySelectorAll('.scr > *, .pane > *').forEach((e) => { e.style.flexShrink = '0'; });
     const root = [...document.querySelectorAll('div')].find((d) => d.style.width === '390px' && d.style.position === 'relative');
     if (root) root.style.height = '844px';
   });
   await page.waitForTimeout(400);
-  await page.screenshot({ path: `${out}/${s.key}.jpg`, type: 'jpeg', quality: 88, clip: { x: 0, y: 0, width: 390, height: 844 } });
+  await page.screenshot({ path: `${out}/${s.key}.jpg`, type: 'jpeg', quality: 88, clip: { x: 0, y: 0, width: w, height: h } });
   console.log('captured', s.key);
   await ctx.close();
 }

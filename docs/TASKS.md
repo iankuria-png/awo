@@ -4,12 +4,13 @@
 
 ## Now: Round 9, in six batches
 
-Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), batch by batch, and each board is also on the Round 7 board in its topic section (D-041). Batches 1 to 4 are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; other sizes and channels; and components with empty states. Next: components (T-105), the material around the app (T-106) and merchandise (T-107).
+Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), batch by batch, and each board is also on the Round 7 board in its topic section (D-041). Batches 1 to 5 are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; other sizes and channels; components with empty states; and the material around the app (emails, print, the app in real places, social). Next: merchandise (T-107).
 
 ## Waiting on Ian
 
 | ID | Task | Notes |
 |---|---|---|
+| T-111 | **React to Round 9, batch 5** (page `r9`): three emails, the A5 flyer and workshop slides, the app in four real places, two carousels, two status cards and the podcast's art; and answer Q-47, what emails and print may show | [15](00-discovery/15-round-9.md#batch-5-around-the-app) |
 | T-110 | **React to Round 9, batch 4** (page `r9`): the new components (sheets, dialogs, toasts, date picker, file upload, loading, two currencies) and the ten empty states | [15](00-discovery/15-round-9.md#batch-4-components-and-empty-states) |
 | T-109 | **React to Round 9, batch 3** (page `r9`): Home and the DIVA profile on a computer, Learn on a tablet, the WhatsApp and USSD check-ins, and one question in every channel. WhatsApp and USSD journeys stay open (Q-21) | [15](00-discovery/15-round-9.md#batch-3-other-sizes-and-channels) |
 | T-108 | **React to Round 9, batch 2** (page `r9`): All tools and the seven new tools; and settle Q-45, what a savings-group book may keep (the design shows records only, AWO never holding money) | [15](00-discovery/15-round-9.md#batch-2-the-rest-of-the-hub) |
@@ -27,7 +28,6 @@ Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), b
 
 | ID | Task | Owner |
 |---|---|---|
-| T-106 | Round 9 batch 5: emails, an A5 flyer and workshop slides, mockups in real places, carousels, status cards, podcast art | Claude |
 | T-107 | Round 9 batch 6: merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag, ambassador T-shirts) | Claude |
 | T-094 | Round 8, what's left: the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and more of Companies explained once Q-36 is settled | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
@@ -106,3 +106,4 @@ Round 9 is being built on canvas page `r9` ([15](00-discovery/15-round-9.md)), b
 | T-103 | Round 9 batch 2: All tools (the Hub's button now opens it), sending money home, a loan's real cost and explain my agreement, two job offers, the retirement pulse, what I own and owe, is it worth it, business setup, and a savings-group record book | 2026-09-26 |
 | T-104 | Round 9 batch 3: Home and the DIVA profile on a computer, Learn on a tablet, the check-in on WhatsApp and on USSD (a phone to dial through), and one question drawn in every channel | 2026-09-26 |
 | T-105 | Round 9 batch 4: sheets, dialogs and toasts; a date picker, file upload, loading placeholders and a two-currency input, all live; ten empty states drawn from the five shapes | 2026-09-27 |
+| T-106 | Round 9 batch 5: a welcome, a check-in reminder and a monthly summary email (computer and phone, light and dark); an A5 flyer with a real sample QR code for three audiences and workshop slides with speaker notes; the app at a market stall, on a commute, on a kitchen table and on a lock screen; two carousels, two status cards, the podcast's cover and episode tiles | 2026-09-27 |

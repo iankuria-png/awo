@@ -9,6 +9,8 @@ Round 9 connects what Rounds 7 and 8 built, and designs the material around the 
 | `tools9.py` | Batch 2: All tools, seven Hub tools (sending money home, a loan's real cost, two job offers, retirement pulse, what I own and owe, is it worth it, business setup) and the savings-group book |
 | `channels9.py` | Batch 3: Home and the DIVA profile on a computer, Learn on a tablet, the WhatsApp and USSD check-ins, one question in every channel; `screen_board()` (in `lib9.py`) draws boards at any size |
 | `components9.py` | Batch 4: sheets, dialogs and toasts; dates, files, loading and two currencies; ten empty states from the five shapes |
+| `around9.py` | Batch 5: three emails (desktop, phone, light and dark), the A5 flyer and its sample QR code, workshop slides, the app in four real places |
+| `social9.py` | Batch 5: two carousels, two status cards, the podcast's cover art and episode tiles |
 | `round9.py` | Builds the boards: `python3 round9.py <project dir> [Board ...]` |
 | `layout9.py` | Lays out page `r9` and opens the canvas on it |
 | `pull9.py` | Copies every Round 9 board onto page `r7` as `R7-R9-*`, with links rewritten; then run `../round-7/group7.py` |

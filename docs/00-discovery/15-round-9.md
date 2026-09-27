@@ -1,6 +1,6 @@
 # 15 · Round 9: connecting the pieces, and everything around the app
 
-> **Status:** In progress on canvas page `r9` (Round 9), 26 Sep 2026. Batches 1 to 4 are published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
+> **Status:** In progress on canvas page `r9` (Round 9), 27 Sep 2026. Batches 1 to 5 are published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
 > **Ian's brief (D-041):** Build these, in batches, end to end with world-class UI and UX: the 30-day loop as one flow; sharing to WhatsApp; help and support, plus one search; Hub tools 10 to 18; a stokvel or chama record book; desktop and tablet layouts, a WhatsApp check-in and a USSD menu; components (sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input) and an empty-state set; emails; print (an A5 flyer and a workshop slide template); mockups in real places; social (carousels, WhatsApp status cards, podcast art); and merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag and ambassador T-shirts).
 > **Language:** Round 7's, as Round 8 used it: Geist for all type, Kalam only in someone's own words or AWO's short note at a real milestone, corners 6, 10 and 14 and a circle, one colour and shape per area, and the Round 8 tab bar (Home, Learn, Hub, Community, Me).
 > **Generator:** [`design/round-9/`](../../design/round-9/README.md).
@@ -13,7 +13,7 @@
 | 2. The rest of the Hub | All tools; sending money home; a loan's real cost and "explain my agreement"; is it worth it; two job offers; business setup; what I own and owe; the retirement pulse; a savings-group record book | Published |
 | 3. Other channels and sizes | Home and the DIVA profile on a computer; Learn on a tablet; the check-in on WhatsApp and USSD; one question in every channel | Published |
 | 4. Components | Sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input; empty states made from the five shapes | Published |
-| 5. Around the app | Emails; an A5 flyer and workshop slides; mockups in real places; carousels, status cards, podcast art | |
+| 5. Around the app | Emails; an A5 flyer and workshop slides; mockups in real places; carousels, status cards, podcast art | Published |
 | 6. Merchandise | A money-in-and-out notebook; a check-in calendar or magnet; stickers and pins; a tote bag; ambassador T-shirts | |
 
 ## Batch 1: the 30-day loop, end to end
@@ -83,3 +83,34 @@ Two boards of live components, each working inside a phone-width frame with the 
 
 **Empty states** are drawn from each area's shape: the pool waits for its first drop, a moon for a saved lesson, the Hub's keystone hovers over its arch, the circle's ripple is quiet, the stones wait for the next step. There is one each for search, notifications, offline, a new savings group and an error. Each says what to do next, with one button.
 
+## Batch 5: around the app
+
+Everything here follows one rule from batch 1, carried off the phone: **no email, print or shared image shows an amount, the DIVA score or the stage** (Q-47 asks Ian to confirm it for email and print). Each piece has one main action and says what AWO isn't.
+
+**Three emails** (`R9-Email-Welcome`, `R9-Email-Reminder`, `R9-Email-Summary`), each shown on a computer (600 wide), on a phone in a light or dark mail app (the phone scrolls), and as it appears in her inbox, with the subject and preview counted.
+
+| Email | When | What it does | Choices worth checking |
+|---|---|---|---|
+| **Welcome** | A few minutes after she joins | "Your first step is ready", three things to try this week, what AWO is and isn't, and a scam warning: AWO never asks for a PIN, password or payment | If she stopped halfway through the first check, it asks her to finish instead (a switch on the board) |
+| **Check-in reminder** | Her check-in day, at her time, only if she hasn't checked in | The same three choices as the lock screen: start, tonight, or skip with nothing lost; last month's step without its amount; what happens next | Email reminders are her choice; a push reminder is the default (sample) |
+| **Monthly summary** | The 1st, for the month before | Counts what she did (lessons, words, steps, cheers), the four-in-a-row streak, "your profile has a new version", the words she saved, what's coming | A quiet month gets no email, never a "we miss you" |
+
+In a dark mail app the green band stays, the page goes night and the button turns lime, so the app has nothing to invert.
+
+**Print.** The **A5 flyer** (`R9-Flyer-A5`) has one front for each audience (church groups, campuses, stokvel meetings) and one back: the loop as three questions, what AWO isn't, and lines for the organiser to write her group, time, place and name by hand. A switch shows it photocopied in black and white. The QR code is real and scannable but only says "AWO sample QR code. The real link is still to come." The **workshop slides** (`R9-Workshop-Slides`) are eight layouts with speaker notes (title, today's three questions, a big idea, a money word, talk in pairs, a story, try it, close) and rules for whoever presents: nobody shares an amount out loud, and no bank, product or provider is named as the one to choose.
+
+**The app in real places**, each a stock photo (or a drawn table) with a live screen, and what the place asks of the design:
+
+| Place | The condition to try | What it changed or confirmed |
+|---|---|---|
+| **A market stall** (`R9-Place-Stall`), Wanjiru in Nairobi | Full sun | Amounts at 7:1 contrast; a sale added in one tap; the notebook works offline; an eye to hide amounts from customers (proposed) |
+| **A commute** (`R9-Place-Commute`), Amara in London | The Underground, no signal | Saved words and downloaded lessons work offline; "where you live" gives her the UK example |
+| **A kitchen table** (`R9-Place-Table`), Naledi's printed September report, with her own note in pen | Photocopied | Labels carry the meaning, not colour; the page says what the score is; a "My notes" box next (proposed) |
+| **A lock screen** (`R9-Place-Lock`), in a real hand | A dark room | Four words say what it is, then how long; Tonight and Skip work from the notification |
+
+**Social.** Two carousels at 1080 by 1350, each with its caption and alt text for every slide: **the DIVA score, explained** (what it looks at, the stage, "It is not a credit score", how it changes) and **before you sign for a loan** (four lines to find, with the same sample loan as the Hub's tool, and a sample line of agreement wording). Two more **status cards**: this week's question in the circles, and a two-second quiz (which loan costs more in all). **The AWO Podcast** gets cover art (Learn's moon in lime on night, checked down to 55 pixels) and episode tiles, each guest in the same arch.
+
+**Choices worth checking:**
+- The quiz card and the loan carousel show sample loan amounts. They are general examples, never a member's own money, and match the Hub's loan tool.
+- The mockups are composites and say so on the board. Real photography of members, with their consent, is still to come (the Unsplash account is waiting on T-025).
+- Podcast guests are samples; real guests would sign a release that says where their story and photo appear.

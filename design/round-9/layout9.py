@@ -40,8 +40,23 @@ TITLES = {  # board: title shown on the canvas (with what to try)
     'R9-Comp-Overlays': 'Sheets, dialogs and toasts (all live)',
     'R9-Comp-Inputs': 'Dates, files, loading and two currencies (all live)',
     'R9-Empty-States': 'Empty states, from the five shapes',
+    'R9-Email-Welcome': 'Welcome email (try halfway, and a dark mail app)',
+    'R9-Email-Reminder': 'Check-in reminder email (scroll the phone)',
+    'R9-Email-Summary': 'Monthly summary email',
+    'R9-Flyer-A5': 'A5 flyer, front and back (three audiences; try the photocopier)',
+    'R9-Workshop-Slides': 'Workshop slides, with speaker notes (use the arrows)',
+    'R9-Place-Stall': 'At a market stall (try full sun)',
+    'R9-Place-Commute': 'On a commute (try the Underground)',
+    'R9-Place-Table': 'The printed report on a kitchen table (try the photocopier)',
+    'R9-Place-Lock': 'The reminder on a lock screen (try a dark room)',
+    'R9-Carousel-Diva': 'Carousel: the DIVA score, explained (1080 by 1350)',
+    'R9-Carousel-Loan': 'Carousel: before you sign for a loan',
+    'R9-Status-Question': "WhatsApp status: this week's question",
+    'R9-Status-Quiz': 'WhatsApp status: a quick quiz',
+    'R9-Podcast-Cover': 'The AWO Podcast: cover art, at every size',
+    'R9-Podcast-Tiles': 'The AWO Podcast: episode tiles',
 }
-STATIC = ('R9-Status-',)  # images, not interactive screens
+STATIC = ('R9-Status-', 'R9-Carousel-', 'R9-Podcast-')  # images, not interactive screens
 
 ROWS = [
     ('r9t1', 'The 30-day loop, end to end', ['R9-Loop-Flow']),
@@ -54,6 +69,11 @@ ROWS = [
     ('r9t8', 'Other channels: the check-in on WhatsApp and USSD, and one question everywhere (Q-21)', ['R9-WhatsApp-Checkin', 'R9-USSD', 'R9-One-Question']),
     ('r9t9', 'Batch 4, components: sheets, dialogs and toasts; dates, files, loading and two currencies', ['R9-Comp-Overlays', 'R9-Comp-Inputs']),
     ('r9t10', 'Empty states, from the five shapes', ['R9-Empty-States']),
+    ('r9t11', 'Batch 5, around the app: three emails', ['R9-Email-Welcome', 'R9-Email-Reminder', 'R9-Email-Summary']),
+    ('r9t12', 'Print: an A5 flyer with a QR code, and workshop slides', ['R9-Flyer-A5', 'R9-Workshop-Slides']),
+    ('r9t13', 'The app in real places: a market stall, a commute, a kitchen table, a lock screen', ['R9-Place-Stall', 'R9-Place-Commute', 'R9-Place-Table', 'R9-Place-Lock']),
+    ('r9t14', 'Social: two carousels', ['R9-Carousel-Diva', 'R9-Carousel-Loan']),
+    ('r9t15', "Two more WhatsApp status cards, and the AWO Podcast's cover and episode tiles", ['R9-Status-Question', 'R9-Status-Quiz', 'R9-Podcast-Cover', 'R9-Podcast-Tiles']),
 ]
 
 HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
@@ -66,6 +86,9 @@ HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
          "WhatsApp and USSD, with one board showing the same question drawn in every channel.\n\n"
          "Batch 4 is components: sheets, dialogs (are you sure?), toasts, a date picker, file upload, loading placeholders and an "
          "amount in two currencies, all working; and ten empty states drawn from the five shapes.\n\n"
+         "Batch 5 is around the app: a welcome, a check-in reminder and a monthly summary email (on a computer and a phone, "
+         "light and dark); an A5 flyer with a QR code and workshop slides; the app in four real places; two carousels, two "
+         "more status cards and the AWO Podcast's art. No email or print shows an amount, the DIVA score or the stage (Q-47).\n\n"
          "The flow board at the top shows the whole loop with the gaps it found. Home now has a bell, and the check-in ends on "
          "What changed.\n\n"
          "Every Round 9 board is also on the Round 7 board, in its topic section, marked (Round 9).\n\n"

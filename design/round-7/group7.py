@@ -56,6 +56,10 @@ GROUPS = [
     ('AWO Admin (desktop)', [
         ['R7-Admin-Overview', 'R7-Admin-Approvals', 'R7-Admin-Scoring', 'R7-Admin-Members'],
         ['R7-Admin-Moderation', 'R7-Admin-Content', 'R7-Admin-Audit']]),
+    ('Around the app: emails, print, and the app in real places', [
+        ['R7-R9-Email-Welcome', 'R7-R9-Email-Reminder', 'R7-R9-Email-Summary'],
+        ['R7-R9-Flyer-A5', 'R7-R9-Workshop-Slides'],
+        ['R7-R9-Place-Stall', 'R7-R9-Place-Commute', 'R7-R9-Place-Table', 'R7-R9-Place-Lock']]),
     ('Marketing: store screenshots', [
         [f'R7-Store-{i}' for i in range(1, 9)],
         [f'R7-R8-Store-{i}' for i in range(1, 9)]]),
@@ -65,6 +69,9 @@ GROUPS = [
     ('Marketing: ads', [
         ['R7-Ad-Diva', 'R7-Ad-Photo', 'R7-Ad-Pool', 'R7-Ad-Word', 'R7-Ad-Story'],
         ['R7-R8-Ad-Diva', 'R7-R8-Ad-Payslip', 'R7-R8-Ad-Goals', 'R7-R8-Ad-Words', 'R7-R8-Ad-Shop', 'R7-R8-Ad-Explained', 'R7-R8-Ad-Podcast']]),
+    ('Marketing: social, carousels, status cards and the podcast', [
+        ['R7-R9-Carousel-Diva', 'R7-R9-Carousel-Loan'],
+        ['R7-R9-Status-Question', 'R7-R9-Status-Quiz', 'R7-R9-Podcast-Cover', 'R7-R9-Podcast-Tiles']]),
 ]
 GAP, ROW_GAP, GROUP_GAP, TITLE = 80, 200, 400, 300
 

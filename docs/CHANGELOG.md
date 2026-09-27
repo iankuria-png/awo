@@ -6,6 +6,13 @@
 
 ## 2026-09-27
 
+### Round 9 batch 5: around the app
+- Three emails, each on a computer, on a phone in a light or dark mail app, and in the inbox with its subject and preview counted: a welcome (or, if she stopped halfway, a nudge to finish the first check) with a scam warning; a check-in reminder with start, tonight or skip; a monthly summary that counts what she did and never her money. New Q-47: no amounts, DIVA score or stage in email or print, and the email service needs a data-location note.
+- Print: an A5 flyer with three fronts (church groups, campuses, stokvel meetings), a back with lines for the organiser's own handwriting, a photocopier switch and a real QR code that only says it is a sample; eight workshop slide layouts with speaker notes and rules for whoever presents.
+- The app in four real places, each with a condition to try and what the place asks of the design: a market stall in full sun, a commute with no signal, the printed report on a kitchen table (photocopied), the lock-screen reminder in a real hand in a dark room.
+- Social: carousels on the DIVA score and on reading a loan agreement (with alt text for every slide), a question card and a quiz card for WhatsApp status, and the AWO Podcast's cover art (checked down to 55 pixels) and episode tiles.
+- `capture8.mjs` now captures boards of any size (`w` and `h` in a spec), for the A4 report.
+
 ### Round 9 batch 4: components and empty states
 - Two boards of live components, each in a phone-width frame with its rules: a bottom sheet, an "are you sure?" dialog (the safe choice first, the deletion second in wine, saying what stays), toasts (undo with the time left; offline and errors never red), a Monday-first date picker with her own dates marked, file upload in four states, loading placeholders, and an amount in two currencies with a dated sample rate.
 - Ten empty states drawn from the five shapes, each with one next step: the pool waits for its first drop, the keystone hovers over its arch, the stones wait for the next step; plus search, notifications, offline, a new savings group and an error.
