@@ -37,6 +37,9 @@ TITLES = {  # board: title shown on the canvas (with what to try)
     'R9-WhatsApp-Checkin': 'The check-in on WhatsApp (Start, choose an amount, answer)',
     'R9-USSD': 'The check-in on USSD (press 1, answer with numbers, Send)',
     'R9-One-Question': 'One question, every channel',
+    'R9-Comp-Overlays': 'Sheets, dialogs and toasts (all live)',
+    'R9-Comp-Inputs': 'Dates, files, loading and two currencies (all live)',
+    'R9-Empty-States': 'Empty states, from the five shapes',
 }
 STATIC = ('R9-Status-',)  # images, not interactive screens
 
@@ -49,6 +52,8 @@ ROWS = [
     ('r9t6', 'For a business, and a savings-group record book (Q-45)', ['R9-Tool-Worth', 'R9-Tool-Setup', 'R9-Group-Book']),
     ('r9t7', 'Batch 3, other sizes: a computer and a tablet', ['R9-Desktop-Home', 'R9-Desktop-Me', 'R9-Tablet-Learn']),
     ('r9t8', 'Other channels: the check-in on WhatsApp and USSD, and one question everywhere (Q-21)', ['R9-WhatsApp-Checkin', 'R9-USSD', 'R9-One-Question']),
+    ('r9t9', 'Batch 4, components: sheets, dialogs and toasts; dates, files, loading and two currencies', ['R9-Comp-Overlays', 'R9-Comp-Inputs']),
+    ('r9t10', 'Empty states, from the five shapes', ['R9-Empty-States']),
 ]
 
 HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
@@ -59,6 +64,8 @@ HOWTO = ("Round 9: connecting the pieces, and everything around the app.\n\n"
          "a savings-group record book where AWO never holds the money.\n\n"
          "Batch 3 is other sizes and channels: Home and the DIVA profile on a computer, Learn on a tablet, and the check-in on "
          "WhatsApp and USSD, with one board showing the same question drawn in every channel.\n\n"
+         "Batch 4 is components: sheets, dialogs (are you sure?), toasts, a date picker, file upload, loading placeholders and an "
+         "amount in two currencies, all working; and ten empty states drawn from the five shapes.\n\n"
          "The flow board at the top shows the whole loop with the gaps it found. Home now has a bell, and the check-in ends on "
          "What changed.\n\n"
          "Every Round 9 board is also on the Round 7 board, in its topic section, marked (Round 9).\n\n"

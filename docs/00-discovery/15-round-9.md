@@ -1,6 +1,6 @@
 # 15 · Round 9: connecting the pieces, and everything around the app
 
-> **Status:** In progress on canvas page `r9` (Round 9), 26 Sep 2026. Batches 1 to 3 are published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
+> **Status:** In progress on canvas page `r9` (Round 9), 26 Sep 2026. Batches 1 to 4 are published. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
 > **Ian's brief (D-041):** Build these, in batches, end to end with world-class UI and UX: the 30-day loop as one flow; sharing to WhatsApp; help and support, plus one search; Hub tools 10 to 18; a stokvel or chama record book; desktop and tablet layouts, a WhatsApp check-in and a USSD menu; components (sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input) and an empty-state set; emails; print (an A5 flyer and a workshop slide template); mockups in real places; social (carousels, WhatsApp status cards, podcast art); and merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag and ambassador T-shirts).
 > **Language:** Round 7's, as Round 8 used it: Geist for all type, Kalam only in someone's own words or AWO's short note at a real milestone, corners 6, 10 and 14 and a circle, one colour and shape per area, and the Round 8 tab bar (Home, Learn, Hub, Community, Me).
 > **Generator:** [`design/round-9/`](../../design/round-9/README.md).
@@ -12,7 +12,7 @@
 | 1. The loop as one flow | The flow board; the reminder on the lock screen; notifications; what changed; this month's step; a milestone and sharing it; three WhatsApp status cards; one search; help; reporting a problem | Published |
 | 2. The rest of the Hub | All tools; sending money home; a loan's real cost and "explain my agreement"; is it worth it; two job offers; business setup; what I own and owe; the retirement pulse; a savings-group record book | Published |
 | 3. Other channels and sizes | Home and the DIVA profile on a computer; Learn on a tablet; the check-in on WhatsApp and USSD; one question in every channel | Published |
-| 4. Components | Sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input; empty states made from the five shapes | |
+| 4. Components | Sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input; empty states made from the five shapes | Published |
 | 5. Around the app | Emails; an A5 flyer and workshop slides; mockups in real places; carousels, status cards, podcast art | |
 | 6. Merchandise | A money-in-and-out notebook; a check-in calendar or magnet; stickers and pins; a tote bag; ambassador T-shirts | |
 
@@ -66,4 +66,20 @@ The Hub's "All 18 tools" button went nowhere; it now opens **All tools** (`R9-Hu
 | **The check-in on WhatsApp** (`R9-WhatsApp-Checkin`) | Three questions as reply buttons and a list of five amounts, then a link to what changed | "Only you and AWO see your answers"; HELP and STOP; she can delete the chat. A sample of the channel (Q-21) |
 | **The check-in on USSD** (`R9-USSD`) | A feature phone to dial through, every screen with its character count, and the SMS that follows | 160 characters a screen, numbers only, three questions because sessions are short. No amounts or score by SMS |
 | **One question, every channel** (`R9-One-Question`) | The question written once (its label, five answers, what it feeds, its rules) and drawn four ways: app, web, WhatsApp and USSD | Doc 02's "one question graph, many renderers", made visible |
+
+## Batch 4: components and empty states
+
+Two boards of live components, each working inside a phone-width frame with the rules it follows (`R9-Comp-Overlays`, `R9-Comp-Inputs`), and ten empty states (`R9-Empty-States`).
+
+| Component | The rules it follows |
+|---|---|
+| **Bottom sheet** | For a short task or a choice without leaving the screen. A handle, a title, one main button; tap outside or drag down to close; focus moves in and back |
+| **Are you sure?** | Only before something that can't be undone. The safe choice is the main button; the deletion comes second, in wine. It says what goes and what stays ("The R 1 900 stays where it is") |
+| **Toasts** | One line at the bottom, gone after six seconds. Undo shows the time left. Offline and errors say what happens next; never red |
+| **Date picker** | Weeks start on Monday. Her own dates are marked: payday, check-in, the stokvel pot. Quick picks. Every day is a 44-pixel target |
+| **File upload** | Empty, reading, done and failed. Says where it is read and when it is deleted; a failure offers typing it in |
+| **Two currencies** | Rand, pound, dollar, shilling and pula, for members at home and abroad. The rate and its date always show, called a sample; never says where to change money |
+| **Loading placeholders** | The shape of what is coming, so nothing jumps; a slow shimmer, still with reduce motion; only after half a second |
+
+**Empty states** are drawn from each area's shape: the pool waits for its first drop, a moon for a saved lesson, the Hub's keystone hovers over its arch, the circle's ripple is quiet, the stones wait for the next step. There is one each for search, notifications, offline, a new savings group and an error. Each says what to do next, with one button.
 

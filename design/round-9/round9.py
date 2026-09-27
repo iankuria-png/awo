@@ -17,8 +17,9 @@ from lib8 import write, nb_text  # noqa: E402
 import loop9  # noqa: E402  (batch 1: the loop, sharing, help, search)
 import tools9  # noqa: E402  (batch 2: Hub tools 10 to 18, the savings-group book, all tools)
 import channels9  # noqa: E402  (batch 3: desktop, tablet, WhatsApp, USSD, one question everywhere)
+import components9  # noqa: E402  (batch 4: components and empty states)
 
-BOARDS = loop9.BOARDS + tools9.BOARDS + channels9.BOARDS
+BOARDS = loop9.BOARDS + tools9.BOARDS + channels9.BOARDS + components9.BOARDS
 
 if __name__ == '__main__':
     out = sys.argv[1]

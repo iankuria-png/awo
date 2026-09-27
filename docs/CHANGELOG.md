@@ -4,6 +4,13 @@
 >
 > Format: `### <short title>` under a date heading, with the commit hash once known, then 1–5 bullets.
 
+## 2026-09-27
+
+### Round 9 batch 4: components and empty states
+- Two boards of live components, each in a phone-width frame with its rules: a bottom sheet, an "are you sure?" dialog (the safe choice first, the deletion second in wine, saying what stays), toasts (undo with the time left; offline and errors never red), a Monday-first date picker with her own dates marked, file upload in four states, loading placeholders, and an amount in two currencies with a dated sample rate.
+- Ten empty states drawn from the five shapes, each with one next step: the pool waits for its first drop, the keystone hovers over its arch, the stones wait for the next step; plus search, notifications, offline, a new savings group and an error.
+- Ian added an empty title note to the Round 7 board; `group7.py` now removes only its own section titles, so notes added by anyone else stay.
+
 ## 2026-09-26
 
 ### Round 9 batch 3: other sizes and channels

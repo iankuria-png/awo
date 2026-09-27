@@ -49,8 +49,10 @@ GROUPS = [
     ('Other sizes and channels: a computer, a tablet, WhatsApp and USSD', [
         ['R7-R9-Desktop-Home', 'R7-R9-Desktop-Me', 'R7-R9-Tablet-Learn'],
         ['R7-R9-WhatsApp-Checkin', 'R7-R9-USSD', 'R7-R9-One-Question']]),
-    ('Components and widgets', [
-        ['R7-Components', 'R7-Data', 'R7-Widgets']]),
+    ('Components, widgets and empty states', [
+        ['R7-Components', 'R7-Data', 'R7-Widgets'],
+        ['R7-R9-Comp-Overlays', 'R7-R9-Comp-Inputs'],
+        ['R7-R9-Empty-States']]),
     ('AWO Admin (desktop)', [
         ['R7-Admin-Overview', 'R7-Admin-Approvals', 'R7-Admin-Scoring', 'R7-Admin-Members'],
         ['R7-Admin-Moderation', 'R7-Admin-Content', 'R7-Admin-Audit']]),
@@ -73,8 +75,10 @@ dupes = sorted({f for f in placed if placed.count(f) > 1})
 if missing or extra or dupes:
     sys.exit(f'not placed: {missing}; not on r7: {extra}; placed twice: {dupes}')
 
-# The old section titles and the Round 8 note go; the new titles replace them.
-for k in [k for k, v in N.items() if v.get('page') == 'r7' and k not in ('r7howto', 'r7mkt')]:
+# The script's own section titles (and the older ones it replaced) go; the new titles replace them.
+# Notes anyone else adds on the page stay where they are.
+OWN = ('r7g', 'r7title', 'r7xtitle', 'r7x-')
+for k in [k for k, v in N.items() if v.get('page') == 'r7' and k.startswith(OWN)]:
     del N[k]
 
 y = -TITLE  # the first section's boards start at y 0, beside the how-to note
