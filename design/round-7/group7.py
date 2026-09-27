@@ -1,8 +1,8 @@
 """Group page r7 by topic: onboarding together, every Home together, marketing together, and so on.
 
 Only positions, board titles, the section titles and the two notes change. No board file changes, nothing is removed,
-and other pages are untouched. Round 8's copies keep their files and gain " (Round 8)" in their titles, so Ian can
-see which idea each screen comes from once they sit next to Round 7's.
+and other pages are untouched. Round 8's copies keep their files and gain " (Round 8)" in their titles; Round 9's
+boards, which live only on this board (D-042), gain " (Round 9)". So Ian can see which round each screen comes from.
 
 Usage:
   python3 design/round-7/group7.py <live canvas.json> <out canvas.json>
@@ -118,11 +118,14 @@ for i, k in zip(slots, [f for f in placed if f in c['order']] + rest):
     c['order'][i] = k
 
 sections = '\n'.join(f'{i}. {t}' for i, (t, _) in enumerate(GROUPS, 1))
+with9 = ', '.join(str(i) for i, (_t, rows) in enumerate(GROUPS, 1) if any(b.startswith('R7-R9-') for row in rows for b in row))
 N['r7howto'].update(x=-480, y=0, text=(
     "Round 7: the full board, for UI and UX reference, grouped by topic.\n\n"
     f"{sections}\n\n"
     "Round 7's screens and the ideas of Rounds 8 and 9 sit side by side in each section. A title ending in (Round 8) "
-    "or (Round 9) marks a screen copied from that page and linked to the other copies; those pages are unchanged.\n\n"
+    "marks a copy from the Round 8 page, which is unchanged. A title ending in (Round 9) marks Round 9's work, which "
+    "lives only here, beside the screens it changes; the copies link to each other.\n\n"
+    f"Round 9 is in sections {with9}.\n\n"
     "Geist does all the type. A handwritten face (Kalam by default; switch it in any board's Tweaks) appears only at a "
     "few special moments: someone's own words, or AWO's short note at a real milestone. Never on numbers, buttons, "
     "results or anything AI writes. Corners come in three sizes (6, 10, 14) and a circle.\n\n"

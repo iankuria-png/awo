@@ -71,6 +71,6 @@ design/round-9/      generator for Round 9 (the loop end to end, the rest of the
 .claude/settings.json  plugins, MCP approval, the changelog hook      .mcp.json  Playwright server
 ```
 
-Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 to Round 9).
+Design explorations live on the [AWO Direction Explorations canvas](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9) (pages Round 1 to Round 8; Round 9 lives on the Round 7 board).
 
 Planned (not yet created): `docs/product/`, `docs/design/`, `docs/engineering/`, `docs/governance/`, `docs/operations/`, `apps/`, `packages/`, `infra/`. See [`docs/00-discovery/06-tooling-and-harness.md`](docs/00-discovery/06-tooling-and-harness.md).

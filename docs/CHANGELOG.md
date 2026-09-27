@@ -6,6 +6,10 @@
 
 ## 2026-09-27
 
+### Round 9 moved onto the Round 7 board
+- Ian: "we wanted this changes in round 7 board - not a new board" (D-042). Every Round 9 board was already in its topic section on the Round 7 board; the separate Round 9 page is now retired (its boards, titles and note), and the canvas opens on Round 7. The unused R9 files stay in the artifact.
+- `pull9.py` now places Round 9 boards straight on the Round 7 board (no `layout9.py`), and the Round 7 how-to note lists the sections that hold Round 9 (3, 7, 8, 11, 12, 13, 15, 19, 20).
+
 ### Round 9 batch 6: merchandise (Round 9 complete)
 - Money in and out, the Hub's business notebook on paper (A6): a cover she labels, a week to a spread with the week's sums and what sold twice, a month page she colours in, and a back cover pointing to the app. Wanjiru's sample week matches the app; a switch shows the blank pages to print.
 - The check-in on the fridge: a magnet with twelve stones, January to December, ticked by hand, and a year she prints from the app with her check-in days and her stokvel date, never amounts.

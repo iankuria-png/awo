@@ -1,6 +1,6 @@
 # 15 · Round 9: connecting the pieces, and everything around the app
 
-> **Status:** All six batches published on canvas page `r9` (Round 9), 27 Sep 2026, and waiting on Ian's reactions. Every Round 9 board is also on the Round 7 board, in its topic section, marked "(Round 9)".
+> **Status:** All six batches published, 27 Sep 2026, and waiting on Ian's reactions. Round 9 lives on the **Round 7 board** (D-042): every board is in its topic section, beside the screens it changes, marked "(Round 9)". There is no separate Round 9 page any more.
 > **Ian's brief (D-041):** Build these, in batches, end to end with world-class UI and UX: the 30-day loop as one flow; sharing to WhatsApp; help and support, plus one search; Hub tools 10 to 18; a stokvel or chama record book; desktop and tablet layouts, a WhatsApp check-in and a USSD menu; components (sheets and dialogs, toasts, a date picker, file upload, loading placeholders, a two-currency input) and an empty-state set; emails; print (an A5 flyer and a workshop slide template); mockups in real places; social (carousels, WhatsApp status cards, podcast art); and merchandise (a money notebook, a check-in calendar or magnet, stickers, pins, a tote bag and ambassador T-shirts).
 > **Language:** Round 7's, as Round 8 used it: Geist for all type, Kalam only in someone's own words or AWO's short note at a real milestone, corners 6, 10 and 14 and a circle, one colour and shape per area, and the Round 8 tab bar (Home, Learn, Hub, Community, Me).
 > **Generator:** [`design/round-9/`](../../design/round-9/README.md).

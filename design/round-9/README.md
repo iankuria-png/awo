@@ -13,9 +13,8 @@ Round 9 connects what Rounds 7 and 8 built, and designs the material around the 
 | `social9.py` | Batch 5: two carousels, two status cards, the podcast's cover art and episode tiles |
 | `merch9.py` | Batch 6: the traders' notebook, the check-in magnet and printed year, stickers and pins, a tote bag, ambassador T-shirts and a badge |
 | `round9.py` | Builds the boards: `python3 round9.py <project dir> [Board ...]` |
-| `layout9.py` | Lays out page `r9` and opens the canvas on it |
-| `pull9.py` | Copies every Round 9 board onto page `r7` as `R7-R9-*`, with links rewritten; then run `../round-7/group7.py` |
+| `pull9.py` | Puts every Round 9 board on the Round 7 board (page `r7`) as `R7-R9-*`, with links rewritten; then run `../round-7/group7.py`. Round 9 has no page of its own (D-042) |
 
-To publish a batch: read the live `canvas.json`, build, run `layout9.py`, `pull9.py` (naming any Round 8 board that now links to Round 9, such as `R8-Home`) and `group7.py`, then publish `canvas.json` with the boards and copies.
+To publish: read the live `canvas.json`, build, run `pull9.py` (naming any Round 8 board that now links to Round 9, such as `R8-Home`) and `../round-7/group7.py`, then publish `canvas.json` with the boards that changed.
 
 The flow board uses 2x captures of the loop's screens (`design/round-8/capture8.mjs`); when a screen changes, recapture it, upload it and update `FLOW_CAPS` in `loop9.py`.
