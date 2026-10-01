@@ -4,6 +4,12 @@
 >
 > Format: `### <short title>` under a date heading, with the commit hash once known, then 1–5 bullets.
 
+## 2026-10-01
+
+### Downloading the Round 7 board
+- Ian couldn't download the Round 7 board as PDF or HTML from the canvas: it is too large (161 boards). Two new scripts do it from the published files: `scripts/export-page.mjs` renders every board as a PDF page at its exact size (vector text, real fonts, photos), with a JPEG thumbnail and a divider page per section; `scripts/export-page.py` merges them into one PDF with bookmarks for every section and board, a PDF per section, and an offline zip whose `index.html` shows every section's thumbnails and opens each board's page in the PDF.
+- Boards can't run live from a double-clicked file (the canvas runtime fetches each board, which browsers block for local files), so the zip keeps the live boards in `live/` for use with `python3 -m http.server`. Recipe in doc 06.
+
 ## 2026-09-27
 
 ### Round 9 moved onto the Round 7 board

@@ -65,6 +65,7 @@ Canvas runtime gotchas found this way (Round 4):
 - `scripts/serve-boards.py <root> <blob dir> [port]` serves the boards. Put the runtime at `<root>/project/support.js`, and images at `<blob dir>/<asset id>.<ext>`.
 - `scripts/board-check.mjs plan.json` renders each board, clicks through its states and flags problems (the plan format is in its header).
 - `design/round-7/layout7.py` lays out a canvas page row by row. It always starts from a fresh read of the live `canvas.json`.
+- `scripts/export-page.mjs` and `scripts/export-page.py` download a whole canvas page when the canvas's own export says it is too large. Fetch the page's boards and images as above, serve them, run the `.mjs` (every board as a PDF page at its own size, a JPEG thumbnail, a divider page per section), then the `.py` (needs `pypdf` and Pillow). Out come one PDF with bookmarks for every section and board, a PDF per section, and an offline zip: an `index.html` of every section's thumbnails, where each board opens live.
 
 To get the images for a new session, list the canvas's assets (`scope: "assets"`) and read each one by its id.
 
