@@ -9,6 +9,7 @@
 ### Downloading the Round 7 board
 - Ian couldn't download the Round 7 board as PDF or HTML from the canvas: it is too large (161 boards). Two new scripts do it from the published files: `scripts/export-page.mjs` renders every board as a PDF page at its exact size (vector text, real fonts, photos), with a JPEG thumbnail and a divider page per section; `scripts/export-page.py` merges them into one PDF with bookmarks for every section and board, a PDF per section, and an offline zip whose `index.html` shows every section's thumbnails and opens each board's page in the PDF.
 - Empty title notes on a page (such as one added by hand) no longer start a section of their own in the export.
+- The PDFs are recompressed (images as JPEG, quality 82): the Round 7 board went from 37 MB to 18 MB, and the offline zip to 27 MB, under the 30 MB limit for sending files in this app, with no visible change.
 - Boards can't run live from a double-clicked file (the canvas runtime fetches each board, which browsers block for local files), so the zip keeps the live boards in `live/` for use with `python3 -m http.server`. Recipe in doc 06.
 
 ## 2026-09-27

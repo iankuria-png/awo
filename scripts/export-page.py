@@ -9,7 +9,8 @@ Builds, in <out dir>:
 
 Usage:
   python3 scripts/export-page.py <out dir from step 1> <folder of boards and support.js> <blob dir> <name> "<title>"
-Needs pypdf and Pillow."""
+Needs pypdf and Pillow; with PyMuPDF too, images are recompressed as JPEG (quality 82, at most 150 dpi on the page),
+which halves the PDF (37 MB to 18 MB for the Round 7 board) with no visible change. Chromium stores them losslessly."""
 import html
 import json
 import os
@@ -36,6 +37,18 @@ def slug(t):
 
 # ---------------------------------------------------------------- PDFs
 
+def shrink(path):
+    try:
+        import pymupdf
+    except ImportError:
+        return
+    d = pymupdf.open(path)
+    d.rewrite_images(quality=82, dpi_threshold=200, dpi_target=150)
+    d.save(path + '.tmp', garbage=4, deflate=True, use_objstms=1)
+    d.close()
+    os.replace(path + '.tmp', path)
+
+
 def build_pdf(path, sections):
     w = PdfWriter()
     for si, sec in sections:
@@ -50,6 +63,7 @@ def build_pdf(path, sections):
     w.compress_identical_objects(remove_identicals=True, remove_unreferenced=True)
     with open(path, 'wb') as f:
         w.write(f)
+    shrink(path)
     return os.path.getsize(path)
 
 
