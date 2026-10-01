@@ -47,7 +47,7 @@ def build_pdf(path, sections):
         parent = w.add_outline_item(f'{si + 1}. {sec["title"]}', start)
         for bi, b in enumerate(sec['boards']):
             w.add_outline_item(label(b), start + 1 + bi, parent=parent)
-    w.compress_identical_objects(remove_identicals=True, remove_orphans=True)
+    w.compress_identical_objects(remove_identicals=True, remove_unreferenced=True)
     with open(path, 'wb') as f:
         w.write(f)
     return os.path.getsize(path)

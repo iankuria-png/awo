@@ -15,8 +15,8 @@ const { chromium } = require('playwright');
 const [, , canvasFile, pageId, out, port = '8797'] = process.argv;
 const c = JSON.parse(readFileSync(canvasFile, 'utf8'));
 
-// Sections are the page's title notes; a board belongs to the last title above it.
-const titles = Object.values(c.notes).filter((n) => n.page === pageId && n.kind === 'title1').sort((a, b) => a.y - b.y);
+// Sections are the page's title notes (empty ones are skipped); a board belongs to the last title above it.
+const titles = Object.values(c.notes).filter((n) => n.page === pageId && n.kind === 'title1' && (n.text || '').trim()).sort((a, b) => a.y - b.y);
 const boards = Object.entries(c.boards).filter(([, b]) => b.page === pageId).map(([file, b]) => ({ file, ...b }))
   .sort((a, b) => a.y - b.y || a.x - b.x);
 const plan = titles.map((t) => ({ title: t.text, boards: [] }));
