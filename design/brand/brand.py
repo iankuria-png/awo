@@ -645,6 +645,8 @@ HOWTO = ("AWO's suggested Visual Brand System (the brief for Instagram and Linke
          "elements from the brief and shows them applied.\n\n"
          "What we added: contrast checks on every colour pair (terracotta text on warm stone and sage labels on plum are large-text only), "
          "worked sample templates, and a stand-in wordmark (the artwork wasn't in the brief).\n\n"
+         "The last four rows apply the system to the app: onboarding, the major screens, the Play Store set, the website and two ads, "
+         "with the same sample member and numbers as the Round 7 board, so the two can be compared side by side.\n\n"
          "It differs from the app's design language on the Round 7 board (evergreen, lime, Geist, the stepping-stones mark), and its "
          "warm stone ground is the kind of cream ground rule D13 avoids. Which leads, or how they meet, is Ian's call: Q-49.\n\n"
          "All content is sample content. Summary in docs/00-discovery/16-brand-system-brief.md.")
@@ -657,6 +659,11 @@ def size(proj, name):
 
 
 if __name__ == '__main__':
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import applied  # the system applied to the app, the store and marketing (Q-49)
+    BOARDS = BOARDS + applied.BOARDS
+    TITLES.update(applied.TITLES)
+    ROWS = ROWS + applied.ROWS
     mode = sys.argv[1]
     if mode == 'build':
         out = sys.argv[2]

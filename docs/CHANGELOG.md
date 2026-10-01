@@ -6,6 +6,11 @@
 
 ## 2026-10-01
 
+### The suggested brand, applied to the app
+- Ian asked to see the major screens, onboarding, the Play Store set and marketing in the new brand. Four new rows on the Brand system page: onboarding (welcome, sign in, a question, the reveal, the first step), eight major screens (Home, Learn, a lesson, Hub, a loan's real cost, Community, Me, What changed), six store screenshots, the feature graphic, a listing with the app icon, a website hero and two ads. Same member, numbers and features as the Round 7 board, for a side-by-side comparison (Q-49).
+- Each screen is written once and reused inside the store screenshots, the feature graphic and the website, so they always match; marketing phones are pictures, with no links inside.
+- The brief's rules were made to pass ours: one terracotta focal point per screen, plum buttons, small text on plum in warm stone (never sage), 4 px corners, 44 px targets. Doc 16 has the details; generator `design/brand/applied.py`.
+
 ### The Brand system page: AWO's suggested social brand
 - Ian shared AWO's Visual Brand System Brief (Instagram and LinkedIn) and asked for a board with the key elements of each section. A new canvas page, **Brand system (suggested)**, has thirteen boards in the brief's own system: the cover, the bar to clear, colour, type, the wordmark, the carousel, Reels and cards, Stories and the grid, LinkedIn, photography, graphic elements, specs and the at-a-glance. Each lists the key elements and shows them applied to sample content (sending money home, a stokvel, a payslip), with three live touches: a margin grid, the motion, and the photo grade.
 - The colour board checks every pair against WCAG 2.2 AA: terracotta on warm stone (3.86:1) and sage on plum (4.44:1) are large-text only. The wordmark is a stand-in; the artwork wasn't in the brief (Q-25).

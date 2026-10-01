@@ -10,7 +10,7 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 
 | ID | Task | Notes |
 |---|---|---|
-| T-116 | **React to the Brand system page** (AWO's suggested social brand, drawn one board per section) and settle Q-49: which brand system leads, or how the social and app systems meet | [16](00-discovery/16-brand-system-brief.md) |
+| T-116 | **React to the Brand system page** (AWO's suggested social brand, drawn one board per section, and applied to onboarding, eight major screens, the Play Store set and marketing) and settle Q-49: which brand system leads, or how the social and app systems meet | [16](00-discovery/16-brand-system-brief.md) |
 | T-112 | **React to Round 9, batch 6** (Round 7 board, marked "(Round 9)"): the traders' notebook, the fridge magnet and printed year, stickers and pins, the tote and the ambassador T-shirts and badge; and answer Q-48 on ambassadors and merchandise | [15](00-discovery/15-round-9.md#batch-6-merchandise) |
 | T-111 | **React to Round 9, batch 5** (Round 7 board, marked "(Round 9)"): three emails, the A5 flyer and workshop slides, the app in four real places, two carousels, two status cards and the podcast's art; and answer Q-47, what emails and print may show | [15](00-discovery/15-round-9.md#batch-5-around-the-app) |
 | T-110 | **React to Round 9, batch 4** (Round 7 board, marked "(Round 9)"): the new components (sheets, dialogs, toasts, date picker, file upload, loading, two currencies) and the ten empty states | [15](00-discovery/15-round-9.md#batch-4-components-and-empty-states) |
@@ -111,4 +111,5 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 | T-107 | Round 9 batch 6: a money-in-and-out notebook for traders (cover, a week, the month, the back, filled in or blank), a check-in fridge magnet and a printed year, stickers and enamel pins of the five shapes, a tote bag in three colours and two prints, ambassador T-shirts and a name badge | 2026-09-27 |
 | T-113 | Round 9 moved onto the Round 7 board (Ian): the separate Round 9 page retired, the canvas opens on Round 7, and `pull9.py` places Round 9 boards there directly (D-042) | 2026-09-27 |
 | T-115 | AWO's suggested Visual Brand System Brief drawn as a new canvas page, Brand system (suggested): thirteen boards, one per section, with key elements, worked samples and contrast checks; summary and differences in doc 16 | 2026-10-01 |
+| T-117 | The suggested brand applied to the app (Ian): onboarding (5 screens), the major screens (Home, Learn, a lesson, Hub, a loan's real cost, Community, Me, What changed), six Play Store screenshots, the feature graphic, a listing with the icon, a website hero and two ads, on the Brand system page | 2026-10-01 |
 | T-114 | The Round 7 board as a download (Ian): `scripts/export-page.mjs` and `.py` make one bookmarked PDF, a PDF per section and an offline HTML zip from the published boards | 2026-10-01 |

@@ -4,7 +4,7 @@ Draws AWO's suggested Visual Brand System Brief (Instagram and LinkedIn) as the 
 
 | Command | Does |
 |---|---|
-| `python3 brand.py build <project dir> [Board ...]` | Writes the `BS-*.dc.html` boards |
-| `python3 brand.py layout <live canvas.json> <out canvas.json> <project dir>` | Adds the page, lays out its three rows and opens the canvas on it |
+| `python3 brand.py build <project dir> [Board ...]` | Writes the `BS-*.dc.html` boards, and the `BA-*` boards from `applied.py` (the system applied to the app, the store and marketing) |
+| `python3 brand.py layout <live canvas.json> <out canvas.json> <project dir>` | Adds the page, lays out its seven rows and opens the canvas on it |
 
 To publish: read the live `canvas.json`, build, lay out, then publish `canvas.json` with the boards. Check them first with `scripts/board-check.mjs`.

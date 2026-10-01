@@ -2,6 +2,7 @@
 
 > **Source:** "Visual Brand System Brief" (`AWO_Brand_System_Brief_1.docx`), deliverable 4 of 4 of AWO's social content strategy, prepared for AWO Holdings (Pty) Ltd and shared by Ian on 1 October 2026. It sets design standards for Instagram and LinkedIn.
 > **On the canvas:** the page **Brand system (suggested)**: thirteen boards, one per section, drawn in the brief's own system, each with the brief's key elements and worked sample templates. Generator: [`design/brand/`](../../design/brand/README.md).
+> **Applied:** four more rows on the page draw the app in this system for comparison: onboarding (5 screens), the major screens (8), the Play Store set (6 screenshots, the feature graphic, a listing with the icon) and marketing (a website hero, two ads). Generator: `design/brand/applied.py`.
 > **Open:** Q-49, how this system and the app's design language meet.
 
 ## The brief in one paragraph
@@ -42,3 +43,25 @@ AWO is an **intelligence brand, not a money-tips account**: everything should lo
 | Tone | Editorial, research house, quietly premium | Warm, plain words, motion-first, fun, modern, clean (D-020, D-028) |
 
 They agree on more than they differ: restraint, one accent, blush kept for community, real dignified women, sourced data, British and South African spelling, and no hype.
+
+## The system applied to the app
+
+Ian asked to see the major screens, onboarding, the Play Store set and marketing in the new system. They use the same sample member (Naledi), numbers and features as the Round 7 board, so each screen can be compared with its counterpart there.
+
+| Row | Boards | How the system was applied |
+|---|---|---|
+| Onboarding | Welcome, sign in, a first-check question, the reveal, the first step | Photo with a plum scrim on the welcome; the reveal on plum, the ceremonial ground; the score always "for learning, never a credit score" |
+| Major screens | Home, Learn, a lesson, Hub, a loan's real cost, Community, Me, What changed | Warm stone screens with white cards and plum headers; Learn's top and What changed on plum; blush only in Community; fine-line icons and a plain tab bar |
+| Play Store | Six screenshots, the feature graphic, the listing and the icon | Stone and plum alternate; one terracotta key word on stone, a terracotta rule on plum; every screenshot is the live screen, not a copy |
+| Marketing | A website hero, a DIVA score ad, a photo-led ad | The category line "Financial intelligence for African women" leads the website |
+
+**Rules carried into the app** (so the screens pass both the brief and our own rules):
+- One terracotta focal point per screen: a key word, the progress line, the focus area, or the main CTA (white on terracotta, 4.54:1).
+- Primary buttons are plum with warm stone text; terracotta stays an accent, never a fill on cards.
+- Small text on plum is warm stone, never sage (sage on plum passes for 24 px, or 19 px bold, only).
+- Secondary text is #6E6470 (4.81:1 on stone), not warm grey.
+- Corners are 4 px: editorial, but still friendly to touch. Every target is 44 px or more.
+- The app icon keeps the stepping stones (D-031): two in warm stone, the next dashed in terracotta, on plum. The brief has no icon.
+
+**What changes from the Round 7 board, at a glance:** the five area colours (evergreen, night, lime, blush, pool) collapse into two grounds and one accent, so the areas are told apart by name and icon rather than colour; Learn loses its night mode; the handwritten moments have no place in this system; Ola isn't drawn here.
+
