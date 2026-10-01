@@ -6,6 +6,11 @@
 
 ## 2026-10-01
 
+### The Brand system page: AWO's suggested social brand
+- Ian shared AWO's Visual Brand System Brief (Instagram and LinkedIn) and asked for a board with the key elements of each section. A new canvas page, **Brand system (suggested)**, has thirteen boards in the brief's own system: the cover, the bar to clear, colour, type, the wordmark, the carousel, Reels and cards, Stories and the grid, LinkedIn, photography, graphic elements, specs and the at-a-glance. Each lists the key elements and shows them applied to sample content (sending money home, a stokvel, a payslip), with three live touches: a margin grid, the motion, and the photo grade.
+- The colour board checks every pair against WCAG 2.2 AA: terracotta on warm stone (3.86:1) and sage on plum (4.44:1) are large-text only. The wordmark is a stand-in; the artwork wasn't in the brief (Q-25).
+- The brief differs from the app's language (plum, terracotta and a warm stone ground with a serif, against evergreen, lime and Geist), so new Q-49 asks which leads. Summary in doc 16; generator in `design/brand/`.
+
 ### Downloading the Round 7 board
 - Ian couldn't download the Round 7 board as PDF or HTML from the canvas: it is too large (161 boards). Two new scripts do it from the published files: `scripts/export-page.mjs` renders every board as a PDF page at its exact size (vector text, real fonts, photos), with a JPEG thumbnail and a divider page per section; `scripts/export-page.py` merges them into one PDF with bookmarks for every section and board, a PDF per section, and an offline zip whose `index.html` shows every section's thumbnails and opens each board's page in the PDF.
 - Empty title notes on a page (such as one added by hand) no longer start a section of their own in the export.
