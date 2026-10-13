@@ -6,6 +6,11 @@
 
 ## 2026-10-13
 
+### The foundation pass: a brief and a kickoff prompt
+- Ian asked how to lay AWO's foundation: the repo, the folder structure, our practices and docs, context and handovers, the design (from the Round 7 board), tools, assets, and skills and plugins. `docs/handover/2026-10-13-foundation-kickoff.md` holds the brief, the questions for each area, what to deliver (doc 17, a blueprint with draft ADRs, then a setup plan) and the prompt to paste into a new session (T-120).
+- It starts from what hurts today: the GitHub default branch is a session branch, STATUS and TASKS have outgrown their jobs, about 22 MB of images are in git, and the design isn't yet a system (no tokens, no component inventory, nothing in Figma). Q-49 (which brand leads) shapes the token architecture, so the pass designs a brand layer that can take either answer.
+- No product code and no harness changes in that pass until Ian approves the blueprint.
+
 ### Hosting: Vultr in Johannesburg
 - Ian set up AWO's Vultr account (D-043), which answers the hosting part of Q-17. Johannesburg is Vultr's only South African region, so everything runs there (D-002). Nothing is deployed in Phase 0.
 - Doc 04 has a new section on what Johannesburg offers, checked against Vultr's public API: compute, bare metal, block storage, load balancers and Kubernetes, but **no object storage** (files stay on the VPS). Automatic backups stay in the same data centre; snapshots span all regions, so a server holding member data is never snapshotted.

@@ -1,8 +1,8 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** AWO's suggested social brand system is on its own canvas page, Brand system (suggested), with how it differs from the app's language ([16](00-discovery/16-brand-system-brief.md), Q-49). Round 9 ([15](00-discovery/15-round-9.md)) is published on the Round 7 board, in its topic sections (D-042), all six batches (D-041): the 30-day loop as one flow with sharing, help and search; the rest of the Hub; other sizes and channels; components and empty states; emails, print, the app in real places and social; and merchandise. Waiting on Ian's reactions (T-102, T-108 to T-112). Every Round 9 board is also on the Round 7 board, in its topic section
-**Last updated:** 2026-10-13, session 4 (the Brand system page; the Round 7 board as a download; hosting on Vultr)
+**Current focus:** AWO's suggested social brand system is on its own canvas page, Brand system (suggested), with how it differs from the app's language ([16](00-discovery/16-brand-system-brief.md), Q-49). Round 9 ([15](00-discovery/15-round-9.md)) is published on the Round 7 board, in its topic sections (D-042), all six batches (D-041): the 30-day loop as one flow with sharing, help and search; the rest of the Hub; other sizes and channels; components and empty states; emails, print, the app in real places and social; and merchandise. Waiting on Ian's reactions (T-102, T-108 to T-112). Every Round 9 board is also on the Round 7 board, in its topic section. Next pass, when Ian says go: the foundation (T-120; the brief and prompt are in [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md))
+**Last updated:** 2026-10-13, session 4 (the Brand system page; the Round 7 board as a download; hosting on Vultr; the foundation kickoff)
 
 ## Start here
 
