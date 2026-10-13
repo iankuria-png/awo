@@ -10,6 +10,7 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 
 | ID | Task | Notes |
 |---|---|---|
+| T-121 | **Switch GitHub's default branch to `main`** (the repository's Settings, General, Default branch); a session can't change repository settings. Then merge `docs/foundation-kickoff` into `main` (Claude can open the pull request), and say whether to delete the old session branches: `claude/nifty-gauss-7odogg`, `claude/intelligent-hypatia-ja9g5n` and `claude/exciting-cray-7z7fke` | D-044 |
 | T-119 | **Hosting, what's left** (none of it is needed before Phase 2): link a payment method on Vultr (its billing page still asked for one), choose where off-site backups live (Q-50), and choose domains and the email-sending provider (Q-17) | [04](00-discovery/04-technical-leanings.md#hosting-vultr-in-johannesburg) |
 | T-116 | **React to the Brand system page** (AWO's suggested social brand, drawn one board per section, and applied to onboarding, eight major screens, the Play Store set and marketing) and settle Q-49: which brand system leads, or how the social and app systems meet | [16](00-discovery/16-brand-system-brief.md) |
 | T-112 | **React to Round 9, batch 6** (Round 7 board, marked "(Round 9)"): the traders' notebook, the fridge magnet and printed year, stickers and pins, the tote and the ambassador T-shirts and badge; and answer Q-48 on ambassadors and merchandise | [15](00-discovery/15-round-9.md#batch-6-merchandise) |
@@ -31,7 +32,7 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 
 | ID | Task | Owner |
 |---|---|---|
-| T-120 | **The foundation pass:** research and lay out the repo, folder structure, practices, docs, context and handovers, the design system from the Round 7 board, tools, assets, and skills and plugins. The blueprint goes in doc 17, and the forks go to Ian. Nothing is built until he approves. Kickoff and prompt: [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md) | Claude |
+| T-120 | **The foundation pass:** research and lay out the repo, folder structure, practices, docs, context and handovers, the design system from the Round 7 board, tools, assets, and skills and plugins. The blueprint goes in doc 17, and the forks go to Ian. Nothing is built until he approves. It runs on the branch `docs/foundation-blueprint`. Kickoff and prompt: [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md) | Claude |
 | T-094 | Round 8, what's left: the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and more of Companies explained once Q-36 is settled | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |

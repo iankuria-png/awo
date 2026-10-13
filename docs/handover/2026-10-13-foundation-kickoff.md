@@ -22,7 +22,7 @@
   - `.mcp.json`: the Playwright server.
 
 **What hurts today.** These need checking; they aren't conclusions yet.
-- **Branches.** GitHub's default branch is a session branch (`claude/nifty-gauss-7odogg`). Session branches have drifted apart and been merged by hand.
+- **Branches.** GitHub's default branch was a session branch (`claude/nifty-gauss-7odogg`), and session branches drifted apart and were merged by hand. Ian has since chosen `main` as the default and branches named by type and topic (D-044).
 - **The memory docs are too big.**
   - STATUS is meant to be a short snapshot, and it isn't.
   - TASKS has 15 items waiting on Ian.
@@ -40,10 +40,11 @@ For each area, work out three things. First, what the best teams do today (resea
 
 **1. The repository**
 - One repository or several? Doc 04 leans to a pnpm and Turborepo monorepo.
-- The default branch: propose `main`, with protection. Also decide:
-  - how each Claude session's branch reaches `main` (a pull request per pass, squash or merge);
-  - how branches are named;
-  - tags and releases.
+- Branches: `main` is the default, and branches are named by type and topic (D-044). Still to propose:
+  - protection for `main`;
+  - how each branch reaches `main` (a pull request per pass, squash or merge);
+  - tags and releases;
+  - what happens to the old session branches (`claude/…`).
 - Binary assets: Git LFS, a separate asset store, or exports kept out of git.
 - Licence, CODEOWNERS, issue and pull-request templates, and a security policy. Secrets never go in the repository; a Vultr API key belongs in the session's secrets.
 
@@ -169,7 +170,7 @@ For each asset, say where it lives, its format, its owner and its licence.
 
 ## How to work
 
-- **Start from the default branch.** Fetch it first: GitHub's default branch is `claude/nifty-gauss-7odogg`, and newer work lands there.
+- **Start from `main`, on a properly named branch.** Work on `docs/foundation-blueprint`, created from `main` (D-044). Cloud sessions are handed an automatic branch name (`claude/…`); don't use it.
 - **Verify, don't recall.** Check versions, licences, prices and data locations on the web or with context7, and write down the date you checked. Claude Code's own features change fast, so read its current docs. Browse with `scripts/screenshot.mjs` or the Playwright server when a site blocks plain requests.
 - **To look at the Round 7 board,** render it as in doc 06. `scripts/export-page.mjs` and `export-page.py` give you the whole page as a PDF, with a contact sheet per section.
 - **Delegate wide research to subagents** and keep their conclusions, not their dumps.
@@ -183,13 +184,15 @@ You're working on AWO (African Wealth Oasis), still in Phase 0. Nine rounds of d
 Read first:
 - CLAUDE.md, docs/STATUS.md, and docs/handover/2026-10-13-foundation-kickoff.md (the brief, the questions for each area, the deliverables).
 - Docs 04 (technical leanings), 06 (tooling and harness), 07 (brand and motion), 13 (Round 7), 15 (Round 9) and 16 (the suggested brand system), all in docs/00-discovery/.
-- The decision log, D-001 to D-043.
+- The decision log, D-001 to D-044.
 - The open questions, especially Q-09, Q-10, Q-13 to Q-15, Q-17, Q-25 to Q-27, Q-30, Q-34, Q-47, Q-49 and Q-50.
 
-Then look at the repo itself: its branches, .claude/settings.json and the Round 7 board. Render the board as in doc 06 if you need to see it. Fetch the default branch first (claude/nifty-gauss-7odogg); newer work lands there.
+Then look at the repo itself: its branches, .claude/settings.json and the Round 7 board. Render the board as in doc 06 if you need to see it.
+
+Branch: start from main and work on a branch called docs/foundation-blueprint (D-044: branches are named by type and topic). Don't use the automatic claude/… branch the session was given.
 
 Ian's brief is to lay out how we build AWO's foundation:
-1. The repo: one repository or several, the default branch and how session branches merge, and binary assets.
+1. The repo: one repository or several, protecting main and how work branches merge into it, and binary assets.
 2. The folder structure, end to end: docs, design, apps, packages, content, infra and .claude.
 3. Our practices:
    - a definition of done, reviews and CI;
@@ -213,7 +216,7 @@ Work in this order:
 3. Write the blueprint: the rest of doc 17, one section per area, each ending with a recommendation, the alternatives and what Ian decides. Add Mermaid diagrams for the repo tree, the context system, the path from design to code and the phases. Draft ADRs, marked Proposed, for the big technical choices.
 4. Put the big forks to Ian, with a recommendation first. Then write the setup plan for the next pass: small steps in order, each with its check.
 
-After each step: update the CHANGELOG, TASKS (T-120) and STATUS, then commit and push to this session's branch.
+After each step: update the CHANGELOG, TASKS (T-120) and STATUS, then commit and push to docs/foundation-blueprint.
 
 Keep every rule in CLAUDE.md. Don't decide what's Ian's call: the stack, which brand leads (Q-49), web or native first (Q-10), the task tracker, and paid tools. Never commit secrets. Use UK spelling.
 ```

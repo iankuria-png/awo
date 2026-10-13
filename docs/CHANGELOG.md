@@ -6,6 +6,11 @@
 
 ## 2026-10-13
 
+### Branches: main, and names that say what the work is
+- Ian asked for properly named branches instead of the automatic session names. `main` now exists at `e84d2dc` (the head of the old default, `claude/nifty-gauss-7odogg`), and branches are named by type and topic, such as `docs/foundation-kickoff` (D-044). CLAUDE.md's Git rule says so.
+- GitHub's default branch still has to be switched to `main` in the repository's settings, which a session can't change (T-121). The old session branches stay until Ian says to delete them.
+- The foundation kickoff now tells the next session to start from `main` and work on `docs/foundation-blueprint`.
+
 ### The foundation pass: a brief and a kickoff prompt
 - Ian asked how to lay AWO's foundation: the repo, the folder structure, our practices and docs, context and handovers, the design (from the Round 7 board), tools, assets, and skills and plugins. `docs/handover/2026-10-13-foundation-kickoff.md` holds the brief, the questions for each area, what to deliver (doc 17, a blueprint with draft ADRs, then a setup plan) and the prompt to paste into a new session (T-120).
 - It starts from what hurts today: the GitHub default branch is a session branch, STATUS and TASKS have outgrown their jobs, about 22 MB of images are in git, and the design isn't yet a system (no tokens, no component inventory, nothing in Figma). Q-49 (which brand leads) shapes the token architecture, so the pass designs a brand layer that can take either answer.
