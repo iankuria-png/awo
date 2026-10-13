@@ -6,7 +6,7 @@
 
 | ID | Task | Owner |
 |---|---|---|
-| T-120 | **The foundation pass**, on `docs/foundation-blueprint`: (1) audit, done 13 Oct; (2) research; (3) the blueprint and draft ADRs; (4) the forks for Ian and the setup plan. All in [17](00-discovery/17-foundation.md). Nothing is built until Ian approves. Brief: [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md) | Claude |
+| T-120 | **The foundation pass**, on `docs/foundation-blueprint`: (1) audit, done 13 Oct; (2) research, done 13 Oct (Appendix F); (3) the blueprint and draft ADRs; (4) the forks for Ian and the setup plan. All in [17](00-discovery/17-foundation.md). Nothing is built until Ian approves. Brief: [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md) | Claude |
 
 Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, each board in its topic section beside the screens it changes (D-042). All six batches are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; other sizes and channels; components with empty states; the material around the app (emails, print, the app in real places, social); and merchandise. Next: Ian's reactions (T-102, T-108 to T-112) and the questions they raise (Q-45 to Q-48). After that, when Ian says go, the foundation pass (T-120).
 

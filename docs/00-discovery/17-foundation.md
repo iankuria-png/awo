@@ -20,6 +20,8 @@
 12. Decisions for Ian *(step 4)*
 13. The setup plan *(step 4)*
 
+Appendix F: [facts checked on 13 October 2026](#appendix-f-facts-checked-on-13-october-2026) (versions, licences, prices, data locations, sources)
+
 ## 1. The audit: what works and what hurts
 
 Checked on 13 October 2026 against the repository (49 commits, 24 September to 13 October), its five remote branches, `.claude/settings.json` and the published canvas (`canvas.json`, version 1790881571).
@@ -70,6 +72,7 @@ Checked on 13 October 2026 against the repository (49 commits, 24 September to 1
 | H14 | **The canvas is a single, heavy home** | 161 boards on one page: the canvas's own export gives up, so two scripts were written to download it (an 18 MB PDF). Board layout and notes live only in the artifact's `canvas.json`, not in git | §7, §9 |
 | H15 | **No repository basics** | No licence, security policy, pull-request template, `.editorconfig` or Node version file. Fine for Phase 0, needed before code | §2 |
 | H16 | **The platform question is open** (Q-10) | Web first or native first decides the first app, the token outputs and the motion runtime | §11, §12 |
+| H17 | **The project's plugins don't load in cloud sessions** | D-023 assumed every session, local or cloud, gets the eight plugins. Claude Code's docs (checked 13 Oct 2026) say a cloud session "doesn't install the plugins a repository turns on under `enabledPlugins`". This session bears it out: `context7` and `frontend-design` are absent, and the design and engineering skills present come from Ian's claude.ai account, not the repo. What a cloud session must have has to be committed as `.claude/skills/` and `.claude/agents/`, or enabled on claude.ai ([cloud environments](https://code.claude.com/docs/en/cloud-environments)) | §10 |
 
 ### 1.4 What the audit means for the blueprint
 
@@ -78,3 +81,119 @@ Checked on 13 October 2026 against the repository (49 commits, 24 September to 1
 - **The design language is consistent where it was named** (corners, easings, the area colours) **and drifts where it wasn't** (spacing, greys, type sizes). That is the case for tokens: name the rest.
 - **Binaries and the canvas need a home outside git's history**, with the repository keeping only sources and small, final assets.
 - **Three things are Ian's before Design Standard v1 can be written:** which brand leads (Q-49), web or native first (Q-10), and the Round 7 reaction (T-075).
+
+## Appendix F. Facts checked on 13 October 2026
+
+Research for this pass, checked on the day: versions from the npm registry (`registry.npmjs.org/<name>/latest`), everything else from the vendor's own docs, pricing pages or release notes. Prices are in US dollars unless stated, and change: recheck before paying for anything. Items a source couldn't confirm are marked *unverified*.
+
+### F.1 Versions and licences
+
+| Package | Latest | Licence | Note |
+|---|---|---|---|
+| Node.js | 24 LTS; 26 becomes LTS on 28 Oct 2026 | MIT | Corepack no longer ships from Node 25 ([schedule](https://github.com/nodejs/Release)) |
+| pnpm | 12.11.2 | MIT | Catalogs since 9.5 |
+| turbo | 2.11.8 | MIT | |
+| typescript | 7.0.2 | Apache-2.0 | Native compiler, stable since 8 Jul 2026; no programmatic API yet, so some tools alias TypeScript 6 ([Microsoft](https://devblogs.microsoft.com/typescript/)) |
+| @biomejs/biome | 2.5.15 | MIT or Apache-2.0 | |
+| eslint | 10.12.0 | MIT | Flat config only; v9 reached end of life on 6 Aug 2026 |
+| next | 16.4.0 | MIT | [Self-hosting guide](https://nextjs.org/docs/app/guides/self-hosting) |
+| react | 19.3.0 | MIT | |
+| expo | 57.0.28 (SDK 57) | MIT | React Native 0.86; the New Architecture only; pnpm isolated installs supported since SDK 54 ([monorepos](https://docs.expo.dev/guides/monorepos/)) |
+| hono / fastify | 4.13.13 / 5.12.7 | MIT | Hono 5 in release candidate; Fastify 6 in alpha |
+| zod | 4.6.7 | MIT | |
+| drizzle-orm | 0.45.4 | Apache-2.0 | 1.0 in release candidates since Apr 2026 |
+| pg-boss | 12.38.0 | MIT | Needs Postgres 13+ |
+| better-auth | 1.7.7 | MIT | Joined Vercel, Jul 2026; about 40 advisories to date, one critical in Sep 2026 ([advisories](https://github.com/better-auth/better-auth/security/advisories)) |
+| tailwindcss | 4.3.3 | MIT | |
+| vitest / @playwright/test / storybook | 5.0.4 / 1.64.0 / 10.6.2 | MIT / Apache-2.0 / MIT | |
+| @axe-core/playwright / @lhci/cli / size-limit | 4.13.0 / 0.15.1 / 14.2.0 | MPL-2.0 / Apache-2.0 / MIT | axe's WCAG 2.2 `target-size` rule is off by default |
+| @terrazzo/cli / style-dictionary | 2.8.0 / 5.6.1 | MIT / Apache-2.0 | Terrazzo supports the DTCG 2025.10 resolver; Style Dictionary's support is "a work in progress" ([SD](https://styledictionary.com/info/dtcg/)) |
+| serwist | 9.5.13 | MIT | |
+| geist / @fontsource/kalam | 1.7.2 / 5.3.0 | SIL OFL 1.1 | Geist's latin subset about 29 KB; Kalam is static only, about 22 KB per weight (latin) |
+| @rive-app/react-canvas / motion | 4.36.0 / 14.2.0 | MIT | Rive's canvas runtime is about 0.97 MB gzipped (lite 0.42 MB) |
+| nativewind / react-native-unistyles | 4.2.7 / 3.5.3 | MIT | NativeWind 5 (Tailwind 4) is a release candidate |
+| lefthook / knip / gitleaks | 2.2.2 / 6.41.0 / 8.30.1 | MIT / ISC / MIT | gitleaks is "feature complete"; its author now works on Betterleaks |
+| PostgreSQL | 18.6 | PostgreSQL | |
+| pgBackRest / restic | 2.59.3 / 0.19.1 | MIT / BSD-2 | |
+| Caddy | 2.11.7 | Apache-2.0 | |
+| GlitchTip / Umami | 6.2.6 / 3.4.0 | MIT | Umami runs on Postgres alone |
+
+**Avoid:** MinIO (repository archived 25 Apr 2026), Lost Pixel (joining Figma, product ending), Lucia (deprecated Mar 2025), Highlight (hosted service ended Feb 2026).
+
+### F.2 GitHub
+
+| Fact | Source |
+|---|---|
+| Protected branches and rulesets on **private** repositories need Pro, Team or Enterprise | [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) |
+| An author can't approve their own pull request | [Required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews) |
+| No secret scanning for personal private repositories short of Enterprise; user push protection covers public repositories only | [Secret scanning](https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning) |
+| Actions: 2 000 minutes a month on Free, 3 000 on Pro; Linux $0.006 a minute after | [Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions) |
+| LFS: 10 GiB storage and 10 GiB bandwidth on Free and Pro; release assets up to 2 GiB each, no total or bandwidth limit | [LFS billing](https://docs.github.com/en/billing/concepts/product-billing/git-lfs), [releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) |
+| Data residency only on Enterprise Cloud (EU, Australia, Japan); no South Africa | [Data residency](https://docs.github.com/en/enterprise-cloud@latest/admin/data-residency/about-github-enterprise-cloud-with-data-residency) |
+| Pro's price isn't on GitHub's pricing page; about $4 a month per a third-party source (*unverified*) | [Pricing](https://github.com/pricing) |
+
+### F.3 Claude Code
+
+| Fact | Source |
+|---|---|
+| `@path` imports in CLAUDE.md (up to four hops); nested CLAUDE.md files load on demand; `.claude/rules/*.md` with `paths:` globs | [Memory](https://code.claude.com/docs/en/memory) |
+| After compaction the root CLAUDE.md is re-read; a SessionStart hook with the `compact` source can re-inject context | [Context window](https://code.claude.com/docs/en/context-window) |
+| Skills in `.claude/skills/<name>/SKILL.md`, with `disable-model-invocation`, `allowed-tools`, `paths`, `context: fork` and `` !`command` `` injection; keep under 500 lines | [Skills](https://code.claude.com/docs/en/skills) |
+| Subagents in `.claude/agents/`, with `tools`, `model`, `skills`, `isolation: worktree` | [Subagents](https://code.claude.com/docs/en/sub-agents) |
+| Hooks: SessionStart sources `startup`, `resume`, `clear`, `compact`; an `if` field scopes a tool hook (`"Bash(git *)"`); `CLAUDE_CODE_REMOTE` is `true` in cloud sessions | [Hooks](https://code.claude.com/docs/en/hooks) |
+| **A cloud session doesn't install the plugins a repository enables**; committed skills, agents, hooks and `.mcp.json` servers do carry over; skills enabled on claude.ai load in cloud sessions | [Cloud environments](https://code.claude.com/docs/en/cloud-environments) |
+| Network secrets (Pro and Max): the proxy attaches a key to requests for listed hosts and the session never sees it; environment variables are readable by anyone using the environment | [Cloud environments](https://code.claude.com/docs/en/cloud-environments) |
+| `.env` files aren't blocked by default; use `permissions.deny` | [Permissions](https://code.claude.com/docs/en/permissions) |
+| Managed Code Review is Team and Enterprise only, about $15 to $25 a review; `/code-review` works locally | [Code Review](https://code.claude.com/docs/en/code-review) |
+
+### F.4 Services and data location
+
+| Service | Where data is stored or processed | Price | Source |
+|---|---|---|---|
+| AWS S3, af-south-1 | **Cape Town** (an opt-in region) | Standard $0.0274, Standard-IA $0.0149 per GB-month | AWS Price List API |
+| Azure Blob, South Africa West | Cape Town, access by request (for disaster recovery) | Hot $0.0274 | [Azure regions](https://learn.microsoft.com/azure/reliability/regions-paired) |
+| Google Cloud Storage, africa-south1 | **Johannesburg** (the same city as Vultr) | about $0.020 (*unverified*) | [GCS pricing](https://cloud.google.com/storage/pricing) |
+| Cloudflare R2, Backblaze B2, Hetzner | No South African option | — | vendor docs |
+| Amazon SES, af-south-1 | **Cape Town**, API only (no SMTP there) | $0.10 per 1 000 emails | [SES endpoints](https://docs.aws.amazon.com/general/latest/gr/ses.html) |
+| Postmark / Resend / Mailgun / Brevo | US / US (account data) / US or EU / EU | from $15 / $20 / $15 / about $9 a month | vendor pages |
+| Twilio Verify (SMS to South Africa) | Not stated | $0.1355 an SMS plus $0.05 a verification | [Twilio pricing](https://www.twilio.com/en-us/sms/pricing/za) |
+| Clickatell | Personal data in AWS Ireland | — | Clickatell privacy notice |
+| WhatsApp authentication messages | Meta | $0.0095 to South Africa, $0.004 to Kenya, $0.022 to the UK, from 1 Oct 2026 | Meta's rate card |
+| Firebase Cloud Messaging | Anywhere Google has facilities | Free | [Firebase privacy](https://firebase.google.com/support/privacy) |
+| Web Push with VAPID | Browser vendors' push services see only encrypted payloads (RFC 8291) | Free | RFC 8291, 8292 |
+| Anthropic API | `inference_geo` is `global` or `us`; data at rest in the US | +10% for `us` | [Data residency](https://platform.claude.com/docs/en/manage-claude/data-residency) |
+| Amazon Bedrock, af-south-1 | Claude models listed with global cross-region inference only | — | Bedrock model cards |
+| Azure OpenAI, South Africa North | In-country processing for embeddings only | — | Azure docs |
+| Figma | US; other regions Enterprise only | Professional: Full seat $16, Dev $12, Collab $3 a month; View free; Code Connect needs Organization ($55 Full, $25 Dev) | [Figma pricing](https://www.figma.com/pricing/) |
+| Figma MCP server | Remote server on every plan; View, Collab and Starter seats limited to a few calls a month; Professional Dev and Full seats 200 a day | — | [Figma MCP plans](https://developers.figma.com/docs/figma-mcp-server/plans-access-and-permissions/) |
+| Figma variables | Modes per collection: Starter 1, Professional 10, Organization 20; native import and export of DTCG JSON | — | [Figma help](https://help.figma.com/hc/en-us/articles/15343816063383) |
+| Rive | The free plan adds a Rive splash screen to exports; Cadet $9 a seat a month removes it | — | [Rive pricing](https://rive.app/pricing) |
+| Tokens Studio | Git sync and themes on Team, €39 an editor a month | — | [Pricing](https://tokens.studio/pricing) |
+| Expo EAS | Android builds on Google Cloud, iOS on Expo's Macs, no region stated; free tier 15 + 15 builds a month | Starter $19 a month | [EAS pricing](https://expo.dev/pricing) |
+| GitHub Container Registry | US; images hold code only | Free | GitHub Packages billing |
+| Trello / Linear / GitHub Issues | US / US or EU / US | Free tiers; Issues free on private repositories | vendor pages |
+
+### F.5 South Africa and Kenya: networks, data cost and phones
+
+| Fact | Source |
+|---|---|
+| Mobile median in South Africa: 69.6 Mbps down, 10 up, 22 ms (Aug 2026); medians hide coverage gaps, and capped bundles throttle to 2 Mbps | [Ookla](https://www.speedtest.net/global-index/south-africa) |
+| A 1 to 1.5 GB, 30-day bundle averages about R63; operators charge 6c to 8c a MB in bundle: **1 MB costs about 7c** | [ICASA tariff report, Jul to Dec 2025](https://www.icasa.org.za/) |
+| Phones on the web, Jul 2026: South Africa Samsung 46%, Apple 24%, Huawei 10%; Kenya Samsung 26%, Tecno 14%, Oppo 9%, Infinix 7% | StatCounter |
+| Galaxy A-series (A06, A16) are 60% of Samsung's African shipments; Transsion (Tecno, Infinix, Itel) leads the continent | [Canalys](https://canalys.com/newsroom/africa-smartphone-market-q1-2025) |
+| Lighthouse's mobile profile: 150 ms round trip, 1.6 Mbps down, 4× CPU slowdown, a Moto G Power | [Lighthouse throttling](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md) |
+| Good Core Web Vitals at the 75th percentile: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1 | [web.dev](https://web.dev/articles/vitals) |
+
+### F.6 Reference monorepos
+
+| Repo | Tools | Layout | Merge |
+|---|---|---|---|
+| [cal.com](https://github.com/calcom/cal.com) | yarn, Turborepo, Biome, Changesets | apps, packages | squash |
+| [documenso](https://github.com/documenso/documenso) | npm, Turborepo, Biome, commitlint | apps, packages | squash |
+| [formbricks](https://github.com/formbricks/formbricks) | pnpm (catalogs), Turborepo, ESLint | apps, packages, docs | squash |
+| [Bluesky social-app](https://github.com/bluesky-social/social-app) | pnpm, oxlint; one Expo app at the root | app at root; assets listed with owners in `ASSETS.md` | squash |
+| [Expo](https://github.com/expo/expo) | pnpm, Turborepo, oxlint, Changesets | apps, packages, tools | squash |
+| [shadcn/ui](https://github.com/shadcn-ui/ui) | pnpm, Turborepo, Changesets | apps, packages | squash |
+| [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) | pnpm (named catalogs), Turborepo, Renovate | apps, packages, `tooling/` for shared configs | squash |
+
+None uses Git LFS; many now carry a `CLAUDE.md` or `AGENTS.md`. Design systems compared for tokens: [GitHub Primer](https://primer.style/foundations/primitives/token-names) (base, functional and component tokens; nine themes; code to Figma), [Adobe Spectrum](https://spectrum.adobe.com/page/design-tokens), [Atlassian](https://atlassian.design/foundations/tokens/design-tokens), [Shopify Polaris](https://polaris-react.shopify.com/design/colors/color-tokens), [Salesforce SLDS 2](https://lightningdesignsystem.com/), [Radix Colors](https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale) and Material 3. The DTCG format reached its first stable version, [2025.10](https://www.designtokens.org/tr/2025.10/format/), with a [resolver module](https://www.designtokens.org/tr/2025.10/resolver/) for brands and modes.
