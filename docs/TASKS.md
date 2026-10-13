@@ -2,7 +2,11 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: Round 9 is published; Ian reacts
+## Now: the foundation pass (T-120)
+
+| ID | Task | Owner |
+|---|---|---|
+| T-120 | **The foundation pass**, on `docs/foundation-blueprint`: (1) audit, done 13 Oct; (2) research; (3) the blueprint and draft ADRs; (4) the forks for Ian and the setup plan. All in [17](00-discovery/17-foundation.md). Nothing is built until Ian approves. Brief: [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md) | Claude |
 
 Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, each board in its topic section beside the screens it changes (D-042). All six batches are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; other sizes and channels; components with empty states; the material around the app (emails, print, the app in real places, social); and merchandise. Next: Ian's reactions (T-102, T-108 to T-112) and the questions they raise (Q-45 to Q-48). After that, when Ian says go, the foundation pass (T-120).
 
@@ -32,7 +36,6 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 
 | ID | Task | Owner |
 |---|---|---|
-| T-120 | **The foundation pass:** research and lay out the repo, folder structure, practices, docs, context and handovers, the design system from the Round 7 board, tools, assets, and skills and plugins. The blueprint goes in doc 17, and the forks go to Ian. Nothing is built until he approves. It runs on the branch `docs/foundation-blueprint`. Kickoff and prompt: [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md) | Claude |
 | T-094 | Round 8, what's left: the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and more of Companies explained once Q-36 is settled | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |

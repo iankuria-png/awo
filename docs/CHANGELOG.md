@@ -6,6 +6,12 @@
 
 ## 2026-10-13
 
+### Foundation pass, step 1: the audit
+- Started T-120 on `docs/foundation-blueprint`, made from `main` with `docs/foundation-kickoff` brought in (a fast-forward: the kickoff and D-044 weren't on `main` yet).
+- New doc 17, section 1: what works (the docs as memory, the changelog hook, self-checks, generators, named corners and easings) and what hurts, with evidence. Sixteen problems, among them: branches that drift and IDs that collide, a STATUS and TASKS that have outgrown their jobs (62 of TASKS' 92 rows are Done), a cold start that costs about 32 000 tokens, 19 MB of PNGs in four generations of marketing sets, stand-in photos that exist only in the canvas, and a design that isn't a system yet (86 raw hex colours, 36 font sizes and about 20 gap values in rounds 7 to 9, and a palette inherited through every round's generator).
+- The Round 7 board inventoried from the published `canvas.json`: 161 boards in 20 sections. It keeps superseded boards beside their replacements without saying which is current.
+- Research on Claude Code, the repo and CI, the stack, operations and the design system runs next, in subagents.
+
 ### Branches: main, and names that say what the work is
 - Ian asked for properly named branches instead of the automatic session names. `main` now exists at `e84d2dc` (the head of the old default, `claude/nifty-gauss-7odogg`), and branches are named by type and topic, such as `docs/foundation-kickoff` (D-044). CLAUDE.md's Git rule says so.
 - GitHub's default branch still has to be switched to `main` in the repository's settings, which a session can't change (T-121). The old session branches stay until Ian says to delete them.
