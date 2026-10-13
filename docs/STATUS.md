@@ -1,8 +1,8 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** **The foundation pass (T-120)**, on the branch `docs/foundation-blueprint`: research and a blueprint for the repo, folder structure, practices, docs, context, the design system, tools, assets and the Claude harness, in [17-foundation.md](00-discovery/17-foundation.md). Steps 1 and 2 are done: the audit, and research checked and dated (Appendix F). The blueprint and draft ADRs come next. Nothing is built until Ian approves. Round 9 and the Brand system page still wait on Ian's reactions (T-102, T-108 to T-112, T-116).
-**Last updated:** 2026-10-13, session 5 (the foundation pass: the audit and research)
+**Current focus:** **The foundation pass (T-120)**, on the branch `docs/foundation-blueprint`: research and a blueprint for the repo, folder structure, practices, docs, context, the design system, tools, assets and the Claude harness, in [17-foundation.md](00-discovery/17-foundation.md). Steps 1 to 3 are done: the audit, research checked and dated, and the blueprint with eight draft ADRs (all Proposed). Next: the forks for Ian and the setup plan. Nothing is built until Ian approves. Round 9 and the Brand system page still wait on Ian's reactions (T-102, T-108 to T-112, T-116).
+**Last updated:** 2026-10-13, session 5 (the foundation pass: the audit, research and the blueprint)
 
 ## Start here
 

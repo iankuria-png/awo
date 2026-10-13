@@ -8,6 +8,7 @@
 | [handover/](handover/) | Session handovers (latest: [the foundation kickoff](handover/2026-10-13-foundation-kickoff.md)) |
 | [glossary.md](glossary.md) | AWO vocabulary |
 | [decisions/log.md](decisions/log.md) | Every decision, with date and source |
+| [decisions/](decisions/) `0001` to `0008` | Draft ADRs from the foundation pass, all *Proposed* until Ian decides: the monorepo, branches and merging, binary assets, design tokens, governed content, scoring and golden tests, the stack, hosting and operations |
 | **00-discovery/** | *Draft v0: for discussion* |
 | ↳ [01-understanding.md](00-discovery/01-understanding.md) | What AWO is, who it's for, the education boundary, tensions to discuss |
 | ↳ [02-product-shape.md](00-discovery/02-product-shape.md) | IA sketch, rethinking the starter check, AI opportunity map, feature ideas |
@@ -24,7 +25,7 @@
 | ↳ [13-round-7.md](00-discovery/13-round-7.md) | Round 7: Geist for all type, a handwritten face for special moments, three corner sizes |
 | ↳ [16-brand-system-brief.md](00-discovery/16-brand-system-brief.md) | AWO's suggested Visual Brand System for Instagram and LinkedIn: key elements by section, contrast findings, and where it differs from the app (Q-49) |
 | ↳ [15-round-9.md](00-discovery/15-round-9.md) | Round 9: the 30-day loop as one flow, sharing, help and search, the rest of the Hub, other channels, components, and the material around the app |
-| ↳ [17-foundation.md](00-discovery/17-foundation.md) | The foundation pass: the audit, then the blueprint for the repo, practices, docs, context, the design system, tools, assets and the harness (in progress) |
+| ↳ [17-foundation.md](00-discovery/17-foundation.md) | The foundation pass: the audit, the blueprint (repo, folders, practices, docs, context, the design system, tools, assets, the harness, the phases), proposals and the facts checked (in progress: the forks and the setup plan come next) |
 | ↳ [14-round-8.md](00-discovery/14-round-8.md) | Round 8: Learn with Words and Stories, the Hub (research, ranked tools, the icon), goals of every kind, the Community feed, Companies explained, the marketing refresh |
 
 Coming next: `product/` (PRD, feature map, IA, journeys) · `design/` (design standard) · `engineering/` (tech stack, architecture, domain, API) · `governance/` (educational language, POPIA, AI policy) · `operations/`.
