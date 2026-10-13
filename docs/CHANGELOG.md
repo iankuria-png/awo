@@ -6,6 +6,10 @@
 
 ## 2026-10-13
 
+### main is the default; the kickoff goes in by pull request
+- Ian switched GitHub's default branch to `main` (D-044). This branch, `docs/foundation-kickoff`, goes into `main` through a pull request.
+- Deleting the old session branches failed: the session's GitHub access refuses branch deletion, as it refuses settings changes. Their work is all in `main` or this branch, so Ian deletes them (T-121).
+
 ### Branches: main, and names that say what the work is
 - Ian asked for properly named branches instead of the automatic session names. `main` now exists at `e84d2dc` (the head of the old default, `claude/nifty-gauss-7odogg`), and branches are named by type and topic, such as `docs/foundation-kickoff` (D-044). CLAUDE.md's Git rule says so.
 - GitHub's default branch still has to be switched to `main` in the repository's settings, which a session can't change (T-121). The old session branches stay until Ian says to delete them.
