@@ -59,7 +59,8 @@
 | Q-14 | Approved **interpretation and next-step library**, and its review workflow. | Open |
 | Q-15 | **Evidence-confidence rules.** What counts as behavioural or derived evidence, and how does confidence level up? | Open |
 | Q-16 | **Target dates:** beta cohort, launch event, partner milestones? | Open |
-| Q-17 | **Hosting provider** in South Africa, domain names, email-sending provider. | Open |
+| Q-17 | **Hosting provider** in South Africa, domain names, email-sending provider. | Hosting answered → D-043 (Vultr, Johannesburg). Domains and email sending still open |
+| Q-50 | **Where do off-site backups live?** D-002 and doc 04 want backups in a *second* South African location, restored on a schedule. Vultr has one South African region (Johannesburg), and its automatic backups stay in the same data centre, so the second copy needs another provider in South Africa (for example a Cape Town cloud region or a South African host). | Open (D-043) |
 | Q-19 | Community **naming and tone**. Open community or cohort-based at launch? | Open |
 | Q-28 | **Motion craft:** freelance motion designer and illustrator, or Claude-built Rive and Lottie assets reviewed by Ian? | Open |
 

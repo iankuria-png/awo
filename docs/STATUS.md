@@ -2,7 +2,7 @@
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
 **Current focus:** AWO's suggested social brand system is on its own canvas page, Brand system (suggested), with how it differs from the app's language ([16](00-discovery/16-brand-system-brief.md), Q-49). Round 9 ([15](00-discovery/15-round-9.md)) is published on the Round 7 board, in its topic sections (D-042), all six batches (D-041): the 30-day loop as one flow with sharing, help and search; the rest of the Hub; other sizes and channels; components and empty states; emails, print, the app in real places and social; and merchandise. Waiting on Ian's reactions (T-102, T-108 to T-112). Every Round 9 board is also on the Round 7 board, in its topic section
-**Last updated:** 2026-10-01, session 4 (the Brand system page; the Round 7 board as a download)
+**Last updated:** 2026-10-13, session 4 (the Brand system page; the Round 7 board as a download; hosting on Vultr)
 
 ## Start here
 
@@ -18,4 +18,5 @@
 - **Design canvas:** [AWO Direction Explorations](https://claude.ai/artifact/KxjTM3X7VQiEButw4QNiV9), pages Round 1 to Round 8 and Brand system (opens on Brand system). Round 7 is the reference board, and holds every Round 8 board and all of Round 9 too, grouped by topic in 20 sections (onboarding, the loop, Home, Learn, the Hub, Community, Me, other channels, components, Admin, around the app, marketing, merchandise and more).
 - **Direction:** **E** (A + D: evergreen, lime, blush, mist, pool; Bricolage Grotesque + Geist; Night Oasis for Learn and Ask; Ola v2 orb). Round 4 made the flows deeper but flattened the look; Ian wants Round 3's bold condensed type, colour blocks, signature shapes and visual-first layouts back, as a **meaningful design language: fun, modern, clean** (D-028). The app has five tabs: **Home, Learn, Hub, Community, Me** (D-037); the Vault lives on as Words inside Learn.
 - **Environment:** the network is open for design research; browse with headless Chromium (`scripts/screenshot.mjs` or the Playwright MCP). Connectors: Figma (View seat), Unsplash (needs its account email confirmed), Fonts, tldraw, Trello, HyperFrames; Mobbin needs a paid plan. Claude self-checks boards with `scripts/canvas-preview.mjs` (D-026; recipe in [06](00-discovery/06-tooling-and-harness.md#reviewing-canvas-boards-locally-render-recipe)).
-- **Decisions:** D-001 to D-041 in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking; newest are Q-34 to Q-49).
+- **Hosting:** Vultr in Johannesburg (D-043), with nothing deployed yet. What the region offers and the data-location notes are in [04](00-discovery/04-technical-leanings.md#hosting-vultr-in-johannesburg); what's left is T-119.
+- **Decisions:** D-001 to D-043 in [decisions/log.md](decisions/log.md). **Open questions:** [05-open-questions.md](00-discovery/05-open-questions.md) (non-blocking; newest are Q-34 to Q-50).

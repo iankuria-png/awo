@@ -4,6 +4,13 @@
 >
 > Format: `### <short title>` under a date heading, with the commit hash once known, then 1–5 bullets.
 
+## 2026-10-13
+
+### Hosting: Vultr in Johannesburg
+- Ian set up AWO's Vultr account (D-043), which answers the hosting part of Q-17. Johannesburg is Vultr's only South African region, so everything runs there (D-002). Nothing is deployed in Phase 0.
+- Doc 04 has a new section on what Johannesburg offers, checked against Vultr's public API: compute, bare metal, block storage, load balancers and Kubernetes, but **no object storage** (files stay on the VPS). Automatic backups stay in the same data centre; snapshots span all regions, so a server holding member data is never snapshotted.
+- A second South African location for off-site backups needs another provider (new Q-50). T-119 lists what's left: a payment method on Vultr (its billing page still asked for one), Q-50, and domains and email sending.
+
 ## 2026-10-01
 
 ### The suggested brand, applied to the app

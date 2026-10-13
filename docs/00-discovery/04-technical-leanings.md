@@ -34,6 +34,28 @@
 
 **Why not self-hosted Supabase (the previous backend)?** It's familiar and viable. But self-hosting its full stack means operating many services on one VPS, and our critical logic (scoring, governance, audit, multi-channel) would live in our own API anyway. **If your team knows Supabase well, that changes the calculation.** See Q-06.
 
+## Hosting: Vultr in Johannesburg
+
+Ian set up AWO's account on **Vultr** (D-043). Its only South African region is **Johannesburg** (`jnb`), so that is where everything runs. Nothing is deployed in Phase 0. What the region offers, checked against Vultr's public API and docs on 13 October 2026:
+
+| Service | In Johannesburg? | Data-location note |
+|---|---|---|
+| Cloud compute and bare metal | Yes: shared, high-frequency, high-performance and optimised plans | The VPS of D-002 |
+| Block storage | Yes | Stays in Johannesburg. Not included in automatic backups |
+| Load balancers, Kubernetes, DDoS protection | Yes | Not needed at first (one VPS, Docker Compose) |
+| Object storage | **No** (none of its 19 clusters is in South Africa) | Don't use Vultr Object Storage for member files. Keep files on the VPS (Garage or SeaweedFS) or on block storage, as the Storage row above already leans |
+| Automatic backups | Yes | Kept in the same data centre, on separate storage; only the two latest are kept. Useful for quick rollbacks, but not the second-location backup |
+| Snapshots | Works anywhere | Vultr says snapshots span all regions, so **treat a snapshot as leaving South Africa**: never snapshot a server that holds member data |
+| Managed databases | Not checked (needs an API key) | We lean to self-managed Postgres anyway |
+
+**Still to do before Phase 2:**
+- Vultr's billing page still asks for a payment method to verify the account, and nothing can be deployed until one is linked.
+- Choose the second South African location for off-site backups (Q-50).
+- Choose domains and the email-sending provider (Q-17).
+- If Claude is to provision servers later, put a Vultr API key in the session environment's secrets, never in the repository.
+
+Vultr is headquartered in the United States; whether that matters for POPIA is AWO's call (D-016).
+
 ## Domain map (bounded contexts)
 
 ```
