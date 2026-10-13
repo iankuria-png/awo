@@ -1,12 +1,12 @@
 # Status
 
 **Phase:** 0 · Discovery (design exploration; no product code yet)
-**Current focus:** **The foundation pass (T-120)**, on the branch `docs/foundation-blueprint`: research and a blueprint for the repo, folder structure, practices, docs, context, the design system, tools, assets and the Claude harness, in [17-foundation.md](00-discovery/17-foundation.md). Steps 1 to 3 are done: the audit, research checked and dated, and the blueprint with eight draft ADRs (all Proposed). Next: the forks for Ian and the setup plan. Nothing is built until Ian approves. Round 9 and the Brand system page still wait on Ian's reactions (T-102, T-108 to T-112, T-116).
-**Last updated:** 2026-10-13, session 5 (the foundation pass: the audit, research and the blueprint)
+**Current focus:** **The foundation blueprint is ready for Ian** ([17-foundation.md](00-discovery/17-foundation.md), on the branch `docs/foundation-blueprint`): the audit, the blueprint, eight draft ADRs (all Proposed), the decisions for Ian (§12: F1 to F8 are the big ones) and the setup plan (§13). Nothing is built until he decides (T-122). Round 9 and the Brand system page still wait on his reactions (T-102, T-108 to T-112, T-116).
+**Last updated:** 2026-10-13, session 5 (the foundation pass, done)
 
 ## Start here
 
-- **[17-foundation.md](00-discovery/17-foundation.md):** the foundation pass, in progress. Its brief is [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md).
+- **[17-foundation.md](00-discovery/17-foundation.md):** the foundation blueprint; start at its "At a glance" and §12, the decisions for Ian. Its brief was [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md).
 
 0. **[16-brand-system-brief.md](00-discovery/16-brand-system-brief.md):** AWO's suggested brand system for Instagram and LinkedIn, and where it differs from the app (Q-49). **[15-round-9.md](00-discovery/15-round-9.md):** Round 9 as it is built, batch by batch. Before it, **[14-round-8.md](00-discovery/14-round-8.md):** Round 8 as it's built: research, the ranked Hub shortlist, the new IA, the safe versions and the Hub's icon. The brief behind it is [handover/2026-09-25-round-8-kickoff.md](handover/2026-09-25-round-8-kickoff.md).
 1. **[13-round-7.md](00-discovery/13-round-7.md):** Round 7 (type, handwriting, corners). It sits on **[12-round-6.md](00-discovery/12-round-6.md)**, Round 6 as built. The language itself (a colour and a shape per area) is in [11](00-discovery/11-round-5-volume-test.md).

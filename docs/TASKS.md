@@ -2,11 +2,9 @@
 
 > Update with **every commit**: move items between sections, add new ones, and close finished ones with the date. IDs are stable; never renumber. Owner is **Claude** or **Ian**. Details live in the linked docs, not here.
 
-## Now: the foundation pass (T-120)
+## Now: the foundation blueprint waits on Ian
 
-| ID | Task | Owner |
-|---|---|---|
-| T-120 | **The foundation pass**, on `docs/foundation-blueprint`: (1) audit, done 13 Oct; (2) research, done 13 Oct (Appendix F); (3) the blueprint and eight draft ADRs, done 13 Oct; (4) the forks for Ian and the setup plan. All in [17](00-discovery/17-foundation.md). Nothing is built until Ian approves. Brief: [handover/2026-10-13-foundation-kickoff.md](handover/2026-10-13-foundation-kickoff.md) | Claude |
+The foundation pass (T-120) is done: [17-foundation.md](00-discovery/17-foundation.md) and eight draft ADRs. Ian decides the forks (T-122); then Claude runs the setup pass (T-123, then T-124 once code may begin).
 
 Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, each board in its topic section beside the screens it changes (D-042). All six batches are published: the 30-day loop as one flow with sharing, help and search; the rest of the Hub with All tools and a savings-group book; other sizes and channels; components with empty states; the material around the app (emails, print, the app in real places, social); and merchandise. Next: Ian's reactions (T-102, T-108 to T-112) and the questions they raise (Q-45 to Q-48). After that, when Ian says go, the foundation pass (T-120).
 
@@ -14,7 +12,8 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 
 | ID | Task | Notes |
 |---|---|---|
-| T-121 | **Switch GitHub's default branch to `main`** (the repository's Settings, General, Default branch); a session can't change repository settings. Then merge `docs/foundation-kickoff` into `main` (Claude can open the pull request), and say whether to delete the old session branches: `claude/nifty-gauss-7odogg`, `claude/intelligent-hypatia-ja9g5n` and `claude/exciting-cray-7z7fke` | D-044 |
+| T-122 | **Decide the foundation forks** in [17 §12](00-discovery/17-foundation.md#12-decisions-for-ian): the big ones F1 to F8 (repo, merging and GitHub Pro, binaries, the stack, PWA or native first, a Figma seat, the prototype, the brand layer), and say if any of F9 to F19's defaults should change. A word per fork is enough. Paid items: GitHub Pro, a Figma seat, AWS in Cape Town | [17](00-discovery/17-foundation.md), ADRs 0001 to 0008 |
+| T-121 | **Switch GitHub's default branch to `main`** (the repository's Settings, General, Default branch); a session can't change repository settings. Then merge `docs/foundation-blueprint` into `main`, which already contains `docs/foundation-kickoff` (Claude can open the pull request), and say whether to delete the old session branches: `claude/nifty-gauss-7odogg`, `claude/intelligent-hypatia-ja9g5n` and `claude/exciting-cray-7z7fke` | D-044 |
 | T-119 | **Hosting, what's left** (none of it is needed before Phase 2): link a payment method on Vultr (its billing page still asked for one), choose where off-site backups live (Q-50), and choose domains and the email-sending provider (Q-17) | [04](00-discovery/04-technical-leanings.md#hosting-vultr-in-johannesburg) |
 | T-116 | **React to the Brand system page** (AWO's suggested social brand, drawn one board per section, and applied to onboarding, eight major screens, the Play Store set and marketing) and settle Q-49: which brand system leads, or how the social and app systems meet | [16](00-discovery/16-brand-system-brief.md) |
 | T-112 | **React to Round 9, batch 6** (Round 7 board, marked "(Round 9)"): the traders' notebook, the fridge magnet and printed year, stickers and pins, the tote and the ambassador T-shirts and badge; and answer Q-48 on ambassadors and merchandise | [15](00-discovery/15-round-9.md#batch-6-merchandise) |
@@ -36,6 +35,8 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 
 | ID | Task | Owner |
 |---|---|---|
+| T-123 | **The setup pass, Part A** (after T-122): housekeeping, docs to budget, the new CLAUDE.md and rules, hooks, skills and subagents, exports out of git, superseded boards marked, docs CI, the data-location register, the first Phase 1 docs. Sixteen steps, each with its check, in [17 §13](00-discovery/17-foundation.md#13-the-setup-plan-the-next-pass) | Claude |
+| T-124 | **The setup pass, Part B** (only after Ian's go on code): the workspace, `packages/tokens`, the canvas kit, CI's code jobs, the Figma import | Claude |
 | T-094 | Round 8, what's left: the ranked tools after the nine, AWO Admin for stories, podcasts, companies and shops, and more of Companies explained once Q-36 is settled | Claude |
 | T-048 | Design Standard v1 draft, from the Round 6 foundations and the Round 7 type and corners, once Ian settles T-075 | Claude |
 | T-030 | Design Standard v1 (tokens, type, colour, icons, motion, components, states, content style) | Claude |
@@ -58,6 +59,7 @@ Round 9 ([15](00-discovery/15-round-9.md), D-041) lives on the Round 7 board, ea
 
 | ID | Task | Done |
 |---|---|---|
+| T-120 | The foundation pass: the audit, research checked and dated, the blueprint in doc 17 with eight draft ADRs (all Proposed), the forks for Ian and the setup plan | 2026-10-13 |
 | T-001 | Discovery docs 01–06, decision log, glossary, STATUS, CLAUDE.md | 2026-09-24 |
 | T-002 | Canvas Round 1 (A, B, C) | 2026-09-24 |
 | T-003 | Canvas Round 2 (brand, icons, motion, A v2, B Learn and Ask, D Human) + doc 07 | 2026-09-24 |

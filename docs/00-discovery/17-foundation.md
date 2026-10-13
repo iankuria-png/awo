@@ -3,7 +3,7 @@
 > **Status:** Draft v0 for Ian, written in the foundation pass (T-120, 13 October 2026) on the branch `docs/foundation-blueprint`. It researches and proposes; it builds nothing. Nothing here is decided until Ian says so and it lands in the [decision log](../decisions/log.md).
 > **The brief:** [handover/2026-10-13-foundation-kickoff.md](../handover/2026-10-13-foundation-kickoff.md).
 > **How to read it:** section 1 is the audit (what works and what hurts today, with evidence). Sections 2 to 11 are the blueprint, one area each, and each ends with a recommendation, the alternatives and what Ian decides. Section 12 puts the big forks to Ian; section 13 is the setup plan for the next pass. The appendices hold the proposals (a new CLAUDE.md, templates, settings, skill specs).
-> **Quick read (ten minutes):** [At a glance](#at-a-glance), the audit's [what hurts](#13-what-hurts-fix-it-in-the-foundation), then section 12's decisions. **Its size:** about 110 KB, well over the 40 KB budget section 5 proposes for a topic doc. That's deliberate for a one-off proposal; once Ian decides, each part moves into `docs/product/`, `design/`, `engineering/`, `governance/` or `operations/`, and this file is frozen as the record.
+> **Quick read (ten minutes):** [At a glance](#at-a-glance), the audit's [what hurts](#13-what-hurts-fix-it-in-the-foundation), then [section 12's decisions](#12-decisions-for-ian). **Its size:** about 110 KB, well over the 40 KB budget section 5 proposes for a topic doc. That's deliberate for a one-off proposal; once Ian decides, each part moves into `docs/product/`, `design/`, `engineering/`, `governance/` or `operations/`, and this file is frozen as the record.
 
 ## Contents
 
@@ -19,8 +19,8 @@
 9. [Assets](#9-assets)
 10. [Skills, plugins, subagents, hooks and MCP servers](#10-skills-plugins-subagents-hooks-and-mcp-servers)
 11. [The full project](#11-the-full-project)
-12. Decisions for Ian *(step 4)*
-13. The setup plan *(step 4)*
+12. [Decisions for Ian](#12-decisions-for-ian)
+13. [The setup plan (the next pass)](#13-the-setup-plan-the-next-pass)
 
 Appendices: [A. A proposed CLAUDE.md](#appendix-a-a-proposed-claudemd) · [B. Templates](#appendix-b-templates) · [C. The folder tree](#appendix-c-the-folder-tree) · [D. Proposed settings](#appendix-d-proposed-changes-to-claudesettingsjson) · [E. Skill specs](#appendix-e-skill-specs) · [F. Facts checked on 13 October 2026](#appendix-f-facts-checked-on-13-october-2026)
 
@@ -886,6 +886,78 @@ The order of 3 to 6 stays open, as doc 04 says. The Hub isn't in doc 04's table 
 ### 11.4 What stays late
 
 The admin app (Phase 7), native apps (Phase 8, unless Q-10 says otherwise), Opportunity Discovery and languages (Phase 9), WhatsApp and USSD (Phase 10), shops and payments (Q-35), live financial data (separate scope), and any paid tier (Q-24).
+
+## 12. Decisions for Ian
+
+The forks, each with Claude's recommendation first. **The big ones** (F1 to F8) shape the setup pass; the smaller ones can take the recommendation as a default unless Ian says otherwise. A one-word answer per fork is enough ("F5: PWA first"); Claude then records each in the decision log, flips its ADR to *Accepted* and closes the matching question.
+
+### The big forks
+
+| # | The fork | Recommended | The alternatives | Cost | Where |
+|---|---|---|---|---|---|
+| **F1** | One repository or several | **One monorepo**, pnpm and Turborepo | Several repos; Nx instead of Turborepo | Free | ADR 0001, §2.1 |
+| **F2** | How work reaches `main`, and protecting it | **A pull request per pass, squash-merged by Ian; GitHub Pro to protect `main`**; delete the old session branches | Merge commits; stay on Free with Claude's push hook only | Pro about $4 a month (*unverified*) | ADR 0002, §2.2 |
+| **F3** | Binary files | **Exports out of git as release assets; masters in git; no LFS; no history rewrite** | Git LFS; keep everything in git; rewrite history once | Free | ADR 0003, §2.3 |
+| **F4** | The stack | **Doc 04's shape, checked:** Next.js 16; a standalone API with oRPC on Hono or Fastify; Postgres 18 with Drizzle; pg-boss; Better Auth; Zod 4; Tailwind 4 | Fastify REST without oRPC; Kysely or Prisma instead of Drizzle; Expo web for one codebase (not credible for the PWA yet) | Free | ADR 0007 |
+| **F5** | Web or native first (Q-10) | **PWA first, native in Phase 8.** The budget is data cost on mid-range Android; a PWA needs no store review, is quickest to put in front of women, and CSS plus a late-loaded Rive cover the motion. Native first would suit Ola and Reanimated better, at the cost of store releases and a heavier download | Native (Expo) first; both at once | — | Q-10, §11 |
+| **F6** | Figma, and the source of truth for tokens | **A Figma Professional Full seat for Ian ($16 a month) when Phase 1 starts; tokens in code, fed into Figma.** No Code Connect | Stay on the View seat (Claude can't build the library in Figma); Figma as the source with Tokens Studio (€39 a month) | $16 a month | ADR 0004, §7.5 |
+| **F7** | The prototype for 5 to 8 women | **A thin coded PWA** from the real tokens and components, sample data only, no accounts, on the Vultr server: it tests the real performance on her own phone and becomes Phase 2's start | A Figma prototype (needs F6; no real performance); the canvas's linked boards (free and ready, but not an app on her phone) | Free beyond F6 | §11.2 |
+| **F8** | Build the brand layer before Q-49 is answered | **Yes:** semantic tokens point at roles, not hues, with Oasis first and Stone as a second brand to prove it. And Q-49 itself: Claude still leans to one identity, with the social system borrowing the app's colours and Geist | No brand layer until Q-49 is answered (a redesign later if Stone leads) | Free | ADR 0004, §7.4, Q-49 |
+
+### The smaller calls (defaults unless Ian says otherwise)
+
+| # | The call | Default | Where |
+|---|---|---|---|
+| F9 | The task tracker once code exists | TASKS.md through Phase 1; decide on GitHub Issues (free) or Trello at the start of Phase 2 | §5.3 |
+| F10 | Governed content before the admin app | Versioned files in git with schemas (ADR 0005); who reviews it is Q-07 and Q-34 | ADR 0005 |
+| F11 | Scoring's shape | A pure package with golden and property tests (ADR 0006) | ADR 0006 |
+| F12 | Backups and email | AWS in Cape Town: S3 for the second backup copy (answers Q-50) and SES for email (part of Q-17); about $1 to $2 a month | ADR 0008 |
+| F13 | Sign-in codes (Q-51) | AWO's own sender; WhatsApp where she has it, SMS as the fallback; the provider chosen with its data-location note | ADR 0007 |
+| F14 | Docs | Budgets, an archive, freezing `00-discovery/` when Phase 1 starts, the templates | §5 |
+| F15 | Parallel sessions | Allowed, with reserved ID ranges in STATUS and the CHANGELOG's union merge | §6.2 |
+| F16 | The harness | Go for Appendix A's CLAUDE.md, the path-scoped rules, the four hooks, the `context7` server, seven skills and four subagents | §6, §10 |
+| F17 | Claude reviewing pull requests on GitHub | Not yet: `/code-review` in the session is free; the Actions workflow costs minutes and API usage | §4.2 |
+| F18 | The Round 7 board | Mark its superseded boards; move the old generators to `design/explorations/` | §3.4, §7.1 |
+| F19 | The licence | Proprietary, "All rights reserved", in the name of AWO Holdings (Pty) Ltd (the legal name to confirm) | §2.4 |
+
+**Still waiting on Ian from before this pass,** and blocking Design Standard v1: T-075 (Round 7), Q-49, Q-25, Q-26, Q-30 and Q-27 (§7.6).
+
+## 13. The setup plan (the next pass)
+
+Small steps, in order, each with the check that says it's done. **Part A** changes docs, the harness and the repo's housekeeping, and starts once Ian approves the blueprint. **Part B** is the first code in the repository (the workspace and the tokens package) and starts only when Ian says code may begin. Each step is its own commit; each part is one pull request.
+
+### Part A: housekeeping, docs and the harness (no product code)
+
+| # | Step | Check |
+|---|---|---|
+| A1 | Ian switches GitHub's default branch to `main` (T-121) and merges this pass's pull request | `main` holds doc 17 and the ADRs; GitHub shows `main` as default |
+| A2 | Record Ian's answers to §12: D-045 onwards, ADRs to *Accepted* or rewritten, questions closed | No ADR Ian decided still says *Proposed*; the questions' rows say "Answered → D-…" |
+| A3 | Repo basics: `LICENSE`, `SECURITY.md`, `.editorconfig`, `.gitattributes` (LF, images binary, `docs/CHANGELOG.md merge=union`), `.nvmrc`, the pull-request template | `git check-attr merge docs/CHANGELOG.md` says `union`; the next pull request opens with the template |
+| A4 | If F2 is yes: GitHub Pro and a ruleset on `main` (no force-push or deletion, pull request and CI required) | A test push to `main` from a scratch clone is refused |
+| A5 | If Ian agrees: delete `claude/nifty-gauss-7odogg`, `claude/intelligent-hypatia-ja9g5n`, `claude/exciting-cray-7z7fke` and the merged `docs/` branches | `git ls-remote --heads` lists `main` and open work only |
+| A6 | The docs to budget: STATUS in its fixed shape; TASKS' older done rows to `docs/archive/tasks-2026.md`; CHANGELOG months before October to `docs/archive/changelog-2026-09.md`; `docs/README.md` with each doc's job and budget | A size script reports every file within budget; the link check passes |
+| A7 | CLAUDE.md as Appendix A (with Ian's edits), `.claude/rules/` (design, content, scoring, data) | Root CLAUDE.md ≤ 100 lines; in a fresh cloud session `/context` shows CLAUDE.md and STATUS; touching `design/` loads the design rule |
+| A8 | Hooks and permissions (Appendix D): the session-start snapshot, the changelog hook with `if` (and TASKS), no push to `main`, no secrets; `permissions.deny` for `.env` and keys | Scripted cases: a commit without a CHANGELOG entry is blocked; `git push origin main` is refused; writing a fake key is refused; reading `.env` is denied; the snapshot is under 1 KB and appears after `/compact` |
+| A9 | `context7` in `.mcp.json` (any key as a network secret) | A cloud session lists the context7 tools |
+| A10 | Skills and subagents (Appendix E, §10.3), written and tested with `skill-creator` | Each skill run once on a real case (the copy check on Round 9's emails, the design review on one board, a decision and a handoff on a test branch), results noted in the CHANGELOG |
+| A11 | Binary assets: releases `design-exports/round-3` to `round-8` and `assets/stand-in-photos` (the nappy.co photos fetched from the canvas), `design/assets.md` as the manifest; the PNGs leave the tree; `.gitignore` for exports | Each release downloads and opens; every photo is in the manifest with source and licence; the working tree shrinks by about 19 MB |
+| A12 | Move `design/round-5` to `round-9` and `design/brand` into `design/explorations/`; update doc 06, the generators' READMEs and CLAUDE.md's paths | `python3 design/explorations/round-9/round9.py --help` (or a dry run) still imports its chain; `group7.py` runs |
+| A13 | Mark superseded boards on the Round 7 board (`group7.py`), and republish | The board renders; about 20 titles say "Superseded by …"; `board-check.mjs` passes |
+| A14 | CI for docs (`.github/workflows/ci.yml`): links, budgets, unique D-, Q- and T- IDs, gitleaks | Green on the setup pull request; a deliberately broken link fails it |
+| A15 | The data-location register, `docs/governance/data-location.md`, seeded from §8 and ADR 0008 | Every service named in §8 has a row with its date checked |
+| A16 | The first Phase 1 docs from the templates: `docs/design/standard.md` (the outline of §7.3) and `docs/product/prd.md` (headings, rules linked to D- and Q- IDs) | Both within budget and linked from `docs/README.md` |
+
+### Part B: the first code (only after Ian's go)
+
+| # | Step | Check |
+|---|---|---|
+| B1 | The workspace: root `package.json` (pnpm 12 pinned, Node 24, then 26), `pnpm-workspace.yaml` with a catalog, `turbo.json`, `packages/config` (TypeScript and Biome presets), lefthook, and the SessionStart install hook | In a fresh cloud session the hook installs and `pnpm check` passes on the empty workspace |
+| B2 | `packages/tokens`: DTCG 2025.10 sources for Oasis (light and night) and Stone, the resolver, a Terrazzo build to CSS, Tailwind, TypeScript, Figma JSON and flat JSON; the contrast test | The build passes; the contrast test passes for Oasis and reports Stone's two large-text-only pairs at the values doc 16 measured (3.86:1 and 4.44:1) |
+| B3 | `design/canvas-kit` reading the flat JSON; the Type and corners board regenerated from it | `board-check.mjs` passes; a screenshot diff with the published board shows only intended changes |
+| B4 | CI's code jobs with Turborepo filters | A docs-only pull request skips them; a token change runs them |
+| B5 | If F6 is yes: the Figma library file gets the tokens through Figma's native import | Figma shows the variables with four modes (two brands, light and night) matching the CSS values |
+
+**Then Phase 1 proper:** Design Standard v1 written part by part (tokens and components first), components in `packages/ui` with Storybook, the prototype for the women (F7), and the test (§11.2).
 
 ## Appendix A. A proposed CLAUDE.md
 
