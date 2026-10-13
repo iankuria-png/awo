@@ -52,7 +52,7 @@ AWO (African Wealth Oasis) is a financial **education, intelligence and communit
 - **Ask when it's the owner's call** (product rules, brand, compliance, priorities). Decide implementation details yourself, explain them, and record the important ones.
 - **End of session (or near the context limit):** update STATUS, and if work is mid-stream write a handover in `docs/handover/` (taste, mistakes, next steps, gotchas, kickoff prompt).
 - **Spelling:** UK/South African English ("colour", "behaviour", "personalised", "organisation").
-- **Git:** small, focused commits with clear messages. Never commit secrets or real member data.
+- **Git:** small, focused commits with clear messages. Work on a branch from `main` named by type and topic (`docs/…`, `design/…`, `feat/…`, `fix/…`), never on an automatic session branch (`claude/…`) (D-044). Never commit secrets or real member data.
 
 ## Where things live
 

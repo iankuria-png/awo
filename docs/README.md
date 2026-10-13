@@ -5,7 +5,7 @@
 | [STATUS.md](STATUS.md) | Snapshot: phase, focus, where to start |
 | [TASKS.md](TASKS.md) | The single task list |
 | [CHANGELOG.md](CHANGELOG.md) | The diary, one entry per commit |
-| [handover/](handover/) | Session handovers (latest: [Round 3](handover/2026-09-24-round-3.md)) |
+| [handover/](handover/) | Session handovers (latest: [the foundation kickoff](handover/2026-10-13-foundation-kickoff.md)) |
 | [glossary.md](glossary.md) | AWO vocabulary |
 | [decisions/log.md](decisions/log.md) | Every decision, with date and source |
 | **00-discovery/** | *Draft v0: for discussion* |
